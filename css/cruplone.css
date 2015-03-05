@@ -1,0 +1,399 @@
+html {
+  position: relative;
+  height: 100%; }
+  html:before, html:after {
+    position: absolute;
+    content: '';
+    height: 5px;
+    top: 0;
+    left: 0;
+    right: 0; }
+  html:after {
+    top: auto;
+    bottom: 0; }
+  html:before {
+    background: linear-gradient(90deg, #1abc9c 18.96957%, #2ecc71 18.96957%, #2ecc71 18.66009%, #3498db 18.66009%, #3498db 37.31778%, #9b59b6 37.31778%, #9b59b6 36.04213%, #34495e 36.04213%, #34495e 47.22621%, #f1c40f 47.22621%, #f1c40f 63.19686%, #e67e22 63.19686%, #e67e22 69.96268%, #e74c3c 69.96268%, #e74c3c 89.91286%, #FFB208 89.91286%, #FFB208 85.64595%, #78BE20 85.64595%); }
+
+/*
+
+  Table Object
+  http://jxnblk.github.io/table-object
+
+*/
+.table {
+  display: table;
+  width: 100%; }
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle; }
+
+.table-fixed {
+  table-layout: fixed; }
+
+@media (min-width: 40em) {
+  .sm-table {
+    display: table;
+    width: 100%; }
+
+  .sm-table-cell {
+    display: table-cell;
+    vertical-align: middle; } }
+@media (min-width: 52em) {
+  .md-table {
+    display: table;
+    width: 100%; }
+
+  .md-table-cell {
+    display: table-cell;
+    vertical-align: middle; } }
+@media (min-width: 64em) {
+  .lg-table {
+    display: table;
+    width: 100%; }
+
+  .lg-table-cell {
+    display: table-cell;
+    vertical-align: middle; } }
+/*
+    Basscss Utilities
+*/
+.inline {
+  display: inline; }
+
+.block {
+  display: block; }
+
+.inline-block {
+  display: inline-block; }
+
+.overflow-hidden {
+  overflow: hidden; }
+
+.overflow-scroll {
+  overflow: scroll; }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.fit {
+  max-width: 100%; }
+
+.half-width {
+  width: 50%; }
+
+.full-width {
+  width: 100%; }
+
+.bold {
+  font-weight: bold; }
+
+.regular {
+  font-weight: normal; }
+
+.italic {
+  font-style: italic; }
+
+.caps {
+  text-transform: uppercase;
+  letter-spacing: .2em; }
+
+.left-align {
+  text-align: left; }
+
+.center {
+  text-align: center; }
+
+.right-align {
+  text-align: right; }
+
+.justify {
+  text-align: justify; }
+
+.nowrap {
+  white-space: nowrap; }
+
+.m0 {
+  margin: 0; }
+
+.mt0 {
+  margin-top: 0; }
+
+.mr0 {
+  margin-right: 0; }
+
+.mb0 {
+  margin-bottom: 0; }
+
+.ml0 {
+  margin-left: 0; }
+
+.m1 {
+  margin: .5rem; }
+
+.mt1 {
+  margin-top: .5rem; }
+
+.mr1 {
+  margin-right: .5rem; }
+
+.mb1 {
+  margin-bottom: .5rem; }
+
+.ml1 {
+  margin-left: .5rem; }
+
+.m2 {
+  margin: 1rem; }
+
+.mt2 {
+  margin-top: 1rem; }
+
+.mr2 {
+  margin-right: 1rem; }
+
+.mb2 {
+  margin-bottom: 1rem; }
+
+.ml2 {
+  margin-left: 1rem; }
+
+.m3 {
+  margin: 2rem; }
+
+.mt3 {
+  margin-top: 2rem; }
+
+.mr3 {
+  margin-right: 2rem; }
+
+.mb3 {
+  margin-bottom: 2rem; }
+
+.ml3 {
+  margin-left: 2rem; }
+
+.m4 {
+  margin: 4rem; }
+
+.mt4 {
+  margin-top: 4rem; }
+
+.mr4 {
+  margin-right: 4rem; }
+
+.mb4 {
+  margin-bottom: 4rem; }
+
+.ml4 {
+  margin-left: 4rem; }
+
+.mxn1 {
+  margin-left: -.5rem;
+  margin-right: -.5rem; }
+
+.mxn2 {
+  margin-left: -1rem;
+  margin-right: -1rem; }
+
+.mxn3 {
+  margin-left: -2rem;
+  margin-right: -2rem; }
+
+.mxn4 {
+  margin-left: -4rem;
+  margin-right: -4rem; }
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto; }
+
+.p1 {
+  padding: .5rem; }
+
+.py1 {
+  padding-top: .5rem;
+  padding-bottom: .5rem; }
+
+.px1 {
+  padding-left: .5rem;
+  padding-right: .5rem; }
+
+.p2 {
+  padding: 1rem; }
+
+.py2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.px2 {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+.p3 {
+  padding: 2rem; }
+
+.py3 {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+.px3 {
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
+.p4 {
+  padding: 4rem; }
+
+.py4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+
+.px4 {
+  padding-left: 4rem;
+  padding-right: 4rem; }
+
+.sm-show,
+.md-show,
+.lg-show {
+  display: none !important; }
+
+@media (min-width: 40em) {
+  .sm-show {
+    display: block !important; } }
+@media (min-width: 52em) {
+  .md-show {
+    display: block !important; } }
+@media (min-width: 64em) {
+  .lg-show {
+    display: block !important; } }
+.hide {
+  display: none !important; }
+
+@media (min-width: 40em) {
+  .sm-hide {
+    display: none !important; } }
+@media (min-width: 52em) {
+  .md-hide {
+    display: none !important; } }
+@media (min-width: 64em) {
+  .lg-hide {
+    display: none !important; } }
+body {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 20px;
+  background-color: #f5f5f5; }
+
+header {
+  margin: 4% 0%; }
+  header .intro {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center; }
+  header .contact {
+    margin-top: -10px; }
+
+article .words {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto; }
+
+.bulbasaur {
+  cursor: url("/media/bulbasaur.cur"), auto; }
+
+html {
+  font-size: 16px; }
+
+html {
+  font-size: 62.5%; }
+
+a {
+  text-decoration: none;
+  color: #007C88; }
+  a:hover {
+    color: #D5610D; }
+
+ul li {
+  color: #505662;
+  line-height: 1.625;
+  letter-spacing: .025rem;
+  font-size: 1.6rem;
+  font-weight: 400; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "fira-sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.625;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: #444B58; }
+
+h1 {
+  font-size: 2.4rem; }
+
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0px; }
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0px;
+  margin-top: 2.4rem; }
+
+h4 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #777777;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+p {
+  font-family: "fira-sans", sans-serif;
+  color: #505662;
+  line-height: 1.625;
+  letter-spacing: .025rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top: .8rem; }
+
+span.title {
+  font-size: 1.4rem; }
+
+.orange {
+  color: #D5610D; }
+
+hr {
+  border: 1px solid #c7c8cc;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+.giflink.preloaded {
+  transition: color 300ms;
+  color: #ff0000; }
+
+@media all and (max-width: 900px) {
+  header .header_contents .left_head {
+    width: 60%; } }
+@media all and (max-width: 800px) {
+  article {
+    padding-left: 8%;
+    padding-right: 8%; }
+
+  header .intro {
+    width: 70%; } }
+/*
+
+
+*/
