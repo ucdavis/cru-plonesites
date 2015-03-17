@@ -1712,10 +1712,10 @@ ul#nav ul.submenu a:link, ul#nav ul.submenu a:visited {
 ul#nav ul.submenu a:hover {
 	color:#AAAF4C !important;
 }
+.display_archive{
+	display:none;	
+}
 #totalcontent #maincol #content .display_archive{
 	display: block;
 	font-size: 20px;
-}
-.display_archive{
-	display:none;	
 }
