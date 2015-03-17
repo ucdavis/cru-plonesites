@@ -1716,3 +1716,6 @@ ul#nav ul.submenu a:hover {
 	display: block;
 	font-size: 20px;
 }
+.display_archive{
+	display:none;	
+}
