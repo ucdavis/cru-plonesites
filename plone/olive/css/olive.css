@@ -1715,7 +1715,7 @@ ul#nav ul.submenu a:hover {
 /*.display_archive{
 	display:none;	
 }*/
-.display_archive #content-core{
+.maincol .display_archive{
 	display: block;
-	font-size: 20px;
+	font-size: 17px;
 }
