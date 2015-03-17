@@ -1712,3 +1712,7 @@ ul#nav ul.submenu a:link, ul#nav ul.submenu a:visited {
 ul#nav ul.submenu a:hover {
 	color:#AAAF4C !important;
 }
+.display_archive{
+	display: none;
+	
+}
