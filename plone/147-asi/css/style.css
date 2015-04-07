@@ -1239,6 +1239,9 @@ footer {
   background-color: #434343;
   text-align: center; }
 
+.section-homepage #portal-breadcrumbs {
+  display: none; }
+
 nav {
   max-width: 1200px;
   width: 100%;

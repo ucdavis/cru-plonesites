@@ -531,3 +531,8 @@ footer {
 	background-color:$main-font;
 	text-align:center;
 }
+.section-homepage {
+	#portal-breadcrumbs {
+		display:none;
+	}
+}
