@@ -1257,7 +1257,8 @@ nav {
       background-color: transparent;
       color: #fff; }
   #portal-globalnav .selected > a {
-    border-bottom: 5px solid #C99700; }
+    border-bottom: 5px solid #C99700;
+    padding-left: 14px; }
     .site-ASI #portal-globalnav .selected > a {
       border-color: #c79900; }
     .site-sarep #portal-globalnav .selected > a {

@@ -26,6 +26,7 @@ nav {
 	}
 	.selected > a {
 		border-bottom:5px solid $secondary-color;
+		padding-left:14px;
 		@include accent-theme-brdr-color;
 	}
 	ul.submenu {
