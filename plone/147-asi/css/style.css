@@ -1257,8 +1257,7 @@ nav {
       background-color: transparent;
       color: #fff; }
   #portal-globalnav .selected > a {
-    border-bottom: 5px solid #C99700;
-    padding-left: 14px; }
+    border-bottom: 5px solid #C99700; }
     .site-ASI #portal-globalnav .selected > a {
       border-color: #c79900; }
     .site-sarep #portal-globalnav .selected > a {
@@ -1747,7 +1746,7 @@ li {
   #portal-globalnav li {
     margin-right: 8px; }
     #portal-globalnav li:first-child a {
-      padding-left: 0px; }
+      padding-left: 14px; }
     #portal-globalnav li a {
       background-color: transparent;
       font-family: "proxima-nova", sans-serif;
