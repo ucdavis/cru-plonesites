@@ -767,10 +767,15 @@ img {
 .top-header {
   width: 80%;
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding-top: 3px;
   padding-bottom: 7px; }
+  @media (max-width: 1000px) {
+    .top-header {
+      width: 90%; } }
+  @media (max-width: 750px) {
+    .top-header {
+      width: 95%; } }
   .top-header .toplefthead {
     width: 60%;
     display: inline-block; }
@@ -801,10 +806,15 @@ header {
 .header_contents {
   width: 80%;
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding-top: 1%;
   margin-bottom: 5px; }
+  @media (max-width: 1000px) {
+    .header_contents {
+      width: 90%; } }
+  @media (max-width: 750px) {
+    .header_contents {
+      width: 95%; } }
 
 .lefthead {
   width: 70%;
@@ -874,8 +884,13 @@ header {
 #totalcontent {
   width: 80%;
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto; }
+  margin: 0 auto; }
+  @media (max-width: 1000px) {
+    #totalcontent {
+      width: 90%; } }
+  @media (max-width: 750px) {
+    #totalcontent {
+      width: 95%; } }
 
 .innerds {
   overflow: auto;
@@ -900,8 +915,13 @@ header {
   #bottom_ports-bg .bottom_ports {
     width: 80%;
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto; }
+    margin: 0 auto; }
+    @media (max-width: 1000px) {
+      #bottom_ports-bg .bottom_ports {
+        width: 90%; } }
+    @media (max-width: 750px) {
+      #bottom_ports-bg .bottom_ports {
+        width: 95%; } }
     #bottom_ports-bg .bottom_ports a.contenttype-news-item {
       background: none;
       padding-left: 0px !important;
@@ -949,11 +969,16 @@ header {
 .frontportlets_contents {
   width: 80%;
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding-top: 1.2em;
   padding-bottom: 3.2em;
   width: 82%; }
+  @media (max-width: 1000px) {
+    .frontportlets_contents {
+      width: 90%; } }
+  @media (max-width: 750px) {
+    .frontportlets_contents {
+      width: 95%; } }
 
 .frontmain {
   transition-delay: 0s;
@@ -1144,8 +1169,13 @@ header {
   .doormat .doormat_contents {
     width: 80%;
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto; }
+    margin: 0 auto; }
+    @media (max-width: 1000px) {
+      .doormat .doormat_contents {
+        width: 90%; } }
+    @media (max-width: 750px) {
+      .doormat .doormat_contents {
+        width: 95%; } }
     .doormat .doormat_contents .footleft {
       border-right: 1px solid #E0E0E0;
       padding-top: 0px;
