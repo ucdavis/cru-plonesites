@@ -2075,9 +2075,6 @@ input.searchField {
 #content .eventDetails {
   display: none; }
 
-.eventdetailsside {
-  display: none; }
-
 .subsection-event-items .eventdetailsside {
   font-family: "proxima-nova", sans-serif;
   display: inline-block;
