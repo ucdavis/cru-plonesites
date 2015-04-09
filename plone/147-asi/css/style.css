@@ -2075,6 +2075,9 @@ input.searchField {
 #content .eventDetails {
   display: none; }
 
+.eventdetailsside {
+  margin-top: 25%; }
+
 #portal-breadcrumbs {
   margin-top: 20px;
   margin-bottom: 0px; }
