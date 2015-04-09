@@ -68,30 +68,28 @@ input.searchField {
 	display: none;
 }
 
-
-
 .eventdetailsside {
-	margin-top: 25%;
+	display: none;
 }
-// .subsection-event-items .eventdetailsside {
-// 	font-family:$sans-serif;
-// 	display: inline-block;
-//     color: $light-gray;
-// 	font-size:$base-font-size;
-// 	line-height:1.5em;
-// 	color:$dark-gray;
-// 	margin-top:.4em;
-// 	padding-bottom:10px;
-// 	h4 {
-// 		font-family:$sans-serif;
-// 		color:$primary-color;
-// 		text-transform: uppercase;
-// 		line-height: 1.1em;
-// 		margin-top: .4em;
-// 		margin-bottom: .6em;
-// 		letter-spacing: .5px;
-// 	}
-// }
+.subsection-event-items .eventdetailsside {
+	font-family:$sans-serif;
+	display: inline-block;
+    color: $light-gray;
+	font-size:$base-font-size;
+	line-height:1.5em;
+	color:$dark-gray;
+	margin-top:.4em;
+	padding-bottom:10px;
+	h4 {
+		font-family:$sans-serif;
+		color:$primary-color;
+		text-transform: uppercase;
+		line-height: 1.1em;
+		margin-top: .4em;
+		margin-bottom: .6em;
+		letter-spacing: .5px;
+	}
+}
 
 //breadcrumbers
 

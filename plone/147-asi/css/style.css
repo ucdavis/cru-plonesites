@@ -2076,7 +2076,25 @@ input.searchField {
   display: none; }
 
 .eventdetailsside {
-  margin-top: 25%; }
+  display: none; }
+
+.subsection-event-items .eventdetailsside {
+  font-family: "proxima-nova", sans-serif;
+  display: inline-block;
+  color: #9b9b9b;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #333433;
+  margin-top: .4em;
+  padding-bottom: 10px; }
+  .subsection-event-items .eventdetailsside h4 {
+    font-family: "proxima-nova", sans-serif;
+    color: #002855;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    margin-top: .4em;
+    margin-bottom: .6em;
+    letter-spacing: .5px; }
 
 #portal-breadcrumbs {
   margin-top: 20px;
