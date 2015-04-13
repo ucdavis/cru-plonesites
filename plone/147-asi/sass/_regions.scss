@@ -74,6 +74,10 @@ input.searchField {
 body.template-event_view .eventdetailsside {
 	display:block;
 	margin-top:25%;
+	.border-spread {
+		border-top:2px solid #000;
+		@include accent-theme-brdr-color;
+	}
 }
 
 //breadcrumbers

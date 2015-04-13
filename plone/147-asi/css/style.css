@@ -2104,6 +2104,20 @@ input.searchField {
 body.template-event_view .eventdetailsside {
   display: block;
   margin-top: 25%; }
+  body.template-event_view .eventdetailsside .border-spread {
+    border-top: 2px solid #000; }
+    .site-ASI body.template-event_view .eventdetailsside .border-spread {
+      border-color: #c79900; }
+    .site-sarep body.template-event_view .eventdetailsside .border-spread {
+      border-color: #DDB307; }
+    .site-rr body.template-event_view .eventdetailsside .border-spread {
+      border-color: #78BE20; }
+    .site-sf body.template-event_view .eventdetailsside .border-spread {
+      border-color: #DA611E; }
+    .site-infas body.template-event_view .eventdetailsside .border-spread {
+      border-color: #AD5C0E; }
+    .site-safs body.template-event_view .eventdetailsside .border-spread {
+      border-color: #038EAA; }
 
 #portal-breadcrumbs {
   margin-top: 20px;
