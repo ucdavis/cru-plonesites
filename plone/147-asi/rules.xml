@@ -51,8 +51,7 @@
 
 
     <!-- Events Card -->
-    <copy css:content=".eventDetails table .parent-fieldname-startDate" css:theme=".eventdetailsside .when-start" />
-    <copy css:content=".eventDetails table .parent-fieldname-endDate" css:theme=".eventdetailsside .when-end" />
+    <copy css:content=".eventDetails" css:theme=".event_table" />
     <copy css:content=".eventDetails table .location" css:theme=".eventdetailsside .location" />
     <copy css:content=".eventDetails table .contact-email" css:theme=".eventdetailsside .contact-email" />
     <copy css:content=".eventDetails table .tel" css:theme=".eventdetailsside .contact-tel" />
