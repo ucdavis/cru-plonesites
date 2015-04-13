@@ -120,6 +120,19 @@ h3 {
 		text-transform: uppercase;
 		margin-top:6%;
 	}
+	.eventdetailsside {
+		font-family:$sans-serif;
+		color:#fff;
+		font-weight:400;
+		font-size:1.6rem;
+		display:inline-block;
+		text-transform:none;
+		padding:12px 14px 5px 10px;
+		letter-spacing: .5px;
+		margin-top:6px;
+		padding-bottom:5px;
+		@include accent-theme-bg-color;
+	}
 }
 h4 {
 	font-size:2rem;

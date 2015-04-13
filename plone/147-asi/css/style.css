@@ -1664,6 +1664,29 @@ h3 {
     font-size: 1.4rem;
     text-transform: uppercase;
     margin-top: 6%; }
+  h3 .eventdetailsside {
+    font-family: "proxima-nova", sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.6rem;
+    display: inline-block;
+    text-transform: none;
+    padding: 12px 14px 5px 10px;
+    letter-spacing: .5px;
+    margin-top: 6px;
+    padding-bottom: 5px; }
+    .site-ASI h3 .eventdetailsside {
+      background-color: #c79900; }
+    .site-sarep h3 .eventdetailsside {
+      background-color: #DDB307; }
+    .site-rr h3 .eventdetailsside {
+      background-color: #78BE20; }
+    .site-sf h3 .eventdetailsside {
+      background-color: #DA611E; }
+    .site-infas h3 .eventdetailsside {
+      background-color: #AD5C0E; }
+    .site-safs h3 .eventdetailsside {
+      background-color: #038EAA; }
 
 h4 {
   font-size: 2rem;
@@ -2075,23 +2098,12 @@ input.searchField {
 #content .eventDetails {
   display: none; }
 
-.subsection-event-items .eventdetailsside {
-  font-family: "proxima-nova", sans-serif;
-  display: inline-block;
-  color: #9b9b9b;
-  font-size: 16px;
-  line-height: 1.5em;
-  color: #333433;
-  margin-top: .4em;
-  padding-bottom: 10px; }
-  .subsection-event-items .eventdetailsside h4 {
-    font-family: "proxima-nova", sans-serif;
-    color: #002855;
-    text-transform: uppercase;
-    line-height: 1.1em;
-    margin-top: .4em;
-    margin-bottom: .6em;
-    letter-spacing: .5px; }
+.eventdetailsside {
+  display: none; }
+
+.template-event_view .eventslidedetailside {
+  display: block;
+  margin-top: 25%; }
 
 #portal-breadcrumbs {
   margin-top: 20px;

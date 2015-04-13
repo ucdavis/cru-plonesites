@@ -68,27 +68,12 @@ input.searchField {
 	display: none;
 }
 
-// .eventdetailsside {
-// 	display: none;
-// }
-.subsection-event-items .eventdetailsside {
-	font-family:$sans-serif;
-	display: inline-block;
-    color: $light-gray;
-	font-size:$base-font-size;
-	line-height:1.5em;
-	color:$dark-gray;
-	margin-top:.4em;
-	padding-bottom:10px;
-	h4 {
-		font-family:$sans-serif;
-		color:$primary-color;
-		text-transform: uppercase;
-		line-height: 1.1em;
-		margin-top: .4em;
-		margin-bottom: .6em;
-		letter-spacing: .5px;
-	}
+.eventdetailsside {
+	display:none;
+}
+.template-event_view .eventslidedetailside {
+	display:block;
+	margin-top:25%;
 }
 
 //breadcrumbers
