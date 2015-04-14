@@ -5,7 +5,7 @@
 
 }
 
-.event_table table tr th{
+.event_table table tr th {
 	background: white;
 	text-align: left;
 	font-weight: normal;
@@ -13,13 +13,13 @@
 }
 
 /* Directory styles */
-.jobTitle li{
+.jobTitle li {
 	font-family: "proxima-nova",sans-serif;
 	font-size: 14px;
 	color: #9B9B9B;
 }
 
-.personName {
+.personName h4 {
 	color: #333433;
 	margin-bottom: 1px;
 }
