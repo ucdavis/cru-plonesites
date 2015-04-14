@@ -13,15 +13,15 @@
 
 /* Directory styles */
 
+.personName h4 {
+    color: #000;
+    margin-bottom: 2px;
+}
+
 .jobTitle li {
     font-family: "proxima-nova", sans-serif;
     font-size: 14px;
     color: #9B9B9B;
-}
-
-.personName h4 {
-    color: #333433;
-    margin-bottom: 2px;
 }
 
 .officePhone {
