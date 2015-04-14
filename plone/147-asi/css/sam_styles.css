@@ -4,8 +4,10 @@
 	font-size: 16px;
 
 }
+
 .event_table table tr th{
 	background: white;
 	text-align: left;
+	font-weight: normal;
 }
 
