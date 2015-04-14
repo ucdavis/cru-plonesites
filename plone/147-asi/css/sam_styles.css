@@ -11,6 +11,10 @@
     font-weight: normal;
 }
 
+.event_table .eventDetails {
+	margin-left: 0px;
+}
+
 /* Directory styles */
 
 .personName {
