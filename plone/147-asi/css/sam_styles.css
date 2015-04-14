@@ -15,4 +15,9 @@
 /* Directory styles */
 .jobTitle li{
 	font-family: "proxima-nova",sans-serif;
+	color: #9B9B9B;
+}
+
+.personName {
+	color: #333433;
 }
