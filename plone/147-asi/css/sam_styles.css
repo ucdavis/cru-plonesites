@@ -1,7 +1,10 @@
 /* Event Details table */
-table {
-	background-color: #eaebec;
+.event_table table {
+	background-color: white;
+	font-size: 14;
 	text-align: left;
 
 }
+.event_table table tr th{
 
+}
