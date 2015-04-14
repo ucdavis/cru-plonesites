@@ -13,9 +13,10 @@
 
 /* Directory styles */
 
-.personName  {
+.personName {
     color: black;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
+    line-height: 20px;
 }
 
 .jobTitle li {
