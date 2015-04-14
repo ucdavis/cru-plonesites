@@ -747,6 +747,8 @@ h1 {
 
 h2 {
   font-size: 2.4rem; }
+  .portlet_column h2 {
+    font-size: 1.8rem; }
 
 h3 {
   font-size: 2.2rem; }
@@ -876,6 +878,9 @@ body {
 img {
   max-width: 100%;
   border: none !important; }
+  .portlet_column img {
+    margin-botttom: 6%;
+    min-width: 100%; }
 
 header {
   background-color: #002855;
@@ -975,10 +980,10 @@ header {
   #below_portlets h2 {
     font-size: 1.8rem; }
   #below_portlets dd.portletItem {
-    min-height: 21rem;
-    margin-bottom: 5%;
+    min-height: 19rem;
+    margin-bottom: 3%;
     border-bottom: 1px solid #c8c7cc;
-    padding-bottom: 5%; }
+    padding-bottom: 3%; }
   #below_portlets .portletItemDetails {
     font-size: 1.4rem;
     color: #515151;
@@ -1087,7 +1092,7 @@ header {
 .portletstatic a:hover {
   color: #C99700; }
 .portletstatic dd.portletItem {
-  margin-bottom: 10px; }
+  margin-bottom: 10%; }
 .portletstatic .portletWrapper {
   margin-bottom: 30px; }
 

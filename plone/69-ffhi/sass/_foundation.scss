@@ -32,6 +32,9 @@ h1 {
 }
 h2 {
 	font-size: 2.4rem;
+	.portlet_column & {
+		font-size:1.8rem;
+	}
 }
 h3 {
 	font-size: 2.2rem;
@@ -187,6 +190,10 @@ body {
 img {
 	max-width:100%;
 	border: none !important;
+	.portlet_column & {
+		margin-botttom:6%;
+		min-width:100%;
+	}
 }
 
 //header 
@@ -291,10 +298,10 @@ header {
 		font-size:1.8rem;
 	}
 	dd.portletItem {
-		min-height:21rem;
-		margin-bottom:5%;
+		min-height:19rem;
+		margin-bottom:3%;
 		border-bottom:1px solid $borders;
-		padding-bottom:5%;
+		padding-bottom:3%;
 	}
 	.portletItemDetails {
 		font-size:1.4rem;
@@ -389,7 +396,7 @@ header {
 		color:$secondary-color;
 	}
 	dd.portletItem {
-		margin-bottom: 10px;
+		margin-bottom: 10%;
 	}
 	.portletWrapper {
 		margin-bottom:30px;
