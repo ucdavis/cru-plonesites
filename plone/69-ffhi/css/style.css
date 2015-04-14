@@ -1445,7 +1445,8 @@ input.searchField {
 nav {
   max-width: 1200px;
   width: 100%;
-  margin-bottom: -5px; }
+  margin-bottom: -5px;
+  margin-left: -13px; }
 
 #portal-globalnav {
   background: none;
