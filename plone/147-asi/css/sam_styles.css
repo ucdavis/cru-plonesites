@@ -1,14 +1,14 @@
 /* Event Details table */
 .event_table table {
-	background-color: #E7E7E7;
+	background-color: white;
 	font-size: 14px;
-	border-color:white;
 
 }
 
 .event_table table tr th{
-	background: white;
+	background: #E7E7E7;
 	text-align: left;
 	font-weight: normal;
+	border-color: white;
 }
 
