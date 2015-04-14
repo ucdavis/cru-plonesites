@@ -17,6 +17,11 @@
 
 /* Directory styles */
 
+.cell.width-3.position-0 {
+	height: 160px;
+	width: 160px;
+}
+
 .personName {
     color: black;
     margin-bottom: 0px;
