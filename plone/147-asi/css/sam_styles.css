@@ -21,11 +21,12 @@
     color: black;
     margin-bottom: 0px;
     line-height: 1.2 rem;
+
 }
 
 .jobTitle li {
     font-family: "proxima-nova", sans-serif;
-    font-size: 14px;
+    font-size: 10px;
     color: #9B9B9B;
 }
 
