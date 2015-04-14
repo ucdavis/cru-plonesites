@@ -4,6 +4,6 @@ table {
 
 }
 
-table th {
-	text-align: right;
+table th td {
+	text-align: left;
 }
