@@ -192,7 +192,8 @@ img {
 	border: none !important;
 	.portlet_column & {
 		margin-botttom:6%;
-		min-width:100%;
+		min-width:200px;
+		max-width:200px;
 	}
 }
 

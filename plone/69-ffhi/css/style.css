@@ -880,7 +880,8 @@ img {
   border: none !important; }
   .portlet_column img {
     margin-botttom: 6%;
-    min-width: 100%; }
+    min-width: 200px;
+    max-width: 200px; }
 
 header {
   background-color: #002855;
