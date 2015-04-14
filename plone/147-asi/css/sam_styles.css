@@ -1,6 +1,9 @@
 /* Event Details table */
+table {
+	background-color: blue;
 
+}
 
-td {
-	background-color: yellow;
+table th {
+	text-align: left;
 }
