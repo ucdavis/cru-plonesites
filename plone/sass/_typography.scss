@@ -1,0 +1,122 @@
+// baseline typography
+html {
+	font-size:10px;
+	-webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    font-family: $primary-sans;
+}
+// a {
+// 	text-decoration:none;
+// }
+// a:hover {
+// 	text-decoration:none;
+// }
+ul {
+	list-style-type: square;
+	li {
+		a {
+		}
+	}
+}
+// a:link {
+// 	color:#0000EE;
+// }
+// a:visited {
+// 	color:#551A8B;
+// }
+label, input {
+	font-family:$primary-sans;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family:$primary-sans;
+	color:$primary-font;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+	margin:.5rem 0rem;
+}
+#content a:link, dl.portlet a:link {
+	border-bottom:none;
+	text-decoration:underline;
+}
+h1 {
+	.jumbotron & {
+		font-size:5.5rem;
+		color:#fff;
+		font-weight:200;
+		a {
+			color:#fff;
+		}
+	}
+	.main_stuff_contents & {
+		color:$ucdavis-blue;
+		padding-bottom:.3rem;
+		border-bottom: 1px dotted $ucdavis-blue;
+	}
+}
+h3 {
+	&.cta {
+		margin-top:15px;
+		margin-bottom:10px;
+	}
+}
+// description
+#content .documentDescription, #content #description {
+	font-family:$primary-sans;
+	font-weight:300;
+	font-size:2rem;
+	margin:1rem 0rem;
+}
+// breadcrumbs
+#portal-breadcrumbs {
+	font-size:1.4rem;
+	font-size:100%;
+	color:$breadcrumbs;
+	font-family:$primary-sans;
+	span#breadcrumbs-current {
+		color:$ucdavis-gold;
+	}
+}
+dt.portletHeader {
+	border-bottom:1px solid $ucdavis-blue;
+	border-top:1px solid $ucdavis-blue;
+	margin-bottom:1rem;
+	padding:.3rem 0rem;
+	a {
+		text-transform:uppercase;
+		font-size:1.4em;
+		font-weight:300;
+		font-family:$primary-sans;
+		color:$primary-font;
+	}
+}
+#content a:link, dl.portlet a:link {
+	// color:#0000EE;
+	// &:hover {
+	// 	color:$ucdavis-gold !important;
+	// }
+}
+#content a:hover, dl.portlet a:hover {
+	color:$ucdavis-gold !important;
+}
+p {
+	font-family:$primary-sans;
+	font-size:1.6rem;
+}
+b, strong, th {
+	font-weight:800;
+}
+label {
+	font-weight:500;
+}
+legend {
+	font-weight:600;
+}
+#content {
+	font-size:100%;
+}
+.state-published {
+	color:inherit !important;
+}
+#content a:visited, dl.portlet a:visited {
+	color:inherit !important;
+}

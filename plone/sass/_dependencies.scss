@@ -1,0 +1,42 @@
+// Shared styles and dependencies
+// Globaly used variables, mixins, and functions
+
+
+// Metrics
+
+
+// Typography
+	$primary-sans:			"futura-pt", Futura Std, Futura, Arial, sans-serif;
+	$primary-serif:			Georgia, serif;
+
+	$monospace:				Monaco, "Courier New", Courier, monospace;
+
+
+// border radius 
+
+
+// Colors
+		// The UC Davis standard colors
+	$ucdavis-blue: 		#002855;
+	$ucdavis-gold:		#c77900;
+	$a-link:			#247fcc;
+
+		// fonts and things
+	$primary-font:		#232323; // p, titles
+	$breadcrumbs: 		#434343; // breadcrumbs
+
+	$secondary-font:	#aaaaaa; // copyright
+	$tertiary-font:		#717272; // navigation
+	$discreet-font:		#b7b7b7; // footer
+	$form_font:			#727272; // form filler
+
+		// backgrounds
+	$secondary-bg:		#f0f0f0; //background
+
+
+
+@mixin inner-content {
+	max-width:1000px;
+	width:90%;
+	margin:0 auto;
+}

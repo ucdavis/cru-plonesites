@@ -1,0 +1,45 @@
+
+ul.navTree {
+	li {
+		display:list-item;
+		font-size:1.6rem;
+		padding:.6rem 0rem;
+		font-family:$primary-sans;
+		font-weight:400;
+		a {
+			color:$a-link !important;
+			padding-left:.5rem;
+			display:block;
+		}
+		a:hover {
+			color:$ucdavis-gold !important;
+			border-left:2px solid $ucdavis-blue;
+			text-decoration:none;
+			padding-left:3px;
+		}
+		list-style-type:none;
+		& > .navTreeCurrentNode {
+			border-left:2px solid $ucdavis-blue;
+			background-color:rgba(0,0,0,.10);
+			padding-top:7px;
+			padding-bottom:7px;
+			li a {
+				color:$ucdavis-blue !important;
+				padding-left:7px;
+			}
+		}
+	}
+	li.active {
+		ul.navTreeLevel1{
+			display:list-item;
+		}
+	}
+	ul.navTreeLevel1 {
+		display:block;
+		left:unset;
+		top:unset;
+		position:relative;
+		margin-left:3rem;
+		color:$a-link;
+	}
+}

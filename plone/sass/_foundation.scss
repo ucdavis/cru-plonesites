@@ -1,0 +1,84 @@
+
+// Foundation
+// Styles for setting up the structure of the entire website
+
+// Normalize gets pulled in Bootstrap
+// @import 'normalize';
+
+// Border-box-sizing
+@import 'border-box-sizing';
+
+.jumbotron {
+	max-width:190rem;
+	width:100%;
+	margin-top:-1px;
+	background-color:#002855;
+	padding: 0rem 0rem;
+	position:relative;
+	margin-bottom:0rem;
+	.jumbotron_contents {
+		@include inner-content;
+		width:40%;
+		background-color:rgba(0,0,0,.35);
+		padding:2rem 4rem;
+		position:relative;
+		text-align:center;
+	}
+}
+.bread {
+	@include inner-content;
+	#portal-breadcrumbs {
+		margin-left:25%;
+	}
+}
+#content {
+	margin:0px;
+}
+.main_stuff {
+	padding:2.5rem 0rem;
+	.main_stuff_contents {
+		@include inner-content;
+		display: flex; /* or inline-flex */
+		// flex-direction: row;
+		align-items: baseline;
+		.left_col {
+			width:25%;
+			display:inline-block;
+			vertical-align:top;
+		}
+		.guts {
+			width:70%;
+			display:inline-block;
+			vertical-align:top;
+			border-top:2px solid $ucdavis-blue;
+			border-left:2px solid $ucdavis-blue;
+			padding:2.5rem 2.5rem 1.5rem 3.5rem;
+			clear:both;
+			.row_cta {
+				text-align:center;
+				padding:3rem 0rem;
+				vertical-align:top;
+				margin:3rem 0rem;
+				.col_three {
+					width:32%;
+					vertical-align:top;
+					display:inline-block;
+					a:link {
+						color:#247fcc !important;
+					}
+					a:visited {
+						color:#247fcc;
+					}
+				}
+			}
+		}
+	}
+}
+footer {
+	background-color:$secondary-bg;
+	padding:4rem;
+	margin-top:5%;
+	.footer_contents {
+		text-align:center;
+	}
+}

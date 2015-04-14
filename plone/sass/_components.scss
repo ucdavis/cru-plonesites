@@ -1,0 +1,41 @@
+// Components
+// Modular components and their states. 
+// These pieces should be able to be used anywhere. Things like: icons, buttons, messages, etc.
+
+img {
+  max-width:100%;
+}
+
+.panel-default > .panel-heading {
+	background-image:none;
+	background-color:#fff;
+}
+.panel-title {
+	font-size:20px;
+	h4 a:hover {
+		color:$ucdavis-gold;
+	}
+}
+a.btn-primary {
+	box-shadow:0 -3px 0 rgba(0, 0, 0, 0.15) inset;
+    color: #fff !important;
+    border:none;
+    font-family:$primary-sans;
+    border-radius:0.3rem;
+    font-size:1.4rem;
+    text-transform:uppercase;
+    padding:1rem 2rem 1rem 2rem;
+    background-color:#247fcc;
+    background-image:none;
+    // &:hover {
+    // 	background-color:#fff !important;
+    // }
+}
+.panel-default {
+    border:none;
+}
+.panel {
+    border:none;
+}
+// navigation
+ // buttons

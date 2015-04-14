@@ -1,0 +1,26 @@
+@media all and (max-width:865px) {
+	.jumbotron {
+		.jumbotron_contents {
+			width:80%;
+		}
+	}
+}
+@media all and (max-width:630px) {
+	.jumbotron {
+		padding:2rem 0rem;
+		h1 {
+			font-size:2.5rem;
+		}
+	}
+	.main_stuff {
+		.main_stuff_contents {
+			display:block;
+			.left_col {
+				width:100%;
+			}
+			.guts {
+				width:100%;
+			}
+		}
+	}
+}
