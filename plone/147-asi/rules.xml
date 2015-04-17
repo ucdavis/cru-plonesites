@@ -15,7 +15,9 @@
     <theme href="index.html" css:if-content=".section-homepage" />
     <theme href="content.html" css:if-content="#visual-portal-wrapper" />
 
-
+    <!-- homepage craziness -->
+    <copy css:content=".portlet-static-homepage-nivo" css:theme=".homepage_slider" />
+    <copy css:content=".portlet-static-homepage-welcome" css:theme=".homepage_welcome" />
 
     <!--Header-->
     <copy css:content="#portal-searchbox " css:theme=".searchbar" />
