@@ -40,14 +40,24 @@ img {
 	background-color:darken($primary-color,3);
 	@include main-theme-trans;
 }
-.section-homepage .top-header-bg {
-	background-color:rgba(255,255,255,.001);
-	z-index:999;
-	position:relative;
+.section-homepage {
+	.top-header-bg {
+		background-color:rgba(255,255,255,.001);
+		z-index:999;
+		position:relative;
+	}
+	.homepage_slider {
+		margin-top:-44px;
+	}
+	.portlet-static-homepage-welcome {
+		margin-top:5%;
+		@include outer-container;
+	}
+	#portal-breadcrumbs {
+		display:none;
+	}
 }
-.section-homepage .homepage_slider {
-	margin-top:-44px;
-}
+
 .top-header {
 	@include outer-container;
 	padding-top:3px;
@@ -538,9 +548,4 @@ footer {
 	padding:1% 0%;
 	background-color:$main-font;
 	text-align:center;
-}
-.section-homepage {
-	#portal-breadcrumbs {
-		display:none;
-	}
 }

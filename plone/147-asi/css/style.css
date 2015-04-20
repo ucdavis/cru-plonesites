@@ -768,9 +768,21 @@ img {
   background-color: rgba(255, 255, 255, 0.001);
   z-index: 999;
   position: relative; }
-
 .section-homepage .homepage_slider {
   margin-top: -44px; }
+.section-homepage .portlet-static-homepage-welcome {
+  margin-top: 5%;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto; }
+  @media (max-width: 1000px) {
+    .section-homepage .portlet-static-homepage-welcome {
+      width: 90%; } }
+  @media (max-width: 750px) {
+    .section-homepage .portlet-static-homepage-welcome {
+      width: 95%; } }
+.section-homepage #portal-breadcrumbs {
+  display: none; }
 
 .top-header {
   width: 80%;
@@ -1246,9 +1258,6 @@ footer {
   padding: 1% 0%;
   background-color: #434343;
   text-align: center; }
-
-.section-homepage #portal-breadcrumbs {
-  display: none; }
 
 nav {
   max-width: 1200px;
@@ -2540,9 +2549,8 @@ Supports Thumbs: true
   margin-top: -22px;
   z-index: 9999;
   position: relative;
-  color: rgba(255, 255, 255, 0.01); }
-  .section-homepage .theme-default .nivo-controlNav {
-    text-align: center; }
+  color: rgba(255, 255, 255, 0.01);
+  margin-right: 5%; }
 
 .theme-default .nivo-controlNav a {
   display: inline-block;
