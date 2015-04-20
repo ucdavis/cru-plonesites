@@ -1854,9 +1854,9 @@ p {
       color: fff; }
 .portletstatic ul {
   color: #777777; }
-#content ul.image_list {
+ul.image_list {
   margin-left: 0px; }
-  #content ul.image_list li {
+  ul.image_list li {
     list-style: none;
     display: inline;
     padding-right: 5%; }
@@ -2541,6 +2541,8 @@ Supports Thumbs: true
   z-index: 9999;
   position: relative;
   color: rgba(255, 255, 255, 0.01); }
+  .section-homepage .theme-default .nivo-controlNav {
+    text-align: center; }
 
 .theme-default .nivo-controlNav a {
   display: inline-block;

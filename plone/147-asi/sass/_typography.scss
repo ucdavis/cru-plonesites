@@ -215,7 +215,7 @@ ul {
 	.portletstatic & {
 		color:$middle-font;
 	}
-	#content &.image_list {
+	&.image_list {
 		margin-left:0px;
 		li {
 			list-style:none;
