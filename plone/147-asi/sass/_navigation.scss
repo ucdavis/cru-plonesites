@@ -286,9 +286,7 @@ ul#sub_top_drop-nav {
 .section-homepage nav {
 	max-width:1200px;
 	width:100%;
-	margin-bottom:-5px;
-	margin-left:-12px;
-	text-align:center;
+	
 }
 .section-homepage #portal-globalnav {
 	background:none;
@@ -307,6 +305,8 @@ ul#sub_top_drop-nav {
 	}
 	ul.submenu {
 		z-index:9999;
+		margin:0 auto;
+		text-align:center;
 		// display:block;
 		@include main-theme-bg-color;
 		-webkit-transition: all 1s ease;

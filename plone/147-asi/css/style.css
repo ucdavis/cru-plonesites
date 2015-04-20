@@ -752,7 +752,7 @@ img {
 .top-header-bg {
   background-color: #002146; }
   .site-ASI .top-header-bg {
-    background-color: #002146; }
+    background-color: #3d88e0; }
   .site-sarep .top-header-bg {
     background-color: #004276; }
   .site-rr .top-header-bg {
@@ -791,7 +791,7 @@ header {
   width: 100%;
   position: relative; }
   .site-ASI header {
-    background-color: #002855; }
+    background-color: #4A90E2; }
   .site-sarep header {
     background-color: #004B85; }
   .site-rr header {
@@ -1279,7 +1279,7 @@ nav {
     -o-transition: all 1s ease;
     transition: all 1s ease; }
     .site-ASI #portal-globalnav ul.submenu {
-      background-color: #002855; }
+      background-color: #4A90E2; }
     .site-sarep #portal-globalnav ul.submenu {
       background-color: #004B85; }
     .site-rr #portal-globalnav ul.submenu {
@@ -1427,7 +1427,7 @@ nav {
 .slicknav_menu {
   padding: 5px; }
   .site-ASI .slicknav_menu {
-    background-color: #001731; }
+    background-color: #2b7ddd; }
   .site-sarep .slicknav_menu {
     background-color: #003761; }
   .site-rr .slicknav_menu {
@@ -1503,7 +1503,7 @@ nav {
   white-space: nowrap;
   color: #fff; }
   .site-ASI #top_drop-nav ul li a {
-    background-color: #002146; }
+    background-color: #3d88e0; }
   .site-sarep #top_drop-nav ul li a {
     background-color: #004276; }
   .site-rr #top_drop-nav ul li a {
@@ -1515,7 +1515,7 @@ nav {
   .site-safs #top_drop-nav ul li a {
     background-color: #70b11e; }
 .site-ASI #top_drop-nav li ul {
-  background-color: #002146; }
+  background-color: #3d88e0; }
 .site-sarep #top_drop-nav li ul {
   background-color: #004276; }
 .site-rr #top_drop-nav li ul {
@@ -1554,10 +1554,7 @@ ul#sub_top_drop-nav {
 
 .section-homepage nav {
   max-width: 1200px;
-  width: 100%;
-  margin-bottom: -5px;
-  margin-left: -12px;
-  text-align: center; }
+  width: 100%; }
 
 .section-homepage #portal-globalnav {
   background: none;
@@ -1584,13 +1581,15 @@ ul#sub_top_drop-nav {
       border-color: #038EAA; }
   .section-homepage #portal-globalnav ul.submenu {
     z-index: 9999;
+    margin: 0 auto;
+    text-align: center;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
     .site-ASI .section-homepage #portal-globalnav ul.submenu {
-      background-color: #002855; }
+      background-color: #4A90E2; }
     .site-sarep .section-homepage #portal-globalnav ul.submenu {
       background-color: #004B85; }
     .site-rr .section-homepage #portal-globalnav ul.submenu {
