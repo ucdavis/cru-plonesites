@@ -764,6 +764,9 @@ img {
   .site-safs .top-header-bg {
     background-color: #70b11e; }
 
+.section-homepage .top-header-bg {
+  background-color: rgba(255, 255, 255, 0.001); }
+
 .top-header {
   width: 80%;
   max-width: 1200px;
@@ -1561,7 +1564,8 @@ ul#sub_top_drop-nav {
   background: none;
   margin: 0px;
   font-size: 100%;
-  padding: 10px 0px; }
+  padding: 10px 0px;
+  text-align: center; }
   .site-ASI .section-homepage #portal-globalnav {
     background-color: #1C5BA5; }
   .site-sarep .section-homepage #portal-globalnav {

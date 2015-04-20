@@ -40,6 +40,9 @@ img {
 	background-color:darken($primary-color,3);
 	@include main-theme-trans;
 }
+.section-homepage .top-header-bg {
+	background-color:rgba(255,255,255,.001)
+}
 .top-header {
 	@include outer-container;
 	padding-top:3px;

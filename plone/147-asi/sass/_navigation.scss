@@ -295,6 +295,7 @@ ul#sub_top_drop-nav {
 	font-size:100%;
 	@include main-theme-bg-color;
 	padding:10px 0px;
+	text-align:center;
 	.selected a {
 		background-color:transparent;
 		&:hover{
