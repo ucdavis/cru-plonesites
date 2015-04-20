@@ -8,18 +8,6 @@
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
  }
-html {
-	font-size:10px;
-	-webkit-font-smoothing: antialiased;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
-    line-height:1.5;
-    @include breakpoint(tablet) {
-	    font-size:8px;
-	}
-	@include breakpoint(mobile) {
-	    font-size:7px;
-	}
-}
 iframe {
 	width:100%;
 }
@@ -50,8 +38,10 @@ img {
 		margin-top:-44px;
 	}
 	.portlet-static-homepage-welcome {
-		margin-top:5%;
 		@include outer-container;
+		margin-top:5%;
+		max-width:70rem;
+		min-width:50rem;
 	}
 	#portal-breadcrumbs {
 		display:none;
