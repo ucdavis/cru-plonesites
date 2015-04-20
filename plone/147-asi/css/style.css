@@ -765,7 +765,9 @@ img {
     background-color: #70b11e; }
 
 .section-homepage .top-header-bg {
-  background-color: rgba(255, 255, 255, 0.001); }
+  background-color: rgba(255, 255, 255, 0.001);
+  z-index: 999;
+  position: asbolute; }
 
 .top-header {
   width: 80%;
