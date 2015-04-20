@@ -283,4 +283,51 @@ ul#sub_top_drop-nav {
 	z-index:99;
 }
 // Front Nav
+.section-homepage nav {
+	max-width:1200px;
+	width:100%;
+	margin-bottom:-5px;
+	margin-left:-12px;
+	text-align:center;
+}
+.section-homepage #portal-globalnav {
+	background:none;
+	margin:0px;
+	font-size:100%;
+	.selected a {
+		background-color:transparent;
+		&:hover{
+			background-color:transparent;
+			color:#fff;
+		}
+	}
+	.selected > a {
+		border-bottom:5px solid $secondary-color;
+		@include accent-theme-brdr-color;
+	}
+	ul.submenu {
+		z-index:9999;
+		// display:block;
+		@include main-theme-bg-color;
+		-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		transition: all 1s ease;
+			& .state-published {
+				color:#fff !important;
+			}
+			li {
+				border-bottom:1px solid rgba(255,255,255,.1)
+
+			}
+			li a {
+				font-size:1.4rem;
+				padding:6% 8%;
+			}
+			li a:hover {
+				@include accent-theme-color;
+			}
+	}
+}
 

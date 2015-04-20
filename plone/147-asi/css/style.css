@@ -1552,6 +1552,75 @@ div.portletStaticText #sub_top_drop-nav li {
 ul#sub_top_drop-nav {
   z-index: 99; }
 
+.section-homepage nav {
+  max-width: 1200px;
+  width: 100%;
+  margin-bottom: -5px;
+  margin-left: -12px;
+  text-align: center; }
+
+.section-homepage #portal-globalnav {
+  background: none;
+  margin: 0px;
+  font-size: 100%; }
+  .section-homepage #portal-globalnav .selected a {
+    background-color: transparent; }
+    .section-homepage #portal-globalnav .selected a:hover {
+      background-color: transparent;
+      color: #fff; }
+  .section-homepage #portal-globalnav .selected > a {
+    border-bottom: 5px solid #C99700; }
+    .site-ASI .section-homepage #portal-globalnav .selected > a {
+      border-color: #c79900; }
+    .site-sarep .section-homepage #portal-globalnav .selected > a {
+      border-color: #DDB307; }
+    .site-rr .section-homepage #portal-globalnav .selected > a {
+      border-color: #78BE20; }
+    .site-sf .section-homepage #portal-globalnav .selected > a {
+      border-color: #DA611E; }
+    .site-infas .section-homepage #portal-globalnav .selected > a {
+      border-color: #AD5C0E; }
+    .site-safs .section-homepage #portal-globalnav .selected > a {
+      border-color: #038EAA; }
+  .section-homepage #portal-globalnav ul.submenu {
+    z-index: 9999;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    .site-ASI .section-homepage #portal-globalnav ul.submenu {
+      background-color: #002855; }
+    .site-sarep .section-homepage #portal-globalnav ul.submenu {
+      background-color: #004B85; }
+    .site-rr .section-homepage #portal-globalnav ul.submenu {
+      background-color: #008EAA; }
+    .site-sf .section-homepage #portal-globalnav ul.submenu {
+      background-color: #4F2C1D; }
+    .site-infas .section-homepage #portal-globalnav ul.submenu {
+      background-color: #2B8C92; }
+    .site-safs .section-homepage #portal-globalnav ul.submenu {
+      background-color: #78BE20; }
+    .section-homepage #portal-globalnav ul.submenu .state-published {
+      color: #fff !important; }
+    .section-homepage #portal-globalnav ul.submenu li {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+    .section-homepage #portal-globalnav ul.submenu li a {
+      font-size: 1.4rem;
+      padding: 6% 8%; }
+    .site-ASI .section-homepage #portal-globalnav ul.submenu li a:hover {
+      color: #c79900 !important; }
+    .site-sarep .section-homepage #portal-globalnav ul.submenu li a:hover {
+      color: #DDB307 !important; }
+    .site-rr .section-homepage #portal-globalnav ul.submenu li a:hover {
+      color: #78BE20 !important; }
+    .site-sf .section-homepage #portal-globalnav ul.submenu li a:hover {
+      color: #DA611E !important; }
+    .site-infas .section-homepage #portal-globalnav ul.submenu li a:hover {
+      color: #AD5C0E !important; }
+    .site-safs .section-homepage #portal-globalnav ul.submenu li a:hover {
+      color: #038EAA !important; }
+
 /* anchor styles */
 .top-header a {
   color: rgba(255, 255, 255, 0.8);
