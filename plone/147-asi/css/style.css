@@ -1554,7 +1554,8 @@ ul#sub_top_drop-nav {
 
 .section-homepage nav {
   max-width: 1200px;
-  width: 100%; }
+  width: 100%;
+  margin: 0 auto !important; }
 
 .section-homepage #portal-globalnav {
   background: none;
