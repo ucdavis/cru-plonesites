@@ -752,7 +752,7 @@ img {
 .top-header-bg {
   background-color: #002146; }
   .site-ASI .top-header-bg {
-    background-color: #3d88e0; }
+    background-color: #1a5498; }
   .site-sarep .top-header-bg {
     background-color: #004276; }
   .site-rr .top-header-bg {
@@ -791,7 +791,7 @@ header {
   width: 100%;
   position: relative; }
   .site-ASI header {
-    background-color: #4A90E2; }
+    background-color: #1C5BA5; }
   .site-sarep header {
     background-color: #004B85; }
   .site-rr header {
@@ -1260,7 +1260,7 @@ nav {
   #portal-globalnav .selected > a {
     border-bottom: 5px solid #C99700; }
     .site-ASI #portal-globalnav .selected > a {
-      border-color: #c79900; }
+      border-color: #FFB208; }
     .site-sarep #portal-globalnav .selected > a {
       border-color: #DDB307; }
     .site-rr #portal-globalnav .selected > a {
@@ -1279,7 +1279,7 @@ nav {
     -o-transition: all 1s ease;
     transition: all 1s ease; }
     .site-ASI #portal-globalnav ul.submenu {
-      background-color: #4A90E2; }
+      background-color: #1C5BA5; }
     .site-sarep #portal-globalnav ul.submenu {
       background-color: #004B85; }
     .site-rr #portal-globalnav ul.submenu {
@@ -1298,7 +1298,7 @@ nav {
       font-size: 1.4rem;
       padding: 6% 8%; }
     .site-ASI #portal-globalnav ul.submenu li a:hover {
-      color: #c79900 !important; }
+      color: #FFB208 !important; }
     .site-sarep #portal-globalnav ul.submenu li a:hover {
       color: #DDB307 !important; }
     .site-rr #portal-globalnav ul.submenu li a:hover {
@@ -1427,7 +1427,7 @@ nav {
 .slicknav_menu {
   padding: 5px; }
   .site-ASI .slicknav_menu {
-    background-color: #2b7ddd; }
+    background-color: #174a86; }
   .site-sarep .slicknav_menu {
     background-color: #003761; }
   .site-rr .slicknav_menu {
@@ -1503,7 +1503,7 @@ nav {
   white-space: nowrap;
   color: #fff; }
   .site-ASI #top_drop-nav ul li a {
-    background-color: #3d88e0; }
+    background-color: #1a5498; }
   .site-sarep #top_drop-nav ul li a {
     background-color: #004276; }
   .site-rr #top_drop-nav ul li a {
@@ -1515,7 +1515,7 @@ nav {
   .site-safs #top_drop-nav ul li a {
     background-color: #70b11e; }
 .site-ASI #top_drop-nav li ul {
-  background-color: #3d88e0; }
+  background-color: #1a5498; }
 .site-sarep #top_drop-nav li ul {
   background-color: #004276; }
 .site-rr #top_drop-nav li ul {
@@ -1560,16 +1560,35 @@ ul#sub_top_drop-nav {
 .section-homepage #portal-globalnav {
   background: none;
   margin: 0px;
-  font-size: 100%; }
+  font-size: 100%;
+  padding: 10px 0px; }
+  .site-ASI .section-homepage #portal-globalnav {
+    background-color: #1C5BA5; }
+  .site-sarep .section-homepage #portal-globalnav {
+    background-color: #004B85; }
+  .site-rr .section-homepage #portal-globalnav {
+    background-color: #008EAA; }
+  .site-sf .section-homepage #portal-globalnav {
+    background-color: #4F2C1D; }
+  .site-infas .section-homepage #portal-globalnav {
+    background-color: #2B8C92; }
+  .site-safs .section-homepage #portal-globalnav {
+    background-color: #78BE20; }
   .section-homepage #portal-globalnav .selected a {
     background-color: transparent; }
     .section-homepage #portal-globalnav .selected a:hover {
       background-color: transparent;
       color: #fff; }
+  .section-homepage #portal-globalnav li {
+    display: inline-block;
+    float: none; }
+    .section-homepage #portal-globalnav li a {
+      font-size: 1.8rem;
+      font-weight: 400; }
   .section-homepage #portal-globalnav .selected > a {
     border-bottom: 5px solid #C99700; }
     .site-ASI .section-homepage #portal-globalnav .selected > a {
-      border-color: #c79900; }
+      border-color: #FFB208; }
     .site-sarep .section-homepage #portal-globalnav .selected > a {
       border-color: #DDB307; }
     .site-rr .section-homepage #portal-globalnav .selected > a {
@@ -1590,7 +1609,7 @@ ul#sub_top_drop-nav {
     -o-transition: all 1s ease;
     transition: all 1s ease; }
     .site-ASI .section-homepage #portal-globalnav ul.submenu {
-      background-color: #4A90E2; }
+      background-color: #1C5BA5; }
     .site-sarep .section-homepage #portal-globalnav ul.submenu {
       background-color: #004B85; }
     .site-rr .section-homepage #portal-globalnav ul.submenu {
@@ -1609,7 +1628,7 @@ ul#sub_top_drop-nav {
       font-size: 1.4rem;
       padding: 6% 8%; }
     .site-ASI .section-homepage #portal-globalnav ul.submenu li a:hover {
-      color: #c79900 !important; }
+      color: #FFB208 !important; }
     .site-sarep .section-homepage #portal-globalnav ul.submenu li a:hover {
       color: #DDB307 !important; }
     .site-rr .section-homepage #portal-globalnav ul.submenu li a:hover {
@@ -1629,7 +1648,7 @@ ul#sub_top_drop-nav {
   letter-spacing: 0.5px;
   font-size: 1.4rem; }
   .site-ASI .top-header a:hover {
-    color: #c79900 !important; }
+    color: #FFB208 !important; }
   .site-sarep .top-header a:hover {
     color: #DDB307 !important; }
   .site-rr .top-header a:hover {
@@ -1714,7 +1733,7 @@ h2 {
     font-family: "proxima-nova", sans-serif;
     font-weight: 100; }
     .site-ASI .lefthead h2 a:hover {
-      color: #c79900 !important; }
+      color: #FFB208 !important; }
     .site-sarep .lefthead h2 a:hover {
       color: #DDB307 !important; }
     .site-rr .lefthead h2 a:hover {
@@ -1747,7 +1766,7 @@ h3 {
     padding-bottom: 5px;
     margin-bottom: 0px; }
     .site-ASI .eventdetailsside h3 {
-      background-color: #c79900; }
+      background-color: #FFB208; }
     .site-sarep .eventdetailsside h3 {
       background-color: #DDB307; }
     .site-rr .eventdetailsside h3 {
@@ -1857,7 +1876,7 @@ li {
       #portal-globalnav li a:hover {
         background-color: transparent; }
         .site-ASI #portal-globalnav li a:hover {
-          color: #c79900 !important; }
+          color: #FFB208 !important; }
         .site-sarep #portal-globalnav li a:hover {
           color: #DDB307 !important; }
         .site-rr #portal-globalnav li a:hover {
@@ -1906,7 +1925,7 @@ dt.portletHeader {
   margin-top: 6px;
   padding-bottom: 5px; }
   .site-ASI dt.portletHeader {
-    background-color: #c79900; }
+    background-color: #FFB208; }
   .site-sarep dt.portletHeader {
     background-color: #DDB307; }
   .site-rr dt.portletHeader {
@@ -1930,7 +1949,7 @@ dt.portletHeader {
     .bottom_ports dt.portletHeader a {
       color: #777777; }
       .site-ASI .bottom_ports dt.portletHeader a:hover {
-        color: #c79900 !important; }
+        color: #FFB208 !important; }
       .site-sarep .bottom_ports dt.portletHeader a:hover {
         color: #DDB307 !important; }
       .site-rr .bottom_ports dt.portletHeader a:hover {
@@ -1945,7 +1964,7 @@ dt.portletHeader {
 .portletstatic dd.portletItem {
   border-top: 2px solid #000; }
   .site-ASI .portletstatic dd.portletItem {
-    border-color: #c79900; }
+    border-color: #FFB208; }
   .site-sarep .portletstatic dd.portletItem {
     border-color: #DDB307; }
   .site-rr .portletstatic dd.portletItem {
@@ -1996,7 +2015,7 @@ span.code {
   text-transform: uppercase;
   padding: 1rem 2rem 1rem 2rem; }
   .site-ASI .btn {
-    background-color: #c79900; }
+    background-color: #FFB208; }
   .site-sarep .btn {
     background-color: #DDB307; }
   .site-rr .btn {
@@ -2176,7 +2195,7 @@ body.template-event_view .eventdetailsside {
   display: block;
   margin-top: 25%; }
   body.template-event_view .eventdetailsside .border-spread {
-    border-bottom: 2px solid #c79900; }
+    border-bottom: 2px solid #FFB208; }
 
 #portal-breadcrumbs {
   margin-top: 20px;

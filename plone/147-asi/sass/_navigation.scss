@@ -293,11 +293,21 @@ ul#sub_top_drop-nav {
 	background:none;
 	margin:0px;
 	font-size:100%;
+	@include main-theme-bg-color;
+	padding:10px 0px;
 	.selected a {
 		background-color:transparent;
 		&:hover{
 			background-color:transparent;
 			color:#fff;
+		}
+	}
+	li {
+		display:inline-block;
+		float:none;
+		a {
+			font-size:1.8rem;
+			font-weight:400;
 		}
 	}
 	.selected > a {
