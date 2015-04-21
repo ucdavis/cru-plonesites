@@ -39,6 +39,9 @@
 
 }
 
+.jobTitle {
+    margin-bottom: 30px;
+}
 
 .jobTitle li {
     font-family: 'proxima-nova', sans-serif;
@@ -47,9 +50,6 @@
 }
 
 
-.jobTitle {
-    margin-bottom: 30px;
-}
 
 .officePhone {
     font-size: 14px;
