@@ -24,8 +24,9 @@
 }
 
 .cell.width-3.position-0 img{
-    /*width: auto;*/
+    width: auto;
     height: 160px;
+    overflow: hidden;
 }
 
 .classificationList li a {
