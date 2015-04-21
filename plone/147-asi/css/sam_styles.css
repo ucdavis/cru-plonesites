@@ -17,12 +17,12 @@
 
 /* Directory styles */
 
-/* not sure how to make img size bigger 
-.cell.width-3.position-0 {
+/* not sure how to make img size bigger */
+.cell.width-3.position-0 a img{
 	height: 160px;
 	width: 160px;
 }
-*/
+
 .classificationList li a {
     font-family: 'proxima-nova', sans-serif;
 }
