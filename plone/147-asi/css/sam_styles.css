@@ -46,20 +46,16 @@
     line-height: 20px;
 
 }
-/*
-.facultyStaffDirectory .jobTitle li{
+
+.jobTitle li{
     font-family: 'proxima-nova', sans-serif;
     font-size: 14px;
     color: #9B9B9B;
-    margin-bottom: 30px;
 }
-*/
+
 
 #content .facultyStaffDirectory ul.jobTitle {
     margin-bottom: 30px;
-    font-family: 'proxima-nova', sans-serif;
-    font-size: 14px;
-    color: #9B9B9B;
     
 }
 
