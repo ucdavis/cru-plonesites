@@ -23,6 +23,11 @@
 	width: 160px;
 }
 
+.cell.width-3.position-0 img{
+    width: 100%;
+    height: auto;
+}
+
 .classificationList li a {
     font-family: 'proxima-nova', sans-serif;
 }
