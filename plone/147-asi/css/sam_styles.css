@@ -23,8 +23,12 @@
 	width: 160px;
 }
 */
-.classificationList li a{
+.classificationList li a {
     font-family: 'proxima-nova', sans-serif;
+}
+
+.classificationListing h2 a {
+    margin-top:20;
 }
 
 .personName {
