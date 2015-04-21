@@ -43,7 +43,9 @@
 .jobTitle li {
     font-family: 'proxima-nova', sans-serif;
     font-size: 14px;
-    color: #9B9B9B;
+    /*color: #9B9B9B;*/
+    color:blue;
+
     margin-bottom: 30px;
 }
 
