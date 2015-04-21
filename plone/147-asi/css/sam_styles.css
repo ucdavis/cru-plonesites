@@ -46,13 +46,10 @@
     margin-bottom: 30px;
 }
 
-.officePhone {
+.officePhone .emailAddress{
     font-size: 12px;
 }
 
-.emailAddress {
-    font-size: 12px;
-}
 
 .moreInfo {
     font-size: 12px;
