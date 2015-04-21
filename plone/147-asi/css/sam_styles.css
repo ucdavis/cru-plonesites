@@ -47,6 +47,9 @@
     margin-bottom: 30px;
 }
 */
+.jobTitle {
+    font-family: 'proxima-nova', sans-serif;
+}
 
 .officePhone {
     font-size: 14px;
