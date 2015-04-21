@@ -23,7 +23,9 @@
 	width: 160px;
 }
 */
-
+.classificationList {
+    font-family: "proxima-nova", sans-serif;
+}
 
 .personName {
     color: black;
