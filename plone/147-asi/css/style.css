@@ -749,7 +749,7 @@ img {
   .site-rr .top-header-bg {
     background-color: #00819b; }
   .site-sf .top-header-bg {
-    background-color: #9f550e; }
+    background-color: #0e809f; }
   .site-infas .top-header-bg {
     background-color: #288186; }
   .site-safs .top-header-bg {
@@ -810,7 +810,7 @@ header {
   .site-rr header {
     background-color: #008EAA; }
   .site-sf header {
-    background-color: #AD5C0F; }
+    background-color: #0F8BAD; }
   .site-infas header {
     background-color: #2B8C92; }
   .site-safs header {
@@ -1276,7 +1276,7 @@ nav {
     .site-rr #portal-globalnav .selected > a {
       border-color: #78BE20; }
     .site-sf #portal-globalnav .selected > a {
-      border-color: #0F8BAD; }
+      border-color: #AD5C0F; }
     .site-infas #portal-globalnav .selected > a {
       border-color: #AD5C0E; }
     .site-safs #portal-globalnav .selected > a {
@@ -1295,7 +1295,7 @@ nav {
     .site-rr #portal-globalnav ul.submenu {
       background-color: #008EAA; }
     .site-sf #portal-globalnav ul.submenu {
-      background-color: #AD5C0F; }
+      background-color: #0F8BAD; }
     .site-infas #portal-globalnav ul.submenu {
       background-color: #2B8C92; }
     .site-safs #portal-globalnav ul.submenu {
@@ -1314,7 +1314,7 @@ nav {
     .site-rr #portal-globalnav ul.submenu li a:hover {
       color: #78BE20 !important; }
     .site-sf #portal-globalnav ul.submenu li a:hover {
-      color: #0F8BAD !important; }
+      color: #AD5C0F !important; }
     .site-infas #portal-globalnav ul.submenu li a:hover {
       color: #AD5C0E !important; }
     .site-safs #portal-globalnav ul.submenu li a:hover {
@@ -1443,7 +1443,7 @@ nav {
   .site-rr .slicknav_menu {
     background-color: #007086; }
   .site-sf .slicknav_menu {
-    background-color: #8c4b0c; }
+    background-color: #0c718c; }
   .site-infas .slicknav_menu {
     background-color: #237276; }
   .site-safs .slicknav_menu {
@@ -1519,7 +1519,7 @@ nav {
   .site-rr #top_drop-nav ul li a {
     background-color: #00819b; }
   .site-sf #top_drop-nav ul li a {
-    background-color: #9f550e; }
+    background-color: #0e809f; }
   .site-infas #top_drop-nav ul li a {
     background-color: #288186; }
   .site-safs #top_drop-nav ul li a {
@@ -1531,7 +1531,7 @@ nav {
 .site-rr #top_drop-nav li ul {
   background-color: #00819b; }
 .site-sf #top_drop-nav li ul {
-  background-color: #9f550e; }
+  background-color: #0e809f; }
 .site-infas #top_drop-nav li ul {
   background-color: #288186; }
 .site-safs #top_drop-nav li ul {
@@ -1580,7 +1580,7 @@ ul#sub_top_drop-nav {
   .site-rr .section-homepage #portal-globalnav {
     background-color: #008EAA; }
   .site-sf .section-homepage #portal-globalnav {
-    background-color: #AD5C0F; }
+    background-color: #0F8BAD; }
   .site-infas .section-homepage #portal-globalnav {
     background-color: #2B8C92; }
   .site-safs .section-homepage #portal-globalnav {
@@ -1605,7 +1605,7 @@ ul#sub_top_drop-nav {
     .site-rr .section-homepage #portal-globalnav .selected > a {
       border-color: #78BE20; }
     .site-sf .section-homepage #portal-globalnav .selected > a {
-      border-color: #0F8BAD; }
+      border-color: #AD5C0F; }
     .site-infas .section-homepage #portal-globalnav .selected > a {
       border-color: #AD5C0E; }
     .site-safs .section-homepage #portal-globalnav .selected > a {
@@ -1626,7 +1626,7 @@ ul#sub_top_drop-nav {
     .site-rr .section-homepage #portal-globalnav ul.submenu {
       background-color: #008EAA; }
     .site-sf .section-homepage #portal-globalnav ul.submenu {
-      background-color: #AD5C0F; }
+      background-color: #0F8BAD; }
     .site-infas .section-homepage #portal-globalnav ul.submenu {
       background-color: #2B8C92; }
     .site-safs .section-homepage #portal-globalnav ul.submenu {
@@ -1645,7 +1645,7 @@ ul#sub_top_drop-nav {
     .site-rr .section-homepage #portal-globalnav ul.submenu li a:hover {
       color: #78BE20 !important; }
     .site-sf .section-homepage #portal-globalnav ul.submenu li a:hover {
-      color: #0F8BAD !important; }
+      color: #AD5C0F !important; }
     .site-infas .section-homepage #portal-globalnav ul.submenu li a:hover {
       color: #AD5C0E !important; }
     .site-safs .section-homepage #portal-globalnav ul.submenu li a:hover {
@@ -1674,7 +1674,7 @@ html {
   .site-rr .top-header a:hover {
     color: #78BE20 !important; }
   .site-sf .top-header a:hover {
-    color: #0F8BAD !important; }
+    color: #AD5C0F !important; }
   .site-infas .top-header a:hover {
     color: #AD5C0E !important; }
   .site-safs .top-header a:hover {
@@ -1759,7 +1759,7 @@ h2 {
     .site-rr .lefthead h2 a:hover {
       color: #78BE20 !important; }
     .site-sf .lefthead h2 a:hover {
-      color: #0F8BAD !important; }
+      color: #AD5C0F !important; }
     .site-infas .lefthead h2 a:hover {
       color: #AD5C0E !important; }
     .site-safs .lefthead h2 a:hover {
@@ -1792,7 +1792,7 @@ h3 {
     .site-rr .eventdetailsside h3 {
       background-color: #78BE20; }
     .site-sf .eventdetailsside h3 {
-      background-color: #0F8BAD; }
+      background-color: #AD5C0F; }
     .site-infas .eventdetailsside h3 {
       background-color: #AD5C0E; }
     .site-safs .eventdetailsside h3 {
@@ -1902,7 +1902,7 @@ li {
         .site-rr #portal-globalnav li a:hover {
           color: #78BE20 !important; }
         .site-sf #portal-globalnav li a:hover {
-          color: #0F8BAD !important; }
+          color: #AD5C0F !important; }
         .site-infas #portal-globalnav li a:hover {
           color: #AD5C0E !important; }
         .site-safs #portal-globalnav li a:hover {
@@ -1951,7 +1951,7 @@ dt.portletHeader {
   .site-rr dt.portletHeader {
     background-color: #78BE20; }
   .site-sf dt.portletHeader {
-    background-color: #0F8BAD; }
+    background-color: #AD5C0F; }
   .site-infas dt.portletHeader {
     background-color: #AD5C0E; }
   .site-safs dt.portletHeader {
@@ -1975,7 +1975,7 @@ dt.portletHeader {
       .site-rr .bottom_ports dt.portletHeader a:hover {
         color: #78BE20 !important; }
       .site-sf .bottom_ports dt.portletHeader a:hover {
-        color: #0F8BAD !important; }
+        color: #AD5C0F !important; }
       .site-infas .bottom_ports dt.portletHeader a:hover {
         color: #AD5C0E !important; }
       .site-safs .bottom_ports dt.portletHeader a:hover {
@@ -1990,7 +1990,7 @@ dt.portletHeader {
   .site-rr .portletstatic dd.portletItem {
     border-color: #78BE20; }
   .site-sf .portletstatic dd.portletItem {
-    border-color: #0F8BAD; }
+    border-color: #AD5C0F; }
   .site-infas .portletstatic dd.portletItem {
     border-color: #AD5C0E; }
   .site-safs .portletstatic dd.portletItem {
@@ -2041,7 +2041,7 @@ span.code {
   .site-rr .btn {
     background-color: #78BE20; }
   .site-sf .btn {
-    background-color: #0F8BAD; }
+    background-color: #AD5C0F; }
   .site-infas .btn {
     background-color: #AD5C0E; }
   .site-safs .btn {
