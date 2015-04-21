@@ -22,11 +22,17 @@
 	height: 160px;
 	width: 160px;
 }
-
+/*
 .cell.width-3.position-0 img{
     width: auto;
     height: 160px;
     overflow: hidden;
+}
+*/
+
+.cell.width-3.position-0 img{
+    max-width: 100%;
+    height:auto;
 }
 
 .classificationList li a {
