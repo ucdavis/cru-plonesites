@@ -23,7 +23,7 @@
 	width: 160px;
 }
 */
-.classificationList li{
+.classificationList li a{
     font-family: 'proxima-nova', sans-serif;
 }
 
