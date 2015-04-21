@@ -39,18 +39,19 @@
 
 }
 
-/*
+
 .jobTitle li {
     font-family: 'proxima-nova', sans-serif;
     font-size: 14px;
     color: #9B9B9B;
     margin-bottom: 30px;
 }
-*/
+
+/*
 .jobTitle {
     font-family: 'proxima-nova', sans-serif;
 }
-
+*/
 .officePhone {
     font-size: 14px;
     color: #434343;
