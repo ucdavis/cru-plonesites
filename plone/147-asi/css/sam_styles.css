@@ -55,12 +55,9 @@
 }
 */
 
-.facultyStaffDirectory .jobTitle {
-   /* font-family: 'proxima-nova', sans-serif;
-    font-size: 14px;
-    color: #9B9B9B;
-    */
+.jobTitle {
     margin-bottom: 30px;
+    
 }
 
 .officePhone {
