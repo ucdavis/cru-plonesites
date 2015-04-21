@@ -25,6 +25,7 @@
 
 .cell.width-3.position-0 img{
     width: auto;
+    height: 160px;
 }
 
 .classificationList li a {
