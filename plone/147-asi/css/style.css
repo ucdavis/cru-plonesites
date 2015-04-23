@@ -1747,13 +1747,9 @@ h2 {
     color: #fff;
     font-weight: 400;
     font-size: 1.8rem;
-    text-transform: uppercase;
     display: inline-block;
-    padding: 10px 18px 4px 14px;
+    padding: 12px 20px 6px 16px;
     letter-spacing: .5px;
-    margin-top: -30px;
-    margin-bottom: 40px;
-    padding-bottom: 5px;
     background-color: #1C5BA5; }
 
 h3 {
@@ -2316,7 +2312,6 @@ p.standout_gold {
   margin-top: 5%;
   max-width: 70rem;
   min-width: 50rem;
-  border-top: 8px solid #1C5BA5;
   text-align: center; }
   @media (max-width: 1000px) {
     .section-homepage .portlet-static-homepage-welcome {
@@ -2324,6 +2319,8 @@ p.standout_gold {
   @media (max-width: 750px) {
     .section-homepage .portlet-static-homepage-welcome {
       width: 95%; } }
+  .section-homepage .portlet-static-homepage-welcome p {
+    border-top: 4px solid #1C5BA5; }
 .section-homepage #portal-breadcrumbs {
   display: none; }
 
