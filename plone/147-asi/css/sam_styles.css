@@ -24,7 +24,8 @@
 }
 
 .facultyStaffDirectory .cell.width-3.position-0 img{
-    width: 100%;
+    width: 100%; /*this will make it so those images arent squished and also be responsive*/
+    max-width:200px; /*this will help keep it in check so it doesn't get to big*/
     height: auto;
     overflow: hidden;
 }
