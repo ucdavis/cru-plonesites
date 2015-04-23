@@ -90,4 +90,8 @@
 
 }
 
+/* student content */
+.classificationListing #students #personName {
+    color: green;
+}
 
