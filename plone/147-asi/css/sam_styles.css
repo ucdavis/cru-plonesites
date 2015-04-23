@@ -37,6 +37,7 @@
  margin-right: 20px;
 }
 
+/* gap below name content */
 #content .facultyStaffDirectory ul.jobTitle {
     margin-bottom: 40px;
     
@@ -46,6 +47,14 @@
     margin-bottom: 20px;
     
 }
+
+/* student content */
+
+a#students .personName {
+    color: green;
+}
+
+
 
 /* People classification nav */
 .classificationList li a {
@@ -91,10 +100,4 @@
 
 }
 
-/* student content */
-/* FIX THIS 
-.classificationListing a#students .personName {
-    color: green;
-}
-*/
 
