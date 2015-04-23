@@ -29,11 +29,12 @@
     overflow: hidden;
 }
 
-/* content container 
-.cell.width-13.position-4 {
-
+/* content container */
+.facultyStaffDirectory .cell.width-13.position-4 {
+ height: auto;
+ width: 25%;
 }
-*/
+
 
 /* People classification nav */
 .classificationList li a {
