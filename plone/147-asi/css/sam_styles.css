@@ -19,14 +19,13 @@
 
 /* image */
 .facultyStaffDirectory .cell.width-3.position-0 {
-	height: auto;
-	width: 100%; /*cal's changing this, try to use percentages for widths auto for height, it helps responsive design*/
+	height: 139px;
+	width: 139px;
 }
 
 .facultyStaffDirectory .cell.width-3.position-0 img{
-    width: 100%; /*this will make it so those images arent squished and also be responsive*/
-    max-width:200px; /*this will help keep it in check so it doesn't get to big*/
-    height: auto;
+    width: auto;
+    height: 139px;
     overflow: hidden;
 }
 
