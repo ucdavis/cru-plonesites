@@ -125,9 +125,9 @@ h2 {
 		font-family:$sans-serif;
 		color:#fff;
 		font-weight:400;
-		font-size:1.8rem;
+		font-size:2.2rem;
 		display:inline-block;
-		padding:16px 24px 10px 24px;
+		padding:16px 24px 6px 24px;
 		letter-spacing: .5px;
 		margin-bottom:0px;
 		background-color:$asi_accent;
@@ -222,8 +222,10 @@ p {
 		border-top:6px solid $asi_accent;
 		margin-top:0px;
 		padding-top:5%;
+		padding-bottom:5%;
 		font-size:1.6rem;
 		line-height:1.5;
+		font-family:$sans-serif;
 	}
 }
 ul {
@@ -250,6 +252,10 @@ ul {
 			list-style:none;
 			display:inline;
 			padding-right:5%;
+			.section-homepage & {
+				display:inline-block;
+				width:20%;
+			}
 		}
 	}
 

@@ -1746,9 +1746,9 @@ h2 {
     font-family: "proxima-nova", sans-serif;
     color: #fff;
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     display: inline-block;
-    padding: 16px 24px 10px 24px;
+    padding: 16px 24px 6px 24px;
     letter-spacing: .5px;
     margin-bottom: 0px;
     background-color: #FFB208; }
@@ -1843,8 +1843,10 @@ p {
     border-top: 6px solid #FFB208;
     margin-top: 0px;
     padding-top: 5%;
+    padding-bottom: 5%;
     font-size: 1.6rem;
-    line-height: 1.5; }
+    line-height: 1.5;
+    font-family: "proxima-nova", sans-serif; }
 
 #footer_contents ul li {
   display: list-item;
@@ -1865,6 +1867,9 @@ ul.image_list {
     list-style: none;
     display: inline;
     padding-right: 5%; }
+    .section-homepage ul.image_list li {
+      display: inline-block;
+      width: 20%; }
 
 li {
   font-family: "ff-tisa-web-pro", Georgia, serif;
