@@ -49,15 +49,11 @@
 }
 
 /* student content */
-/*
+
 .classificationListing #students .personName h4{
     color: green;
 }
-*/
 
-.standardView .standardView .classificationListing .listing.row .cell.width-13.position-4 .personName {
-    color: green;
-}
 
 /* People classification nav */
 .classificationList li a {
