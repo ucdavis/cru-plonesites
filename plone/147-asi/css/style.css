@@ -2341,12 +2341,6 @@ p.standout_gold {
 .portaltype-fsdfacultystaffdirectory .portlet_column {
   display: none; }
 
-innerds
-.facultyStaffDirectory .classificationListing .listing.row {
-  width: 32%;
-  display: inline-block;
-  vertical-align: top; }
-
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
     float: left;
