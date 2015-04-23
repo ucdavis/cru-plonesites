@@ -223,8 +223,7 @@ p.standout_gold {
 		margin-top:5%;
 		max-width:70rem;
 		min-width:50rem;
-		border-top:2px solid;
-		@include accent-theme-brdr-color;
+		border-top:8px solid $asi_main;
 		text-align:center;
 	}
 	#portal-breadcrumbs {

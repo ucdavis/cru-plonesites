@@ -1753,19 +1753,8 @@ h2 {
     letter-spacing: .5px;
     margin-top: -30px;
     margin-bottom: 40px;
-    padding-bottom: 5px; }
-    .site-ASI h2.welcome_header {
-      background-color: #FFB208; }
-    .site-sarep h2.welcome_header {
-      background-color: #DDB307; }
-    .site-rr h2.welcome_header {
-      background-color: #78BE20; }
-    .site-sf h2.welcome_header {
-      background-color: #AD5C0F; }
-    .site-infas h2.welcome_header {
-      background-color: #AD5C0E; }
-    .site-safs h2.welcome_header {
-      background-color: #038EAA; }
+    padding-bottom: 5px;
+    background-color: #1C5BA5; }
 
 h3 {
   font-size: 1.8rem;
@@ -2327,7 +2316,7 @@ p.standout_gold {
   margin-top: 5%;
   max-width: 70rem;
   min-width: 50rem;
-  border-top: 2px solid;
+  border-top: 8px solid #1C5BA5;
   text-align: center; }
   @media (max-width: 1000px) {
     .section-homepage .portlet-static-homepage-welcome {
@@ -2335,18 +2324,6 @@ p.standout_gold {
   @media (max-width: 750px) {
     .section-homepage .portlet-static-homepage-welcome {
       width: 95%; } }
-  .site-ASI .section-homepage .portlet-static-homepage-welcome {
-    border-color: #FFB208; }
-  .site-sarep .section-homepage .portlet-static-homepage-welcome {
-    border-color: #DDB307; }
-  .site-rr .section-homepage .portlet-static-homepage-welcome {
-    border-color: #78BE20; }
-  .site-sf .section-homepage .portlet-static-homepage-welcome {
-    border-color: #AD5C0F; }
-  .site-infas .section-homepage .portlet-static-homepage-welcome {
-    border-color: #AD5C0E; }
-  .site-safs .section-homepage .portlet-static-homepage-welcome {
-    border-color: #038EAA; }
 .section-homepage #portal-breadcrumbs {
   display: none; }
 
