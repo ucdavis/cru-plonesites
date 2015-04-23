@@ -1748,9 +1748,10 @@ h2 {
     font-weight: 400;
     font-size: 1.8rem;
     display: inline-block;
-    padding: 12px 20px 6px 16px;
+    padding: 16px 24px 10px 24px;
     letter-spacing: .5px;
-    background-color: #1C5BA5; }
+    margin-bottom: 0px;
+    background-color: #FFB208; }
 
 h3 {
   font-size: 1.8rem;
@@ -1838,6 +1839,12 @@ p {
   .bottom_ports p {
     font-size: 1.4rem;
     line-height: 21px; }
+  .portlet-static-homepage-welcome p {
+    border-top: 6px solid #FFB208;
+    margin-top: 0px;
+    padding-top: 5%;
+    font-size: 1.6rem;
+    line-height: 1.5; }
 
 #footer_contents ul li {
   display: list-item;
@@ -2319,8 +2326,6 @@ p.standout_gold {
   @media (max-width: 750px) {
     .section-homepage .portlet-static-homepage-welcome {
       width: 95%; } }
-  .section-homepage .portlet-static-homepage-welcome p {
-    border-top: 4px solid #1C5BA5; }
 .section-homepage #portal-breadcrumbs {
   display: none; }
 
