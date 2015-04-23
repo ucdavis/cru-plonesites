@@ -209,3 +209,22 @@ p.standout_gold {
 	width:100%;
 	display:inline-block;
 }
+.section-homepage {
+	.top-header-bg {
+		background-color:rgba(255,255,255,.001);
+		z-index:999;
+		position:relative;
+	}
+	.homepage_slider {
+		margin-top:-44px;
+	}
+	.portlet-static-homepage-welcome {
+		@include outer-container;
+		margin-top:5%;
+		max-width:70rem;
+		min-width:50rem;
+	}
+	#portal-breadcrumbs {
+		display:none;
+	}
+}
