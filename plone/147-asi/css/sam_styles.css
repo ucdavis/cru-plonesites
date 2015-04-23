@@ -19,13 +19,13 @@
 
 /* image */
 .facultyStaffDirectory .cell.width-3.position-0 {
-	height: 125px;
-	width: 125px;
+	height: 139px;
+	width: 139px;
 }
 
 .facultyStaffDirectory .cell.width-3.position-0 img{
     width: auto;
-    height: 125px;
+    height: 139px;
     overflow: hidden;
 }
 
