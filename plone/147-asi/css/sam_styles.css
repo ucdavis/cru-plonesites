@@ -17,17 +17,23 @@
 
 /*----- Directory styles ------*/
 
-/* not sure how to make img size bigger */
-.cell.width-3.position-0 {
+/* image */
+.facultyStaffDirectory .cell.width-3.position-0 {
 	height: 145px;
 	width: 145px;
 }
 
-.cell.width-3.position-0 img{
+.facultyStaffDirectory .cell.width-3.position-0 img{
     width: auto;
     height: 145px;
     overflow: hidden;
 }
+
+/* content container 
+.cell.width-13.position-4 {
+
+}
+*/
 
 /* People classification nav */
 .classificationList li a {
