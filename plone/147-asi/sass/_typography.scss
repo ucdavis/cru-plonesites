@@ -222,7 +222,7 @@ p {
 		border-top:6px solid $asi_accent;
 		margin-top:0px;
 		padding-top:5%;
-		padding-bottom:5%;
+		padding-bottom:10%;
 		font-size:1.6rem;
 		line-height:1.5;
 		font-family:$sans-serif;
@@ -257,7 +257,8 @@ ul {
 				width:16%;
 				vertical-align:top;
 				text-align:center;
-				margin-right:3%;
+				margin-right:4%;
+				padding-right:0px;
 				&:last-child {
 					margin-right:0px;
 				}
