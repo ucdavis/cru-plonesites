@@ -2357,6 +2357,9 @@ p.standout_gold {
 .section-homepage #portal-breadcrumbs {
   display: none; }
 
+.classificationListing .listing.row {
+  background-color: green; }
+
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
     float: left;
