@@ -37,6 +37,15 @@
  margin-right: 20px;
 }
 
+#content .facultyStaffDirectory ul.jobTitle {
+    margin-bottom: 40px;
+    
+}
+
+#content .facultyStaffDirectory .listing{
+    margin-bottom: 20px;
+    
+}
 
 /* People classification nav */
 .classificationList li a {
@@ -63,15 +72,7 @@
 }
 
 
-#content .facultyStaffDirectory ul.jobTitle {
-    margin-bottom: 40px;
-    
-}
-
-#content .facultyStaffDirectory .listing{
-    margin-bottom: 20px;
-    
-}
+/* contact info font */
 
 .officePhone {
     font-size: 14px;
