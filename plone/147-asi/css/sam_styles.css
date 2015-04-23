@@ -32,7 +32,8 @@
 /* content container */
 .facultyStaffDirectory .cell.width-13.position-4 {
  height: auto;
- width: 48%;
+ width: 50%;
+ background-color: blue;
 }
 
 
