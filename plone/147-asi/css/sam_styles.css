@@ -91,7 +91,7 @@
 }
 
 /* student content */
-.classificationListing #students .personName {
+.classificationListing a#students .personName {
     color: green;
 }
 
