@@ -223,6 +223,8 @@ p.standout_gold {
 		margin-top:5%;
 		max-width:70rem;
 		min-width:50rem;
+		border-top:1px solid;
+		@include accent-theme-brdr-color;
 	}
 	#portal-breadcrumbs {
 		display:none;
@@ -234,7 +236,7 @@ p.standout_gold {
 		width:100%;
 		padding-right:0%;
 	}
-	.portlet_column {
+	.portlet_column {	
 		display:none;
 	}
 }

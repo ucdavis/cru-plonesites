@@ -2325,13 +2325,26 @@ p.standout_gold {
   margin: 0 auto;
   margin-top: 5%;
   max-width: 70rem;
-  min-width: 50rem; }
+  min-width: 50rem;
+  border-top: 1px solid; }
   @media (max-width: 1000px) {
     .section-homepage .portlet-static-homepage-welcome {
       width: 90%; } }
   @media (max-width: 750px) {
     .section-homepage .portlet-static-homepage-welcome {
       width: 95%; } }
+  .site-ASI .section-homepage .portlet-static-homepage-welcome {
+    border-color: #FFB208; }
+  .site-sarep .section-homepage .portlet-static-homepage-welcome {
+    border-color: #DDB307; }
+  .site-rr .section-homepage .portlet-static-homepage-welcome {
+    border-color: #78BE20; }
+  .site-sf .section-homepage .portlet-static-homepage-welcome {
+    border-color: #AD5C0F; }
+  .site-infas .section-homepage .portlet-static-homepage-welcome {
+    border-color: #AD5C0E; }
+  .site-safs .section-homepage .portlet-static-homepage-welcome {
+    border-color: #038EAA; }
 .section-homepage #portal-breadcrumbs {
   display: none; }
 
