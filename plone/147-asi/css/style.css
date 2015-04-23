@@ -755,28 +755,6 @@ img {
   .site-safs .top-header-bg {
     background-color: #70b11e; }
 
-.section-homepage .top-header-bg {
-  background-color: rgba(255, 255, 255, 0.001);
-  z-index: 999;
-  position: relative; }
-.section-homepage .homepage_slider {
-  margin-top: -44px; }
-.section-homepage .portlet-static-homepage-welcome {
-  width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-top: 5%;
-  max-width: 70rem;
-  min-width: 50rem; }
-  @media (max-width: 1000px) {
-    .section-homepage .portlet-static-homepage-welcome {
-      width: 90%; } }
-  @media (max-width: 750px) {
-    .section-homepage .portlet-static-homepage-welcome {
-      width: 95%; } }
-.section-homepage #portal-breadcrumbs {
-  display: none; }
-
 .top-header {
   width: 80%;
   max-width: 1200px;
@@ -2357,8 +2335,10 @@ p.standout_gold {
 .section-homepage #portal-breadcrumbs {
   display: none; }
 
-.classificationListing .listing.row {
-  background-color: green; }
+.facultyStaffDirectory .classificationListing .listing.row {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top; }
 
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
