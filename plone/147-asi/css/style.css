@@ -1869,9 +1869,12 @@ ul.image_list {
     padding-right: 5%; }
     .section-homepage ul.image_list li {
       display: inline-block;
-      width: 20%;
+      width: 16%;
       vertical-align: top;
-      text-align: center; }
+      text-align: center;
+      margin-right: 3%; }
+      .section-homepage ul.image_list li:last-child {
+        margin-right: 0px; }
 
 li {
   font-family: "ff-tisa-web-pro", Georgia, serif;

@@ -254,9 +254,13 @@ ul {
 			padding-right:5%;
 			.section-homepage & {
 				display:inline-block;
-				width:20%;
+				width:16%;
 				vertical-align:top;
 				text-align:center;
+				margin-right:3%;
+				&:last-child {
+					margin-right:0px;
+				}
 			}
 		}
 	}
