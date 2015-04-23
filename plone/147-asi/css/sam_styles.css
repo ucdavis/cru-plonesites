@@ -50,7 +50,7 @@
 
 /* student content */
 
-a#students .personName {
+h2 a#students .personName {
     color: green;
 }
 
