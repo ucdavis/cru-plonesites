@@ -48,11 +48,6 @@
     
 }
 
-/* student content */
-
-.classificationListing #students .personName h4{
-    color: green;
-}
 
 
 /* People classification nav */
@@ -91,6 +86,7 @@
 .emailAddress {
     font-size: 14px;
     line-height: 17px;
+    padding-top: 20px;
 }
 
 .moreInfo {
