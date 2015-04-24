@@ -28,6 +28,7 @@
     max-width:200px; /*this will help keep it in check so it doesn't get to big*/
     height: auto;
     overflow: hidden;
+    padding-bottom: 15px;
 }
 
 /* content container */
@@ -47,7 +48,6 @@
     margin-bottom: 20px;
     
 }
-
 
 
 /* People classification nav */
