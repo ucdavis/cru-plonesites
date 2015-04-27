@@ -1633,8 +1633,7 @@ p.standout_gold {
 /* image */
 .facultyStaffDirectory .cell.width-3.position-0 {
   height: auto;
-  width: 100%;
-  /*cal's changing this, try to use percentages for widths auto for height, it helps responsive design*/ }
+  width: 49%; }
 
 .facultyStaffDirectory .cell.width-3.position-0 img {
   width: 100%;
@@ -1652,10 +1651,10 @@ p.standout_gold {
   margin-right: 20px; }
 
 /* gap below name content */
-#content .facultyStaffDirectory ul.jobTitle {
+.facultyStaffDirectory ul.jobTitle {
   margin-bottom: 0px; }
 
-#content .facultyStaffDirectory .listing {
+.facultyStaffDirectory .listing {
   margin-bottom: 20px; }
 
 /* People classification nav */
