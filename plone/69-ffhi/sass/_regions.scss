@@ -473,8 +473,11 @@ p.standout_gold {
 		width: 30%;
 		display: inline-block;
 		vertical-align:top;
-		margin-right:1%;
+		margin-right:3% !important;
 		min-height: 250px;
+		@include breakpoint(laptop) {
+		  width:49%;
+		}
 	}
 }
 
