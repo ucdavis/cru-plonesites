@@ -361,3 +361,120 @@ p.standout_gold {
 	width:100%;
 	display:inline-block;
 }
+/*----- Event Details table -----*/
+
+.event_table table {
+    background-color: white;
+    font-size: 14px;
+}
+
+.event_table table tr th {
+    background: white;
+    text-align: left;
+    font-weight: normal;
+}
+
+.event_table .eventDetails {
+	margin-left: 0px;
+}
+
+/*----- Directory styles ------*/
+
+/* image */
+.facultyStaffDirectory .cell.width-3.position-0 {
+	height: auto;
+	width: 100%; /*cal's changing this, try to use percentages for widths auto for height, it helps responsive design*/
+}
+
+.facultyStaffDirectory .cell.width-3.position-0 img{
+    width: 100%; /*this will make it so those images arent squished and also be responsive*/
+    max-width:200px; /*this will help keep it in check so it doesn't get to big*/
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+/* content container */
+.facultyStaffDirectory .cell.width-13.position-4 {
+ height: auto;
+ width: 50%;
+ margin-right: 20px;
+}
+
+/* gap below name content */
+#content .facultyStaffDirectory ul.jobTitle {
+    margin-bottom: 0px;
+    
+}
+
+#content .facultyStaffDirectory .listing{
+    margin-bottom: 20px;
+    
+}
+
+
+/* People classification nav */
+.classificationList li a {
+    font-family: 'proxima-nova', sans-serif;
+}
+
+/* classification header */
+.classificationListing h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.personName {
+    color: #434343;
+    margin-bottom: 0px;
+    line-height: 20px;
+
+}
+
+.jobTitle li{
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 14px;
+    color: #9B9B9B;
+}
+
+
+/* contact info font */
+
+.officePhone {
+    font-size: 14px;
+    color: #434343;
+    line-height: 17px;
+    padding-top: 20px;
+}
+
+.emailAddress {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.moreInfo {
+    font-size: 12px;
+    line-height: 17px;
+
+}
+// people
+.template-directory_standard_view.portaltype-fsdfacultystaffdirectory {
+	.maincol {
+		width:100% !important;
+		padding-right:0%;
+	}
+	.portlet_column {	
+		display:none;
+	}
+}
+
+
+.facultyStaffDirectory {
+	.classificationListing .listing.row {
+		width: 32%;
+		display: inline-block;
+		vertical-align:top;
+	}
+}
+
+
