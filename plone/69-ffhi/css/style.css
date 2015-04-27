@@ -1633,7 +1633,7 @@ p.standout_gold {
 /* image */
 .facultyStaffDirectory .cell.width-3.position-0 {
   height: auto;
-  width: 49%; }
+  width: 30%; }
 
 .facultyStaffDirectory .cell.width-3.position-0 img {
   width: 100%;
@@ -1647,7 +1647,7 @@ p.standout_gold {
 /* content container */
 .facultyStaffDirectory .cell.width-13.position-4 {
   height: auto;
-  width: 50%;
+  width: 59%;
   margin-right: 20px; }
 
 /* gap below name content */
@@ -1667,14 +1667,14 @@ p.standout_gold {
   margin-bottom: 20px; }
 
 .personName {
-  color: #434343;
+  color: #333433;
   margin-bottom: 0px;
   line-height: 20px; }
 
 .jobTitle li {
-  font-family: 'proxima-nova', sans-serif;
+  font-family: "futura-pt-1", "futura-pt-2", Futura Std, Futura, Arial, sans-serif;
   font-size: 14px;
-  color: #9B9B9B; }
+  color: #515151; }
 
 /* contact info font */
 .officePhone {
