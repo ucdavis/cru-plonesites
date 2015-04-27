@@ -1647,8 +1647,7 @@ p.standout_gold {
 /* content container */
 .facultyStaffDirectory .cell.width-13.position-4 {
   height: auto;
-  width: 59%;
-  margin-right: 20px; }
+  width: 59%; }
 
 /* gap below name content */
 .facultyStaffDirectory ul.jobTitle {
@@ -1659,7 +1658,7 @@ p.standout_gold {
 
 /* People classification nav */
 .classificationList li a {
-  font-family: 'proxima-nova', sans-serif; }
+  font-family: "futura-pt-1", "futura-pt-2", Futura Std, Futura, Arial, sans-serif; }
 
 /* classification header */
 .classificationListing h2 {
@@ -1700,7 +1699,9 @@ p.standout_gold {
 .facultyStaffDirectory .classificationListing .listing.row {
   width: 30%;
   display: inline-block;
-  vertical-align: top; }
+  vertical-align: top;
+  margin-right: 1%;
+  min-height: 250px; }
 
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {

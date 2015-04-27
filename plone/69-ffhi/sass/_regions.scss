@@ -398,7 +398,6 @@ p.standout_gold {
 .facultyStaffDirectory .cell.width-13.position-4 {
  height: auto;
  width: 59%;
- margin-right: 20px;
 }
 
 /* gap below name content */
@@ -415,7 +414,7 @@ p.standout_gold {
 
 /* People classification nav */
 .classificationList li a {
-    font-family: 'proxima-nova', sans-serif;
+    font-family: $sans-serif;
 }
 
 /* classification header */
@@ -474,6 +473,8 @@ p.standout_gold {
 		width: 30%;
 		display: inline-block;
 		vertical-align:top;
+		margin-right:1%;
+		min-height: 250px;
 	}
 }
 
