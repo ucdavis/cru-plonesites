@@ -1704,7 +1704,10 @@ p.standout_gold {
   min-height: 250px; }
   @media (max-width: 1000px) {
     .facultyStaffDirectory .classificationListing .listing.row {
-      width: 49%; } }
+      width: 47%; } }
+  @media (max-width: 550px) {
+    .facultyStaffDirectory .classificationListing .listing.row {
+      width: 100%; } }
 
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {

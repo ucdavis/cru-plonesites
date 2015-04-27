@@ -476,7 +476,10 @@ p.standout_gold {
 		margin-right:3% !important;
 		min-height: 250px;
 		@include breakpoint(laptop) {
-		  width:49%;
+		  width:47%;
+		}
+		@include breakpoint(mobileonly) {
+		  width:100%;
 		}
 	}
 }
