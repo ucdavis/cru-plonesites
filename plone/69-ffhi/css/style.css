@@ -1704,7 +1704,7 @@ p.standout_gold {
   min-height: 250px; }
   @media (max-width: 1000px) {
     .facultyStaffDirectory .classificationListing .listing.row {
-      width: 47%; } }
+      width: 46%; } }
   @media (max-width: 550px) {
     .facultyStaffDirectory .classificationListing .listing.row {
       width: 100%; } }
