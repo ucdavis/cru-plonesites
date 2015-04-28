@@ -137,7 +137,7 @@ h2 {
 		padding:16px 24px 6px 24px;
 		letter-spacing: .5px;
 		margin-bottom:0px;
-		background-color:$asi_accent;
+		background-color:lighten($asi_accent,5);
 	}
 }
 h3 {
@@ -226,7 +226,7 @@ p {
 		line-height:21px;
 	}
 	.portlet-static-homepage-welcome & {
-		border-top:6px solid $asi_accent;
+		border-top:6px solid lighten($asi_accent,5);
 		margin-top:0px;
 		padding-top:8%;
 		padding-bottom:14%;
@@ -239,6 +239,7 @@ p {
 		font-family:$sans-serif;
 		color:#717272;
 	}
+
 }
 ul {
 	#footer_contents & li{
@@ -407,6 +408,8 @@ dt.portletHeader{
 span {
 	.section-homepage .spotlight_events &.portletItemDetails {
 		font-size:1.4rem;
+		font-family:$sans-serif;
+		color:#DA611E;
 	}
 }
 span.code {
