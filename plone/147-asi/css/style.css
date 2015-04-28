@@ -1657,6 +1657,8 @@ html {
     color: #AD5C0E !important; }
   .site-safs .top-header a:hover {
     color: #038EAA !important; }
+.section-homepage .spotlight_events a.tile {
+  font-size: 1.8rem; }
 
 header a:link {
   color: #fff; }
@@ -2021,6 +2023,9 @@ dt.portletHeader {
 .template-secondary_landing_view .portletstatic dd.portletItem {
   border-top: none;
   padding-top: 0px; }
+
+.section-homepage .spotlight_events span.portletItemDetails {
+  font-size: 1.4rem; }
 
 span.code {
   background-color: #eee;

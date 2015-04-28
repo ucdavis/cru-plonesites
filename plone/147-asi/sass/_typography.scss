@@ -23,6 +23,9 @@ a {
 			@include accent-theme-color;
 		}
 	}
+	.section-homepage .spotlight_events &.tile {
+		font-size:1.8rem;
+	}
 }
 a:link {
 	// color:$main-font;
@@ -390,6 +393,11 @@ dt.portletHeader{
 	.portletstatic dd.portletItem {
 		border-top:none;
 		padding-top:0px;
+	}
+}
+span {
+	.section-homepage .spotlight_events &.portletItemDetails {
+		font-size:1.4rem;
 	}
 }
 span.code {
