@@ -245,7 +245,8 @@ p.standout_gold {
 				vertical-align:top;
 				margin-right:9%;
 				.box.article{
-					border-top:3px solid $asi-main;
+					border-top:5px solid $asi-main;
+					padding-top:3%;
 				}
 			}
 			.spotlight_events {
@@ -258,9 +259,9 @@ p.standout_gold {
 					padding:4%;
 					padding-top:4%;
 					margin-top:4%;
-					&:first-child {
-						border-top:3px solid $asi-accent;
-					}
+				}
+				.portletItem:first-child {
+					border-top:3px solid $asi-accent;
 				}
 			}
 		}
