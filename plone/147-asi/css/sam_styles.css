@@ -1,4 +1,4 @@
-/*----- Event Details table -----*/
+/*------------------------- Event Details table -------------------------*/
 
 .event_table table {
     background-color: white;
@@ -15,7 +15,7 @@
 	margin-left: 0px;
 }
 
-/*----- Directory styles ------*/
+/*-------------------------- Directory styles ---------------------------*/
 
 /* image */
 .facultyStaffDirectory .cell.width-3.position-0 {
@@ -94,5 +94,25 @@
     line-height: 17px;
 
 }
+
+/*--------------------------- More Info -------------------------------*/
+
+#hcard .title {
+color: yellow;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
