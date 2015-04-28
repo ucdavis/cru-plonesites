@@ -1660,6 +1660,8 @@ html {
 .section-homepage .spotlight_events .portletItem a.tile {
   font-size: 1.8rem;
   color: #434343; }
+  .section-homepage .spotlight_events .portletItem a.tile:hover {
+    color: #FFB208; }
 
 header a:link {
   color: #fff; }

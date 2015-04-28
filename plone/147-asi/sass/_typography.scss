@@ -26,6 +26,9 @@ a {
 	.section-homepage .spotlight_events .portletItem &.tile {
 		font-size:1.8rem;
 		color:$main-font;
+		&:hover{
+			color:$asi-accent;
+		}
 	}
 }
 a:link {
