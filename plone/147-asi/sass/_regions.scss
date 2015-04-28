@@ -244,6 +244,12 @@ p.standout_gold {
 				display:inline-block;
 				vertical-align:top;
 				margin-right:9%;
+				& a.contenttype-news-item {
+					width:100%;
+					font-size:1.8rem;
+					color:$main-font;
+					font-family:$sans-serif;
+				}
 				.box.article{
 					// border-top:5px solid $asi-main;
 					// padding-top:3%;
