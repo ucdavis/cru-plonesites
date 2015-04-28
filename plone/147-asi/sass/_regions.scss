@@ -245,8 +245,12 @@ p.standout_gold {
 				vertical-align:top;
 				margin-right:9%;
 				.box.article{
-					border-top:5px solid $asi-main;
-					padding-top:3%;
+					// border-top:5px solid $asi-main;
+					// padding-top:3%;
+					background-color:#fff;
+					border-left:1px solid $borders;
+					border-right:1px solid $borders;
+					border-bottom:1px solid $borders;
 				}
 			}
 			.spotlight_events {
@@ -260,7 +264,7 @@ p.standout_gold {
 					padding-top:4%;
 					margin-top:4%;
 				}
-				.portletItem:first-child {
+				dd.portletItem:first-child {
 					border-top:3px solid $asi-accent;
 				}
 			}

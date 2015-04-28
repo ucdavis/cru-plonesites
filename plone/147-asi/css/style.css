@@ -2373,8 +2373,10 @@ p.standout_gold {
       vertical-align: top;
       margin-right: 9%; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article {
-        border-top: 5px solid #1C5BA5;
-        padding-top: 3%; }
+        background-color: #fff;
+        border-left: 1px solid #c8c7cc;
+        border-right: 1px solid #c8c7cc;
+        border-bottom: 1px solid #c8c7cc; }
     .section-homepage .spotlight-bg .spotlight-section .spotlight_events {
       width: 40%;
       display: inline-block;
@@ -2385,7 +2387,7 @@ p.standout_gold {
         padding: 4%;
         padding-top: 4%;
         margin-top: 4%; }
-      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem:first-child {
+      .section-homepage .spotlight-bg .spotlight-section .spotlight_events dd.portletItem:first-child {
         border-top: 3px solid #FFB208; }
 .section-homepage .icons-on .contenttype-news-item {
   background: none !important;
