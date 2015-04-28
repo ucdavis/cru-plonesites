@@ -103,17 +103,16 @@ margin-top: 0px;
 color:#9B9B9B;
 }
 
-/*
-#content .adr {
-    line-height: 1.2em;
-    font-family: 'proxima-nova', sans-serif;
-    font-size: 14px;
-}
-*/
 #hcard .row span {
  line-height: 1.2em;
     font-family: 'proxima-nova', sans-serif;
     font-size: 14px;
+}
+
+#hcard .headshot.cell.width-4.position-12 {
+height: auto;
+    width: 100%;
+    
 }
 
 
