@@ -109,7 +109,7 @@ margin-top: 0px;
     font-size: 14px;
 }
 
-#hcard .row span, a{
+#hcard .row span .email{
 color:green;
 }
 
