@@ -96,7 +96,7 @@
 }
 
 /*--------------------------- More Info -------------------------------*/
-
+/*
 #hcard .title {
 font-family: 'proxima-nova', sans-serif;
 margin-top: 0px;
@@ -110,7 +110,11 @@ margin-top: 0px;
 #content .adr {
     line-height: 1.5em;
 }
+*/
 
+#hcard #content {
+    color:green;
+}
 
 
 
