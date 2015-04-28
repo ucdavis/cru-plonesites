@@ -220,7 +220,7 @@ p.standout_gold {
 	}
 	.portlet-static-homepage-welcome {
 		@include outer-container;
-		margin-top:5%;
+		margin-top:6%;
 		max-width:70rem;
 		min-width:50rem;
 		// border-top:4px solid $asi_main;
@@ -233,7 +233,7 @@ p.standout_gold {
 		background-color:$background-color;
 		border-top:1px solid $borders;
 		border-bottom:1px solid $borders;
-		margin-top:2%;
+		margin-top:5%;
 		margin-bottom:2%;
 		.spotlight-section {
 			@include outer-container;
@@ -251,6 +251,10 @@ p.standout_gold {
 				background-color:pink;
 				display:inline-block;
 				vertical-align:top;
+				.portletItem {
+					background-color:#fff;
+					border:1px solid $borders;
+				}
 			}
 		}
 	}

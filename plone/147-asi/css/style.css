@@ -1842,8 +1842,8 @@ p {
   .portlet-static-homepage-welcome p {
     border-top: 6px solid #FFB208;
     margin-top: 0px;
-    padding-top: 5%;
-    padding-bottom: 10%;
+    padding-top: 8%;
+    padding-bottom: 14%;
     font-size: 1.6rem;
     line-height: 1.5;
     font-family: "proxima-nova", sans-serif; }
@@ -2329,7 +2329,7 @@ p.standout_gold {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 6%;
   max-width: 70rem;
   min-width: 50rem;
   text-align: center; }
@@ -2345,7 +2345,7 @@ p.standout_gold {
   background-color: #ebebeb;
   border-top: 1px solid #c8c7cc;
   border-bottom: 1px solid #c8c7cc;
-  margin-top: 2%;
+  margin-top: 5%;
   margin-bottom: 2%; }
   .section-homepage .spotlight-bg .spotlight-section {
     width: 80%;
@@ -2370,6 +2370,9 @@ p.standout_gold {
       background-color: pink;
       display: inline-block;
       vertical-align: top; }
+      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem {
+        background-color: #fff;
+        border: 1px solid #c8c7cc; }
 .section-homepage .icons-on .contenttype-news-item {
   background: none !important;
   padding-left: 0px !important; }
