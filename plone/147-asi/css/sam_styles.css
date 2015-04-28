@@ -96,25 +96,22 @@
 }
 
 /*--------------------------- More Info -------------------------------*/
-/*
+
 #hcard .title {
 font-family: 'proxima-nova', sans-serif;
 margin-top: 0px;
 
 }
 
-#hcard .adr {
+#hcard .adr, span {
     font-size: 12pt;
 }
 
 #content .adr {
     line-height: 1.5em;
 }
-*/
 
-#hcard #content {
-    color:green;
-}
+
 
 
 
