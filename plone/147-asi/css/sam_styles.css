@@ -100,6 +100,7 @@
 #hcard .title {
 font-family: 'proxima-nova', sans-serif;
 margin-top: 0px;
+color:#9B9B9B;
 }
 
 /*
@@ -110,7 +111,6 @@ margin-top: 0px;
 }
 */
 #hcard .row span {
-
  line-height: 1.2em;
     font-family: 'proxima-nova', sans-serif;
     font-size: 14px;
