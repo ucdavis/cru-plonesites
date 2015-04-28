@@ -2377,6 +2377,8 @@ p.standout_gold {
         font-size: 1.8rem;
         color: #434343;
         font-family: "proxima-nova", sans-serif; }
+        .section-homepage .spotlight-bg .spotlight-section .spotlight_feature a.contenttype-news-item img {
+          width: 100%; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article {
         background-color: #fff;
         border-left: 1px solid #c8c7cc;

@@ -249,6 +249,9 @@ p.standout_gold {
 					font-size:1.8rem;
 					color:$main-font;
 					font-family:$sans-serif;
+					img {
+						width:100%;
+					}
 				}
 				.box.article{
 					// border-top:5px solid $asi-main;
