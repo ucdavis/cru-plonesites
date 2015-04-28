@@ -100,7 +100,6 @@
 #hcard .title {
 font-family: 'proxima-nova', sans-serif;
 margin-top: 0px;
-
 }
 
 
@@ -110,7 +109,9 @@ margin-top: 0px;
     font-size: 14px;
 }
 
-
+#hcard .email{
+color:green;
+}
 
 
 
