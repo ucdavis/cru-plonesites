@@ -109,7 +109,7 @@ margin-top: 0px;
     font-size: 14px;
 }
 
-#hcard .row span{
+#hcard .row span, a{
 color:green;
 }
 
