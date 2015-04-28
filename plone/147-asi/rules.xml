@@ -18,7 +18,7 @@
     <!-- homepage craziness -->
     <copy css:content=".portlet-static-homepage-nivo" css:theme=".homepage_slider" />
     <copy css:content=".portlet-static-homepage-welcome" css:theme=".homepage_welcome" />
-    <copy css:content=".portlet-collection-homepage-feature" css:theme=".spotlight_feature" />
+    <copy css:content=".portlet-collection-spotlight" css:theme=".spotlight_feature" />
     <copy css:content=".section-homepage dl.portletEvents" css:theme=".spotlight_events" />
 
 
