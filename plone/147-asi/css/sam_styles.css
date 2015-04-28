@@ -108,8 +108,9 @@ color:#9B9B9B;
     font-family: 'proxima-nova', sans-serif;
     font-size: 14px;
 }
+
 /*
-#hcard .headshot.cell.width-4.position-12 {
+#hcard .headshot.cell.width-4.position-12 img{
 height: auto;
     width: 100%;
 
