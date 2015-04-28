@@ -2344,11 +2344,15 @@ p.standout_gold {
 .section-homepage .spotlight-bg {
   background-color: #ebebeb;
   border-top: 1px solid #c8c7cc;
-  border-bottom: 1px solid #c8c7cc; }
+  border-bottom: 1px solid #c8c7cc;
+  margin-top: 2%;
+  margin-bottom: 2%; }
   .section-homepage .spotlight-bg .spotlight-section {
     width: 80%;
     max-width: 1200px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%; }
     @media (max-width: 1000px) {
       .section-homepage .spotlight-bg .spotlight-section {
         width: 90%; } }

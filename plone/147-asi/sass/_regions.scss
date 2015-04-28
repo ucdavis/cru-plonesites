@@ -233,8 +233,12 @@ p.standout_gold {
 		background-color:$background-color;
 		border-top:1px solid $borders;
 		border-bottom:1px solid $borders;
+		margin-top:2%;
+		margin-bottom:2%;
 		.spotlight-section {
 			@include outer-container;
+			margin-top:2%;
+			margin-bottom:2%;
 			.spotlight_feature {
 				width:40%;
 				background-color:green;
