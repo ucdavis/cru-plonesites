@@ -236,18 +236,23 @@ p.standout_gold {
 		.spotlight-section {
 			@include outer-container;
 			.spotlight_feature {
-				width:49%;
+				width:40%;
 				background-color:green;
 				display:inline-block;
 				vertical-align:top;
+				margin-right:9%;
 			}
 			.spotlight_events {
-				width:49%;
+				width:40%;
 				background-color:pink;
 				display:inline-block;
 				vertical-align:top;
 			}
 		}
+	}
+	.icons-on .contenttype-news-item {
+		background:none;
+		padding-left:0px !important;
 	}
 }
 // people

@@ -1985,6 +1985,8 @@ dt.portletHeader {
         color: #AD5C0E !important; }
       .site-safs .bottom_ports dt.portletHeader a:hover {
         color: #038EAA !important; }
+  .section-homepage .spotlight_feature dt.portletHeader {
+    background-color: #1C5BA5; }
 
 .portletstatic dd.portletItem {
   border-top: 2px solid #000; }
@@ -2354,15 +2356,19 @@ p.standout_gold {
       .section-homepage .spotlight-bg .spotlight-section {
         width: 95%; } }
     .section-homepage .spotlight-bg .spotlight-section .spotlight_feature {
-      width: 49%;
+      width: 40%;
       background-color: green;
       display: inline-block;
-      vertical-align: top; }
+      vertical-align: top;
+      margin-right: 9%; }
     .section-homepage .spotlight-bg .spotlight-section .spotlight_events {
-      width: 49%;
+      width: 40%;
       background-color: pink;
       display: inline-block;
       vertical-align: top; }
+.section-homepage .icons-on .contenttype-news-item {
+  background: none;
+  padding-left: 0px !important; }
 
 .portaltype-fsdfacultystaffdirectory .innerds {
   width: 100%;
