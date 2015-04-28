@@ -102,14 +102,15 @@ font-family: 'proxima-nova', sans-serif;
 margin-top: 0px;
 
 }
-
+/*
 #hcard .adr{
     font-size: 12pt;
 }
-
+*/
 
 #content .adr {
     line-height: 1.2em;
+    font-family: 'proxima-nova', sans-serif;
 }
 
 
