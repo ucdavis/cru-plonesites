@@ -2361,18 +2361,19 @@ p.standout_gold {
         width: 95%; } }
     .section-homepage .spotlight-bg .spotlight-section .spotlight_feature {
       width: 40%;
-      background-color: green;
       display: inline-block;
       vertical-align: top;
       margin-right: 9%; }
     .section-homepage .spotlight-bg .spotlight-section .spotlight_events {
       width: 40%;
-      background-color: pink;
       display: inline-block;
       vertical-align: top; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem {
         background-color: #fff;
-        border: 1px solid #c8c7cc; }
+        border: 1px solid #c8c7cc;
+        padding: 4%;
+        padding-top: 4%;
+        margin-top: 4%; }
 .section-homepage .icons-on .contenttype-news-item {
   background: none !important;
   padding-left: 0px !important; }

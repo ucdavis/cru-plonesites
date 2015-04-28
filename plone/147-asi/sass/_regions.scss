@@ -241,19 +241,20 @@ p.standout_gold {
 			margin-bottom:2%;
 			.spotlight_feature {
 				width:40%;
-				background-color:green;
 				display:inline-block;
 				vertical-align:top;
 				margin-right:9%;
 			}
 			.spotlight_events {
 				width:40%;
-				background-color:pink;
 				display:inline-block;
 				vertical-align:top;
 				.portletItem {
 					background-color:#fff;
 					border:1px solid $borders;
+					padding:4%;
+					padding-top:4%;
+					margin-top:4%;
 				}
 			}
 		}
