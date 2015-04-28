@@ -102,15 +102,18 @@ font-family: 'proxima-nova', sans-serif;
 margin-top: 0px;
 }
 
-
+/*
 #content .adr {
     line-height: 1.2em;
     font-family: 'proxima-nova', sans-serif;
     font-size: 14px;
 }
-
-#hcard .row span .email{
+*/
+#hcard .row span {
 color:green;
+ line-height: 1.2em;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 14px;
 }
 
 
