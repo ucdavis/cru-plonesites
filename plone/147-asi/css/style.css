@@ -2339,6 +2339,30 @@ p.standout_gold {
       width: 95%; } }
 .section-homepage #portal-breadcrumbs {
   display: none; }
+.section-homepage .spotlight-bg {
+  background-color: #ebebeb;
+  border-top: 1px solid #c8c7cc;
+  border-bottom: 1px solid #c8c7cc; }
+  .section-homepage .spotlight-bg .spotlight-section {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto; }
+    @media (max-width: 1000px) {
+      .section-homepage .spotlight-bg .spotlight-section {
+        width: 90%; } }
+    @media (max-width: 750px) {
+      .section-homepage .spotlight-bg .spotlight-section {
+        width: 95%; } }
+    .section-homepage .spotlight-bg .spotlight-section .spotlight_feature {
+      width: 49%;
+      background-color: green;
+      display: inline-block;
+      vertical-align: top; }
+    .section-homepage .spotlight-bg .spotlight-section .spotlight_events {
+      width: 49%;
+      background-color: pink;
+      display: inline-block;
+      vertical-align: top; }
 
 .portaltype-fsdfacultystaffdirectory .innerds {
   width: 100%;

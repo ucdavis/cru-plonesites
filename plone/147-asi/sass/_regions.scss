@@ -229,6 +229,26 @@ p.standout_gold {
 	#portal-breadcrumbs {
 		display:none;
 	}
+	.spotlight-bg {
+		background-color:$background-color;
+		border-top:1px solid $borders;
+		border-bottom:1px solid $borders;
+		.spotlight-section {
+			@include outer-container;
+			.spotlight_feature {
+				width:49%;
+				background-color:green;
+				display:inline-block;
+				vertical-align:top;
+			}
+			.spotlight_events {
+				width:49%;
+				background-color:pink;
+				display:inline-block;
+				vertical-align:top;
+			}
+		}
+	}
 }
 // people
 .portaltype-fsdfacultystaffdirectory {
