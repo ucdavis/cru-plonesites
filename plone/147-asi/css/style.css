@@ -1852,6 +1852,10 @@ p {
     font-size: 1.6rem;
     line-height: 1.5;
     font-family: "proxima-nova", sans-serif; }
+  p.eventdescription {
+    font-size: 1.4rem;
+    font-family: "proxima-nova", sans-serif;
+    color: #717272; }
 
 #footer_contents ul li {
   display: list-item;

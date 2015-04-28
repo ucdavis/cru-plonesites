@@ -234,6 +234,11 @@ p {
 		line-height:1.5;
 		font-family:$sans-serif;
 	}
+	&.eventdescription {
+		font-size:1.4rem;
+		font-family:$sans-serif;
+		color:#717272;
+	}
 }
 ul {
 	#footer_contents & li{
