@@ -23,7 +23,7 @@ a {
 			@include accent-theme-color;
 		}
 	}
-	.section-homepage .spotlight_events &.tile {
+	.section-homepage .spotlight_events .portletItem &.tile {
 		font-size:1.8rem;
 	}
 }

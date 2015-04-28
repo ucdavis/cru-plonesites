@@ -1657,7 +1657,7 @@ html {
     color: #AD5C0E !important; }
   .site-safs .top-header a:hover {
     color: #038EAA !important; }
-.section-homepage .spotlight_events a.tile {
+.section-homepage .spotlight_events .portletItem a.tile {
   font-size: 1.8rem; }
 
 header a:link {
