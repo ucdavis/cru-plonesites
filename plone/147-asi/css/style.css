@@ -2367,7 +2367,7 @@ p.standout_gold {
       display: inline-block;
       vertical-align: top; }
 .section-homepage .icons-on .contenttype-news-item {
-  background: none;
+  background: none !important;
   padding-left: 0px !important; }
 
 .portaltype-fsdfacultystaffdirectory .innerds {
@@ -2792,3 +2792,7 @@ body.section-styles #content .box-color {
   background: #ffffff; }
 body.section-styles #content .borders {
   background: #c8c7cc; }
+
+.icons-on .contenttype-news-item {
+  padding-left: 0px !important;
+  background: none !important; }

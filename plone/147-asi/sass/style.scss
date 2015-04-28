@@ -93,3 +93,7 @@ dd {margin-left: 0;}
     .box-color {background: $boxcolor;}
     .borders {background: $borders;}
 }
+.icons-on .contenttype-news-item {
+    padding-left:0px !important;
+    background:none !important;
+}
