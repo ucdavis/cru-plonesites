@@ -107,6 +107,10 @@ margin-top: 0px;
     font-size: 12pt;
 }
 
+#hcard .adr span{
+    font-size: 12pt;
+}
+
 #content .adr {
     line-height: 1.5em;
 }
