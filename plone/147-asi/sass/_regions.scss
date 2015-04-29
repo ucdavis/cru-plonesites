@@ -211,7 +211,7 @@ p.standout_gold {
 }
 .section-homepage {
 	.top-header-bg {
-		background-color:rgba(0,0,0,.3);
+		background-color:rgba(0,0,0,.5);
 		z-index:999;
 		position:relative;
 	}
@@ -225,6 +225,9 @@ p.standout_gold {
 		min-width:50rem;
 		// border-top:4px solid $asi_main;
 		text-align:center;
+		@include breakpoint(laptop) {
+			margin-top:10%;
+	    }
 	}
 	#portal-breadcrumbs {
 		display:none;

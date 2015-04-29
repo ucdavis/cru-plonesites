@@ -2334,7 +2334,7 @@ p.standout_gold {
   display: inline-block; }
 
 .section-homepage .top-header-bg {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
   position: relative; }
 .section-homepage .homepage_slider {
@@ -2353,6 +2353,9 @@ p.standout_gold {
   @media (max-width: 750px) {
     .section-homepage .portlet-static-homepage-welcome {
       width: 95%; } }
+  @media (max-width: 1000px) {
+    .section-homepage .portlet-static-homepage-welcome {
+      margin-top: 10%; } }
 .section-homepage #portal-breadcrumbs {
   display: none; }
 .section-homepage .spotlight-bg {
