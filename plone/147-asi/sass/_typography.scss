@@ -263,10 +263,10 @@ ul {
 		margin-left:0px;
 		li {
 			list-style:none;
-			display:inline;
+			display:inline !important;
 			padding-right:5%;
 			.section-homepage & {
-				display:inline-block;
+				display:inline-block !important;
 				width:16%;
 				vertical-align:top;
 				text-align:center;
