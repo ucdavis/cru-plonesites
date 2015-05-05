@@ -81,17 +81,17 @@ Supports Thumbs: true
     bottom: 2%;
     position: absolute;
     z-index: 100;
-    left:10%;
+    left:9%;
       @include breakpoint(laptop) {
-      left:5%;
+      left:3%;
       // background-color:rgba(100,100,255,.3);
 	  }
 	  @include breakpoint(tablet) {
-	    left:2.5%;
+	    left:1%;
 	    // background-color:rgba(100,255,100,.3);
 	  }
 	  @include breakpoint(mobile) {
-	    left:1%
+	    left:.5%
 	  }
     h3 {
     	font-size: 2.4rem;
