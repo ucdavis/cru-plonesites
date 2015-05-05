@@ -857,15 +857,13 @@ header {
 .full_banner {
   margin: 0 auto;
   margin-top: 0px;
-  margin-bottom: 1%;
+  margin-bottom: 0px;
   text-align: center;
   background-color: #fff; }
   .full_banner p {
     margin-top: 0px; }
   .full_banner .theme-default .nivo-controlNav {
     margin-right: 9%; }
-  .site-sf .full_banner {
-    margin-bottom: 0px; }
 
 .slider-wrapper {
   overflow: hidden;
@@ -897,13 +895,12 @@ header {
 
 #bottom_ports-bg {
   background-color: #f5f5f5;
-  padding: 1% 0% 4% 0%;
+  padding: 1% 0% 2.5% 0%;
   border-top: 1px solid #c8c7cc;
-  margin: 3% 0% 0% 0%;
-  display: none; }
-  .site-sf #bottom_ports-bg {
-    margin-top: 0px;
-    padding-top: 3%; }
+  border-bottom: 1px solid #c8c7cc;
+  margin: 0px;
+  display: none;
+  padding-top: 1.5%; }
   .template-landing_view #bottom_ports-bg {
     display: block; }
   #bottom_ports-bg .bottom_ports {
