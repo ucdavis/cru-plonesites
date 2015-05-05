@@ -38,12 +38,12 @@ input.searchButton{
 	margin:0px;
 }
 #searchGadget, .LSBox input.searchButton {
-	color:$main-font;
+	color:#fff;
 }
 input.searchField {
     -moz-appearance: none;
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
-    background-color:#fff;
+    background-color:rgba(255, 255, 255, 0.5);
     border: 1px solid rgba(0,0,0,.5);
     margin-right: 3px;
     padding: 5px;
