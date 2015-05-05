@@ -309,6 +309,11 @@ p.standout_gold {
 
 // ultimate ASI file 
 .portaltype-ultimate_asi_file {
+	#content-core {
+		div {
+			margin:2% 0px;
+		}
+	}
 	fieldset.folder-listing {
 		display:none;
 	}
@@ -316,6 +321,8 @@ p.standout_gold {
 		font-size:1.4rem;
 		text-transform:uppercase;
 		color:$light-gray;
+		display:block;
+		margin-bottom:5%;
 	}
 	span {
 		font-size:1.6rem;

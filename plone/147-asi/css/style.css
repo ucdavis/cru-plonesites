@@ -2420,12 +2420,16 @@ p.standout_gold {
   display: inline-block;
   vertical-align: top; }
 
+.portaltype-ultimate_asi_file #content-core div {
+  margin: 2% 0px; }
 .portaltype-ultimate_asi_file fieldset.folder-listing {
   display: none; }
 .portaltype-ultimate_asi_file label {
   font-size: 1.4rem;
   text-transform: uppercase;
-  color: #9b9b9b; }
+  color: #9b9b9b;
+  display: block;
+  margin-bottom: 5%; }
 .portaltype-ultimate_asi_file span {
   font-size: 1.6rem; }
 
