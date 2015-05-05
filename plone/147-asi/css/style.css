@@ -2745,9 +2745,8 @@ Supports Thumbs: true
   .theme-default .nivo-caption p {
     font-size: 1.6rem;
     padding: 12px;
-    padding-bottom: 6px;
     background-color: rgba(255, 255, 255, 0.9);
-    max-width: 55rem;
+    max-width: 60rem;
     color: #333433;
     font-family: "ff-tisa-web-pro", Georgia, serif; }
 
