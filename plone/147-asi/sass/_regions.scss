@@ -312,7 +312,12 @@ p.standout_gold {
 	fieldset.folder-listing {
 		display:none;
 	}
-	form.form-widgets-program_name {
-		color:#fff;
+	label {
+		font-size:1.4rem;
+		text-transform:uppercase;
+		color:$light-gray;
+	}
+	span {
+		font-size:1.6rem;
 	}
 }

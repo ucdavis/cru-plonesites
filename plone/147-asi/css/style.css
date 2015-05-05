@@ -2422,8 +2422,12 @@ p.standout_gold {
 
 .portaltype-ultimate_asi_file fieldset.folder-listing {
   display: none; }
-.portaltype-ultimate_asi_file form.form-widgets-program_name {
-  color: #fff; }
+.portaltype-ultimate_asi_file label {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #9b9b9b; }
+.portaltype-ultimate_asi_file span {
+  font-size: 1.6rem; }
 
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
