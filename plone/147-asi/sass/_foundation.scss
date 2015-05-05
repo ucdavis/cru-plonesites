@@ -126,6 +126,9 @@ header {
 	.theme-default .nivo-controlNav {
 		margin-right:9%;
 	}
+	.site-sf & {
+		margin-bottom:0px;
+	}
 }
 .slider-wrapper {
 	overflow: hidden;
@@ -156,6 +159,10 @@ header {
 	border-top:1px solid $borders;
 	margin:3% 0% 0% 0%;
 	display:none;
+	.site-sf & {
+		margin-top:0px;
+		padding-top:3%;
+	}
 	.template-landing_view & {
 		display:block;
 	}

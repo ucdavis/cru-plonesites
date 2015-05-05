@@ -866,6 +866,8 @@ header {
     margin-left: 9%; }
   .full_banner .theme-default .nivo-controlNav {
     margin-right: 9%; }
+  .site-sf .full_banner {
+    margin-bottom: 0px; }
 
 .slider-wrapper {
   overflow: hidden;
@@ -901,6 +903,9 @@ header {
   border-top: 1px solid #c8c7cc;
   margin: 3% 0% 0% 0%;
   display: none; }
+  .site-sf #bottom_ports-bg {
+    margin-top: 0px;
+    padding-top: 3%; }
   .template-landing_view #bottom_ports-bg {
     display: block; }
   #bottom_ports-bg .bottom_ports {
