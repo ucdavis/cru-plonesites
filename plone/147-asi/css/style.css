@@ -1975,6 +1975,26 @@ dt.portletHeader {
     color: #fff; }
   dt.portletHeader a:hover {
     color: #f5f5f5; }
+  .bottom_ports dt.portletHeader {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #777777;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding-left: 0px; }
+    .bottom_ports dt.portletHeader a {
+      color: #777777; }
+      .site-ASI .bottom_ports dt.portletHeader a:hover {
+        color: #FFB208 !important; }
+      .site-sarep .bottom_ports dt.portletHeader a:hover {
+        color: #DDB307 !important; }
+      .site-rr .bottom_ports dt.portletHeader a:hover {
+        color: #78BE20 !important; }
+      .site-sf .bottom_ports dt.portletHeader a:hover {
+        color: #AD5C0F !important; }
+      .site-infas .bottom_ports dt.portletHeader a:hover {
+        color: #AD5C0E !important; }
+      .site-safs .bottom_ports dt.portletHeader a:hover {
+        color: #038EAA !important; }
   .section-homepage .spotlight_feature dt.portletHeader {
     background-color: #1C5BA5; }
 
@@ -2183,16 +2203,15 @@ input.searchButton {
   margin: 0px; }
 
 #searchGadget, .LSBox input.searchButton {
-  color: #fff; }
+  color: #434343; }
 
 input.searchField {
   -moz-appearance: none;
   background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
-  background-color: rgba(255, 255, 255, 0.5);
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   margin-right: 3px;
   padding: 5px;
-  color: #333;
   font-size: 16px;
   box-shadow: none;
   margin-bottom: 0px;
