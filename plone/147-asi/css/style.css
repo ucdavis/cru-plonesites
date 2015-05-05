@@ -1975,26 +1975,6 @@ dt.portletHeader {
     color: #fff; }
   dt.portletHeader a:hover {
     color: #f5f5f5; }
-  .bottom_ports dt.portletHeader {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: #777777;
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    padding-left: 0px; }
-    .bottom_ports dt.portletHeader a {
-      color: #777777; }
-      .site-ASI .bottom_ports dt.portletHeader a:hover {
-        color: #FFB208 !important; }
-      .site-sarep .bottom_ports dt.portletHeader a:hover {
-        color: #DDB307 !important; }
-      .site-rr .bottom_ports dt.portletHeader a:hover {
-        color: #78BE20 !important; }
-      .site-sf .bottom_ports dt.portletHeader a:hover {
-        color: #AD5C0F !important; }
-      .site-infas .bottom_ports dt.portletHeader a:hover {
-        color: #AD5C0E !important; }
-      .site-safs .bottom_ports dt.portletHeader a:hover {
-        color: #038EAA !important; }
   .section-homepage .spotlight_feature dt.portletHeader {
     background-color: #1C5BA5; }
 
