@@ -310,11 +310,11 @@ p.standout_gold {
 // ultimate ASI file 
 .portaltype-ultimate_asi_file {
 	#content-core {
-		div {
+		div.field {
 			margin:2% 0px;
 		}
 	}
-	fieldset.folder-listing {
+	fieldset#folder-listing {
 		display:none;
 	}
 	label {
@@ -322,7 +322,7 @@ p.standout_gold {
 		text-transform:uppercase;
 		color:$light-gray;
 		display:block;
-		margin-bottom:5%;
+		margin-bottom:2%;
 	}
 	span {
 		font-size:1.6rem;
