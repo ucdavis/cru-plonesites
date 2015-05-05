@@ -2728,7 +2728,14 @@ Supports Thumbs: true
   height: auto;
   bottom: 2%;
   position: absolute;
-  z-index: 100; }
+  z-index: 100;
+  left: 10%; }
+  @media (max-width: 1000px) {
+    .theme-default .nivo-caption {
+      left: 5%; } }
+  @media (max-width: 750px) {
+    .theme-default .nivo-caption {
+      left: 2.5%; } }
   .theme-default .nivo-caption h3 {
     font-size: 2.4rem;
     font-family: "proxima-nova", sans-serif;
