@@ -1739,7 +1739,7 @@ h2 {
   .lefthead h2 {
     font-size: 3rem;
     font-family: "proxima-nova", sans-serif;
-    font-weight: 100; }
+    font-weight: 400; }
     .site-ASI .lefthead h2 a:hover {
       color: #FFB208 !important; }
     .site-sarep .lefthead h2 a:hover {
@@ -2735,12 +2735,13 @@ Supports Thumbs: true
   z-index: 100; }
   .theme-default .nivo-caption h3 {
     font-size: 2.4rem;
-    font-family: "ff-tisa-web-pro", Georgia, serif;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
     color: #FFF;
     background-color: #BA0C2F;
     display: inline-block;
     line-height: 1.3;
-    padding: 14px 20px 6px 12px;
+    padding: 10px 20px 6px 12px;
     max-width: 40rem;
     margin-bottom: 3%; }
   .theme-default .nivo-caption p {
@@ -2749,7 +2750,8 @@ Supports Thumbs: true
     padding-bottom: 6px;
     background-color: rgba(255, 255, 255, 0.9);
     max-width: 45rem;
-    color: #333433; }
+    color: #333433;
+    font-family: "ff-tisa-web-pro", Georgia, serif; }
 
 .theme-default .nivo-controlNav.nivo-thumbs-enabled {
   width: 100%; }

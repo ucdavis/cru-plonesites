@@ -123,7 +123,7 @@ h2 {
 	.lefthead & {
 		font-size:3rem;
 		font-family:$sans-serif;
-		font-weight:100;
+		font-weight:400;
 		a:hover {
 			@include accent-theme-color;
 		}
