@@ -162,7 +162,6 @@ header {
 	}
 	.bottom_ports {
 		@include outer-container;
-		background-color:green;
 		.cell {
 			// background-color:pink;
 		}
@@ -184,7 +183,7 @@ header {
 			width:30%;
 			display:inline-block;
 			vertical-align:top;
-			margin-right:3.1%;
+			margin-right:4.3%;
 		}
 		.cell {
 			float:none;
@@ -197,6 +196,7 @@ header {
 			margin-left:0px;
 		}
 		.position-2\:3 {
+			margin-right:0px;
 			margin-left:0px;
 		}
 		.row {
