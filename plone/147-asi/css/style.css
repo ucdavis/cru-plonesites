@@ -2183,13 +2183,13 @@ input.searchButton {
   margin: 0px; }
 
 #searchGadget, .LSBox input.searchButton {
-  color: #002855; }
+  color: #434343; }
 
 input.searchField {
   -moz-appearance: none;
-  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.31);
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
   background-color: #fff;
-  border: 1px solid #c8c7cc;
+  border: 1px solid rgba(0, 0, 0, 0.5);
   margin-right: 3px;
   padding: 5px;
   color: #333;
