@@ -162,6 +162,7 @@ header {
 	}
 	.bottom_ports {
 		@include outer-container;
+		background-color:green;
 		.cell {
 			// background-color:pink;
 		}

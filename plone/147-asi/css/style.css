@@ -906,7 +906,8 @@ header {
   #bottom_ports-bg .bottom_ports {
     width: 80%;
     max-width: 1200px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    background-color: green; }
     @media (max-width: 1000px) {
       #bottom_ports-bg .bottom_ports {
         width: 90%; } }
@@ -2197,7 +2198,6 @@ input.searchButton {
 
 #portal-searchbox {
   clear: none;
-  float: none;
   font-size: 100%;
   text-align: right;
   margin: 0px; }
