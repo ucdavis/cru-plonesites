@@ -87,14 +87,14 @@
 	.portlet_column {
 		width:100%;
 	}
-	.template-fg_base_view_p3 .portlet_column, .template-manage-portlets  .innerds, .template-member_search_form .innerds, .template-file_view .innerds, .template-directory_standard_view .innerds, .template-folder_summary_view .innerds, .template-plone-app-collection-interfaces-icollection .portlet_column, .template-summary_view .portlet_column, .portaltype-collection .portlet_column, .template-twocol_view .portlet_column, .template-event_view .portlet_column, .template-secondary_view .innerds, .portaltype-fsdperson .innerds, .template-landing_view .innerds {
+	.template-fg_base_view_p3 .portlet_column, .template-manage-portlets  .innerds, .template-member_search_form .innerds, .template-file_view .innerds, .template-directory_standard_view .innerds, .template-folder_summary_view .innerds, .template-plone-app-collection-interfaces-icollection .portlet_column, .template-summary_view .portlet_column, .portaltype-collection .portlet_column, .template-twocol_view .portlet_column, .template-event_view .portlet_column, .template-secondary_view .innerds, .portaltype-fsdperson .innerds, .template-landing_view .innerds, .portaltype-ultimate_asi_file .innerds {
 		@include contentbox;
 		padding-top:0px;
 		.portletstatic {
 			padding-top:0px;
 		}
 	}
-	.template-fg_base_view_p3 .innerds, .template-manage-portlets  .innerds, .template-member_search_form .innerds, .template-file_view .innerds, .template-directory_standard_view .innerds, .template-folder_summary_view .innerds, .template-plone-app-collection-interfaces-icollection .innerds, .template-summary_view .innerds, .template-event_view .innerds, .portaltype-collection .innerds, .template-twocol_view .innerds, .template-secondary_view .innerds, .portaltype-fsdperson .innerds, .template-landing_view .innerds {
+	.template-fg_base_view_p3 .innerds, .template-manage-portlets  .innerds, .template-member_search_form .innerds, .template-file_view .innerds, .template-directory_standard_view .innerds, .template-folder_summary_view .innerds, .template-plone-app-collection-interfaces-icollection .innerds, .template-summary_view .innerds, .template-event_view .innerds, .portaltype-collection .innerds, .template-twocol_view .innerds, .template-secondary_view .innerds, .portaltype-fsdperson .innerds, .template-landing_view .innerds, .portaltype-ultimate_asi_file .innerds {
 		width:100%;
 	}
 }
