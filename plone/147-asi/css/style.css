@@ -2422,7 +2422,7 @@ p.standout_gold {
 
 .portaltype-ultimate_asi_file fieldset.folder-listing {
   display: none; }
-.portaltype-ultimate_asi_file .form-widgets-program_name {
+.portaltype-ultimate_asi_file form.form-widgets-program_name {
   color: #fff; }
 
 @media all and (max-width: 600px) {
