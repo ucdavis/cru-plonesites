@@ -8,7 +8,7 @@ html {
     @include breakpoint(tablet) {
 	    font-size:8px;
 	}
-	@include breakpoint(mobile) {
+	@include breakpoint(mobileonly) {
 	    font-size:7px;
 	}
 }

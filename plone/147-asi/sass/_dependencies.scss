@@ -89,7 +89,24 @@
 // variables yo!
 	$max-width: 1200px;
 
-// mixins yo!
+@mixin breakpoint($point) {
+   @if $point == desktop {
+     @media (max-width: 1250px) { @content ; }
+  }
+   @else if $point == laptop {
+     @media (max-width: 1000px) { @content ; }
+  }
+  @else if $point == rufus {
+     @media (max-width: 850px) { @content ; }
+  }
+    @else if $point == tablet {
+     @media (max-width: 750px) { @content ; }
+  }
+  @else if $point == mobileonly {
+     @media (max-width: 550px)  { @content ; }
+
+  }
+}
 // structure //
 @mixin outer-container {
   width:80%;
@@ -207,21 +224,7 @@
 	.site-infas & {border-color: $infas_accent;}
 	.site-safs & {border-color: $safs_accent;}
 }
-@mixin breakpoint($point) {
-   @if $point == desktop {
-     @media (max-width: 1250px) { @content ; }
-  }
-   @else if $point == laptop {
-     @media (max-width: 1000px) { @content ; }
-  }
-    @else if $point == tablet {
-     @media (max-width: 750px) { @content ; }
-  }
-  @else if $point == mobileonly {
-     @media (max-width: 550px)  { @content ; }
 
-  }
-}
 
 
 

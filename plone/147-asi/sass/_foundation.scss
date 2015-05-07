@@ -60,14 +60,19 @@ header {
 	width:70%; /*70% */
 	display:inline-block;
 	margin-top:15px;
+	@include breakpoint(rufus) {
+		width:50%;
+	}
+	@include breakpoint(mobile) {
+	    font-size:7px;
+	}
 }
 
 .righthead{
 	width:20%; /* 20%*/
 	display:inline-block;
-	float:right;
 	text-align:right;
-	vertical-align: top;
+	vertical-align: middle;
 	a,p {
 		color:#fff;
 		text-decoration:none;
