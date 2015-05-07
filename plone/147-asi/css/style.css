@@ -832,6 +832,25 @@ header {
   .righthead img {
     float: right;
     margin-bottom: 5px; }
+  .righthead .searchbar {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: -1px; }
+  .righthead input.searchButton {
+    background: url("../images/icon-search.svg") no-repeat scroll center center transparent;
+    border: 0 none;
+    cursor: pointer;
+    display: inline-block;
+    height: 36px;
+    padding: 3px;
+    vertical-align: top;
+    width: 36px;
+    background-position: center 10px; }
+  .righthead #portal-searchbox {
+    clear: none;
+    font-size: 100%;
+    text-align: right;
+    margin: 0px; }
 
 #nivoslider {
   margin: 0 auto;
@@ -2182,29 +2201,6 @@ input.searchButton {
   display: inline-block;
   vertical-align: top;
   padding-bottom: 1%; }
-
-.searchbar {
-  width: 38%;
-  display: inline-block;
-  vertical-align: bottom;
-  margin-bottom: -1px; }
-
-input.searchButton {
-  background: url("../images/icon-search.svg") no-repeat scroll center center transparent;
-  border: 0 none;
-  cursor: pointer;
-  display: inline-block;
-  height: 36px;
-  padding: 3px;
-  vertical-align: top;
-  width: 36px;
-  background-position: center 10px; }
-
-#portal-searchbox {
-  clear: none;
-  font-size: 100%;
-  text-align: right;
-  margin: 0px; }
 
 #searchGadget, .LSBox input.searchButton {
   color: #434343; }
