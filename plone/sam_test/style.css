@@ -1,0 +1,143 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+/*============ CSS Typography and Colors ================*/
+
+/*======================= Fonts =========================*/
+body
+{
+	font-family: 'Open Sans','Arial', sans-serif;
+	font-size: 14pt;
+}
+
+h2{
+	font-size: 24pt;
+	margin-top: 0px;
+}    
+
+h3 {
+	font-size: 14pt;
+	margin-bottom: 0px;
+	margin-top: 50px;
+}
+
+#nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4A4A4A;
+}
+
+.button {
+    text-decoration: none;
+}
+
+#nav .button {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 10pt;
+	padding: 15px;
+}
+
+footer {
+	color: #EFEFEF;
+	font-size: 10pt;
+}
+
+
+/*==================== Backgrounds =====================*/
+
+header {
+    background-color: #EFEFEF;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+footer {
+    background-color: #4A4A4A;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/*================== Heights, Widths ===================*/
+#website-title img {
+    width: 303px;
+    height: 37px;
+    padding-left: 37px;
+}
+
+#nav a {
+	margin-right: 40px;
+}
+
+/*======================= Margin =======================*/
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+#main {
+	margin-bottom: 100px;
+}
+
+/*====================== Extras =======================*/
+
+.fa-ul li{
+  color: #EFEFEF;
+  display: inline;
+  }
+
+
+.button {
+    color: #FFFFFF;
+    background-color: #E67F0E;
+    padding: 10px;
+}
+
+#nav {
+	float: right;
+}
+
+/*======================== Grid =======================*/
+* {
+    box-sizing: border-box;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.one-whole {
+    width: 100%;
+}
+
+.one-half {
+    width: 50%;
+}
+
+.one-third {
+	width: 33%;
+}
+
+.column {
+	float: left;
+}
+
+.container {
+	width: 955px;
+	margin: auto;
+}
+
+/*====================== Links =======================*/
+#donateButton a:hover {
+    border-bottom: none;
+}
+
+#nav a:hover {
+    border-bottom: 2px solid #4A4A4A;
+}
+
+#nav a.button:hover {
+    border-bottom: none;
+}
