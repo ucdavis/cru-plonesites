@@ -93,6 +93,11 @@ Supports Thumbs: true
 	  @include breakpoint(mobile) {
 	    left:.5%
 	  }
+	  @include breakpoint(navcut){
+	  	.theme-default .nivo-caption {
+	  		width:70%;
+	  	}
+	  }
     h3 {
     	font-size: 2.4rem;
     	font-family:$sans-serif;
@@ -105,6 +110,7 @@ Supports Thumbs: true
 		max-width: 45rem;
 		@include breakpoint(navcut) {
 	    	max-width:100em;
+	    	font-size:1.8rem;
 		}
     }
     p {
@@ -116,6 +122,7 @@ Supports Thumbs: true
 		font-family:$serif;
 		@include breakpoint(navcut) {
 	    	max-width:100em;
+	    	font-size:1.4rem;
 		}
     }
 }
