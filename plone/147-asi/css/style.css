@@ -1430,8 +1430,7 @@ nav {
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  border-radius: 4px;
-  background-color: #222222; }
+  background-color: rgba(255, 255, 255, 0.3); }
 
 /* Button Text */
 .slicknav_menu .slicknav_menutxt {
@@ -1443,20 +1442,18 @@ nav {
 .slicknav_menu .slicknav_icon-bar {
   background-color: #f5f5f5; }
 
-.slicknav_menu {
-  padding: 5px; }
-  .site-ASI .slicknav_menu {
-    background-color: #174a86; }
-  .site-sarep .slicknav_menu {
-    background-color: #003761; }
-  .site-rr .slicknav_menu {
-    background-color: #007086; }
-  .site-sf .slicknav_menu {
-    background-color: #0c718c; }
-  .site-infas .slicknav_menu {
-    background-color: #237276; }
-  .site-safs .slicknav_menu {
-    background-color: #659f1b; }
+.site-ASI .slicknav_menu {
+  background-color: #174a86; }
+.site-sarep .slicknav_menu {
+  background-color: #003761; }
+.site-rr .slicknav_menu {
+  background-color: #007086; }
+.site-sf .slicknav_menu {
+  background-color: #0c718c; }
+.site-infas .slicknav_menu {
+  background-color: #237276; }
+.site-safs .slicknav_menu {
+  background-color: #659f1b; }
 
 .slicknav_nav {
   color: #fff;

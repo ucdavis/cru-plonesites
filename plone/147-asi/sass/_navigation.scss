@@ -157,9 +157,8 @@ nav {
     text-decoration:none;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
     -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;  
-    background-color: #222222;
+    -moz-border-radius: 4px;  
+    background-color: rgba(255, 255, 255, 0.3);
 }
 /* Button Text */
 .slicknav_menu  .slicknav_menutxt {
@@ -172,7 +171,6 @@ nav {
   background-color: #f5f5f5;
 }
 .slicknav_menu {
-    padding:5px;
     @include main-theme-trans-more;
 }
 .slicknav_nav {
