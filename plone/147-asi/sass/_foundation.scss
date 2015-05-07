@@ -48,13 +48,13 @@ header {
 	// background-image:url("../images/stardust.png");
 	height:auto;
 	width:100%;
+	padding-bottom:10px;
 	position: relative;
 	@include main-theme-bg-color;
 }
 .header_contents {
 	@include outer-container;
 	padding-top: 1%;
-	margin-bottom:5px;
 	@include breakpoint(mobileonly) {
 	    margin-bottom:0px;
 	}
@@ -86,7 +86,7 @@ header {
 			margin-bottom:5px;
 		}
 		@include breakpoint(mobileonly) {
-		    width:76%;
+		    display:none;
 		}
 		.searchbar {
 			display:inline-block;
@@ -94,16 +94,16 @@ header {
 			margin-bottom:-1px;
 		}
 		input.searchButton{
-				background: url("../images/icon-search.svg") no-repeat scroll center center transparent;
-			    border: 0 none;
-			    cursor: pointer;
-			    display: inline-block;
-			    height: 36px;
-			    padding: 3px;
-			    vertical-align: top;
-			    width: 36px;
-			    background-position:center 10px;
-			}
+			background: url("../images/icon-search.svg") no-repeat scroll center center transparent;
+		    border: 0 none;
+		    cursor: pointer;
+		    display: inline-block;
+		    height: 36px;
+		    padding: 3px;
+		    vertical-align: top;
+		    width: 36px;
+		    background-position:center 10px;
+		}
 		#portal-searchbox {
 			clear:none;
 			font-size: 100%;

@@ -780,6 +780,7 @@ header {
   background-color: #002855;
   height: auto;
   width: 100%;
+  padding-bottom: 10px;
   position: relative; }
   .site-ASI header {
     background-color: #1C5BA5; }
@@ -798,8 +799,7 @@ header {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 1%;
-  margin-bottom: 5px; }
+  padding-top: 1%; }
   @media (max-width: 1000px) {
     .header_contents {
       width: 90%; } }
@@ -838,7 +838,7 @@ header {
       margin-bottom: 5px; }
     @media (max-width: 550px) {
       .header_contents .righthead {
-        width: 76%; } }
+        display: none; } }
     .header_contents .righthead .searchbar {
       display: inline-block;
       vertical-align: bottom;
@@ -1332,7 +1332,7 @@ nav {
 .slicknav_menu {
   display: none; }
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 650px) {
   .js #menu {
     display: none; }
 
@@ -1343,7 +1343,10 @@ nav {
     display: none; }
 
   ul.submenu {
-    position: inherit; } }
+    position: inherit; }
+
+  .header_contents {
+    margin-bottom: 0px; } }
 .slicknav_btn {
   position: relative;
   display: block;
