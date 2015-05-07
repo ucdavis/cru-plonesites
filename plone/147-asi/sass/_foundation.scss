@@ -53,7 +53,6 @@ header {
 }
 .header_contents {
 	@include outer-container;
-	background-color:#000;
 	padding-top: 1%;
 	margin-bottom:5px;
 	.lefthead{
@@ -61,16 +60,14 @@ header {
 		display:inline-block;
 		vertical-align: top;
 		margin-top:1%;
-		background-color:pink;
 	    @include breakpoint(tablet) {
 		    width:60%;
 		    margin-right:2%;
 		    padding-right:2%;
 		}
 		@include breakpoint(mobileonly) {
-		    width:90%;
+		    width:100%;
 		    margin-right:0px;
-		    margin:0 auto;
 		    padding-left:4%;
 		    padding-right:4%;
 		}
@@ -81,10 +78,12 @@ header {
 		text-align:right;
 		vertical-align: top;
 		margin-top:2%;
-		background-color:green;
 		img {
 			float:right;
 			margin-bottom:5px;
+		}
+		@include breakpoint(mobileonly) {
+		    width:100%;
 		}
 		.searchbar {
 			display:inline-block;
