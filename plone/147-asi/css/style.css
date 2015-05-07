@@ -2742,6 +2742,9 @@ Supports Thumbs: true
   @media (max-width: 750px) {
     .theme-default .nivo-caption {
       left: 1%; } }
+  @media (max-width: 650px) {
+    .theme-default .nivo-caption .theme-default .nivo-caption {
+      width: 70%; } }
   .theme-default .nivo-caption h3 {
     font-size: 2.4rem;
     font-family: "proxima-nova", sans-serif;
@@ -2754,7 +2757,8 @@ Supports Thumbs: true
     max-width: 45rem; }
     @media (max-width: 650px) {
       .theme-default .nivo-caption h3 {
-        max-width: 100em; } }
+        max-width: 100em;
+        font-size: 1.8rem; } }
   .theme-default .nivo-caption p {
     font-size: 1.6rem;
     padding: 12px;
@@ -2764,7 +2768,8 @@ Supports Thumbs: true
     font-family: "ff-tisa-web-pro", Georgia, serif; }
     @media (max-width: 650px) {
       .theme-default .nivo-caption p {
-        max-width: 100em; } }
+        max-width: 100em;
+        font-size: 1.4rem; } }
 
 .theme-default .nivo-controlNav.nivo-thumbs-enabled {
   width: 100%; }
