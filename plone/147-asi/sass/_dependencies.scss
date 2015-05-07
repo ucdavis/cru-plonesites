@@ -102,6 +102,9 @@
     @else if $point == tablet {
      @media (max-width: 750px) { @content ; }
   }
+  @else if $point == navcut {
+     @media (max-width: 650px) { @content ; }
+  }
   @else if $point == mobileonly {
      @media (max-width: 550px)  { @content ; }
 
