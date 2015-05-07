@@ -62,6 +62,18 @@ header {
 		vertical-align: top;
 		margin-top:1%;
 		background-color:pink;
+	    @include breakpoint(tablet) {
+		    width:60%;
+		    margin-right:2%;
+		    padding-right:2%;
+		}
+		@include breakpoint(mobileonly) {
+		    width:90%;
+		    margin-right:0px;
+		    margin:0 auto;
+		    padding-left:4%;
+		    padding-right:4%;
+		}
 	}
 	.righthead{
 		width:29%; /* 20%*/

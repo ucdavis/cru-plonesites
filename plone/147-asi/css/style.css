@@ -814,6 +814,18 @@ header {
     vertical-align: top;
     margin-top: 1%;
     background-color: pink; }
+    @media (max-width: 750px) {
+      .header_contents .lefthead {
+        width: 60%;
+        margin-right: 2%;
+        padding-right: 2%; } }
+    @media (max-width: 550px) {
+      .header_contents .lefthead {
+        width: 90%;
+        margin-right: 0px;
+        margin: 0 auto;
+        padding-left: 4%;
+        padding-right: 4%; } }
   .header_contents .righthead {
     width: 29%;
     /* 20%*/
