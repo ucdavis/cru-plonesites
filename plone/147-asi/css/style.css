@@ -2445,7 +2445,8 @@ p.standout_gold {
 table.secondary_table tr td {
   vertical-align: top; }
   table.secondary_table tr td img {
-    padding-right: 2%; }
+    padding-right: 10%;
+    padding-top: 7%; }
 
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
