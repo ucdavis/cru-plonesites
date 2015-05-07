@@ -798,6 +798,7 @@ header {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
+  background-color: #000;
   padding-top: 1%;
   margin-bottom: 5px; }
   @media (max-width: 1000px) {
@@ -806,43 +807,43 @@ header {
   @media (max-width: 750px) {
     .header_contents {
       width: 95%; } }
-
-.lefthead {
-  width: 70%;
-  /*70% */
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 1%; }
-
-.righthead {
-  width: 29%;
-  /* 20%*/
-  display: inline-block;
-  text-align: right;
-  vertical-align: top;
-  margin-top: 2%; }
-  .righthead img {
-    float: right;
-    margin-bottom: 5px; }
-  .righthead .searchbar {
+  .header_contents .lefthead {
+    width: 70%;
+    /*70% */
     display: inline-block;
-    vertical-align: bottom;
-    margin-bottom: -1px; }
-  .righthead input.searchButton {
-    background: url("../images/icon-search.svg") no-repeat scroll center center transparent;
-    border: 0 none;
-    cursor: pointer;
-    display: inline-block;
-    height: 36px;
-    padding: 3px;
     vertical-align: top;
-    width: 36px;
-    background-position: center 10px; }
-  .righthead #portal-searchbox {
-    clear: none;
-    font-size: 100%;
+    margin-top: 1%;
+    background-color: pink; }
+  .header_contents .righthead {
+    width: 29%;
+    /* 20%*/
+    display: inline-block;
     text-align: right;
-    margin: 0px; }
+    vertical-align: top;
+    margin-top: 2%;
+    background-color: green; }
+    .header_contents .righthead img {
+      float: right;
+      margin-bottom: 5px; }
+    .header_contents .righthead .searchbar {
+      display: inline-block;
+      vertical-align: bottom;
+      margin-bottom: -1px; }
+    .header_contents .righthead input.searchButton {
+      background: url("../images/icon-search.svg") no-repeat scroll center center transparent;
+      border: 0 none;
+      cursor: pointer;
+      display: inline-block;
+      height: 36px;
+      padding: 3px;
+      vertical-align: top;
+      width: 36px;
+      background-position: center 10px; }
+    .header_contents .righthead #portal-searchbox {
+      clear: none;
+      font-size: 100%;
+      text-align: right;
+      margin: 0px; }
 
 #nivoslider {
   margin: 0 auto;
