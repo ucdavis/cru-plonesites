@@ -55,6 +55,9 @@ header {
 	@include outer-container;
 	padding-top: 1%;
 	margin-bottom:5px;
+	@include breakpoint(mobileonly) {
+	    margin-bottom:0px;
+	}
 	.lefthead{
 		width:70%; /*70% */
 		display:inline-block;
@@ -83,7 +86,7 @@ header {
 			margin-bottom:5px;
 		}
 		@include breakpoint(mobileonly) {
-		    width:100%;
+		    width:76%;
 		}
 		.searchbar {
 			display:inline-block;

@@ -806,6 +806,9 @@ header {
   @media (max-width: 750px) {
     .header_contents {
       width: 95%; } }
+  @media (max-width: 550px) {
+    .header_contents {
+      margin-bottom: 0px; } }
   .header_contents .lefthead {
     width: 70%;
     /*70% */
@@ -835,7 +838,7 @@ header {
       margin-bottom: 5px; }
     @media (max-width: 550px) {
       .header_contents .righthead {
-        width: 100%; } }
+        width: 76%; } }
     .header_contents .righthead .searchbar {
       display: inline-block;
       vertical-align: bottom;
