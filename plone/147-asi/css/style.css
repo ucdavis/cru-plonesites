@@ -815,20 +815,12 @@ header {
   margin-top: 1%; }
 
 .righthead {
-  width: 24%;
+  width: 29%;
   /* 20%*/
   display: inline-block;
   text-align: right;
   vertical-align: top;
   margin-top: 2%; }
-  .righthead a, .righthead p {
-    color: #fff;
-    text-decoration: none;
-    margin: .4em 0 1em 0; }
-  .righthead a:hover {
-    color: #C99700; }
-  .righthead .topnav {
-    display: inline-block; }
   .righthead img {
     float: right;
     margin-bottom: 5px; }

@@ -70,22 +70,11 @@ header {
 }
 
 .righthead{
-	width:24%; /* 20%*/
+	width:29%; /* 20%*/
 	display:inline-block;
 	text-align:right;
 	vertical-align: top;
 	margin-top:2%;
-	a,p {
-		color:#fff;
-		text-decoration:none;
-		margin: .4em 0 1em 0;
-	}
-	a:hover {
-		color:$secondary-color;
-	}
-	.topnav {
-		display:inline-block;
-	}
 	img {
 		float:right;
 		margin-bottom:5px;
