@@ -85,9 +85,6 @@ header {
 			float:right;
 			margin-bottom:5px;
 		}
-		@include breakpoint(mobileonly) {
-		    display:none;
-		}
 		.searchbar {
 			display:inline-block;
 			vertical-align:bottom;

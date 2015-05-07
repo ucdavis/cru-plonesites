@@ -78,6 +78,12 @@ nav {
 	.header_contents {
 		margin-bottom:0px;
 	}
+	.righthead {
+		display:none;
+	}
+	.header_contents .lefthead {
+		width:90%;
+	}
 }
 
 .slicknav_btn { 
@@ -158,7 +164,7 @@ nav {
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;  
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 /* Button Text */
 .slicknav_menu  .slicknav_menutxt {
