@@ -278,7 +278,9 @@ ul {
 			}
 		}
 	}
-
+	.content & {
+		list-style-type:disc;
+	}
 }
 li {
 	font-family:$serif;

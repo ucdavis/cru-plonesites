@@ -303,3 +303,16 @@ p.standout_gold {
 		font-size:1.6rem;
 	}
 }
+
+// table 
+
+table.secondary_table {
+	tr {
+		td {
+			vertical-align:top;
+			img {
+				padding-right:2%;
+			}
+		}
+	}
+}

@@ -967,8 +967,6 @@ header {
 
 #content {
   margin: 0px; }
-  #content ul {
-    list-style-type: square; }
   #content a:link, #content dl.portlet a:link {
     border-bottom: none; }
 
@@ -1919,6 +1917,8 @@ ul.image_list {
       padding-right: 0px; }
       .section-homepage ul.image_list li:last-child {
         margin-right: 0px; }
+.content ul {
+  list-style-type: disc; }
 
 li {
   font-family: "ff-tisa-web-pro", Georgia, serif;
@@ -2442,6 +2442,11 @@ p.standout_gold {
 .portaltype-ultimate_asi_file span {
   font-size: 1.6rem; }
 
+table.secondary_table tr td {
+  vertical-align: top; }
+  table.secondary_table tr td img {
+    padding-right: 2%; }
+
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
     float: left;
@@ -2748,6 +2753,7 @@ Supports Thumbs: true
     font-family: "proxima-nova", sans-serif;
     font-weight: 600;
     color: #FFF;
+    margin-bottom: 0px;
     background-color: #BA0C2F;
     display: inline-block;
     line-height: 1.3;
