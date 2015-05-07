@@ -59,7 +59,8 @@ header {
 .lefthead{
 	width:70%; /*70% */
 	display:inline-block;
-	margin-top:15px;
+	vertical-align: top;
+	margin-top:1%;
 	@include breakpoint(rufus) {
 		width:50%;
 	}
@@ -72,7 +73,8 @@ header {
 	width:20%; /* 20%*/
 	display:inline-block;
 	text-align:right;
-	vertical-align: middle;
+	vertical-align: top;
+	margin-top:2%;
 	a,p {
 		color:#fff;
 		text-decoration:none;

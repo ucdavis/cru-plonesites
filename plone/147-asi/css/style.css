@@ -811,7 +811,8 @@ header {
   width: 70%;
   /*70% */
   display: inline-block;
-  margin-top: 15px; }
+  vertical-align: top;
+  margin-top: 1%; }
   @media (max-width: 850px) {
     .lefthead {
       width: 50%; } }
@@ -821,7 +822,8 @@ header {
   /* 20%*/
   display: inline-block;
   text-align: right;
-  vertical-align: middle; }
+  vertical-align: top;
+  margin-top: 2%; }
   .righthead a, .righthead p {
     color: #fff;
     text-decoration: none;
