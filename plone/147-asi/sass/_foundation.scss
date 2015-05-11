@@ -58,7 +58,6 @@ header {
 }
 .header_contents {
 	@include outer-container;
-	padding-top: 1%;
 	@include breakpoint(mobileonly) {
 	    margin-bottom:0px;
 	}

@@ -747,7 +747,7 @@ img {
   .site-sarep .top-header-bg {
     background-color: #004276; }
   .site-rr .top-header-bg {
-    background-color: #00819b; }
+    background-color: #f0c100; }
   .site-sf .top-header-bg {
     background-color: #0e809f; }
   .site-infas .top-header-bg {
@@ -790,7 +790,7 @@ header {
   .site-sarep header {
     background-color: #004B85; }
   .site-rr header {
-    background-color: #008EAA; }
+    background-color: #ffcd00; }
   .site-sf header {
     background-color: #0F8BAD; }
   .site-infas header {
@@ -801,8 +801,7 @@ header {
 .header_contents {
   width: 80%;
   max-width: 1200px;
-  margin: 0 auto;
-  padding-top: 1%; }
+  margin: 0 auto; }
   @media (max-width: 1000px) {
     .header_contents {
       width: 90%; } }
@@ -1279,7 +1278,7 @@ nav {
     .site-sarep #portal-globalnav .selected > a {
       border-color: #DDB307; }
     .site-rr #portal-globalnav .selected > a {
-      border-color: #78BE20; }
+      border-color: #4f2c1d; }
     .site-sf #portal-globalnav .selected > a {
       border-color: #AD5C0F; }
     .site-infas #portal-globalnav .selected > a {
@@ -1298,7 +1297,7 @@ nav {
     .site-sarep #portal-globalnav ul.submenu {
       background-color: #004B85; }
     .site-rr #portal-globalnav ul.submenu {
-      background-color: #008EAA; }
+      background-color: #ffcd00; }
     .site-sf #portal-globalnav ul.submenu {
       background-color: #0F8BAD; }
     .site-infas #portal-globalnav ul.submenu {
@@ -1317,7 +1316,7 @@ nav {
     .site-sarep #portal-globalnav ul.submenu li a:hover {
       color: #DDB307 !important; }
     .site-rr #portal-globalnav ul.submenu li a:hover {
-      color: #78BE20 !important; }
+      color: #4f2c1d !important; }
     .site-sf #portal-globalnav ul.submenu li a:hover {
       color: #AD5C0F !important; }
     .site-infas #portal-globalnav ul.submenu li a:hover {
@@ -1452,7 +1451,7 @@ nav {
 .site-sarep .slicknav_menu {
   background-color: #003761; }
 .site-rr .slicknav_menu {
-  background-color: #007086; }
+  background-color: #dbb000; }
 .site-sf .slicknav_menu {
   background-color: #0c718c; }
 .site-infas .slicknav_menu {
@@ -1528,7 +1527,7 @@ nav {
   .site-sarep #top_drop-nav ul li a {
     background-color: #004276; }
   .site-rr #top_drop-nav ul li a {
-    background-color: #00819b; }
+    background-color: #f0c100; }
   .site-sf #top_drop-nav ul li a {
     background-color: #0e809f; }
   .site-infas #top_drop-nav ul li a {
@@ -1542,7 +1541,7 @@ nav {
 .site-sarep #top_drop-nav li ul {
   background-color: #004276; }
 .site-rr #top_drop-nav li ul {
-  background-color: #00819b; }
+  background-color: #f0c100; }
 .site-sf #top_drop-nav li ul {
   background-color: #0e809f; }
 .site-infas #top_drop-nav li ul {
@@ -1594,7 +1593,7 @@ ul#sub_top_drop-nav {
   .site-sarep .section-homepage #portal-globalnav {
     background-color: #004B85; }
   .site-rr .section-homepage #portal-globalnav {
-    background-color: #008EAA; }
+    background-color: #ffcd00; }
   .site-sf .section-homepage #portal-globalnav {
     background-color: #0F8BAD; }
   .site-infas .section-homepage #portal-globalnav {
@@ -1619,7 +1618,7 @@ ul#sub_top_drop-nav {
     .site-sarep .section-homepage #portal-globalnav .selected > a {
       border-color: #DDB307; }
     .site-rr .section-homepage #portal-globalnav .selected > a {
-      border-color: #78BE20; }
+      border-color: #4f2c1d; }
     .site-sf .section-homepage #portal-globalnav .selected > a {
       border-color: #AD5C0F; }
     .site-infas .section-homepage #portal-globalnav .selected > a {
@@ -1640,7 +1639,7 @@ ul#sub_top_drop-nav {
     .site-sarep .section-homepage #portal-globalnav ul.submenu {
       background-color: #004B85; }
     .site-rr .section-homepage #portal-globalnav ul.submenu {
-      background-color: #008EAA; }
+      background-color: #ffcd00; }
     .site-sf .section-homepage #portal-globalnav ul.submenu {
       background-color: #0F8BAD; }
     .site-infas .section-homepage #portal-globalnav ul.submenu {
@@ -1659,7 +1658,7 @@ ul#sub_top_drop-nav {
     .site-sarep .section-homepage #portal-globalnav ul.submenu li a:hover {
       color: #DDB307 !important; }
     .site-rr .section-homepage #portal-globalnav ul.submenu li a:hover {
-      color: #78BE20 !important; }
+      color: #4f2c1d !important; }
     .site-sf .section-homepage #portal-globalnav ul.submenu li a:hover {
       color: #AD5C0F !important; }
     .site-infas .section-homepage #portal-globalnav ul.submenu li a:hover {
@@ -1691,7 +1690,7 @@ html {
   .site-sarep .top-header a:hover {
     color: #DDB307 !important; }
   .site-rr .top-header a:hover {
-    color: #78BE20 !important; }
+    color: #4f2c1d !important; }
   .site-sf .top-header a:hover {
     color: #AD5C0F !important; }
   .site-infas .top-header a:hover {
@@ -1781,7 +1780,7 @@ h2 {
     .site-sarep .lefthead h2 a:hover {
       color: #DDB307 !important; }
     .site-rr .lefthead h2 a:hover {
-      color: #78BE20 !important; }
+      color: #4f2c1d !important; }
     .site-sf .lefthead h2 a:hover {
       color: #AD5C0F !important; }
     .site-infas .lefthead h2 a:hover {
@@ -1824,7 +1823,7 @@ h3 {
     .site-sarep .eventdetailsside h3 {
       background-color: #DDB307; }
     .site-rr .eventdetailsside h3 {
-      background-color: #78BE20; }
+      background-color: #4f2c1d; }
     .site-sf .eventdetailsside h3 {
       background-color: #AD5C0F; }
     .site-infas .eventdetailsside h3 {
@@ -1957,7 +1956,7 @@ li {
         .site-sarep #portal-globalnav li a:hover {
           color: #DDB307 !important; }
         .site-rr #portal-globalnav li a:hover {
-          color: #78BE20 !important; }
+          color: #4f2c1d !important; }
         .site-sf #portal-globalnav li a:hover {
           color: #AD5C0F !important; }
         .site-infas #portal-globalnav li a:hover {
@@ -2006,7 +2005,7 @@ dt.portletHeader {
   .site-sarep dt.portletHeader {
     background-color: #DDB307; }
   .site-rr dt.portletHeader {
-    background-color: #78BE20; }
+    background-color: #4f2c1d; }
   .site-sf dt.portletHeader {
     background-color: #AD5C0F; }
   .site-infas dt.portletHeader {
@@ -2030,7 +2029,7 @@ dt.portletHeader {
       .site-sarep .bottom_ports dt.portletHeader a:hover {
         color: #DDB307 !important; }
       .site-rr .bottom_ports dt.portletHeader a:hover {
-        color: #78BE20 !important; }
+        color: #4f2c1d !important; }
       .site-sf .bottom_ports dt.portletHeader a:hover {
         color: #AD5C0F !important; }
       .site-infas .bottom_ports dt.portletHeader a:hover {
@@ -2047,7 +2046,7 @@ dt.portletHeader {
   .site-sarep .portletstatic dd.portletItem {
     border-color: #DDB307; }
   .site-rr .portletstatic dd.portletItem {
-    border-color: #78BE20; }
+    border-color: #4f2c1d; }
   .site-sf .portletstatic dd.portletItem {
     border-color: #AD5C0F; }
   .site-infas .portletstatic dd.portletItem {
@@ -2103,7 +2102,7 @@ span.code {
   .site-sarep .btn {
     background-color: #DDB307; }
   .site-rr .btn {
-    background-color: #78BE20; }
+    background-color: #4f2c1d; }
   .site-sf .btn {
     background-color: #AD5C0F; }
   .site-infas .btn {
@@ -2468,7 +2467,7 @@ table.secondary_table tr:nth-child(odd) td {
   .site-sarep table.secondary_table tr:nth-child(odd) td {
     border-color: #DDB307; }
   .site-rr table.secondary_table tr:nth-child(odd) td {
-    border-color: #78BE20; }
+    border-color: #4f2c1d; }
   .site-sf table.secondary_table tr:nth-child(odd) td {
     border-color: #AD5C0F; }
   .site-infas table.secondary_table tr:nth-child(odd) td {
