@@ -780,7 +780,8 @@ header {
   background-color: #002855;
   height: auto;
   width: 100%;
-  position: relative; }
+  position: relative;
+  margin-bottom: 5px; }
   .site-ASI header {
     background-color: #1C5BA5; }
   .site-sarep header {
@@ -881,7 +882,7 @@ header {
 .full_banner {
   margin: 0 auto;
   margin-top: 0px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   text-align: center;
   background-color: #fff; }
   .full_banner p {

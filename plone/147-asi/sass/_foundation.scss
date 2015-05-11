@@ -50,6 +50,7 @@ header {
 	width:100%;
 	position: relative;
 	@include main-theme-bg-color;
+	margin-bottom:5px;
 }
 .header_contents {
 	@include outer-container;
@@ -140,7 +141,7 @@ header {
 .full_banner {
 	margin:0 auto;
 	margin-top:0px;
-	margin-bottom:5px;
+	margin-bottom:0px;
 	text-align:center;
 	background-color:#fff;
 	p {
