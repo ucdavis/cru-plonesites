@@ -247,12 +247,18 @@ nav {
 		white-space: nowrap;
 		color: #fff;
 		@include main-theme-trans;
+		.section-homepage & {
+			background-color:rgba(0,0,0,.5);
+		}
 	}
 	// ul li a:hover {
 	// 	background: #f00;
 	// }
 	li ul {
 		@include main-theme-trans;
+		.section-homepage & {
+			background-color:rgba(0,0,0,.5);
+		}
 	}
 	li:hover ul {
 		display: block;

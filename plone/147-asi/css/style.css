@@ -1535,6 +1535,8 @@ nav {
     background-color: #288186; }
   .site-safs #top_drop-nav ul li a {
     background-color: #70b11e; }
+  .section-homepage #top_drop-nav ul li a {
+    background-color: rgba(0, 0, 0, 0.5); }
 .site-ASI #top_drop-nav li ul {
   background-color: #1a5498; }
 .site-sarep #top_drop-nav li ul {
@@ -1547,6 +1549,8 @@ nav {
   background-color: #288186; }
 .site-safs #top_drop-nav li ul {
   background-color: #70b11e; }
+.section-homepage #top_drop-nav li ul {
+  background-color: rgba(0, 0, 0, 0.5); }
 #top_drop-nav li:hover ul {
   display: block;
   position: absolute; }
