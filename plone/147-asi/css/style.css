@@ -2449,8 +2449,8 @@ table.secondary_table tr td {
     padding-right: 10%;
     padding-top: 7%; }
 table.secondary_table tr:nth-child(odd) td {
-  padding-top: 4%;
-  border-bottom: 1px solid #000; }
+  padding-top: 3%;
+  border-bottom: 2px solid #000; }
   .site-ASI table.secondary_table tr:nth-child(odd) td {
     border-color: #FFB208; }
   .site-sarep table.secondary_table tr:nth-child(odd) td {
@@ -2463,6 +2463,8 @@ table.secondary_table tr:nth-child(odd) td {
     border-color: #AD5C0E; }
   .site-safs table.secondary_table tr:nth-child(odd) td {
     border-color: #038EAA; }
+table.secondary_table tr:first-child td {
+  padding-top: 1%; }
 
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
