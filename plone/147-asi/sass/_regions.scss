@@ -316,4 +316,7 @@ table.secondary_table {
 			}
 		}
 	}
+	tr:nth-child(odd) {
+		margin-top:4%;
+	}
 }

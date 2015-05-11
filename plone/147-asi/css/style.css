@@ -2448,6 +2448,8 @@ table.secondary_table tr td {
   table.secondary_table tr td img {
     padding-right: 10%;
     padding-top: 7%; }
+table.secondary_table tr:nth-child(odd) {
+  margin-top: 4%; }
 
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
