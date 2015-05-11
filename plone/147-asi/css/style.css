@@ -1551,7 +1551,7 @@ nav {
   background-color: #70b11e; }
 .section-homepage #top_drop-nav li ul {
   background-color: rgba(0, 0, 0, 0.5);
-  margin-top: 8px; }
+  padding-top: 11px; }
 #top_drop-nav li:hover ul {
   display: block;
   position: absolute; }
@@ -2411,6 +2411,10 @@ p.standout_gold {
         border-left: 1px solid #c8c7cc;
         border-right: 1px solid #c8c7cc;
         border-bottom: 1px solid #c8c7cc; }
+        .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article h2 {
+          padding-left: 10px; }
+        .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article p {
+          padding-left: 10px; }
     .section-homepage .spotlight-bg .spotlight-section .spotlight_events {
       width: 40%;
       display: inline-block;

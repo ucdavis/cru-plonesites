@@ -238,6 +238,12 @@ p.standout_gold {
 					border-left:1px solid $borders;
 					border-right:1px solid $borders;
 					border-bottom:1px solid $borders;
+					h2 {
+						padding-left:10px;
+					}
+					p {
+						padding-left:10px;
+					}
 				}
 			}
 			.spotlight_events {
