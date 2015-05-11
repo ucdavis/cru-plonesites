@@ -770,6 +770,9 @@ img {
   .top-header .toplefthead {
     width: 60%;
     display: inline-block; }
+    .top-header .toplefthead img {
+      margin-right: 10px;
+      margin-bottom: 2px; }
   .top-header .toprighthead {
     width: 35%;
     margin-left: 4%;
