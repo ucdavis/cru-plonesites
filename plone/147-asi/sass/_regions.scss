@@ -316,7 +316,9 @@ table.secondary_table {
 			}
 		}
 	}
-	tr:nth-child(odd) {
-		margin-top:4%;
+	tr:nth-child(odd) td {
+		padding-top:4%;
+		border-bottom:1px solid #000;
+		@include accent-theme-brdr-color;
 	}
 }

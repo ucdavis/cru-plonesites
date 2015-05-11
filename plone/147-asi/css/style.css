@@ -2448,8 +2448,21 @@ table.secondary_table tr td {
   table.secondary_table tr td img {
     padding-right: 10%;
     padding-top: 7%; }
-table.secondary_table tr:nth-child(odd) {
-  margin-top: 4%; }
+table.secondary_table tr:nth-child(odd) td {
+  padding-top: 4%;
+  border-bottom: 1px solid #000; }
+  .site-ASI table.secondary_table tr:nth-child(odd) td {
+    border-color: #FFB208; }
+  .site-sarep table.secondary_table tr:nth-child(odd) td {
+    border-color: #DDB307; }
+  .site-rr table.secondary_table tr:nth-child(odd) td {
+    border-color: #78BE20; }
+  .site-sf table.secondary_table tr:nth-child(odd) td {
+    border-color: #AD5C0F; }
+  .site-infas table.secondary_table tr:nth-child(odd) td {
+    border-color: #AD5C0E; }
+  .site-safs table.secondary_table tr:nth-child(odd) td {
+    border-color: #038EAA; }
 
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
