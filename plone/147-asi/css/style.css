@@ -2431,6 +2431,8 @@ table.secondary_table tr:nth-child(odd) td {
     border-color: #AD5C0E; }
   .site-safs table.secondary_table tr:nth-child(odd) td {
     border-color: #038EAA; }
+table.secondary_table .webkit tr:nth-child(odd) td:first-child {
+  width: 3%; }
 table.secondary_table tr:first-child td {
   padding-top: 1%; }
 

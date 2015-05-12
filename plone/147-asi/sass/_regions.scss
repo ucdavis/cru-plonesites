@@ -330,6 +330,9 @@ table.secondary_table {
 		border-bottom:2px solid #000;
 		@include accent-theme-brdr-color;
 	}
+	.webkit tr:nth-child(odd) td:first-child {
+		width:3%;
+	}
 	tr:first-child td {
 		padding-top:1%;
 	}
