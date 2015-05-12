@@ -1550,7 +1550,7 @@ nav {
   background-color: #70b11e; }
 .section-homepage #top_drop-nav li ul {
   background-color: rgba(0, 0, 0, 0.5);
-  padding-top: 11px; }
+  margin-top: 8px; }
 #top_drop-nav li:hover ul {
   display: block;
   position: absolute; }
@@ -2405,6 +2405,8 @@ p.standout_gold {
         font-family: "proxima-nova", sans-serif; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature a.contenttype-news-item img {
           width: 100%; }
+      .section-homepage .spotlight-bg .spotlight-section .spotlight_feature dt.portletHeader {
+        margin-bottom: 22px; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article {
         background-color: #fff;
         border-left: 1px solid #c8c7cc;
