@@ -1059,8 +1059,6 @@ header {
   vertical-align: top;
   padding: 1em;
   float: right; }
-  .template-secondary_landing_view .portlet_column {
-    float: left; }
 
 .portletItem {
   padding-top: 4%; }
@@ -1137,8 +1135,6 @@ header {
   margin-top: .5em;
   height: auto;
   float: right; }
-  .template-secondary_landing_view .newsImageContainer img {
-    float: none; }
 
 #content div.newsImageContainer p.discreet {
   font-family: "proxima-nova", sans-serif;
@@ -1148,28 +1144,6 @@ header {
   top: 0px;
   padding: 0px;
   font-size: 1.2em; }
-
-.template-secondary_landing_view .innerds {
-  padding-left: 3%;
-  padding-right: 0px; }
-.template-secondary_landing_view #content .documentDescription, .template-secondary_landing_view #content #description {
-  margin-bottom: 1%; }
-.template-secondary_landing_view dt.portletHeader {
-  font-family: "ff-tisa-web-pro", Georgia, serif;
-  color: #717272;
-  font-weight: 600;
-  font-size: 1.4rem;
-  text-transform: uppercase;
-  line-height: 1.1em;
-  letter-spacing: .5px;
-  margin-top: 6px;
-  padding-bottom: 5px; }
-  .template-secondary_landing_view dt.portletHeader a {
-    color: #fff; }
-  .template-secondary_landing_view dt.portletHeader a:hover {
-    color: #f5f5f5; }
-.template-secondary_landing_view .portlet_column {
-  margin-top: 1%; }
 
 .rainbow {
   background-image: url(../images/rainbow.png);
@@ -2053,25 +2027,6 @@ dt.portletHeader {
     border-color: #AD5C0E; }
   .site-safs .portletstatic dd.portletItem {
     border-color: #038EAA; }
-
-.template-secondary_landing_view dt.portletHeader {
-  font-family: "ff-tisa-web-pro", Georgia, serif;
-  font-weight: 600;
-  font-size: 1.4rem;
-  display: inline-block;
-  text-transform: uppercase;
-  padding: 0px;
-  letter-spacing: .5px;
-  margin-top: 6px;
-  padding-bottom: 5px;
-  background-color: white; }
-  .template-secondary_landing_view dt.portletHeader a {
-    color: #fff; }
-  .template-secondary_landing_view dt.portletHeader a:hover {
-    color: #f5f5f5; }
-.template-secondary_landing_view .portletstatic dd.portletItem {
-  border-top: none;
-  padding-top: 0px; }
 
 .section-homepage .spotlight_events span.portletItemDetails {
   font-size: 1.4rem;

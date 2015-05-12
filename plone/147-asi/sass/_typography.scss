@@ -383,30 +383,30 @@ dt.portletHeader{
 	border-top:2px solid #000;
 	@include accent-theme-brdr-color;
 }
-.template-secondary_landing_view {
-	dt.portletHeader{
-		font-family:$serif;
-		font-weight:600;
-		font-size:1.4rem;
-		display:inline-block;
-		text-transform:uppercase;
-		padding:0px;
-		letter-spacing: .5px;
-		margin-top:6px;
-		padding-bottom:5px;
-		background-color:rgb(255,255,255);
-		a {
-			color:#fff;
-		}
-		a:hover {
-			color:#f5f5f5;
-		}
-	}
-	.portletstatic dd.portletItem {
-		border-top:none;
-		padding-top:0px;
-	}
-}
+// .template-secondary_landing_view {
+// 	dt.portletHeader{
+// 		font-family:$serif;
+// 		font-weight:600;
+// 		font-size:1.4rem;
+// 		display:inline-block;
+// 		text-transform:uppercase;
+// 		padding:0px;
+// 		letter-spacing: .5px;
+// 		margin-top:6px;
+// 		padding-bottom:5px;
+// 		background-color:rgb(255,255,255);
+// 		a {
+// 			color:#fff;
+// 		}
+// 		a:hover {
+// 			color:#f5f5f5;
+// 		}
+// 	}
+// 	.portletstatic dd.portletItem {
+// 		border-top:none;
+// 		padding-top:0px;
+// 	}
+// }
 span {
 	.section-homepage .spotlight_events &.portletItemDetails {
 		font-size:1.4rem;
