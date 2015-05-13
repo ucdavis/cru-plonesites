@@ -15,9 +15,6 @@
 #right---default---widgets ul{
 	margin-left: 1.5em;
 }
-#right---default---widgets .widget-fieldset {
-	border-top: 2px solid rgb(38, 96, 163);
-}
 /*#content ul {
     list-style-type: disc;
     margin-left: 1rem;
@@ -25,7 +22,7 @@
 
 /*Right column border*/
 #faceted-form fieldset {
-    border: none;
+	border-top: 2px solid rgb(38, 96, 163);
     margin: 0.5em;
     padding: 1em 0.5em 0.5em;
 }
