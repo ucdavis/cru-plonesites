@@ -15,7 +15,7 @@
 #right---default---widgets ul{
 	margin-left: 1.5em;
 }
-#right---default---widgets fieldset .widget-fieldset {
+#right---default---widgets .widget-fieldset {
 	border-top: 2px solid rgb(38, 96, 163);
 }
 /*#content ul {
