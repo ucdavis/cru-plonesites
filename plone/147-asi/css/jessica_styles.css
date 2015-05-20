@@ -45,13 +45,26 @@
 /* Current Search Headline*/
 #center---default---widgets legend{
     font-size: 2.0rem;
-    padding: 0.25em;
+    padding: 0.5rem;
+    margin-bottom: 10px;
 }
 /* Results per page */
 #center---default---widgets #c3 {
-    font-size: 1.6em;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding-left: 1rem;
+    margin-top: -1rem;
 }
 /* Hide filter / Remove All */
 #center---default---widgets .faceted-criteria-hide-show,.faceted-criteria-reset{
     font-size: 1.6em;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+#faceted-results {
+    padding-top: 15px
+}
+#faceted-results dl{
+    font-size: 1.4rem;
+    line-height: 2.3rem;
 }
