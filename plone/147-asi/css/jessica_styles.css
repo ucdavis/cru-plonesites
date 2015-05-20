@@ -22,9 +22,21 @@
 
 /*Right column border*/
 #faceted-form fieldset {
-	border-top: 2px solid rgb(38, 96, 163);
-    margin: 0.5em;
+    border-top: 2px solid rgb(38, 96, 163);
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    margin: 0.45em;
     padding: 1em 0.5em 0.5em;
+}
+#right---default---widgets #c0_widget{
+    margin-bottom: 1.2rem;
+}
+#right---default---widgets #c4_widget{
+   padding-top: .75rem;
+}
+#right---default---widgets #c5_widget, #c6_widget{
+    padding-top: .70rem;
 }
 /*Results per page widget*/
 .widget-fieldset li {
@@ -32,6 +44,9 @@
 }
 .widget-fieldset > form {
     font-size: 1.5rem;
+}
+.widget-fieldset ul{
+    margin-top: -1rem;
 }
 #content li, dl.portlet li, div.portletStaticText li {
     display: list-item;
@@ -67,4 +82,7 @@
 #faceted-results dl{
     font-size: 1.4rem;
     line-height: 2.3rem;
+}
+#faceted-results .listingBar{
+    font-size: 1.5rem;
 }
