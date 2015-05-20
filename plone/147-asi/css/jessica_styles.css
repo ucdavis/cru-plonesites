@@ -21,7 +21,7 @@
 }*/
 
 /*Right column border*/
-#faceted-form fieldset {
+#right-area fieldset{
     border-top: 2px solid rgb(38, 96, 163);
     border-left: 0px;
     border-right: 0px;
