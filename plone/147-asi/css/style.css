@@ -754,6 +754,8 @@ img {
     background-color: #288186; }
   .site-safs .top-header-bg {
     background-color: #70b11e; }
+  .site-sustainable-sourcing .top-header-bg {
+    background-color: #e07d28; }
 
 .top-header {
   width: 80%;
@@ -797,6 +799,8 @@ header {
     background-color: #2B8C92; }
   .site-safs header {
     background-color: #78BE20; }
+  .site-sustainable-sourcing header {
+    background-color: #E28535; }
 
 .header_contents {
   width: 80%;
@@ -1259,6 +1263,8 @@ nav {
       border-color: #AD5C0E; }
     .site-safs #portal-globalnav .selected > a {
       border-color: #038EAA; }
+    .site-sustainable-sourcing #portal-globalnav .selected > a {
+      border-color: #12137B; }
   #portal-globalnav ul.submenu {
     z-index: 9999;
     -webkit-transition: all 1s ease;
@@ -1278,6 +1284,8 @@ nav {
       background-color: #2B8C92; }
     .site-safs #portal-globalnav ul.submenu {
       background-color: #78BE20; }
+    .site-sustainable-sourcing #portal-globalnav ul.submenu {
+      background-color: #E28535; }
     #portal-globalnav ul.submenu .state-published {
       color: #fff !important; }
     #portal-globalnav ul.submenu li {
@@ -1297,6 +1305,8 @@ nav {
       color: #AD5C0E !important; }
     .site-safs #portal-globalnav ul.submenu li a:hover {
       color: #038EAA !important; }
+    .site-sustainable-sourcing #portal-globalnav ul.submenu li a:hover {
+      color: #12137B !important; }
 
 /*
     Mobile Menu Core Style
@@ -1432,6 +1442,8 @@ nav {
   background-color: #237276; }
 .site-safs .slicknav_menu {
   background-color: #659f1b; }
+.site-sustainable-sourcing .slicknav_menu {
+  background-color: #d5731f; }
 
 .slicknav_nav {
   color: #fff;
@@ -1508,6 +1520,8 @@ nav {
     background-color: #288186; }
   .site-safs #top_drop-nav ul li a {
     background-color: #70b11e; }
+  .site-sustainable-sourcing #top_drop-nav ul li a {
+    background-color: #e07d28; }
   .section-homepage #top_drop-nav ul li a {
     background-color: transparent; }
 .site-ASI #top_drop-nav li ul {
@@ -1522,6 +1536,8 @@ nav {
   background-color: #288186; }
 .site-safs #top_drop-nav li ul {
   background-color: #70b11e; }
+.site-sustainable-sourcing #top_drop-nav li ul {
+  background-color: #e07d28; }
 .section-homepage #top_drop-nav li ul {
   background-color: rgba(0, 0, 0, 0.5);
   margin-top: 8px; }
@@ -1574,6 +1590,8 @@ ul#sub_top_drop-nav {
     background-color: #2B8C92; }
   .site-safs .section-homepage #portal-globalnav {
     background-color: #78BE20; }
+  .site-sustainable-sourcing .section-homepage #portal-globalnav {
+    background-color: #E28535; }
   .section-homepage #portal-globalnav .selected a {
     background-color: transparent; }
     .section-homepage #portal-globalnav .selected a:hover {
@@ -1599,6 +1617,8 @@ ul#sub_top_drop-nav {
       border-color: #AD5C0E; }
     .site-safs .section-homepage #portal-globalnav .selected > a {
       border-color: #038EAA; }
+    .site-sustainable-sourcing .section-homepage #portal-globalnav .selected > a {
+      border-color: #12137B; }
   .section-homepage #portal-globalnav ul.submenu {
     z-index: 9999;
     margin: 0 auto;
@@ -1620,6 +1640,8 @@ ul#sub_top_drop-nav {
       background-color: #2B8C92; }
     .site-safs .section-homepage #portal-globalnav ul.submenu {
       background-color: #78BE20; }
+    .site-sustainable-sourcing .section-homepage #portal-globalnav ul.submenu {
+      background-color: #E28535; }
     .section-homepage #portal-globalnav ul.submenu .state-published {
       color: #fff !important; }
     .section-homepage #portal-globalnav ul.submenu li {
@@ -1639,6 +1661,8 @@ ul#sub_top_drop-nav {
       color: #AD5C0E !important; }
     .site-safs .section-homepage #portal-globalnav ul.submenu li a:hover {
       color: #038EAA !important; }
+    .site-sustainable-sourcing .section-homepage #portal-globalnav ul.submenu li a:hover {
+      color: #12137B !important; }
 
 /* anchor styles */
 html {
@@ -1671,6 +1695,8 @@ html {
     color: #AD5C0E !important; }
   .site-safs .top-header a:hover {
     color: #038EAA !important; }
+  .site-sustainable-sourcing .top-header a:hover {
+    color: #12137B !important; }
 .section-homepage .spotlight_events .portletItem a.tile {
   font-size: 1.8rem;
   color: #434343; }
@@ -1761,6 +1787,8 @@ h2 {
       color: #AD5C0E !important; }
     .site-safs .lefthead h2 a:hover {
       color: #038EAA !important; }
+    .site-sustainable-sourcing .lefthead h2 a:hover {
+      color: #12137B !important; }
   h2.welcome_header {
     font-family: "proxima-nova", sans-serif;
     color: #fff;
@@ -1804,6 +1832,8 @@ h3 {
       background-color: #AD5C0E; }
     .site-safs .eventdetailsside h3 {
       background-color: #038EAA; }
+    .site-sustainable-sourcing .eventdetailsside h3 {
+      background-color: #12137B; }
 
 h4 {
   font-size: 2rem;
@@ -1937,6 +1967,8 @@ li {
           color: #AD5C0E !important; }
         .site-safs #portal-globalnav li a:hover {
           color: #038EAA !important; }
+        .site-sustainable-sourcing #portal-globalnav li a:hover {
+          color: #12137B !important; }
   ul.twocol li {
     display: inline-block !important;
     width: 49%;
@@ -1986,6 +2018,8 @@ dt.portletHeader {
     background-color: #AD5C0E; }
   .site-safs dt.portletHeader {
     background-color: #038EAA; }
+  .site-sustainable-sourcing dt.portletHeader {
+    background-color: #12137B; }
   dt.portletHeader a {
     color: #fff; }
   dt.portletHeader a:hover {
@@ -2010,6 +2044,8 @@ dt.portletHeader {
         color: #AD5C0E !important; }
       .site-safs .bottom_ports dt.portletHeader a:hover {
         color: #038EAA !important; }
+      .site-sustainable-sourcing .bottom_ports dt.portletHeader a:hover {
+        color: #12137B !important; }
   .section-homepage .spotlight_feature dt.portletHeader {
     background-color: #1C5BA5; }
 
@@ -2027,6 +2063,8 @@ dt.portletHeader {
     border-color: #AD5C0E; }
   .site-safs .portletstatic dd.portletItem {
     border-color: #038EAA; }
+  .site-sustainable-sourcing .portletstatic dd.portletItem {
+    border-color: #12137B; }
 
 .section-homepage .spotlight_events span.portletItemDetails {
   font-size: 1.4rem;
@@ -2064,6 +2102,8 @@ span.code {
     background-color: #AD5C0E; }
   .site-safs .btn {
     background-color: #038EAA; }
+  .site-sustainable-sourcing .btn {
+    background-color: #12137B; }
   .btn:hover {
     opacity: .95; }
 
@@ -2431,6 +2471,8 @@ table.secondary_table tr:nth-child(odd) td {
     border-color: #AD5C0E; }
   .site-safs table.secondary_table tr:nth-child(odd) td {
     border-color: #038EAA; }
+  .site-sustainable-sourcing table.secondary_table tr:nth-child(odd) td {
+    border-color: #12137B; }
 table.secondary_table .webkit tr:nth-child(odd) td:first-child {
   width: 3%; }
 table.secondary_table tr:first-child td {

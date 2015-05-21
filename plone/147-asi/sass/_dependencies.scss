@@ -80,6 +80,9 @@
 	$safs_main:			#78BE20;
 	$safs_accent:		#038EAA;
 
+	$sustain_main:		#E28535;
+	$sustain_accent:	#12137B;
+
 	$borders:			#c8c7cc; // borders
 	$secondary-bg:		#FDFDFD; // highlighted gray background
 
@@ -166,6 +169,7 @@
 	.site-sf & {background-color: $sf_main;}
 	.site-infas & {background-color: $infas_main;}
 	.site-safs & {background-color: $safs_main;}
+	.site-sustainable-sourcing & {background-color: $sustain_main;}
 }
 @mixin main-theme-color {
 	.site-ASI & {color: $asi_main;}
@@ -174,6 +178,7 @@
 	.site-sf & {color: $sf_main;}
 	.site-infas & {color: $infas_main;}
 	.site-safs & {color: $safs_main;}
+	.site-sustainable-sourcing & {color: $sustain_main;}
 }
 @mixin main-theme-trans {
 	.site-ASI & {background-color:darken($asi_main,3);}
@@ -182,6 +187,7 @@
 	.site-sf & {background-color:darken($sf_main,3);}
 	.site-infas & {background-color:darken($infas_main,3);}
 	.site-safs & {background-color:darken($safs_main,3);}
+	.site-sustainable-sourcing & {background-color:darken($sustain_main,3);}
 }
 
 @mixin main-theme-trans-more {
@@ -191,6 +197,7 @@
 	.site-sf & {background-color:darken($sf_main,7);}
 	.site-infas & {background-color:darken($infas_main,7);}
 	.site-safs & {background-color:darken($safs_main,7);}
+	.site-sustainable-sourcing & {background-color:darken($sustain_main,7);}
 }
 
 @mixin accent-theme-bg-color {
@@ -200,6 +207,7 @@
 	.site-sf & {background-color: $sf_accent;}
 	.site-infas & {background-color: $infas_accent;}
 	.site-safs & {background-color: $safs_accent;}
+	.site-sustainable-sourcing & {background-color: $sustain_accent;}
 }
 
 @mixin nested-accent-theme-bg-color {
@@ -209,6 +217,7 @@
 	&.site-sf {background-color: $sf_accent;}
 	&.site-infas {background-color: $infas_accent;}
 	&.site-safs {background-color: $safs_accent;}
+	&.site-sustainable-sourcing {background-color: $sustain_accent;}
 }
 
 @mixin accent-theme-color {
@@ -218,6 +227,7 @@
 	.site-sf & {color: $sf_accent !important;}
 	.site-infas & {color: $infas_accent !important;}
 	.site-safs & {color: $safs_accent !important;}
+	.site-sustainable-sourcing & {color: $sustain_accent !important;}
 }
 @mixin accent-theme-brdr-color {
 	.site-ASI & {border-color: $asi_accent;}
@@ -226,6 +236,7 @@
 	.site-sf & {border-color: $sf_accent;}
 	.site-infas & {border-color: $infas_accent;}
 	.site-safs & {border-color: $safs_accent;}
+	.site-sustainable-sourcing & {border-color: $sustain_accent;}
 }
 
 
