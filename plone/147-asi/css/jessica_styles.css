@@ -6,9 +6,9 @@
     color: white;
     font-size: 1.6rem;
     font-weight: 400;
-    padding: 0.50em;
+    padding: .75rem;
 /*    Creates border       */
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
 /*    Adjust border spacing    */
     margin-left: -.4rem;
 }
