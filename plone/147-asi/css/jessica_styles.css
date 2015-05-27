@@ -1,5 +1,10 @@
 /* CSS for ASI publications */
 /* Right column */
+
+/* Gets rid of border around Current Search */
+#content fieldset {
+    border:none
+}
 #right---default---widgets legend {
     background-color: rgb(38, 96, 163);
     border: 0 none;
@@ -75,6 +80,7 @@
     padding-top: .5rem;
     margin-top: -.8rem;
     margin-right: 2.5rem;
+    border: 1px solid rgb(200, 200, 200);
 }
 .faceted-criteria a{
     color:  rgb(67, 67, 67) !important;
