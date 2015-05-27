@@ -1,5 +1,5 @@
-/*CSS for ASI publications*/
-/*Right column*/
+/* CSS for ASI publications */
+/* Right column */
 #right---default---widgets legend {
     background-color: rgb(38, 96, 163);
     border: 0 none;
@@ -7,7 +7,10 @@
     font-size: 1.6rem;
     font-weight: 400;
     padding: 0.50em;
+/*    Creates border       */
     margin-bottom: 25px;
+/*    Adjust border spacing    */
+    margin-left: -.4rem;
 }
 #right---default---widgets li{
 	font-size: 1.4rem;
@@ -15,14 +18,16 @@
 #right---default---widgets ul{
 	margin-left: 1.5em;
 }
-/*#content ul {
+/* #content ul {
     list-style-type: disc;
     margin-left: 1rem;
 }*/
 
-/*Right column border*/
+/* Right column border */
 #right-area fieldset{
+/* Creates border */
     border-top: 2px solid rgb(38, 96, 163);
+/*----------------*/
     border-left: 0px;
     border-right: 0px;
     border-bottom: 0px;
@@ -53,11 +58,11 @@
     line-height: 1.85rem;
     margin-bottom: 0.25em;
 }
-/*#center-and-left-area #content legend {
+/* #center-and-left-area #content legend {
     font-size: 1.8rem;
     padding: 0.5em;
 }*/
-/* Current Search Headline*/
+/* Current Search Headline */
 #center---default---widgets legend{
     font-size: 2.0rem;
     padding: 0.5rem;
