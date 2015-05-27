@@ -63,13 +63,13 @@
     padding: 0.5em;
 }*/
 /* Current Search Headline */
-#center---default---widgets legend{
+#center---default---widgets legend {
     font-size: 2.0rem;
     padding: 0.5rem;
     margin-bottom: 10px;
     color: rgb(67, 67, 67);
 }
-#c3_widget{
+#c3_widget {
     background-color: rgb(239, 243, 245);
     color: rgb(67, 67, 67);
     padding-top: .5rem;
@@ -95,10 +95,14 @@
 #faceted-results {
     padding-top: 15px
 }
+
 #faceted-results dl{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     line-height: 2.3rem;
 }
-#faceted-results .listingBar{
+#faceted-results .listingBar {
     font-size: 1.5rem;
+}
+.state-published {
+    color: #205C90 !important;
 }
