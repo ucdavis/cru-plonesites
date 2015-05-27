@@ -67,6 +67,20 @@
     font-size: 2.0rem;
     padding: 0.5rem;
     margin-bottom: 10px;
+    color: black;
+}
+#c3_widget{
+    background-color: rgb(245,178,53);
+    color: white;
+    padding-top: .5rem;
+    margin-top: -.8rem;
+    margin-right: 2.5rem;
+}
+.faceted-criteria a{
+    color: white !important;
+}
+#faceted-form fieldset{
+    border: 0 none;
 }
 /* Results per page */
 #center---default---widgets #c3 {
