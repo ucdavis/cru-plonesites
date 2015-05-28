@@ -181,11 +181,6 @@ Front page typography
 	color:#fff;
 	font-size: 1.4em;
 }
-#spotlight_wrapper p {
-	color:#fff;
-	font-size: 1.6em;
-	margin-top: .5em;
-}
 .portletItemDetails /* DATE */ {
 	font-size: 107%;
 	font-family: "futura-pt",sans-serif;
@@ -521,18 +516,14 @@ Call to actions on homepage
 
 /* ------
 
-Spotlight
+homepage fun background-color:#19a9da;
 
 ------- */
 
 #spotlight {
-	background-color:#19a9da;
 	height:auto;
-	width:100%;
 	padding-top: 2em;
 	padding-bottom: 2.5em;
-}
-#spotlight_wrapper {
 	margin:0 auto;
 	width:80%;
 	max-width:1200px;
@@ -541,14 +532,11 @@ Spotlight
 	width:47%;
 	display: inline-block;
 }
-#slleft h2, #slright h2, #slright h3 a {
-	color:#fff;
-}
-#slright {
+/*#slright {
 	width: 47%;
 	display: inline-block;
 	float: right;
-}
+}*/
 #spot_left_text {
 	width:60%;
 	display: inline-block;
