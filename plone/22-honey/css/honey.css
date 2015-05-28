@@ -520,13 +520,20 @@ homepage fun background-color:#19a9da;
 
 ------- */
 
+.homepage_portlets {
+	margin:0 auto;
+	width:80%;
+	max-width:1200px;
+
+}
+
 #spotlight {
 	height:auto;
 	padding-top: 2em;
 	padding-bottom: 2.5em;
-	margin:0 auto;
-	width:80%;
-	max-width:1200px;
+	display: inline-block;
+	vertical-align: top;
+	width: 32%;
 }
 #slleft {
 	width:47%;
@@ -618,9 +625,9 @@ News on Homepage
 ------- */
 
 .newscol {
-	width:80%;
-	max-width:1200px;
-	margin:6em auto;
+	disply: inline-block;
+	vertical-align: top;
+	width: 62%;
 }
 #mainnews {
 	width:45%;
