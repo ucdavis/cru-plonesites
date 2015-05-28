@@ -625,7 +625,7 @@ News on Homepage
 ------- */
 
 .newscol {
-	disply: inline-block;
+	display: inline-block;
 	vertical-align: top;
 	width: 62%;
 }
