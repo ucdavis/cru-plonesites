@@ -964,6 +964,9 @@ li.lisupport a {
 .portaltype-collection #content img.tileImage, #content div.newsImageContainer {
 	float:right;
 }
+.portaltype-collection.section-events p.discreet {
+	display:none;
+}
 
 
 
