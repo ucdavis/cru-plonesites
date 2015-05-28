@@ -157,6 +157,10 @@ Front page typography
 	color: #ffffff;
 }
 
+#mainnews h2 {
+	color:  #ffffff;
+}
+
 .section-front-page h2 /*main news and cta title*/ {
 	font-size: 2.4em;
 	margin-top: .5em;
