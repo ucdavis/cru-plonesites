@@ -533,6 +533,7 @@ homepage fun background-color:#19a9da;
 	width:80%;
 	max-width:1200px;
 	padding-top: 5em;
+	padding-bottom: 5em;
 }
 
 #spotlight {
@@ -636,6 +637,7 @@ News on Homepage
 	display: inline-block;
 	vertical-align: top;
 	width: 62%;
+	padding-left: 3em;
 }
 #mainnews {
 	width:45%;
