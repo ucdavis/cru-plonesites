@@ -529,12 +529,16 @@ Call to actions on homepage
 homepage fun background-color:#19a9da;
 
 ------- */
+.homepage_portlets-bg {
+	background-color:#19a9da;
+
+
+}
 
 .homepage_portlets {
 	margin:0 auto;
 	width:80%;
 	max-width:1200px;
-	background-color:#19a9da;
 }
 
 #spotlight {
