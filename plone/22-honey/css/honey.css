@@ -141,7 +141,8 @@ Front page typography
 */
 
 #mainnews h2 a:link, #mainnews h2 a:visited {
-	color:#826cb0;
+	/* color:#826cb0; */
+	color:  #ffffff;;
 }
 #recentnews h2 a:link, #recentnews h2 a:visited {
 	color:#826cb0;
@@ -156,11 +157,11 @@ Front page typography
 .homepage_portlets h2 {
 	color: #ffffff;
 }
-
+/*
 .newscol h2 {
 	color:  #ffffff;
 }
-
+*/
 .section-front-page h2 /*main news and cta title*/ {
 	font-size: 2.4em;
 	margin-top: .5em;
