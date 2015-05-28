@@ -183,7 +183,8 @@ Front page typography
 	font-weight: 700;
 }
 .section-front-page p {
-	color:#717171;
+	/*color:#717171;*/
+	color: #ffffff;
 }
 #footer_contents p {
 	color:#fff;
