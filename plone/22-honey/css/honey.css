@@ -145,7 +145,8 @@ Front page typography
 	color:  #ffffff;;
 }
 #recentnews h2 a:link, #recentnews h2 a:visited {
-	color:#826cb0;
+	/* color:#826cb0; */
+	color:  #ffffff;
 }
 #mainnews h2 a:hover {
 	color:#19a9da;
