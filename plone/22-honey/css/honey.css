@@ -482,6 +482,11 @@ a.button {
 	font-size:17px;
 }
 
+table .resp-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
 /* ------
 
 Call to actions on homepage
