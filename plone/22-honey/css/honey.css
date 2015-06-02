@@ -1253,12 +1253,6 @@ Media Queries
 }
 
 /* table responsive */
-/*
-.resp-table table{
-    width: 100%;
-    border-collapse: collapse;
-}
-*/
 @media all and (max-width: 600px) {
     table.plain td, table.productstable td {
 		float:left;
@@ -1266,12 +1260,6 @@ Media Queries
 		border-top: none;
 		font-size: .9em;
 	}
-	/*
-	.resp-table table, thead, tbody, th, td, tr{
-		display:block;
-	}
-
-*/
 
 /* Side bar responsive */
 @media all and (max-width: 800px) {
