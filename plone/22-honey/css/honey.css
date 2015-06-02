@@ -1254,7 +1254,7 @@ Media Queries
 
 /* table responsive */
 .resp-table table{
-    width: 500px;
+    width: 400px;
     border-collapse: collapse;
 }
 
@@ -1265,12 +1265,12 @@ Media Queries
 		border-top: none;
 		font-size: .9em;
 	}
-	/*
+	
 	.resp-table table, thead, tbody, th, td, tr{
 		display:block;
 	}
 
-*/
+
 }
 
 
