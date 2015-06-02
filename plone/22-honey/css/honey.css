@@ -1254,7 +1254,7 @@ Media Queries
 
 /* table responsive */
 .resp-table table{
-    width: 400px;
+    width: 50%;
     border-collapse: collapse;
 }
 
