@@ -1256,6 +1256,7 @@ Media Queries
 .resp-table table{
     width: 50%;
     border-collapse: collapse;
+    border-color: green;
 }
 
 @media all and (max-width: 600px) {
@@ -1270,6 +1271,7 @@ Media Queries
 		display:block;
 	}
 
+.resp-table
 
 }
 
