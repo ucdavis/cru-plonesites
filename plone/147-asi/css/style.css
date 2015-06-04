@@ -2481,6 +2481,122 @@ table.secondary_table tr:first-child td {
 #bottom_ports-bg iframe {
   margin-top: -50px; }
 
+#donormap {
+  background: url(images/donormap.jpg) no-repeat top left;
+  width: 585px;
+  height: 520px;
+  padding: 20px 120px 10px 15px; }
+
+.acre {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 60px; }
+
+.acre.a {
+  width: 59px; }
+
+.acre.b {
+  width: 59px; }
+
+.acre.c {
+  width: 58px; }
+
+.acre.d {
+  width: 60px; }
+
+.acre.e {
+  width: 60px; }
+
+.acre.f {
+  width: 60px;
+  margin-left: 20px; }
+
+.acre.g {
+  width: 59px; }
+
+.acre.h {
+  width: 59px; }
+
+.acre.i {
+  width: 60px; }
+
+.acre.one {
+  height: 60px; }
+
+.acre.two {
+  height: 62px; }
+
+.acre.three {
+  height: 61px; }
+
+.acre.four {
+  height: 60px; }
+
+.acre.five {
+  height: 62px; }
+
+.acre.six {
+  height: 60px; }
+
+.acre.seven {
+  height: 62px; }
+
+.acre.eight {
+  height: 61px; }
+
+span.popup {
+  position: absolute;
+  left: -9999px;
+  width: 100px;
+  text-align: center;
+  line-height: 1em;
+  font-size: 1.5em;
+  height: 30px;
+  padding: 10px;
+  border: 6px solid green;
+  background: #fff;
+  color: green;
+  border-radius: 12px;
+  display: inline; }
+
+.acre:hover {
+  background: rgba(100, 255, 255, 0.5);
+  cursor: pointer; }
+
+.acre:hover span.popup {
+  left: -30px;
+  top: -50px;
+  float: left;
+  position: absolute;
+  box-shadow: #333 5px 5px 5px; }
+
+span.popup.donor {
+  width: 150px;
+  height: 100px; }
+
+.acre:hover span.donor.popup {
+  left: -60px;
+  top: -120px; }
+
+span.popup.donor img {
+  max-width: 100px; }
+
+span.popup:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: green transparent transparent transparent;
+  top: 55px;
+  left: 50px; }
+
+span.popup.donor:after {
+  top: 125px;
+  left: 75px; }
+
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
     float: left;
