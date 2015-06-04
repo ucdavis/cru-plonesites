@@ -2551,17 +2551,16 @@ table.secondary_table tr:first-child td {
 span.popup {
   position: absolute;
   left: -9999px;
-  width: 100px;
   text-align: center;
   line-height: 1em;
   font-size: 1.5em;
-  height: 30px;
   padding: 10px;
   border: 6px solid green;
   background: #fff;
   color: green;
   border-radius: 12px;
-  display: inline; }
+  display: inline;
+  z-index: 99999; }
 
 .acre:hover {
   background: rgba(100, 255, 255, 0.5);
