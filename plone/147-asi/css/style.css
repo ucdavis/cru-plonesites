@@ -2081,6 +2081,9 @@ span.code {
   font-size: 1.3rem;
   color: #9b9b9b; }
 
+iframe {
+  width: 100; }
+
 .btn {
   box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.15) inset;
   color: #FFFFFF !important;
