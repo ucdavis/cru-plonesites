@@ -2481,7 +2481,7 @@ table.secondary_table tr:first-child td {
 #bottom_ports-bg iframe {
   margin-top: -50px; }
 
-#donormap {
+.donormap {
   background: url(images/donormap.jpg) no-repeat top left;
   width: 585px;
   height: 520px;
