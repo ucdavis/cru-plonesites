@@ -2482,10 +2482,10 @@ table.secondary_table tr:first-child td {
   margin-top: -50px; }
 
 .donormap {
-  background: url(images/donormap.jpg) no-repeat top left;
-  width: 585px;
-  height: 520px;
-  padding: 20px 120px 10px 15px; }
+  background: url(../images/donormap.jpg) no-repeat top left;
+  width: 692px;
+  height: 545px;
+  padding: 20px 100px 10px 15px; }
 
 .acre {
   position: relative;
