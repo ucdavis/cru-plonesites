@@ -2353,26 +2353,31 @@ p.standout_gold {
 
 .section-homepage .top-header-bg {
   display: none; }
-.section-homepage .banner--title {
-  text-align: center; }
-  .section-homepage .banner--title h1 {
-    font-size: 2.4rem;
-    text-transform: uppercase;
-    background-color: #C99700;
-    margin-bottom: 0px;
-    font-family: "futura-pt-1", "futura-pt-2", Futura Std, Futura, Arial, sans-serif;
-    font-weight: 700;
-    letter-spacing: 4;
-    color: #fff;
-    max-width: 400px; }
-  .section-homepage .banner--title h3 {
-    font-family: Georgia;
-    margin-top: 0px;
-    color: #515151;
-    background-color: #fff;
-    font-size: 2.2rem; }
 .section-homepage .homepage_slider {
-  margin-top: -6px; }
+  margin-top: -6px;
+  postion: relative; }
+  .section-homepage .homepage_slider .banner--title {
+    text-align: center;
+    vertical-align: middle; }
+    .section-homepage .homepage_slider .banner--title h1 {
+      font-size: 2.4rem;
+      text-transform: uppercase;
+      background-color: #C99700;
+      margin-bottom: 0px;
+      font-family: "futura-pt-1", "futura-pt-2", Futura Std, Futura, Arial, sans-serif;
+      font-weight: 700;
+      letter-spacing: 4;
+      color: #fff;
+      width: 400px;
+      margin: 0 auto; }
+    .section-homepage .homepage_slider .banner--title h3 {
+      font-family: Georgia;
+      margin-top: 0px;
+      color: #515151;
+      background-color: #fff;
+      font-size: 2.2rem;
+      margin: 0 auto;
+      width: 300px; }
 .section-homepage .portlet-static-homepage-welcome {
   width: 80%;
   max-width: 1200px;
