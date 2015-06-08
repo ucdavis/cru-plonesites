@@ -2392,15 +2392,14 @@ p.standout_gold {
   display: none; }
 .section-homepage .homepage_slider {
   margin-top: -6px;
-  postion: relative;
-  height: 583px;
-  overflow: hidden; }
+  postion: relative; }
   .section-homepage .homepage_slider .banner--title {
     text-align: center;
     position: absolute;
     bottom: 40%;
     left: 32.5%;
-    width: 35%; }
+    width: 35%;
+    height: 583px; }
     .section-homepage .homepage_slider .banner--title img {
       margin-top: -5%; }
     .section-homepage .homepage_slider .banner--title h1 {
@@ -2411,8 +2410,7 @@ p.standout_gold {
       font-weight: 400;
       padding: 1.4rem 2rem 1.0rem 2rem;
       color: #fff;
-      margin: 0 auto;
-      min-width: 495px; }
+      margin: 0 auto; }
     .section-homepage .homepage_slider .banner--title h3 {
       font-family: Georgia;
       margin-top: 0px;
