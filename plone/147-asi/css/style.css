@@ -780,8 +780,6 @@ img {
     margin-left: 4%;
     display: inline-block;
     text-align: right; }
-  .top-header body.section-homepage {
-    display: none; }
 
 header {
   background-color: #002855;
@@ -2354,11 +2352,21 @@ p.standout_gold {
   display: inline-block; }
 
 .section-homepage .top-header-bg {
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 999;
-  position: relative; }
-.section-homepage .homepage_slider {
-  margin-top: -44px; }
+  display: none; }
+.section-homepage .banner--title {
+  text-align: center; }
+  .section-homepage .banner--title h1 {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    background-color: #C99700;
+    margin-bottom: 0px;
+    font-family: "futura-pt-1", "futura-pt-2", Futura Std, Futura, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 4; }
+  .section-homepage .banner--title h3 {
+    font-family: Georgia;
+    color: #515151;
+    background-color: #fff; }
 .section-homepage .portlet-static-homepage-welcome {
   width: 80%;
   max-width: 1200px;

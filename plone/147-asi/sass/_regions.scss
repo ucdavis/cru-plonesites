@@ -186,12 +186,30 @@ p.standout_gold {
 }
 .section-homepage {
 	.top-header-bg {
-		background-color:rgba(0,0,0,.5);
-		z-index:999;
-		position:relative;
+		// background-color:rgba(0,0,0,.5);
+		// z-index:999;
+		// position:relative;
+		display:none;
+	}
+	.banner--title {
+		text-align:center;
+		h1 {
+			font-size:2.4rem;
+			text-transform:uppercase;
+			background-color:$secondary-color;
+			margin-bottom:0px;
+			font-family:$futura;
+			font-weight:700;
+			letter-spacing:4;
+		}
+		h3 {
+			font-family: Georgia;
+			color:$middle-gray;
+			background-color:#fff;
+		}
 	}
 	.homepage_slider {
-		margin-top:-44px;
+		// margin-top:-44px;
 	}
 	.portlet-static-homepage-welcome {
 		@include outer-container;
