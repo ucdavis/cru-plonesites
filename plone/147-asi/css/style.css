@@ -2396,12 +2396,11 @@ p.standout_gold {
   .section-homepage .homepage_slider .banner--title {
     text-align: center;
     position: absolute;
-    bottom: 38%;
+    bottom: 40%;
     left: 32.5%;
     width: 35%; }
     .section-homepage .homepage_slider .banner--title h1 {
       font-size: 3rem;
-      text-transform: uppercase;
       background-color: #C99700;
       margin-bottom: 0px;
       font-family: "proxima-nova", sans-serif;
