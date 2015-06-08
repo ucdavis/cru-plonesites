@@ -201,8 +201,12 @@ p.standout_gold {
 			bottom:40%;
 			left:32.5%;
 			width:35%;
+			height:583px;
+			img {
+				margin-top:-5%;
+			}
 			h1 {
-				font-size:3rem;
+				font-size:3.3rem;
 				background-color:$secondary-color;
 				margin-bottom:0px;
 				font-family:$sans-serif;

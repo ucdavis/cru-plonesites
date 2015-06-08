@@ -2398,9 +2398,12 @@ p.standout_gold {
     position: absolute;
     bottom: 40%;
     left: 32.5%;
-    width: 35%; }
+    width: 35%;
+    height: 583px; }
+    .section-homepage .homepage_slider .banner--title img {
+      margin-top: -5%; }
     .section-homepage .homepage_slider .banner--title h1 {
-      font-size: 3rem;
+      font-size: 3.3rem;
       background-color: #C99700;
       margin-bottom: 0px;
       font-family: "proxima-nova", sans-serif;
