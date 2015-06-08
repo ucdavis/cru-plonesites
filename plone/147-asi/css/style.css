@@ -780,6 +780,8 @@ img {
     margin-left: 4%;
     display: inline-block;
     text-align: right; }
+  .top-header body.section-homepage {
+    display: none; }
 
 header {
   background-color: #002855;
@@ -2162,6 +2164,9 @@ table.abouttable th {
 
 #content table.abouttable {
   margin-bottom: 2em; }
+
+.fullwidth {
+  width: 100%; }
 
 img.bordered {
   border-radius: 2%;

@@ -46,6 +46,9 @@ img {
 		display:inline-block;
 		text-align:right;
 	}
+	body.section-homepage {
+		display:none;
+	}
 }
 header {
 	background-color:$primary-color;
