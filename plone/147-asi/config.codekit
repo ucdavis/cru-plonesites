@@ -116,6 +116,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/fieldbanner.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.68070e+06,
+		"inputAbbreviatedPath": "\/images\/fieldbanner.jpg",
+		"outputAbbreviatedPath": "\/images\/fieldbanner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/icon-search.png": {
 		"fileType": 32768,
 		"ignore": 0,
