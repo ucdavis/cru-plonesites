@@ -2367,8 +2367,9 @@ p.standout_gold {
       font-family: "futura-pt-1", "futura-pt-2", Futura Std, Futura, Arial, sans-serif;
       font-weight: 700;
       letter-spacing: 4;
+      padding: 1rem 2rem;
       color: #fff;
-      width: 400px;
+      width: 466px;
       margin: 0 auto; }
     .section-homepage .homepage_slider .banner--title h3 {
       font-family: Georgia;
@@ -2377,7 +2378,8 @@ p.standout_gold {
       background-color: #fff;
       font-size: 2.2rem;
       margin: 0 auto;
-      width: 300px; }
+      width: 300px;
+      padding: 1rem 2rem; }
 .section-homepage .portlet-static-homepage-welcome {
   width: 80%;
   max-width: 1200px;
