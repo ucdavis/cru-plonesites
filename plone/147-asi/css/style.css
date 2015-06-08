@@ -2358,18 +2358,20 @@ p.standout_gold {
   postion: relative; }
   .section-homepage .homepage_slider .banner--title {
     text-align: center;
-    vertical-align: middle; }
+    postion: absolute;
+    bottom: 34%;
+    left: 32.5%; }
     .section-homepage .homepage_slider .banner--title h1 {
       font-size: 2.4rem;
       text-transform: uppercase;
       background-color: #C99700;
       margin-bottom: 0px;
       font-family: "futura-pt-1", "futura-pt-2", Futura Std, Futura, Arial, sans-serif;
-      font-weight: 700;
+      font-weight: 400;
       letter-spacing: 4;
-      padding: 1rem 2rem;
+      padding: 1.6rem 2rem;
       color: #fff;
-      width: 466px;
+      width: 35%;
       margin: 0 auto; }
     .section-homepage .homepage_slider .banner--title h3 {
       font-family: Georgia;
@@ -2378,8 +2380,9 @@ p.standout_gold {
       background-color: #fff;
       font-size: 2.2rem;
       margin: 0 auto;
-      width: 300px;
-      padding: 1rem 2rem; }
+      width: 456px;
+      padding: 1.4rem 2rem;
+      font-weight: 300; }
 .section-homepage .portlet-static-homepage-welcome {
   width: 80%;
   max-width: 1200px;
