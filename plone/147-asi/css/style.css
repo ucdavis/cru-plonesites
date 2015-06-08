@@ -2081,6 +2081,43 @@ span.code {
   font-size: 1.3rem;
   color: #9b9b9b; }
 
+.fadeinup {
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-name: fadeInUp;
+  animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-animation-delay: 0s;
+  -webkit-animation-direction: normal;
+  -webkit-animation-duration: 0.9s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-name: fadeInUp;
+  -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1); }
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: .0;
+    -webkit-transform: translateY(10%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%); } }
+@-moz-keyframes fadeInUp {
+  0% {
+    opacity: .0;
+    -moz-transform: translateY(10%); }
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0%); } }
+@keyframes fadeInUp {
+  0% {
+    opacity: .0;
+    transform: translateY(10%); }
+  100% {
+    opacity: 1;
+    transform: translateY(0%); } }
 iframe {
   width: 100; }
 
@@ -2358,12 +2395,12 @@ p.standout_gold {
   postion: relative; }
   .section-homepage .homepage_slider .banner--title {
     text-align: center;
-    postion: absolute;
+    position: absolute;
     bottom: 34%;
     left: 32.5%;
     width: 35%; }
     .section-homepage .homepage_slider .banner--title h1 {
-      font-size: 2.6rem;
+      font-size: 3rem;
       text-transform: uppercase;
       background-color: #C99700;
       margin-bottom: 0px;
