@@ -198,7 +198,7 @@ p.standout_gold {
 		.banner--title {
 			text-align:center;
 			position:absolute;
-			bottom:34%;
+			bottom:38%;
 			left:32.5%;
 			width:35%;
 			h1 {
@@ -206,10 +206,9 @@ p.standout_gold {
 				text-transform:uppercase;
 				background-color:$secondary-color;
 				margin-bottom:0px;
-				font-family:$futura;
-				font-weight:700;
-				letter-spacing:4;
-				padding:1.4rem 3rem 1.0rem 3rem;
+				font-family:$sans-serif;
+				font-weight:400;
+				padding:1.4rem 2rem 1.0rem 2rem;
 				color:#fff;
 				margin:0 auto;
 			}
@@ -218,11 +217,11 @@ p.standout_gold {
 				margin-top:0px;
 				color:$middle-gray;
 				background-color:#fff;
-				font-size:2.2rem;
+				font-size:2rem;
 				margin:0 auto;
 				width:456px;
 				padding:1.4rem 2rem;
-				font-weight:300;
+				font-weight:100;
 			}
 		}
 	}
