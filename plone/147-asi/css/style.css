@@ -801,6 +801,8 @@ header {
     background-color: #78BE20; }
   .site-sustainable-sourcing header {
     background-color: #E28535; }
+  .section-homepage header {
+    margin-bottom: 0px; }
 
 .header_contents {
   width: 80%;
@@ -1570,28 +1572,17 @@ ul#sub_top_drop-nav {
 .section-homepage nav {
   max-width: 1200px;
   width: 100%;
-  margin: 0 auto !important; }
+  height: 50px;
+  margin: 0 auto !important;
+  background: #1C5BA5;
+  border-top: 2px solid #4A90E2;
+  border-bottom: 2px solid #4A90E2; }
 
 .section-homepage #portal-globalnav {
-  background: none;
   margin: 0px;
   font-size: 100%;
   padding: 10px 0px;
   text-align: center; }
-  .site-ASI .section-homepage #portal-globalnav {
-    background-color: #1C5BA5; }
-  .site-sarep .section-homepage #portal-globalnav {
-    background-color: #004B85; }
-  .site-rr .section-homepage #portal-globalnav {
-    background-color: #C99700; }
-  .site-sf .section-homepage #portal-globalnav {
-    background-color: #0F8BAD; }
-  .site-infas .section-homepage #portal-globalnav {
-    background-color: #2B8C92; }
-  .site-safs .section-homepage #portal-globalnav {
-    background-color: #78BE20; }
-  .site-sustainable-sourcing .section-homepage #portal-globalnav {
-    background-color: #E28535; }
   .section-homepage #portal-globalnav .selected a {
     background-color: transparent; }
     .section-homepage #portal-globalnav .selected a:hover {
@@ -2393,7 +2384,7 @@ p.standout_gold {
 .section-homepage .homepage_slider {
   margin-top: -6px;
   postion: relative;
-  height: 583px;
+  height: 400px;
   overflow: hidden; }
   .section-homepage .homepage_slider .banner--title {
     text-align: center;
