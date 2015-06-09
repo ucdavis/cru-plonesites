@@ -194,13 +194,13 @@ p.standout_gold {
 
 	.homepage_slider {
 		postion:relative;
-		height:365px;
+		height:450px;
 		overflow:hidden;
 		@include breakpoint (laptop) {
-			height:300px;
+			height:400px;
 		}
 		@include breakpoint (rufus) {
-			height:250px;
+			height:350px;
 		}
 		p {
 			margin-top:0px;
@@ -218,12 +218,12 @@ p.standout_gold {
 				margin-top:-5%;
 			}
 			h1 {
-				font-size:2.6rem;
+				font-size:3rem;
 				background-color:$secondary-color;
 				margin-bottom:0px;
 				font-family:$sans-serif;
 				font-weight:400;
-				padding:1.4rem 4rem 1.0rem 2rem;
+				padding:1.4rem 4.5rem 1.0rem 2rem;
 				color:#fff;
 				margin:0 auto;
 				display:inline-block;
@@ -237,9 +237,9 @@ p.standout_gold {
 				margin-top:0px;
 				color:$middle-gray;
 				background-color:#fff;
-				font-size:1.8rem;
+				font-size:2rem;
 				margin:0 auto;
-				padding:1.2rem 1.6rem;
+				padding:1.2rem 2rem;
 				font-weight:100;
 				@include breakpoint (laptop){
 					font-size:1.6rem;
