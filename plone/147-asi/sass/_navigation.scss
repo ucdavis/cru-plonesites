@@ -301,13 +301,14 @@ ul#sub_top_drop-nav {
 	max-width:1200px;
 	width:100%;
 	margin:0 auto !important;
+	background:$asi_main;
+	border-top:2px solid #4A90E2;
+	border-bottom:2px solid #4A90E2;
 	
 }
 .section-homepage #portal-globalnav {
-	background:none;
 	margin:0px;
 	font-size:100%;
-	@include main-theme-bg-color;
 	padding:10px 0px;
 	text-align:center;
 	.selected a {

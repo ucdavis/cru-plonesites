@@ -55,6 +55,9 @@ header {
 	position: relative;
 	@include main-theme-bg-color;
 	margin-bottom:5px;
+	.section-homepage & {
+		margin-bottom:0px;
+	}
 }
 .header_contents {
 	@include outer-container;
