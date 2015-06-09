@@ -278,6 +278,28 @@ ul {
 			}
 		}
 	}
+	&.program_list {
+		margin-left:0px;
+		li {
+			list-style:none;
+			display:inline !important;
+			display:inline-block !important;
+			width:49%;
+			vertical-align:top;
+			text-align:center;
+			padding-right:0px;
+			background-color:#000;
+			a {
+				font-size:1.5rem;
+				font-family:$sans-serif;
+				color:#fff;
+				background-color:green;
+			}
+			&:last-child {
+				margin-right:0px;
+			}
+		}
+	}
 	.content & {
 		list-style-type:disc;
 	}
