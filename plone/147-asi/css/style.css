@@ -1938,18 +1938,23 @@ ul.program_list {
   margin-left: 0px; }
   ul.program_list li {
     list-style: none;
-    display: inline !important;
     display: inline-block !important;
-    width: 49%;
     vertical-align: top;
     text-align: center;
     padding-right: 0px;
     background-color: #000; }
+    ul.program_list li:nth-child(odd) {
+      margin-right: 4%; }
     ul.program_list li a {
       font-size: 1.5rem;
       font-family: "proxima-nova", sans-serif;
       color: #fff;
-      background-color: green; }
+      background-color: green;
+      display: inline-block !important;
+      width: 46%;
+      min-height: 64px;
+      vertical-align: top;
+      text-align: center; }
     ul.program_list li:last-child {
       margin-right: 0px; }
 .content ul {
@@ -2235,6 +2240,27 @@ input.searchButton {
 
 .asi-main {
   color: #1C5BA5; }
+
+.asi-main-bg {
+  background-color: #1C5BA5; }
+
+.sarep-main-bg {
+  background-color: #004B85; }
+
+.sf-main-bg {
+  background-color: #0F8BAD; }
+
+.rr-main-bg {
+  background-color: #C99700; }
+
+.infas-main-bg {
+  background-color: #2B8C92; }
+
+.safs-main-bg {
+  background-color: #78BE20; }
+
+.research-main-bg {
+  background-color: #642667; }
 
 .uppercase {
   text-transform: uppercase; }
