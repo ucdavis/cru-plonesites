@@ -1583,7 +1583,7 @@ ul#sub_top_drop-nav {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  width: 70%;
+  width: 60%;
   font-size: 100%;
   padding: 12px 8px;
   background-color: #1C5BA5;
@@ -1606,7 +1606,7 @@ ul#sub_top_drop-nav {
     float: none;
     margin-right: 0px; }
     .section-homepage #portal-globalnav li a {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       font-weight: 400; }
   .section-homepage #portal-globalnav .selected > a {
     border-bottom: 5px solid #C99700; }

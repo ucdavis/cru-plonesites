@@ -310,7 +310,7 @@ ul#sub_top_drop-nav {
 .section-homepage #portal-globalnav {
 	margin:0px;
 	@include outer-container;
-	width:70%;
+	width:60%;
 	font-size:100%;
 	padding:12px 8px;
 	background-color:$asi_main;
@@ -329,7 +329,7 @@ ul#sub_top_drop-nav {
 		float:none;
 		margin-right:0px;
 		a {
-			font-size:1.5rem;
+			font-size:1.8rem;
 			font-weight:400;
 		}
 	}
