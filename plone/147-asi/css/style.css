@@ -2402,7 +2402,9 @@ p.standout_gold {
   .section-homepage .homepage_slider .banner--title {
     text-align: center;
     margin-top: -38%;
-    background-image: url("../images/fieldbanner.jpg") cover no-repeat; }
+    background-image: url("../images/fieldbanner.jpg") cover no-repeat;
+    display: flex;
+    flex-direction: column; }
     .section-homepage .homepage_slider .banner--title img {
       margin-top: -5%; }
     .section-homepage .homepage_slider .banner--title h1 {
@@ -2426,8 +2428,7 @@ p.standout_gold {
       width: 456px;
       padding: 1.2rem 1.6rem;
       font-weight: 100;
-      display: flex;
-      flex-direction: column; }
+      width: 90%; }
 .section-homepage .portlet-static-homepage-welcome {
   width: 80%;
   max-width: 1200px;

@@ -204,6 +204,8 @@ p.standout_gold {
 			// left:32.5%;
 			margin-top:-38%;
 			background-image:url("../images/fieldbanner.jpg") cover no-repeat;
+			display: flex;
+			flex-direction: column;
 			img {
 				margin-top:-5%;
 			}
@@ -229,8 +231,7 @@ p.standout_gold {
 				width:456px;
 				padding:1.2rem 1.6rem;
 				font-weight:100;
-				display: flex;
-				flex-direction: column;
+				width:90%;
 			}
 		}
 	}
