@@ -219,6 +219,9 @@ p.standout_gold {
 				color:#fff;
 				margin:0 auto;
 				display:inline-block;
+				@include breakpoint (laptop){
+					font-size:2.4rem;
+				}
 			}
 			h3 {
 				font-family: Georgia;
@@ -231,6 +234,9 @@ p.standout_gold {
 				width:456px;
 				padding:1.2rem 1.6rem;
 				font-weight:100;
+				@include breakpoint (laptop){
+					font-size:1.6rem;
+				}
 			}
 		}
 	}

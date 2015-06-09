@@ -1583,7 +1583,7 @@ ul#sub_top_drop-nav {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  width: 60%;
+  width: 70%;
   font-size: 100%;
   padding: 12px 8px;
   background-color: #1C5BA5;
@@ -2417,6 +2417,9 @@ p.standout_gold {
       color: #fff;
       margin: 0 auto;
       display: inline-block; }
+      @media (max-width: 1000px) {
+        .section-homepage .homepage_slider .banner--title h1 {
+          font-size: 2.4rem; } }
     .section-homepage .homepage_slider .banner--title h3 {
       font-family: Georgia;
       display: inline-block;
@@ -2428,6 +2431,9 @@ p.standout_gold {
       width: 456px;
       padding: 1.2rem 1.6rem;
       font-weight: 100; }
+      @media (max-width: 1000px) {
+        .section-homepage .homepage_slider .banner--title h3 {
+          font-size: 1.6rem; } }
 .section-homepage .portlet-static-homepage-welcome {
   width: 80%;
   max-width: 1200px;
