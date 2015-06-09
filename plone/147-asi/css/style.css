@@ -2399,6 +2399,12 @@ p.standout_gold {
   postion: relative;
   height: 365px;
   overflow: hidden; }
+  @media (max-width: 1000px) {
+    .section-homepage .homepage_slider {
+      height: 300px; } }
+  @media (max-width: 850px) {
+    .section-homepage .homepage_slider {
+      height: 250px; } }
   .section-homepage .homepage_slider .banner--title {
     text-align: center;
     margin-top: -38%;

@@ -197,6 +197,12 @@ p.standout_gold {
 		postion:relative;
 		height:365px;
 		overflow:hidden;
+		@include breakpoint (laptop) {
+			height:300px;
+		}
+		@include breakpoint (rufus) {
+			height:250px;
+		}
 		.banner--title {
 			text-align:center;
 			// position:absolute;
