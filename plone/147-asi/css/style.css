@@ -1605,7 +1605,7 @@ ul#sub_top_drop-nav {
     display: inline-block;
     float: none; }
     .section-homepage #portal-globalnav li a {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
       font-weight: 400; }
   .section-homepage #portal-globalnav .selected > a {
     border-bottom: 5px solid #C99700; }
@@ -2395,7 +2395,6 @@ p.standout_gold {
 .section-homepage .top-header-bg {
   display: none; }
 .section-homepage .homepage_slider {
-  margin-top: -6px;
   postion: relative;
   height: 365px;
   overflow: hidden; }
@@ -2408,9 +2407,10 @@ p.standout_gold {
   .section-homepage .homepage_slider .banner--title {
     text-align: center;
     margin-top: -38%;
-    background-image: url("../images/fieldbanner.jpg") cover no-repeat;
     display: flex;
     flex-direction: column; }
+    .section-homepage .homepage_slider .banner--title p {
+      margin-top: 0px; }
     .section-homepage .homepage_slider .banner--title img {
       margin-top: -5%; }
     .section-homepage .homepage_slider .banner--title h1 {
@@ -2434,7 +2434,6 @@ p.standout_gold {
       background-color: #fff;
       font-size: 1.8rem;
       margin: 0 auto;
-      width: 456px;
       padding: 1.2rem 1.6rem;
       font-weight: 100; }
       @media (max-width: 1000px) {

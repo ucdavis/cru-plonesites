@@ -193,7 +193,6 @@ p.standout_gold {
 	}
 
 	.homepage_slider {
-		margin-top:-6px;
 		postion:relative;
 		height:365px;
 		overflow:hidden;
@@ -209,9 +208,12 @@ p.standout_gold {
 			// bottom:40%;
 			// left:32.5%;
 			margin-top:-38%;
-			background-image:url("../images/fieldbanner.jpg") cover no-repeat;
+			// background-image:url("../images/fieldbanner.jpg") cover no-repeat;
 			display: flex;
 			flex-direction: column;
+			p {
+				margin-top:0px;
+			}
 			img {
 				margin-top:-5%;
 			}
@@ -237,7 +239,6 @@ p.standout_gold {
 				background-color:#fff;
 				font-size:1.8rem;
 				margin:0 auto;
-				width:456px;
 				padding:1.2rem 1.6rem;
 				font-weight:100;
 				@include breakpoint (laptop){
