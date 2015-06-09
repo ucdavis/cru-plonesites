@@ -1574,14 +1574,18 @@ ul#sub_top_drop-nav {
   width: 100%;
   height: 50px;
   margin: 0 auto !important;
-  background-colr: #1C5BA5;
+  background-color: #1C5BA5;
   border-top: 2px solid #4A90E2;
   border-bottom: 2px solid #4A90E2; }
 
 .section-homepage #portal-globalnav {
   margin: 0px;
   font-size: 100%;
-  padding: 10px 0px;
+  padding: 10px 10px;
+  background-color: #1C5BA5;
+  border-top: 2px solid #4A90E2;
+  border-bottom: 2px solid #4A90E2;
+  display: inline-block;
   text-align: center; }
   .section-homepage #portal-globalnav .selected a {
     background-color: transparent; }
