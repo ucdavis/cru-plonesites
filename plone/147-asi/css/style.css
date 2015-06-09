@@ -2421,7 +2421,8 @@ p.standout_gold {
       margin: 0 auto;
       width: 456px;
       padding: 1.4rem 2rem;
-      font-weight: 100; }
+      font-weight: 100;
+      width: 90%; }
 .section-homepage .portlet-static-homepage-welcome {
   width: 80%;
   max-width: 1200px;
