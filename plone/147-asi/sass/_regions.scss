@@ -229,7 +229,8 @@ p.standout_gold {
 				width:456px;
 				padding:1.2rem 1.6rem;
 				font-weight:100;
-				width:90%;
+				display: flex;
+				flex-direction: column;
 			}
 		}
 	}
