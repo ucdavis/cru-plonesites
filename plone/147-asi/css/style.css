@@ -2404,13 +2404,13 @@ p.standout_gold {
   @media (max-width: 850px) {
     .section-homepage .homepage_slider {
       height: 250px; } }
+  .section-homepage .homepage_slider p {
+    margin-top: 0px; }
   .section-homepage .homepage_slider .banner--title {
     text-align: center;
     margin-top: -38%;
     display: flex;
     flex-direction: column; }
-    .section-homepage .homepage_slider .banner--title p {
-      margin-top: 0px; }
     .section-homepage .homepage_slider .banner--title img {
       margin-top: -5%; }
     .section-homepage .homepage_slider .banner--title h1 {

@@ -202,6 +202,9 @@ p.standout_gold {
 		@include breakpoint (rufus) {
 			height:250px;
 		}
+		p {
+			margin-top:0px;
+		}
 		.banner--title {
 			text-align:center;
 			// position:absolute;
@@ -211,9 +214,6 @@ p.standout_gold {
 			// background-image:url("../images/fieldbanner.jpg") cover no-repeat;
 			display: flex;
 			flex-direction: column;
-			p {
-				margin-top:0px;
-			}
 			img {
 				margin-top:-5%;
 			}
