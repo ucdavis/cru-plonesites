@@ -1958,6 +1958,8 @@ ul.program_list {
       vertical-align: middle;
       text-align: center;
       padding: 2%; }
+      ul.program_list li a:hover {
+        opacity: 4; }
     ul.program_list li:last-child {
       margin-right: 0px; }
 .content ul {

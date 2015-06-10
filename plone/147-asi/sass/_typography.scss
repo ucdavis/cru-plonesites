@@ -304,6 +304,9 @@ ul {
 				vertical-align:middle;
 				text-align:center;
 				padding:2%;
+				&:hover {
+					opacity:4;
+				}
 			}
 			&:last-child {
 				margin-right:0px;
