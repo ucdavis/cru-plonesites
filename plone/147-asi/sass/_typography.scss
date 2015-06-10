@@ -288,6 +288,9 @@ ul {
 			padding-right:0px;
 			background-color:#000;
 			margin:1% 0%;
+			h3 {
+				margin:0px;
+			}
 			&:nth-child(odd){
 				margin-right:2%;
 			}
@@ -295,12 +298,12 @@ ul {
 				font-size:1.5rem;
 				font-family:$sans-serif;
 				color:#fff;
-				background-color:green;
 				display:inline-block !important;
 				width:100%;
 				min-height:64px;
-				vertical-align:top;
+				vertical-align:middle;
 				text-align:center;
+				padding:2%;
 			}
 			&:last-child {
 				margin-right:0px;

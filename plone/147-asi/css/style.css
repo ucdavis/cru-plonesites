@@ -1944,18 +1944,20 @@ ul.program_list {
     padding-right: 0px;
     background-color: #000;
     margin: 1% 0%; }
+    ul.program_list li h3 {
+      margin: 0px; }
     ul.program_list li:nth-child(odd) {
       margin-right: 2%; }
     ul.program_list li a {
       font-size: 1.5rem;
       font-family: "proxima-nova", sans-serif;
       color: #fff;
-      background-color: green;
       display: inline-block !important;
       width: 100%;
       min-height: 64px;
-      vertical-align: top;
-      text-align: center; }
+      vertical-align: middle;
+      text-align: center;
+      padding: 2%; }
     ul.program_list li:last-child {
       margin-right: 0px; }
 .content ul {
