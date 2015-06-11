@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18493",
 "files": {
+	"\/asi-db.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/asi-db.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/config.rb": {
 		"fileType": 131072,
 		"ignore": 0,
@@ -1616,103 +1625,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/publications.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/publications.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/publications\/apple-touch-icon-114x114-precomposed.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2042,
-		"inputAbbreviatedPath": "\/publications\/apple-touch-icon-114x114-precomposed.png",
-		"outputAbbreviatedPath": "\/publications\/apple-touch-icon-114x114-precomposed.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/publications\/apple-touch-icon-144x144-precomposed.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1795,
-		"inputAbbreviatedPath": "\/publications\/apple-touch-icon-144x144-precomposed.png",
-		"outputAbbreviatedPath": "\/publications\/apple-touch-icon-144x144-precomposed.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/publications\/apple-touch-icon-57x57-precomposed.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1144,
-		"inputAbbreviatedPath": "\/publications\/apple-touch-icon-57x57-precomposed.png",
-		"outputAbbreviatedPath": "\/publications\/apple-touch-icon-57x57-precomposed.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/publications\/apple-touch-icon-72x72-precomposed.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1351,
-		"inputAbbreviatedPath": "\/publications\/apple-touch-icon-72x72-precomposed.png",
-		"outputAbbreviatedPath": "\/publications\/apple-touch-icon-72x72-precomposed.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/publications\/apple-touch-icon-precomposed.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1144,
-		"inputAbbreviatedPath": "\/publications\/apple-touch-icon-precomposed.png",
-		"outputAbbreviatedPath": "\/publications\/apple-touch-icon-precomposed.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/publications\/apple-touch-icon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1144,
-		"inputAbbreviatedPath": "\/publications\/apple-touch-icon.png",
-		"outputAbbreviatedPath": "\/publications\/apple-touch-icon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/publications\/img\/glyphicons-halflings-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8777,
-		"inputAbbreviatedPath": "\/publications\/img\/glyphicons-halflings-white.png",
-		"outputAbbreviatedPath": "\/publications\/img\/glyphicons-halflings-white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/publications\/img\/glyphicons-halflings.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12799,
-		"inputAbbreviatedPath": "\/publications\/img\/glyphicons-halflings.png",
-		"outputAbbreviatedPath": "\/publications\/img\/glyphicons-halflings.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/sass\/_compass.scss": {
 		"createSourceMap": 0,

@@ -753,7 +753,7 @@ img {
   .site-infas .top-header-bg {
     background-color: #25797e; }
   .site-safs .top-header-bg {
-    background-color: #6aa81c; }
+    background-color: #3c2216; }
   .site-sustainable-sourcing .top-header-bg {
     background-color: #de7820; }
 
@@ -798,7 +798,7 @@ header {
   .site-infas header {
     background-color: #2B8C92; }
   .site-safs header {
-    background-color: #78BE20; }
+    background-color: #4F2C1D; }
   .site-sustainable-sourcing header {
     background-color: #E28535; }
   .section-homepage header {
@@ -1264,7 +1264,7 @@ nav {
     .site-infas #portal-globalnav .selected > a {
       border-color: #AD5C0E; }
     .site-safs #portal-globalnav .selected > a {
-      border-color: #038EAA; }
+      border-color: #E6A65D; }
     .site-sustainable-sourcing #portal-globalnav .selected > a {
       border-color: #12137B; }
   #portal-globalnav ul.submenu {
@@ -1285,7 +1285,7 @@ nav {
     .site-infas #portal-globalnav ul.submenu {
       background-color: #2B8C92; }
     .site-safs #portal-globalnav ul.submenu {
-      background-color: #78BE20; }
+      background-color: #4F2C1D; }
     .site-sustainable-sourcing #portal-globalnav ul.submenu {
       background-color: #E28535; }
     #portal-globalnav ul.submenu .state-published {
@@ -1306,7 +1306,7 @@ nav {
     .site-infas #portal-globalnav ul.submenu li a:hover {
       color: #AD5C0E !important; }
     .site-safs #portal-globalnav ul.submenu li a:hover {
-      color: #038EAA !important; }
+      color: #E6A65D !important; }
     .site-sustainable-sourcing #portal-globalnav ul.submenu li a:hover {
       color: #12137B !important; }
 
@@ -1443,7 +1443,7 @@ nav {
 .site-infas .slicknav_menu {
   background-color: #237276; }
 .site-safs .slicknav_menu {
-  background-color: #659f1b; }
+  background-color: #351d13; }
 .site-sustainable-sourcing .slicknav_menu {
   background-color: #d5731f; }
 
@@ -1521,7 +1521,7 @@ nav {
   .site-infas #top_drop-nav ul li a {
     background-color: #25797e; }
   .site-safs #top_drop-nav ul li a {
-    background-color: #6aa81c; }
+    background-color: #3c2216; }
   .site-sustainable-sourcing #top_drop-nav ul li a {
     background-color: #de7820; }
   .section-homepage #top_drop-nav ul li a {
@@ -1537,7 +1537,7 @@ nav {
 .site-infas #top_drop-nav li ul {
   background-color: #25797e; }
 .site-safs #top_drop-nav li ul {
-  background-color: #6aa81c; }
+  background-color: #3c2216; }
 .site-sustainable-sourcing #top_drop-nav li ul {
   background-color: #de7820; }
 .section-homepage #top_drop-nav li ul {
@@ -1621,7 +1621,7 @@ ul#sub_top_drop-nav {
     .site-infas .section-homepage #portal-globalnav .selected > a {
       border-color: #AD5C0E; }
     .site-safs .section-homepage #portal-globalnav .selected > a {
-      border-color: #038EAA; }
+      border-color: #E6A65D; }
     .site-sustainable-sourcing .section-homepage #portal-globalnav .selected > a {
       border-color: #12137B; }
   .section-homepage #portal-globalnav ul.submenu {
@@ -1644,7 +1644,7 @@ ul#sub_top_drop-nav {
     .site-infas .section-homepage #portal-globalnav ul.submenu {
       background-color: #2B8C92; }
     .site-safs .section-homepage #portal-globalnav ul.submenu {
-      background-color: #78BE20; }
+      background-color: #4F2C1D; }
     .site-sustainable-sourcing .section-homepage #portal-globalnav ul.submenu {
       background-color: #E28535; }
     .section-homepage #portal-globalnav ul.submenu .state-published {
@@ -1665,7 +1665,7 @@ ul#sub_top_drop-nav {
     .site-infas .section-homepage #portal-globalnav ul.submenu li a:hover {
       color: #AD5C0E !important; }
     .site-safs .section-homepage #portal-globalnav ul.submenu li a:hover {
-      color: #038EAA !important; }
+      color: #E6A65D !important; }
     .site-sustainable-sourcing .section-homepage #portal-globalnav ul.submenu li a:hover {
       color: #12137B !important; }
 
@@ -1699,7 +1699,7 @@ html {
   .site-infas .top-header a:hover {
     color: #AD5C0E !important; }
   .site-safs .top-header a:hover {
-    color: #038EAA !important; }
+    color: #E6A65D !important; }
   .site-sustainable-sourcing .top-header a:hover {
     color: #12137B !important; }
 .section-homepage .spotlight_events .portletItem a.tile {
@@ -1791,7 +1791,7 @@ h2 {
     .site-infas .lefthead h2 a:hover {
       color: #AD5C0E !important; }
     .site-safs .lefthead h2 a:hover {
-      color: #038EAA !important; }
+      color: #E6A65D !important; }
     .site-sustainable-sourcing .lefthead h2 a:hover {
       color: #12137B !important; }
   .homepage_welcome h2 {
@@ -1828,7 +1828,7 @@ h3 {
     .site-infas .eventdetailsside h3 {
       background-color: #AD5C0E; }
     .site-safs .eventdetailsside h3 {
-      background-color: #038EAA; }
+      background-color: #E6A65D; }
     .site-sustainable-sourcing .eventdetailsside h3 {
       background-color: #12137B; }
 
@@ -1991,7 +1991,7 @@ li {
         .site-infas #portal-globalnav li a:hover {
           color: #AD5C0E !important; }
         .site-safs #portal-globalnav li a:hover {
-          color: #038EAA !important; }
+          color: #E6A65D !important; }
         .site-sustainable-sourcing #portal-globalnav li a:hover {
           color: #12137B !important; }
   ul.twocol li {
@@ -2042,7 +2042,7 @@ dt.portletHeader {
   .site-infas dt.portletHeader {
     background-color: #AD5C0E; }
   .site-safs dt.portletHeader {
-    background-color: #038EAA; }
+    background-color: #E6A65D; }
   .site-sustainable-sourcing dt.portletHeader {
     background-color: #12137B; }
   dt.portletHeader a {
@@ -2068,7 +2068,7 @@ dt.portletHeader {
       .site-infas .bottom_ports dt.portletHeader a:hover {
         color: #AD5C0E !important; }
       .site-safs .bottom_ports dt.portletHeader a:hover {
-        color: #038EAA !important; }
+        color: #E6A65D !important; }
       .site-sustainable-sourcing .bottom_ports dt.portletHeader a:hover {
         color: #12137B !important; }
   .section-homepage .spotlight_feature dt.portletHeader {
@@ -2087,7 +2087,7 @@ dt.portletHeader {
   .site-infas .portletstatic dd.portletItem {
     border-color: #AD5C0E; }
   .site-safs .portletstatic dd.portletItem {
-    border-color: #038EAA; }
+    border-color: #E6A65D; }
   .site-sustainable-sourcing .portletstatic dd.portletItem {
     border-color: #12137B; }
 
@@ -2166,7 +2166,7 @@ iframe {
   .site-infas .btn {
     background-color: #AD5C0E; }
   .site-safs .btn {
-    background-color: #038EAA; }
+    background-color: #E6A65D; }
   .site-sustainable-sourcing .btn {
     background-color: #12137B; }
   .btn:hover {
@@ -2254,7 +2254,7 @@ input.searchButton {
   background-color: #2B8C92; }
 
 .safs-main-bg {
-  background-color: #78BE20; }
+  background-color: #4F2C1D; }
 
 .research-main-bg {
   background-color: #642667; }
@@ -2606,7 +2606,7 @@ table.secondary_table tr:nth-child(odd) td {
   .site-infas table.secondary_table tr:nth-child(odd) td {
     border-color: #AD5C0E; }
   .site-safs table.secondary_table tr:nth-child(odd) td {
-    border-color: #038EAA; }
+    border-color: #E6A65D; }
   .site-sustainable-sourcing table.secondary_table tr:nth-child(odd) td {
     border-color: #12137B; }
 table.secondary_table .webkit tr:nth-child(odd) td:first-child {
