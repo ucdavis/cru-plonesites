@@ -128,16 +128,19 @@ h2 {
 			@include accent-theme-color;
 		}
 	}
-	&.welcome_header {
-		font-family:$sans-serif;
-		color:#fff;
-		font-weight:400;
-		font-size:2.2rem;
-		display:inline-block;
-		padding:16px 24px 6px 24px;
-		letter-spacing: .5px;
-		margin-bottom:0px;
-		background-color:lighten($asi_main,5);
+	// &.welcome_header {
+	// 	font-family:$sans-serif;
+	// 	color:#fff;
+	// 	font-weight:400;
+	// 	font-size:2.2rem;
+	// 	display:inline-block;
+	// 	padding:16px 24px 6px 24px;
+	// 	letter-spacing: .5px;
+	// 	margin-bottom:0px;
+	// 	background-color:lighten($asi_main,5);
+	// }
+	.homepage_welcome & {
+		font-size:2.6rem;
 	}
 }
 h3 {
@@ -226,8 +229,8 @@ p {
 		line-height:21px;
 	}
 	.portlet-static-homepage-welcome & {
-		padding-top:8%;
-		padding-bottom:14%;
+		padding-top:5%;
+		padding-bottom:8%;
 		font-size:1.6rem;
 		text-align:center;
 		line-height:1.5;

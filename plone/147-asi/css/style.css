@@ -1794,16 +1794,8 @@ h2 {
       color: #038EAA !important; }
     .site-sustainable-sourcing .lefthead h2 a:hover {
       color: #12137B !important; }
-  h2.welcome_header {
-    font-family: "proxima-nova", sans-serif;
-    color: #fff;
-    font-weight: 400;
-    font-size: 2.2rem;
-    display: inline-block;
-    padding: 16px 24px 6px 24px;
-    letter-spacing: .5px;
-    margin-bottom: 0px;
-    background-color: #2067bb; }
+  .homepage_welcome h2 {
+    font-size: 2.6rem; }
 
 h3 {
   font-size: 1.8rem;
@@ -1894,8 +1886,8 @@ p {
     font-size: 1.4rem;
     line-height: 21px; }
   .portlet-static-homepage-welcome p {
-    padding-top: 8%;
-    padding-bottom: 14%;
+    padding-top: 5%;
+    padding-bottom: 8%;
     font-size: 1.6rem;
     text-align: center;
     line-height: 1.5;
@@ -2502,7 +2494,7 @@ p.standout_gold {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 6%;
+  margin-top: 5%;
   max-width: 70rem;
   min-width: 50rem;
   text-align: center; }
@@ -2512,9 +2504,6 @@ p.standout_gold {
   @media (max-width: 750px) {
     .section-homepage .portlet-static-homepage-welcome {
       width: 95%; } }
-  @media (max-width: 1000px) {
-    .section-homepage .portlet-static-homepage-welcome {
-      margin-top: 10%; } }
 .section-homepage #portal-breadcrumbs {
   display: none; }
 .section-homepage .spotlight-bg {

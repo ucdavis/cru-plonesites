@@ -249,15 +249,16 @@ p.standout_gold {
 	}
 	.portlet-static-homepage-welcome {
 		@include outer-container;
-		margin-top:6%;
+		margin-top:5%;
 		max-width:70rem;
 		min-width:50rem;
 		// border-top:4px solid $asi_main;
 		text-align:center;
-		@include breakpoint(laptop) {
-			margin-top:10%;
-	    }
+		// @include breakpoint(laptop) {
+		// 	margin-top:10%;
+	 //    }
 	}
+	
 	#portal-breadcrumbs {
 		display:none;
 	}
