@@ -63,7 +63,6 @@
 	background:#000;
 	color:#fff;
 	width:100%;
-	height: 7em;
 	z-index:8;
 	padding: 5px 10px;
 	margin: 0 auto;
@@ -74,6 +73,10 @@
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.theme-default .nivo-caption {
+	height: 7em;
 }
 .nivo-caption p {
 	padding:5px;
