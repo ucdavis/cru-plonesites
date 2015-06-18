@@ -1266,7 +1266,7 @@ nav {
     .site-safs #portal-globalnav .selected > a {
       border-color: #E6A65D; }
     .site-sustainable-sourcing #portal-globalnav .selected > a {
-      border-color: #955F04; }
+      border-color: #E9CC66; }
   #portal-globalnav ul.submenu {
     z-index: 9999;
     -webkit-transition: all 1s ease;
@@ -1308,7 +1308,7 @@ nav {
     .site-safs #portal-globalnav ul.submenu li a:hover {
       color: #E6A65D !important; }
     .site-sustainable-sourcing #portal-globalnav ul.submenu li a:hover {
-      color: #955F04 !important; }
+      color: #E9CC66 !important; }
 
 /*
     Mobile Menu Core Style
@@ -1623,7 +1623,7 @@ ul#sub_top_drop-nav {
     .site-safs .section-homepage #portal-globalnav .selected > a {
       border-color: #E6A65D; }
     .site-sustainable-sourcing .section-homepage #portal-globalnav .selected > a {
-      border-color: #955F04; }
+      border-color: #E9CC66; }
   .section-homepage #portal-globalnav ul.submenu {
     z-index: 9999;
     margin: 0 auto;
@@ -1667,7 +1667,7 @@ ul#sub_top_drop-nav {
     .site-safs .section-homepage #portal-globalnav ul.submenu li a:hover {
       color: #E6A65D !important; }
     .site-sustainable-sourcing .section-homepage #portal-globalnav ul.submenu li a:hover {
-      color: #955F04 !important; }
+      color: #E9CC66 !important; }
 
 /* anchor styles */
 html {
@@ -1701,7 +1701,7 @@ html {
   .site-safs .top-header a:hover {
     color: #E6A65D !important; }
   .site-sustainable-sourcing .top-header a:hover {
-    color: #955F04 !important; }
+    color: #E9CC66 !important; }
 .section-homepage .spotlight_events .portletItem a.tile {
   font-size: 1.8rem;
   color: #434343; }
@@ -1793,7 +1793,7 @@ h2 {
     .site-safs .lefthead h2 a:hover {
       color: #E6A65D !important; }
     .site-sustainable-sourcing .lefthead h2 a:hover {
-      color: #955F04 !important; }
+      color: #E9CC66 !important; }
   .homepage_welcome h2 {
     font-size: 2.6rem; }
 
@@ -1830,7 +1830,7 @@ h3 {
     .site-safs .eventdetailsside h3 {
       background-color: #E6A65D; }
     .site-sustainable-sourcing .eventdetailsside h3 {
-      background-color: #955F04; }
+      background-color: #E9CC66; }
 
 h4 {
   font-size: 2rem;
@@ -1993,7 +1993,7 @@ li {
         .site-safs #portal-globalnav li a:hover {
           color: #E6A65D !important; }
         .site-sustainable-sourcing #portal-globalnav li a:hover {
-          color: #955F04 !important; }
+          color: #E9CC66 !important; }
   ul.twocol li {
     display: inline-block !important;
     width: 49%;
@@ -2044,7 +2044,7 @@ dt.portletHeader {
   .site-safs dt.portletHeader {
     background-color: #E6A65D; }
   .site-sustainable-sourcing dt.portletHeader {
-    background-color: #955F04; }
+    background-color: #E9CC66; }
   dt.portletHeader a {
     color: #fff; }
   dt.portletHeader a:hover {
@@ -2070,7 +2070,7 @@ dt.portletHeader {
       .site-safs .bottom_ports dt.portletHeader a:hover {
         color: #E6A65D !important; }
       .site-sustainable-sourcing .bottom_ports dt.portletHeader a:hover {
-        color: #955F04 !important; }
+        color: #E9CC66 !important; }
   .section-homepage .spotlight_feature dt.portletHeader {
     background-color: #1C5BA5; }
 
@@ -2089,7 +2089,7 @@ dt.portletHeader {
   .site-safs .portletstatic dd.portletItem {
     border-color: #E6A65D; }
   .site-sustainable-sourcing .portletstatic dd.portletItem {
-    border-color: #955F04; }
+    border-color: #E9CC66; }
 
 .section-homepage .spotlight_events span.portletItemDetails {
   font-size: 1.4rem;
@@ -2168,7 +2168,7 @@ iframe {
   .site-safs .btn {
     background-color: #E6A65D; }
   .site-sustainable-sourcing .btn {
-    background-color: #955F04; }
+    background-color: #E9CC66; }
   .btn:hover {
     opacity: .95; }
 
@@ -2608,7 +2608,7 @@ table.secondary_table tr:nth-child(odd) td {
   .site-safs table.secondary_table tr:nth-child(odd) td {
     border-color: #E6A65D; }
   .site-sustainable-sourcing table.secondary_table tr:nth-child(odd) td {
-    border-color: #955F04; }
+    border-color: #E9CC66; }
 table.secondary_table .webkit tr:nth-child(odd) td:first-child {
   width: 3%; }
 table.secondary_table tr:first-child td {
