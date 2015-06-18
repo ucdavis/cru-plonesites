@@ -906,7 +906,8 @@ header {
 #totalcontent {
   width: 80%;
   max-width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow: auto; }
   @media (max-width: 1000px) {
     #totalcontent {
       width: 90%; } }

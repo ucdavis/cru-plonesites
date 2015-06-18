@@ -169,6 +169,7 @@ header {
 // main col
 #totalcontent {
 	@include outer-container;
+	overflow:auto;
 }
 .innerds {
 	// border-bottom:solid 1px $borders;
