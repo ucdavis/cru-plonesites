@@ -109,7 +109,9 @@
     font-size: 14px;
 }
 
-
+#hcard img{
+    height: auto;
+}
 /*
 #hcard .headshot.cell.width-4.position-12 img{
 height: auto;
