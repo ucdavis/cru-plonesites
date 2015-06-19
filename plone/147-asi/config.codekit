@@ -946,6 +946,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/donormap2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 151956,
+		"inputAbbreviatedPath": "\/images\/donormap2.jpg",
+		"outputAbbreviatedPath": "\/images\/donormap2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/fieldbanner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
