@@ -322,12 +322,16 @@ p.standout_gold {
 				.portletFooter {
 					display:none;
 				}
-				.portletItem {
+				.portletItem.odd, .portletItem.even {
 					background-color:#fff;
 					border:1px solid $borders;
 					padding:4%;
 					padding-top:4%;
 					margin-top:4%;
+				}
+				.portletItem {
+					border-top:2px solid $asi_accent;
+					margin-top:0px;
 				}
 			}
 		}

@@ -2582,12 +2582,14 @@ p.standout_gold {
       vertical-align: top; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletFooter {
         display: none; }
-      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem {
+      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem.odd, .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem.even {
         background-color: #fff;
         border: 1px solid #c8c7cc;
         padding: 4%;
         padding-top: 4%;
         margin-top: 4%; }
+      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem {
+        border-top: 2px solid #FFB208; }
 .section-homepage .icons-on .contenttype-news-item {
   background: none !important;
   padding-left: 0px !important; }
