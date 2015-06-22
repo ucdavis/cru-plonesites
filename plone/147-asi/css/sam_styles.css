@@ -139,12 +139,13 @@ table img {
 tbody tr {
     vertical-align: top;
 }
-/*
-dt dd .img-caption {
-    padding-left: 10px;
+
+tr dd .img-caption {
+    color: red;
+    /*padding-left: 10px;
     padding-right: 10px;
-    text-align: center;
-}*/
+    text-align: center;*/
+}
 
 
 
