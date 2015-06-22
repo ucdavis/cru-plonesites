@@ -331,6 +331,9 @@ p.standout_gold {
 					margin-top:0px;
 					margin-bottom:4%;
 				}
+				dd:first-child {
+					border-top:2px solid $asi_accent !important;
+				}
 				.portletItem:first-child {
 					border-top:2px solid $asi_accent !important;
 				}
