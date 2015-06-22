@@ -136,6 +136,10 @@ table img {
     vertical-align: top;
 }
 
+table tr {
+    vertical-align: top;
+}
+
 dd .img-caption {
     padding-left: 10px;
     text-align: left;
