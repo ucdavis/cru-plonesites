@@ -2088,6 +2088,9 @@ dt.portletHeader {
         color: #E1BB33 !important; }
   .section-homepage .spotlight_feature dt.portletHeader {
     background-color: #1C5BA5; }
+  .section-homepage dt.portletHeader {
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
 
 .portletstatic dd.portletItem {
   border-top: 2px solid #000; }

@@ -446,6 +446,10 @@ dt.portletHeader{
 	.section-homepage .spotlight_feature & {
 		background-color:$asi-main;
 	}
+	.section-homepage & {
+		border-top-right-radius:2px;
+		border-top-left-radius:2px;
+	}
 }
 .portletstatic dd.portletItem {
 	border-top:2px solid #000;
