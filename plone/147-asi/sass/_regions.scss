@@ -329,10 +329,6 @@ p.standout_gold {
 					padding-top:4%;
 					margin-top:4%;
 				}
-				.portletItem:first-child {
-					border-top:2px solid $asi-accent;
-					margin-top:0px;
-				}
 			}
 		}
 	}
@@ -340,6 +336,10 @@ p.standout_gold {
 		background:none !important;
 		padding-left:0px !important;
 	}
+}
+.spotlight_events dd.portletItem.odd:first-child {
+	border-top:2px solid $asi-accent;
+	margin-top:0px;
 }
 // people
 .portaltype-fsdfacultystaffdirectory {
