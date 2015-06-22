@@ -1950,10 +1950,12 @@ ul.program_list {
       min-height: 64px;
       vertical-align: middle;
       text-align: center;
-      padding: 2%;
-      line-height: 1.5; }
-      ul.program_list li a:hover {
-        opacity: 4; }
+      padding: 3%;
+      line-height: 1.5;
+      padding-left: 6%;
+      padding-right: 6%; }
+      .sarep-main-bg ul.program_list li a:hover {
+        color: #003d6c; }
     ul.program_list li:last-child {
       margin-right: 0px; }
 .content ul {
