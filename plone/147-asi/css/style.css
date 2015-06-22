@@ -2588,9 +2588,9 @@ p.standout_gold {
         padding: 4%;
         padding-top: 4%;
         margin-top: 4%; }
-        .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem:first-child {
-          border-top: 2px solid #FFB208;
-          margin-top: 0px; }
+      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem:first-child {
+        border-top: 2px solid #FFB208;
+        margin-top: 0px; }
 .section-homepage .icons-on .contenttype-news-item {
   background: none !important;
   padding-left: 0px !important; }
