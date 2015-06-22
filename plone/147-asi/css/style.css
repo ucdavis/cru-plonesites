@@ -2270,23 +2270,41 @@ input.searchButton {
 .sarep-main-bg {
   background-color: #004B85; }
 
+.sarep-main {
+  color: #004B85; }
+
 .sf-main-bg {
   background-color: #00573f; }
+
+.sf-main {
+  color: #00573f; }
 
 .rr-main-bg {
   background-color: #C99700; }
 
+.rr-main {
+  color: #C99700; }
+
 .infas-main-bg {
   background-color: #2B8C92; }
 
+.infas-main {
+  color: #2B8C92; }
+
 .safs-main-bg {
   background-color: #4F2C1D; }
+
+.safs-main {
+  color: #4F2C1D; }
 
 .research-main-bg {
   background-color: #642667; }
 
 .sustain-main-bg {
   background-color: #5B7F95; }
+
+.sustain-main {
+  color: #5B7F95; }
 
 .uppercase {
   text-transform: uppercase; }
