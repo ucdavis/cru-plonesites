@@ -1606,8 +1606,7 @@ ul#sub_top_drop-nav {
     list-style-type: circle; }
   .section-homepage #portal-globalnav li {
     display: inline-block;
-    float: none;
-    margin-right: 0px; }
+    float: none; }
     .section-homepage #portal-globalnav li a {
       font-size: 1.8rem;
       font-weight: 400; }
@@ -2588,11 +2587,10 @@ p.standout_gold {
         background-color: #fff;
         border: 1px solid #c8c7cc;
         padding: 4%;
-        padding-top: 4%;
+        padding-top: 0px;
         margin-top: 4%; }
-      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem {
-        border-top: 2px solid #FFB208;
-        margin-top: 0px; }
+      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem.odd:first-child {
+        border-top: 2px solid #FFB208; }
 .section-homepage .icons-on .contenttype-news-item {
   background: none !important;
   padding-left: 0px !important; }
