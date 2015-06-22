@@ -136,8 +136,8 @@ table img {
     vertical-align: top;
 }
 
-table tr {
-    valign: top;
+tbody tr {
+    vertical-align: top;
 }
 
 dd .img-caption {
