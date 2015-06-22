@@ -136,8 +136,9 @@ dd.image-caption {
   font-size:100%;
   font-size:1.4rem;
   font-family: $sans-serif;
-  margin-left:0px;
-  margin-top:1%;
+  line-height: 1.5;
+  margin-left:0px !important;
+  margin-top:1% !important;;
 }
 input.searchButton {
 	border-top:1px solid $borders;
