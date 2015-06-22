@@ -272,6 +272,9 @@ p.standout_gold {
 			@include outer-container;
 			margin-top:2%;
 			margin-bottom:2%;
+			.portletFooter {
+				display:none;
+			}
 			.spotlight_feature {
 				width:40%;
 				display:inline-block;
@@ -308,6 +311,9 @@ p.standout_gold {
 				width:40%;
 				display:inline-block;
 				vertical-align:top;
+				.portletFooter {
+					display:none;
+				}
 				.portletItem {
 					background-color:#fff;
 					border:1px solid $borders;

@@ -2546,6 +2546,8 @@ p.standout_gold {
     @media (max-width: 750px) {
       .section-homepage .spotlight-bg .spotlight-section {
         width: 95%; } }
+    .section-homepage .spotlight-bg .spotlight-section .portletFooter {
+      display: none; }
     .section-homepage .spotlight-bg .spotlight-section .spotlight_feature {
       width: 40%;
       display: inline-block;
@@ -2573,6 +2575,8 @@ p.standout_gold {
       width: 40%;
       display: inline-block;
       vertical-align: top; }
+      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletFooter {
+        display: none; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem {
         background-color: #fff;
         border: 1px solid #c8c7cc;
