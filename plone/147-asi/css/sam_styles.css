@@ -137,7 +137,7 @@ table img {
 }
 
 table tr {
-    vertical-align: top;
+    valign: top;
 }
 
 dd .img-caption {
