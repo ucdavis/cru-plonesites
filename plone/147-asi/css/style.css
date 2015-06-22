@@ -2587,10 +2587,10 @@ p.standout_gold {
         background-color: #fff;
         border: 1px solid #c8c7cc;
         padding: 4%;
-        padding-top: 0px;
-        margin-top: 4%; }
-      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem.odd:first-child {
-        border-top: 2px solid #FFB208; }
+        padding-top: 4%;
+        margin-top: 0px; }
+      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem:first-child {
+        border-top: 2px solid #FFB208 !important; }
 .section-homepage .icons-on .contenttype-news-item {
   background: none !important;
   padding-left: 0px !important; }

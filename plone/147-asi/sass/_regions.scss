@@ -327,11 +327,11 @@ p.standout_gold {
 					background-color:#fff;
 					border:1px solid $borders;
 					padding:4%;
-					padding-top:0px;;
-					margin-top:4%;
+					padding-top:4%;
+					margin-top:0px;;
 				}
-				.portletItem.odd:first-child {
-					border-top:2px solid $asi_accent;
+				.portletItem:first-child {
+					border-top:2px solid $asi_accent !important;
 				}
 			}
 		}
