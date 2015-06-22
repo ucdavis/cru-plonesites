@@ -276,6 +276,9 @@ p.standout_gold {
 			@include outer-container;
 			margin-top:2%;
 			margin-bottom:2%;
+			.portletHeader {
+				display:block;
+			}
 			.portletFooter {
 				display:none;
 			}
@@ -304,7 +307,6 @@ p.standout_gold {
 					border-left:1px solid $borders;
 					border-right:1px solid $borders;
 					border-bottom:1px solid $borders;
-					border-top:2px solid $asi_main;
 					h2 {
 						padding-left:0px;
 						margin-top:4%;

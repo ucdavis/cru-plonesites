@@ -2547,6 +2547,8 @@ p.standout_gold {
     @media (max-width: 750px) {
       .section-homepage .spotlight-bg .spotlight-section {
         width: 95%; } }
+    .section-homepage .spotlight-bg .spotlight-section .portletHeader {
+      display: block; }
     .section-homepage .spotlight-bg .spotlight-section .portletFooter {
       display: none; }
     .section-homepage .spotlight-bg .spotlight-section .spotlight_feature {
@@ -2568,8 +2570,7 @@ p.standout_gold {
         background-color: #fff;
         border-left: 1px solid #c8c7cc;
         border-right: 1px solid #c8c7cc;
-        border-bottom: 1px solid #c8c7cc;
-        border-top: 2px solid #1C5BA5; }
+        border-bottom: 1px solid #c8c7cc; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article h2 {
           padding-left: 0px;
           margin-top: 4%;
