@@ -294,7 +294,7 @@ p.standout_gold {
 					}
 				}
 				dt.portletHeader {
-					margin-bottom:22px;
+					margin-bottom:0px;
 				}
 				.box.article{
 					// border-top:5px solid $asi-main;
@@ -303,6 +303,7 @@ p.standout_gold {
 					border-left:1px solid $borders;
 					border-right:1px solid $borders;
 					border-bottom:1px solid $borders;
+					border-top:2px solid $asi_main;
 					h2 {
 						padding-left:0px;
 						margin-top:4%;
@@ -327,9 +328,10 @@ p.standout_gold {
 					padding:4%;
 					padding-top:4%;
 					margin-top:4%;
-				}
-				dd.portletItem:first-child {
-					border-top:3px solid $asi-accent;
+					&:first-child {
+						border-top:2px solid $asi-accent;
+						margin-top:0px;
+					}
 				}
 			}
 		}

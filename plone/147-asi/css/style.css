@@ -1888,7 +1888,7 @@ p {
     line-height: 21px; }
   .portlet-static-homepage-welcome p {
     padding-top: 4%;
-    padding-bottom: 12%;
+    padding-bottom: 8%;
     font-size: 1.8rem;
     text-align: center;
     line-height: 1.8;
@@ -2564,12 +2564,13 @@ p.standout_gold {
           width: 100%;
           border-bottom: 1px solid #c8c7cc !important; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature dt.portletHeader {
-        margin-bottom: 22px; }
+        margin-bottom: 0px; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article {
         background-color: #fff;
         border-left: 1px solid #c8c7cc;
         border-right: 1px solid #c8c7cc;
-        border-bottom: 1px solid #c8c7cc; }
+        border-bottom: 1px solid #c8c7cc;
+        border-top: 2px solid #1C5BA5; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article h2 {
           padding-left: 0px;
           margin-top: 4%;
@@ -2589,8 +2590,9 @@ p.standout_gold {
         padding: 4%;
         padding-top: 4%;
         margin-top: 4%; }
-      .section-homepage .spotlight-bg .spotlight-section .spotlight_events dd.portletItem:first-child {
-        border-top: 3px solid #FFB208; }
+        .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem:first-child {
+          border-top: 2px solid #FFB208;
+          margin-top: 0px; }
 .section-homepage .icons-on .contenttype-news-item {
   background: none !important;
   padding-left: 0px !important; }
