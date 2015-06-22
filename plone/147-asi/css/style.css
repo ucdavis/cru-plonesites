@@ -2271,31 +2271,31 @@ input.searchButton {
   background-color: #004B85; }
 
 .sarep-main {
-  color: #004B85; }
+  color: #004B85 !important; }
 
 .sf-main-bg {
   background-color: #00573f; }
 
 .sf-main {
-  color: #00573f; }
+  color: #00573f !important; }
 
 .rr-main-bg {
   background-color: #C99700; }
 
 .rr-main {
-  color: #C99700; }
+  color: #C99700 !important; }
 
 .infas-main-bg {
   background-color: #2B8C92; }
 
 .infas-main {
-  color: #2B8C92; }
+  color: #2B8C92 !important; }
 
 .safs-main-bg {
   background-color: #4F2C1D; }
 
 .safs-main {
-  color: #4F2C1D; }
+  color: #4F2C1D !important; }
 
 .research-main-bg {
   background-color: #642667; }
@@ -2304,7 +2304,7 @@ input.searchButton {
   background-color: #5B7F95; }
 
 .sustain-main {
-  color: #5B7F95; }
+  color: #5B7F95 !important; }
 
 .uppercase {
   text-transform: uppercase; }
