@@ -312,32 +312,32 @@ ul {
 				padding-right:6%;
 				&.sarep-main-bg {
 					&:hover {
-						background-color:darken($sarep_main,5);
+						background-color:lighten($sarep_main,5);
 					}
 				}
 				&.rr-main-bg {
 					&:hover {
-						background-color:darken($rr_main,5);
+						background-color:lighten($rr_main,5);
 					}
 				}
 				&.sf-main-bg {
 					&:hover {
-						background-color:darken($sf_main,5);
+						background-color:lighten($sf_main,5);
 					}
 				}
 				&.infas-main-bg {
 					&:hover {
-						background-color:darken($infas_main,5);
+						background-color:lighten($infas_main,5);
 					}
 				}
 				&.safs-main-bg {
 					&:hover {
-						background-color:darken($safs_main,5);
+						background-color:lighten($safs_main,5);
 					}
 				}
 				&.sustain-main-bg {
 					&:hover {
-						background-color:darken($sustain_main,5);
+						background-color:lighten($sustain_main,5);
 					}
 				}
 			}

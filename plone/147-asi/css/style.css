@@ -1955,17 +1955,17 @@ ul.program_list {
       padding-left: 6%;
       padding-right: 6%; }
       ul.program_list li a.sarep-main-bg:hover {
-        background-color: #003d6c; }
+        background-color: #00599f; }
       ul.program_list li a.rr-main-bg:hover {
-        background-color: #b08400; }
+        background-color: #e3aa00; }
       ul.program_list li a.sf-main-bg:hover {
-        background-color: #003e2d; }
+        background-color: #007151; }
       ul.program_list li a.infas-main-bg:hover {
-        background-color: #25797e; }
+        background-color: #319fa6; }
       ul.program_list li a.safs-main-bg:hover {
-        background-color: #3c2216; }
+        background-color: #623624; }
       ul.program_list li a.sustain-main-bg:hover {
-        background-color: #dab220; }
+        background-color: #e4c249; }
     ul.program_list li:last-child {
       margin-right: 0px; }
 .content ul {
@@ -2466,7 +2466,7 @@ p.standout_gold {
   display: inline-block; }
 
 .section-homepage ul.submenu {
-  left: -40px; }
+  left: -38px; }
 .section-homepage .top-header-bg {
   display: none; }
 .section-homepage .homepage_slider {
@@ -2562,7 +2562,7 @@ p.standout_gold {
         font-family: "proxima-nova", sans-serif; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature a.contenttype-news-item img {
           width: 100%;
-          border-bottom: 1px solid #c8c7cc; }
+          border-bottom: 1px solid #c8c7cc !important; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature dt.portletHeader {
         margin-bottom: 22px; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article {
