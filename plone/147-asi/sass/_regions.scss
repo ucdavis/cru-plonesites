@@ -185,6 +185,9 @@ p.standout_gold {
 	display:inline-block;
 }
 .section-homepage {
+	ul.submenu {
+		left:-40px;
+	}
 	.top-header-bg {
 		// background-color:rgba(0,0,0,.5);
 		// z-index:999;
@@ -287,6 +290,7 @@ p.standout_gold {
 					font-family:$sans-serif;
 					img {
 						width:100%;
+						border-bottom:1px solid $borders;
 					}
 				}
 				dt.portletHeader {
