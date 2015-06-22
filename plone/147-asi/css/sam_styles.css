@@ -131,16 +131,16 @@ height: auto;
 */
 
 /*----------------- Russell Ranch gallery photo table --------------------*/
-table img {
+.site-rr table img {
     padding-right: 15px;
     vertical-align: top;
 }
 
-tbody tr {
+.site-rr tbody tr {
     vertical-align: top;
 }
 
-td dd .image-caption {
+.site-rr td dd.image-caption {
     color: red;
     
 }
