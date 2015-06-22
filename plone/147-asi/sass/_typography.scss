@@ -310,9 +310,9 @@ ul {
 				line-height:1.5;
 				padding-left:6%;
 				padding-right:6%;
-				&:hover {
-					.sarep-main-bg & {
-						color:darken($sarep_main,5);
+				&.sarep-main-bg {
+					&:hover {
+						background-color:darken($sarep_main,5);
 					}
 				}
 			}

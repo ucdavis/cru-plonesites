@@ -1954,8 +1954,8 @@ ul.program_list {
       line-height: 1.5;
       padding-left: 6%;
       padding-right: 6%; }
-      .sarep-main-bg ul.program_list li a:hover {
-        color: #003d6c; }
+      ul.program_list li a.sarep-main-bg:hover {
+        background-color: #003d6c; }
     ul.program_list li:last-child {
       margin-right: 0px; }
 .content ul {
