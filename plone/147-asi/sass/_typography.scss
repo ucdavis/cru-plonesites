@@ -229,11 +229,11 @@ p {
 		line-height:21px;
 	}
 	.portlet-static-homepage-welcome & {
-		padding-top:5%;
-		padding-bottom:8%;
-		font-size:1.6rem;
+		padding-top:4%;
+		padding-bottom:12%;
+		font-size:1.8rem;
 		text-align:center;
-		line-height:1.5;
+		line-height:1.8;
 		font-family:$sans-serif;
 	}
 	&.eventdescription {
@@ -307,6 +307,7 @@ ul {
 				vertical-align:middle;
 				text-align:center;
 				padding:2%;
+				line-height:1.5;
 				&:hover {
 					opacity:4;
 				}
