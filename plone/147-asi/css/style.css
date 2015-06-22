@@ -2233,6 +2233,13 @@ img.bordered {
   border-radius: 2%;
   box-shadow: 0 0 0 0.25em #FFFFFF, 0 0 0 0.5em #C99700; }
 
+dd.image-caption {
+  font-size: 100%;
+  font-size: 1.4rem;
+  font-family: "proxima-nova", sans-serif;
+  margin-left: 0px;
+  margin-top: 1%; }
+
 input.searchButton {
   border-top: 1px solid #c8c7cc; }
 

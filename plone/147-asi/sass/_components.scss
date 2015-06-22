@@ -132,6 +132,13 @@ img.bordered {
 		border-radius:2%;
 		box-shadow:0 0 0 0.25em #FFFFFF, 0 0 0 .50em $secondary-color;
 }
+dd.image-caption {
+  font-size:100%;
+  font-size:1.4rem;
+  font-family: $sans-serif;
+  margin-left:0px;
+  margin-top:1%;
+}
 input.searchButton {
 	border-top:1px solid $borders;
 }
