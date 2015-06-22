@@ -130,7 +130,10 @@ height: auto;
 
 */
 
-
+/*----------------- Russell Ranch gallery photo table --------------------*/
+td img {
+    padding: 10px;
+}
 
 
 
