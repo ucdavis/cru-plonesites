@@ -1507,7 +1507,7 @@ nav {
   display: none; }
 #top_drop-nav ul li a {
   display: inline-block;
-  padding: 5px 10px 5px 10px;
+  padding: 5px 15px 5px 10px;
   text-decoration: none;
   white-space: nowrap;
   color: #fff; }
