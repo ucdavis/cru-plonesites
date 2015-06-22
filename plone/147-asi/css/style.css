@@ -1602,6 +1602,8 @@ ul#sub_top_drop-nav {
     .section-homepage #portal-globalnav .selected a:hover {
       background-color: transparent;
       color: #fff; }
+  .section-homepage #portal-globalnav ul {
+    list-style-type: circle; }
   .section-homepage #portal-globalnav li {
     display: inline-block;
     float: none;
@@ -2589,7 +2591,8 @@ p.standout_gold {
         padding-top: 4%;
         margin-top: 4%; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem {
-        border-top: 2px solid #FFB208; }
+        border-top: 2px solid #FFB208;
+        margin-top: 0px; }
 .section-homepage .icons-on .contenttype-news-item {
   background: none !important;
   padding-left: 0px !important; }
