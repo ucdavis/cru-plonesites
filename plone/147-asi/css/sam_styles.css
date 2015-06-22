@@ -141,7 +141,7 @@ height: auto;
 }
 
 .site-rr td dd.image-caption {
-    color: red;
+    padding-right:10px;
     
 }
 
