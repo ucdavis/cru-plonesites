@@ -140,7 +140,7 @@ tbody tr {
     vertical-align: top;
 }
 
-tr dd .img-caption {
+dd.image-caption {
     color: red;
     /*padding-left: 10px;
     padding-right: 10px;
