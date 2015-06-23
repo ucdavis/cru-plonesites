@@ -262,6 +262,19 @@ p.standout_gold {
 		// 	margin-top:10%;
 	 //    }
 	}
+	.homepage_search {
+		@include outer-container;
+		text-align:center;
+		.portletHeader {
+			display:none;
+		}
+		.input.searchField {
+			border:2px solid $borders;
+			border-radius:2px;
+			width:100%;
+			height:30px;
+		}
+	}
 	.homepage_programs {
 		@include outer-container;
 		max-width:90rem;
