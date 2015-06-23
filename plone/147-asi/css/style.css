@@ -2561,7 +2561,7 @@ p.standout_gold {
       width: 95%; } }
   .section-homepage .homepage_search .portletHeader {
     display: none; }
-  .section-homepage .homepage_search .input.searchField {
+  .section-homepage .homepage_search input.searchField {
     border: 2px solid #c8c7cc;
     border-radius: 2px;
     width: 100%;
