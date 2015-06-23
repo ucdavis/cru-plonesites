@@ -2553,7 +2553,8 @@ p.standout_gold {
   margin: 0 auto;
   text-align: center;
   width: 60%;
-  margin-bottom: 2%; }
+  margin-bottom: 2.5%;
+  margin-top: 1%; }
   @media (max-width: 1000px) {
     .section-homepage .homepage_search {
       width: 90%; } }
@@ -2599,8 +2600,7 @@ p.standout_gold {
   background-color: #ebebeb;
   border-top: 1px solid #c8c7cc;
   border-bottom: 1px solid #c8c7cc;
-  margin-top: 5%;
-  margin-bottom: 2%; }
+  margin-top: 5%; }
   .section-homepage .spotlight-bg .spotlight-section {
     width: 80%;
     max-width: 1200px;
