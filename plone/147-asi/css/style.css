@@ -2552,8 +2552,7 @@ p.standout_gold {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  max-width: 80rem;
-  min-width: 50rem;
+  max-width: 90rem;
   text-align: center; }
   @media (max-width: 1000px) {
     .section-homepage .homepage_programs {
