@@ -272,12 +272,20 @@ p.standout_gold {
 		input.searchField {
 			border:2px solid $borders;
 			border-radius:2px;
-			width:75%;
+			width:66%;
 			height:50px;
 		}
 		input.searchButton {
-			width:25%;
+			width:15%;
+			margin-left:2%;
 			display:inline-block;
+			background-color:$asi_main;
+			color:#fff;
+			border:none;
+			box-shadow:0 -3px 0 rgba(0, 0, 0, 0.15) inset;
+			height:50px;
+			font-size:1.6rem;
+			font-family: $sans-serif;
 		}
 	}
 	.homepage_programs {

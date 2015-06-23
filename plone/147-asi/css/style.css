@@ -2565,11 +2565,19 @@ p.standout_gold {
   .section-homepage .homepage_search input.searchField {
     border: 2px solid #c8c7cc;
     border-radius: 2px;
-    width: 75%;
+    width: 66%;
     height: 50px; }
   .section-homepage .homepage_search input.searchButton {
-    width: 25%;
-    display: inline-block; }
+    width: 15%;
+    margin-left: 2%;
+    display: inline-block;
+    background-color: #1C5BA5;
+    color: #fff;
+    border: none;
+    box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.15) inset;
+    height: 50px;
+    font-size: 1.6rem;
+    font-family: "proxima-nova", sans-serif; }
 .section-homepage .homepage_programs {
   width: 80%;
   max-width: 1200px;
