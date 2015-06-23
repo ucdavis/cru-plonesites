@@ -2552,7 +2552,8 @@ p.standout_gold {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  width: 60%; }
   @media (max-width: 1000px) {
     .section-homepage .homepage_search {
       width: 90%; } }
@@ -2564,8 +2565,11 @@ p.standout_gold {
   .section-homepage .homepage_search input.searchField {
     border: 2px solid #c8c7cc;
     border-radius: 2px;
-    width: 100%;
-    height: 30px; }
+    width: 75%;
+    height: 50px; }
+  .section-homepage .homepage_search input.searchButton {
+    width: 25%;
+    display: inline-block; }
 .section-homepage .homepage_programs {
   width: 80%;
   max-width: 1200px;
