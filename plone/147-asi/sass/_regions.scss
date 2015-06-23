@@ -262,6 +262,16 @@ p.standout_gold {
 		// 	margin-top:10%;
 	 //    }
 	}
+	.homepage_programs {
+		@include outer-container;
+		max-width:80rem;
+		min-width:50rem;
+		// border-top:4px solid $asi_main;
+		text-align:center;
+		// @include breakpoint(laptop) {
+		// 	margin-top:10%;
+	 //    }
+	}
 	
 	#portal-breadcrumbs {
 		display:none;

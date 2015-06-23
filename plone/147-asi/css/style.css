@@ -2548,6 +2548,19 @@ p.standout_gold {
   @media (max-width: 750px) {
     .section-homepage .portlet-static-homepage-welcome {
       width: 95%; } }
+.section-homepage .homepage_programs {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  max-width: 80rem;
+  min-width: 50rem;
+  text-align: center; }
+  @media (max-width: 1000px) {
+    .section-homepage .homepage_programs {
+      width: 90%; } }
+  @media (max-width: 750px) {
+    .section-homepage .homepage_programs {
+      width: 95%; } }
 .section-homepage #portal-breadcrumbs {
   display: none; }
 .section-homepage .spotlight-bg {
