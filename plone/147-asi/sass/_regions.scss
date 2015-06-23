@@ -266,6 +266,7 @@ p.standout_gold {
 		@include outer-container;
 		text-align:center;
 		width:60%;
+		margin-bottom:2%;
 		.portletHeader {
 			display:none;
 		}
@@ -286,6 +287,10 @@ p.standout_gold {
 			height:50px;
 			font-size:1.6rem;
 			font-family: $sans-serif;
+			border-radius:2px;
+		}
+		dd.portletFooter {
+			display:none;
 		}
 	}
 	.homepage_programs {

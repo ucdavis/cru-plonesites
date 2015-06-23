@@ -1889,7 +1889,6 @@ p {
     line-height: 21px; }
   .portlet-static-homepage-welcome p {
     padding-top: 4%;
-    padding-bottom: 8%;
     font-size: 1.8rem;
     text-align: center;
     line-height: 1.8;
@@ -2553,7 +2552,8 @@ p.standout_gold {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
-  width: 60%; }
+  width: 60%;
+  margin-bottom: 2%; }
   @media (max-width: 1000px) {
     .section-homepage .homepage_search {
       width: 90%; } }
@@ -2577,7 +2577,10 @@ p.standout_gold {
     box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.15) inset;
     height: 50px;
     font-size: 1.6rem;
-    font-family: "proxima-nova", sans-serif; }
+    font-family: "proxima-nova", sans-serif;
+    border-radius: 2px; }
+  .section-homepage .homepage_search dd.portletFooter {
+    display: none; }
 .section-homepage .homepage_programs {
   width: 80%;
   max-width: 1200px;
