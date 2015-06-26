@@ -263,6 +263,10 @@ header {
 	}
 	.subsection-people & {
 		text-align:left;
+		ul {
+			list-style: disc;
+			padding-left:20px;
+		}
 	}
 }
 .slider-wrapper {

@@ -940,6 +940,9 @@ header {
     margin-top: 0px; }
   .subsection-people #banner {
     text-align: left; }
+    .subsection-people #banner ul {
+      list-style: disc;
+      padding-left: 20px; }
 
 .slider-wrapper {
   overflow: hidden;
