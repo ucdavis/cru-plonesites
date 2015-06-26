@@ -1670,6 +1670,9 @@ p.standout_gold {
 .subsection-people .classificationListing h2:first-child {
   display: none; }
 
+.portaltype-fsdperson .banner {
+  display: none; }
+
 /* classification header */
 .classificationListing h2 {
   margin-top: 30px;
