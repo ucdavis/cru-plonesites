@@ -943,6 +943,8 @@ header {
     .subsection-people #banner ul {
       list-style: disc;
       padding-left: 20px; }
+  .template-person_view #banner {
+    display: none; }
 
 .slider-wrapper {
   overflow: hidden;
