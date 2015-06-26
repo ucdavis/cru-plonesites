@@ -938,6 +938,8 @@ header {
   background-color: #fff; }
   #banner p {
     margin-top: 0px; }
+  .subsection-people #banner {
+    text-align: left; }
 
 .slider-wrapper {
   overflow: hidden;
