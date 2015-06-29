@@ -164,8 +164,9 @@ height: auto;
     color: purple;
 }
 */
-#content td h3 a:link{
-    color: orange;
+#content td h3 a b:link{
+    color: #2473AA;
+    text-decoration: underline;
 }
 
 
