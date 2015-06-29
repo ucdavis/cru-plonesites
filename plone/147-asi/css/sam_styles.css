@@ -159,24 +159,5 @@ height: auto;
 .site-sarep table.listing td{
     border-top: 1px solid #DDD;
 }
-/*
-.site-sarep td h3 a {
-    color: purple;
-}
-*/
-/*
-#content td h3 a b:link{
-    color: #2473AA;
-    text-decoration: underline;
-}
-*/
-/*
-.site-sarep b:link{
-    color:green;
-}
-*/
 
-.site-sarep tr .white_table {
-    background-color: #ffffff;
-}
 
