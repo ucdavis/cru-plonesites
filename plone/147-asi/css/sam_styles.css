@@ -164,7 +164,7 @@ height: auto;
     color: purple;
 }
 */
-#content h3 a:link{
+#content td h3 a:link{
     color: orange;
 }
 
