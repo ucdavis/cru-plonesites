@@ -176,7 +176,7 @@ height: auto;
 }
 */
 
-.site-sarep .white_table tbody tr{
+.site-sarep .white_table .table.listing tbody tr.odd{
     background-color: #ffffff;
 }
 
