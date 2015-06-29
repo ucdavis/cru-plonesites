@@ -164,9 +164,13 @@ height: auto;
     color: purple;
 }
 */
+/*
 #content td h3 a b:link{
     color: #2473AA;
     text-decoration: underline;
 }
-
+*/
+.site-sarep h3 a b:link{
+    color:green;
+}
 
