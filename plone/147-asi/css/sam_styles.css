@@ -134,6 +134,8 @@ height: auto;
 .site-rr table img {
     padding-right: 15px;
     vertical-align: top;
+    width: 75%;
+    height: auto;
 }
 
 .site-rr tbody tr {
