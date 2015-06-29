@@ -156,4 +156,7 @@ height: auto;
 }
 
 /*--------------- SAREP BIFs proj table -----------------*/
+.site-sarep table.listing td{
+    border-top: 1px solid #DDD;
+}
 
