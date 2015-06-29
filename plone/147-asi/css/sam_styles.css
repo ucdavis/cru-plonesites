@@ -160,3 +160,6 @@ height: auto;
     border-top: 1px solid #DDD;
 }
 
+.site-sarep td h3 a {
+    color: purple;
+}
