@@ -156,10 +156,14 @@ height: auto;
 }
 
 /*--------------- SAREP BIFs proj table --------------------*/
-.site-sarep td h3 {
+/*.site-sarep td h3 {
     color: #205C90;
 }
+*/
 
+table.listing tbody tr.odd td{
+    background-color: #ffffff;
+}
 
 
 
