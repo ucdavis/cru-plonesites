@@ -143,8 +143,8 @@ height: auto;
 }
 
 .site-rr td dd.image-caption {
-    padding-right: 10px;
-    width: 75%;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 .site-rr table {
