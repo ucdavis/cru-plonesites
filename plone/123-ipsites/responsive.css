@@ -7,7 +7,6 @@ img.respo {
 .header nav ul li {
 	width:23%;
 }
-// header
 @media all and (max-width: 760px) {
 	.header #portal-logo {
 		margin:0px 3%;
