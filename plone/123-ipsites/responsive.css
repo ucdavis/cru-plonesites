@@ -1,3 +1,5 @@
 @media all and (max-width: 700px) {
-	background-color:#000;
+	body {
+		background-color:#000 !important;
+	}
 }
