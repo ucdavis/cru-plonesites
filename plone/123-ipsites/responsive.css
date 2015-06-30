@@ -1,8 +1,20 @@
-/*.site-ChinaApple .header h1 {
-	padding-top:6px !important;
-}*/
-/*@media all and (max-width: 700px) {
-	body {
-		background-color:#000 !important;
+body {
+	min-width: 300px;
+}
+img.respo {
+	max-width: 100%;
+}
+// header
+@media all and (max-width: 760px) {
+	.header #portal-logo {
+		margin:0px 3%;
 	}
-}*/
+}
+@media all and (max-width: 650px) {
+	.portal-logo {
+		width:300px;
+	}
+	.portal-logo img {
+		width:99%;
+	}
+}
