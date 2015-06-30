@@ -30,3 +30,8 @@ img.respo {
 	}
 
 }
+@media all and(max-width: 400px) {
+	.main {
+		width:100% !important;
+	}
+}
