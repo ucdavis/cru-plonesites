@@ -12,7 +12,7 @@ img.respo {
 		margin:0px 3%;
 	}
 }
-@media all and (max-width: 650px) {
+@media all and (max-width: 707px) {
 	.portal-logo {
 		width:300px;
 	}
