@@ -13,10 +13,10 @@ img.respo {
 	}
 }
 @media all and (max-width: 707px) {
-	.portal-logo {
+	#portal-logo {
 		width:300px;
 	}
-	.portal-logo img {
+	#portal-logo img {
 		width:99%;
 	}
 }
