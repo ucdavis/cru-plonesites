@@ -123,6 +123,9 @@ img.respo {
   .offset-by-one-half.columns     { margin-left: 52%; }
 
 }
+#portal-breadcrumbs {
+  width:100%;
+}
 /*table {
   background-color: #fff;
 }
