@@ -123,7 +123,7 @@ img.respo {
   .offset-by-one-half.columns     { margin-left: 52%; }
 
 }
-table {
+/*table {
   background-color: #fff;
 }
 
@@ -263,5 +263,5 @@ table th[class*="col-"] {
   .table-responsive > .table-bordered > tfoot > tr:last-child > td {
     border-bottom: 0;
   }
-}
+}*/
 
