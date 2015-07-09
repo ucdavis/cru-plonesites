@@ -243,6 +243,11 @@ p {
 
 }
 ul {
+	&.two-col-list {
+		li {
+			width:48%;
+		}
+	}
 	#footer_contents & li{
 		display: list-item;
 		list-style: none;
