@@ -1906,6 +1906,10 @@ ul.two-col-list {
     display: inline-block !important;
     margin-top: 1%;
     margin-bottom: 1%; }
+    @media (max-width: 750px) {
+      ul.two-col-list li {
+        width: 100%;
+        display: list-item !important; } }
 #footer_contents ul li {
   display: list-item;
   list-style: none;

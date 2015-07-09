@@ -251,6 +251,10 @@ ul {
 			display:inline-block !important;
 			margin-top:1%;
 			margin-bottom:1%;
+			@include breakpoint (tablet) {
+				width:100%;
+				display:list-item !important;
+			}
 		}
 	}
 	#footer_contents & li{
