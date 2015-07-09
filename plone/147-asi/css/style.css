@@ -1900,10 +1900,10 @@ p {
 
 ul.two-col-list {
   padding-left: 0px;
-  margin-left: 0px; }
+  margin-left: 0px !important; }
   ul.two-col-list li {
     width: 48%;
-    display: inline-block;
+    display: inline-block !important;
     margin-top: 1%;
     margin-bottom: 1%; }
 #footer_contents ul li {
