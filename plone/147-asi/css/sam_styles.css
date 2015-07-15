@@ -170,6 +170,6 @@ height: auto;
     font-size: 12px;
 }
 
-.searchResults #content dt {
+.searchResults dt {
     margin-bottom:20px;
 }
