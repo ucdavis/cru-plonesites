@@ -175,6 +175,6 @@ height: auto;
 }
 */
 
-div.listingBar {
-    font-size 120%;
+div.listingBar a{
+    font-size: 120%;
 }
