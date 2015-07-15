@@ -176,5 +176,9 @@ height: auto;
 */
 
 div.listingBar a{
-    font-size: 120%;
+    font-size: 150%;
+}
+
+div.listingBar .next span {
+    font-size: 150%;
 }
