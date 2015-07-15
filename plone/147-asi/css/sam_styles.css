@@ -169,7 +169,12 @@ height: auto;
 #search-results-bar{
     font-size: 12px;
 }
-
+/*
 .searchResults dt {
     margin-bottom:20px;
+}
+*/
+
+div.listingBar {
+    font-size 120%;
 }
