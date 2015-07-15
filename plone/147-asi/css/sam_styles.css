@@ -166,7 +166,7 @@ height: auto;
     font-size: 14px;
 }
 
-#search-results-bar{
+#search-results-bar {
     font-size: 12px;
 }
 /*
@@ -175,10 +175,10 @@ height: auto;
 }
 */
 
-div.listingBar a{
-    font-size: 150%;
+div.listingBar a { 
+    font-size: 165%;
 }
 
-div.listingBar .next span {
-    font-size: 150%;
+div.listingBar span {
+    font-size: 165%;
 }
