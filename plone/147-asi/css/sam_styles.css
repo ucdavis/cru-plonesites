@@ -176,15 +176,15 @@ height: auto;
 */
 
 div.listingBar a { 
-    font-size: 165%;
+    font-size: 120%;
 }
 
 div.listingBar span {
-    font-size: 165%;
+    font-size: 120%;
 }
 
 .contenttype-document, 
 .contenttype-file, 
 .contenttype-fsdperson dt {
-    margin-bottom: 15 px;
+    margin-bottom: 15px;
 }
