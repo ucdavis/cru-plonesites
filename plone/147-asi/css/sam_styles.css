@@ -164,6 +164,7 @@ height: auto;
 /*-------------- Search Results ------------------------*/
 .searchResults {
     font-size: 14px;
+    line-height: 120%;
 }
 
 #search-results-bar {
@@ -183,8 +184,3 @@ div.listingBar span {
     font-size: 120%;
 }
 
-.contenttype-document, 
-.contenttype-file, 
-.contenttype-fsdperson dt {
-    margin-bottom: 15px;
-}
