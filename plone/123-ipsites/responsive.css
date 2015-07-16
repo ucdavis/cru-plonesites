@@ -55,6 +55,9 @@ img.respo {
     width: 16%;
     margin-top: .5%;
    }
+  .header nav ul li:first-child{
+    width: 26%;
+  }
   .header nav ul li a {
     font-size: 1rem !important;
   }
