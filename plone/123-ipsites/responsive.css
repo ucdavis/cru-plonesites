@@ -38,13 +38,17 @@ img.respo {
     width: 100% !important;
   }
   .header nav {
-    text-align: center;
-  }
-  .header nav ul li a {
-    font-size: 1rem !important;
+    text-align: center !important;
   }
   .header nav ul { 
-    width: 95%;
+    width: 95% !important;
+    margin: none;
+  }
+  .header nav ul li { 
+    padding: 0 5% !important;
+   }
+  .header nav ul li a {
+    font-size: 1rem !important;
   }
 }
 @media all and (max-width: 400px) {
@@ -55,8 +59,6 @@ img.respo {
     width: 100% !important;
 	}
 }
-
-
 
 
 .container {
