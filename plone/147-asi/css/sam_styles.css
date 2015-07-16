@@ -183,6 +183,8 @@ div.listingBar span {
     font-size: 165%;
 }
 
-.searchResults #content dt {
-    margin-bottom: 5 px;
+.contenttype-document, 
+.contenttype-file, 
+.contenttype-fsdperson dt {
+    margin-bottom: 15 px;
 }
