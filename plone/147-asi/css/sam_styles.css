@@ -182,3 +182,7 @@ div.listingBar a {
 div.listingBar span {
     font-size: 165%;
 }
+
+.searchResults #content dt {
+    margin-bottom: 5 px;
+}
