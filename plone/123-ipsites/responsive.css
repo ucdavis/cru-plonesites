@@ -45,7 +45,11 @@ img.respo {
     margin: none;
   }
   .header nav ul li { 
-    padding: 0 5% !important;
+/*    padding: 0 5% !important;*/
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 19%;
+    text-align: center;
    }
   .header nav ul li a {
     font-size: 1rem !important;
