@@ -38,7 +38,7 @@ img.respo {
     width: 100% !important;
   }
   .header nav ul li a {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 }
 @media all and (max-width: 400px) {
