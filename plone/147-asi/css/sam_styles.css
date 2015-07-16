@@ -178,6 +178,7 @@ height: auto;
 
 div.listingBar a { 
     font-size: 12px;
+    border-bottom: medium;
 }
 
 div.listingBar span {
