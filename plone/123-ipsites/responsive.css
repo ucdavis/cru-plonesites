@@ -33,11 +33,11 @@ img.respo {
 	}
 
 }
-@media all and(max-width: 400px) {
+@media all and (max-width: 400px) {
 	.main {
 		width:100% !important;
   }
-  .footerbox{
+  .footerbox {
     width: 100% !important;
 	}
 }
