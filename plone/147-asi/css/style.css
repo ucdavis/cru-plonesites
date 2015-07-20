@@ -1589,7 +1589,7 @@ ul#sub_top_drop-nav {
   padding: 12px 8px;
   background-color: #1C5BA5;
   border: 3px solid #4A90E2;
-  text-align: center;
+  text-align: left;
   margin-top: -11px; }
   @media (max-width: 1000px) {
     .section-homepage #portal-globalnav {
