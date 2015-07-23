@@ -324,9 +324,6 @@ ul#sub_top_drop-nav {
 			color:#fff;
 		}
 	}
-	ul.submenu {
-		text-align: left;
-	}
 	ul {
 		list-style-type: circle;
 	}
@@ -346,7 +343,7 @@ ul#sub_top_drop-nav {
 	ul.submenu {
 		z-index:9999;
 		margin:0 auto;
-		text-align:center;
+		text-align:left;
 		// display:block;
 		@include main-theme-bg-color;
 		-webkit-transition: all 1s ease;

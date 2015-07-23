@@ -1602,8 +1602,6 @@ ul#sub_top_drop-nav {
     .section-homepage #portal-globalnav .selected a:hover {
       background-color: transparent;
       color: #fff; }
-  .section-homepage #portal-globalnav ul.submenu {
-    text-align: left; }
   .section-homepage #portal-globalnav ul {
     list-style-type: circle; }
   .section-homepage #portal-globalnav li {
@@ -1631,7 +1629,7 @@ ul#sub_top_drop-nav {
   .section-homepage #portal-globalnav ul.submenu {
     z-index: 9999;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;
