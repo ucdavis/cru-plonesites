@@ -1589,7 +1589,7 @@ ul#sub_top_drop-nav {
   padding: 12px 8px;
   background-color: #1C5BA5;
   border: 3px solid #4A90E2;
-  text-align: left;
+  text-align: center;
   margin-top: -11px; }
   @media (max-width: 1000px) {
     .section-homepage #portal-globalnav {
@@ -1602,6 +1602,8 @@ ul#sub_top_drop-nav {
     .section-homepage #portal-globalnav .selected a:hover {
       background-color: transparent;
       color: #fff; }
+  .section-homepage #portal-globalnav ul.submenu {
+    text-align: left; }
   .section-homepage #portal-globalnav ul {
     list-style-type: circle; }
   .section-homepage #portal-globalnav li {

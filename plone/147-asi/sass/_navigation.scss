@@ -315,7 +315,7 @@ ul#sub_top_drop-nav {
 	padding:12px 8px;
 	background-color:$asi_main;
 	border:3px solid #4A90E2;
-	text-align:left;
+	text-align:center;
 	margin-top:-11px;
 	.selected a {
 		background-color:transparent;
@@ -323,6 +323,9 @@ ul#sub_top_drop-nav {
 			background-color:transparent;
 			color:#fff;
 		}
+	}
+	ul.submenu {
+		text-align: left;
 	}
 	ul {
 		list-style-type: circle;
