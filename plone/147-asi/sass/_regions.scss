@@ -6,7 +6,11 @@
 // @include 'region/banner';		// and then add region/_banner.scss
 
 // event list
-
+.template-plone-app-collection-interfaces-icollection {
+	.tileItem {
+		margin-bottom:4%;
+	}
+}
 abbr.dtstart, abbr.dtend {
 	color:#DA611E;
 }
