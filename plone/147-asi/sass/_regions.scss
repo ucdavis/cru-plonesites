@@ -4,6 +4,12 @@
 
 // If you want more separation, you can set up an include per region, i.e.
 // @include 'region/banner';		// and then add region/_banner.scss
+
+// event list
+
+abbr.dtstart, abbr.dtend {
+	color:#DA611E;
+}
 .breadandsearch {
 	border-bottom:1px solid $borders;
 	// margin-top:2%;

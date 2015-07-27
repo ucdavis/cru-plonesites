@@ -2359,6 +2359,9 @@ input.searchButton {
 .center-t {
   text-align: center; }
 
+abbr.dtstart, abbr.dtend {
+  color: #DA611E; }
+
 .breadandsearch {
   border-bottom: 1px solid #c8c7cc; }
 
