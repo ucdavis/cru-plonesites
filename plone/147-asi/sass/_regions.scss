@@ -40,7 +40,7 @@ form#searchform {
     -moz-appearance: none;
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
     background-color:rgba(255, 255, 255, 0.7);
-    border: 1px solid rgba(0,0,0,.7);
+    border: 1px solid rgba(0,0,0,.3);
     margin-right: 3px;
     padding: 5px;
     font-size:16px;
@@ -50,14 +50,14 @@ form#searchform {
     padding-top:7px;
     padding-bottom:7px;
     padding-left:10px;
+    border-radius: 2px;
     width:300px;
     .webkit & {
     		height: 25px;
     	}
 	}
 	input.searchButton {
-		width: 66px;
-		margin-left: 2%;
+		width: 100px;
 		background-color: #1C5BA5;
 		color: #FFF;
 		border: medium none;
