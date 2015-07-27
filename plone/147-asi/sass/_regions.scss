@@ -50,10 +50,22 @@ form#searchform {
     padding-top:7px;
     padding-bottom:7px;
     padding-left:10px;
+    width:300px;
     .webkit & {
-    	height: 25px;
-    }
-}
+    		height: 25px;
+    	}
+	}
+	input.searchButton {
+		width: 66px;
+		margin-left: 2%;
+		background-color: #1C5BA5;
+		color: #FFF;
+		border: medium none;
+		box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
+		font-size: 1.6rem;
+		font-family: "proxima-nova",sans-serif;
+		border-radius: 2px;
+	}
 }
 .searchSection {
 	display:none;
