@@ -2388,34 +2388,6 @@ input.searchField {
   .webkit input.searchField {
     height: 25px; }
 
-form#searchform input.searchPage {
-  -moz-appearance: none;
-  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.7);
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  margin-right: 3px;
-  padding: 5px;
-  font-size: 16px;
-  box-shadow: none;
-  margin-bottom: 0px;
-  border-radius: 0px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  padding-left: 10px;
-  border-radius: 2px;
-  width: 300px; }
-  .webkit form#searchform input.searchPage {
-    height: 25px; }
-form#searchform input.searchButton {
-  width: 100px;
-  background-color: #1C5BA5;
-  color: #FFF;
-  border: medium none;
-  box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
-  font-size: 1.6rem;
-  font-family: "proxima-nova",sans-serif;
-  border-radius: 2px; }
-
 .searchSection {
   display: none; }
 
@@ -2878,6 +2850,41 @@ span.popup:after {
 span.popup.donor:after {
   top: 125px;
   left: 75px; }
+
+#search-results dt.contenttype-document {
+  padding-top: 1.5%; }
+  #search-results dt.contenttype-document a {
+    font-size: 1.8rem; }
+#search-results dd {
+  font-size: 1.6rem; }
+
+form#searchform input.searchPage {
+  -moz-appearance: none;
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-right: 3px;
+  padding: 5px;
+  font-size: 16px;
+  box-shadow: none;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  border-radius: 2px;
+  width: 300px; }
+  .webkit form#searchform input.searchPage {
+    height: 25px; }
+form#searchform input.searchButton {
+  width: 100px;
+  background-color: #1C5BA5;
+  color: #FFF;
+  border: medium none;
+  box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
+  font-size: 1.6rem;
+  font-family: "proxima-nova",sans-serif;
+  border-radius: 2px; }
 
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
