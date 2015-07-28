@@ -97,12 +97,9 @@ dd {margin-left: 0;}
     padding-left:0px !important;
     background:none !important;
 }
-.documentByLine {
-    display:none !important;
+#content div.documentByLine, span.documentByLine {
+    display:none;
 }
-.subsection-asi-blog-roll .documentByLine {
-    display:block !important;
-}
-.plone-document-byline {
-    display:none !important;
+.template-plone-app-collection-interfaces-icollection span.documentByLine {
+    display:block;
 }
