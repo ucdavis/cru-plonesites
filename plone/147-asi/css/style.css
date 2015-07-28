@@ -3324,10 +3324,10 @@ body.section-styles #content .borders {
   background: none !important; }
 
 .documentByLine {
-  display: none; }
+  display: none !important; }
 
 .subsection-asi-blog-roll .documentByLine {
   display: block; }
 
 .plone-document-byline {
-  display: none; }
+  display: none !important; }
