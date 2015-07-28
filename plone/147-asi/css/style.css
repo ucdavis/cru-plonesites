@@ -3327,7 +3327,7 @@ body.section-styles #content .borders {
   display: none !important; }
 
 .subsection-asi-blog-roll .documentByLine {
-  display: block; }
+  display: block !important; }
 
 .plone-document-byline {
   display: none !important; }
