@@ -3328,3 +3328,6 @@ body.section-styles #content .borders {
 
 .subsection-asi-blog-roll .documentByLine {
   display: block; }
+
+.plone-document-byline {
+  display: none; }
