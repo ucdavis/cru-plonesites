@@ -3322,3 +3322,9 @@ body.section-styles #content .borders {
 .icons-on .contenttype-news-item {
   padding-left: 0px !important;
   background: none !important; }
+
+.documentByLine {
+  display: none; }
+
+.subsection-asi-blog-roll .documentByLine {
+  display: block; }
