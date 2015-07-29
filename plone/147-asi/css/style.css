@@ -1234,14 +1234,15 @@ header {
 
 footer {
   padding: 1% 0%;
-  background-color: #434343;
+  background-color: #242424;
   text-align: center; }
 
 nav {
   max-width: 1200px;
   width: 100%;
   margin-bottom: -5px;
-  margin-left: -12px; }
+  margin-left: -12px;
+  padding-bottom: 4px; }
 
 #portal-globalnav {
   background: none;
@@ -1706,7 +1707,7 @@ html {
     color: #E1BB33 !important; }
 .section-homepage .spotlight_events .portletItem a.tile {
   font-size: 1.8rem;
-  color: #434343; }
+  color: #242424; }
   .section-homepage .spotlight_events .portletItem a.tile:hover {
     color: #FFB208; }
 
@@ -1719,9 +1720,9 @@ header a:link {
   color: #2473aa;
   text-decoration: underline; }
 #content h2 a:link {
-  color: #434343; }
+  color: #242424; }
 #content h3 a:link {
-  color: #434343; }
+  color: #242424; }
 
 header a:visited {
   color: #fff; }
@@ -1732,9 +1733,9 @@ header a:visited {
   color: #2473aa;
   text-decoration: underline; }
 #content h2 a:visited {
-  color: #434343; }
+  color: #242424; }
 #content h3 a:visited {
-  color: #434343; }
+  color: #242424; }
 
 a:hover {
   color: #C99700; }
@@ -1760,7 +1761,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, h5, h6 {
   margin-bottom: 1rem;
   line-height: 1.5;
   font-family: "proxima-nova", sans-serif;
-  color: #434343;
+  color: #242424;
   letter-spacing: .2px;
   font-weight: 400; }
 
@@ -1866,7 +1867,7 @@ p {
   font-weight: 400;
   letter-spacing: .025rem;
   font-size: 1.6rem;
-  color: #333433;
+  color: #242424;
   margin-top: .4em; }
   .portlet_column p {
     color: #777777;
@@ -1986,7 +1987,7 @@ ul.program_list {
 li {
   font-family: "ff-tisa-web-pro", Georgia, serif;
   font-size: 16px;
-  color: #333433; }
+  color: #242424; }
   #portal-globalnav li {
     margin-right: 8px; }
     #portal-globalnav li:first-child a {
@@ -2041,7 +2042,7 @@ li {
 
 #content div.documentByLine, span.documentByLine {
   font-family: "proxima-nova", sans-serif;
-  color: #434343;
+  color: #242424;
   font-size: 14px;
   margin-top: 5px;
   display: block; }
@@ -2376,7 +2377,7 @@ abbr.dtstart, abbr.dtend {
   padding-bottom: 1%; }
 
 #searchGadget, .LSBox input.searchButton {
-  color: #434343; }
+  color: #242424; }
 
 input.searchField {
   -moz-appearance: none;
@@ -2435,14 +2436,14 @@ body.template-event_view .eventdetailsside {
     padding-bottom: 20px; }
 
 #content .cta p a:visited {
-  color: #333433;
+  color: #242424;
   text-decoration: none; }
 #content .cta p a {
   text-decoration: none; }
 #content .cta h2 a {
   color: #002855; }
 #content .cta p a:link, #content .cta p a {
-  color: #333433; }
+  color: #242424; }
 #content .cta:hover p a, #content .cta:hover h2 a, #content .cta:hover h2 a:link, #content .cta:hover h2 a:visited {
   color: #C99700 !important; }
 
@@ -2521,7 +2522,7 @@ p.standout_gold {
     margin-top: 0px; }
   .section-homepage .homepage_slider .banner--title {
     text-align: center;
-    margin-top: -38%;
+    margin-top: -40%;
     display: flex;
     flex-direction: column; }
     .section-homepage .homepage_slider .banner--title img {
@@ -2645,7 +2646,7 @@ p.standout_gold {
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature a.contenttype-news-item {
         width: 100%;
         font-size: 1.8rem;
-        color: #434343;
+        color: #242424;
         font-family: "proxima-nova", sans-serif; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature a.contenttype-news-item img {
           width: 100%;
@@ -3214,7 +3215,7 @@ Supports Thumbs: true
     padding: 12px;
     background-color: rgba(255, 255, 255, 0.9);
     max-width: 60rem;
-    color: #333433;
+    color: #242424;
     font-family: "ff-tisa-web-pro", Georgia, serif; }
     @media (max-width: 750px) {
       .theme-default .nivo-caption p {
@@ -3308,7 +3309,7 @@ body.section-styles #content .primary-color {
 body.section-styles #content .secondary-color {
   background: #C99700; }
 body.section-styles #content .dark-gray {
-  background: #333433; }
+  background: #242424; }
 body.section-styles #content .middle-gray {
   background: #515151; }
 body.section-styles #content .light-gray {
