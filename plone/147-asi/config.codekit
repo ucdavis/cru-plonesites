@@ -953,6 +953,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/donor4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 168557,
+		"inputAbbreviatedPath": "\/images\/donor4.jpg",
+		"outputAbbreviatedPath": "\/images\/donor4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/donormap.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
