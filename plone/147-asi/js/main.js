@@ -2,104 +2,216 @@
 MyApp.spreadsheetData = [];
 MyApp.keywords = [];
 MyApp.headerData = [
-    { "sTitle": "Title" }, { "sTitle": "Authors" }, { "sTitle": "Source" }, { "sTitle": "Year" }, { "sTitle": "keywords" }
+    { "sTitle": "Name" }, { "sTitle": "Organization" }, { "sTitle": "Projects" }, { "sTitle": "Contact" }, { "sTitle": "City" }, { "sTitle": "region" }, { "sTitle": "organizations" }, { "sTitle": "researchareas" }
 ];
+MyApp.filterIndexes = { "organizations": 6, "regions": 5, "researcharea" : 7 };
+MyApp.Organizations = [], MyApp.Regions = [], MyApp.ResearchAreas = [];
 
 String.prototype.trunc = function (n) {
     return this.substr(0, n - 1) + (this.length > n ? '&hellip;' : '');
 };
 
 $(function () {
-    var url = "https://spreadsheets.google.com/feeds/list/0AhTxmYCYi3fpdEJDZnBsb2FnNTVucGdRb1pHRExyUmc/1/public/values?alt=json-in-script&callback=?";
+    var url = "https://spreadsheets.google.com/feeds/list/0AhTxmYCYi3fpdGRrelZaT2F0ajBmalJzTlEzQU96dUE/1/public/values?alt=json-in-script&callback=?";
     $.getJSON(url, {}, function (data) {
         $.each(data.feed.entry, function (key, val) {
-            var title = val.gsx$title.$t;
-            var authors = val.gsx$authors.$t;
-            var source = val.gsx$source.$t;
-            var year = val.gsx$year.$t;
-            var keyword = val.gsx$keywords.$t;
-            var abstract = val.gsx$abstract.$t;
-            var link = val.gsx$linkstowhat.$t;
+            var name = val.gsx$name.$t;
+            var dept = val.gsx$departmentprogram.$t + '<br /><span class="discreet">' + val.gsx$organization.$t + '</span>';
+            var orgtype = val.gsx$typeoforganization.$t;
+            var website = "<a target='_blank' href='" + val.gsx$personalwebsitelink.$t + "'><i class='icon-globe'></i></a>";
+            var email = "<a href='mailto:" + val["gsx$email"].$t + "'><i class='icon-envelope'></i></a>";
+            var contact = email + ' ' + (val.gsx$personalwebsitelink.$t ? website : '') + '<br />' + val.gsx$telephone.$t;
+            var city = "<span class='city'>" + val.gsx$citytown.$t + ', ' + val.gsx$state.$t + "</span>";
+            var region = val.gsx$region.$t;
+            var researchareas = val.gsx$researchareas.$t;
 
+            // var allResearchInfo = val.gsx$gsx:positiontitle.$t + '<br />' + val.gsx$telephone.$t + '<br />' + val.gsx$researchareas.$t;
+            
             MyApp.spreadsheetData.push(
                 [
-                    GenerateTitleColumn(val), authors, source, year, keyword
+                    GenerateResearcherColumn(val), 
+                    dept, 
+                    GenerateProjectColumn(val), 
+                    contact, city, 
+                    region, orgtype, researchareas
                 ]);
 
+            if ($.inArray(orgtype, MyApp.Organizations) === -1 && orgtype.length !== 0) {
+                MyApp.Organizations.push(orgtype);
+            }
+            if ($.inArray(region, MyApp.Regions) === -1 && region.length !== 0) {
+                MyApp.Regions.push(region);
+            }
+
+            /*
             if ($.inArray(keyword, MyApp.keywords) === -1 && keyword.length !== 0) {
                 MyApp.keywords.push(keyword);
             }
+            */
+
+            /* DOH */
+            //Add the keywords, which are semi-colon separated. First trim them and then replace the CRLF, then split.
+            $.each(researchareas.trim().replace(/^[\r\n]+|\.|[\r\n]+$/g, "").split(';'), function (key, val) {
+                val = val.trim(); //need to trim the semi-colon separated values after split
+                
+                if ($.inArray(val, MyApp.ResearchAreas) === -1 && val.length !== 0) {
+                    MyApp.ResearchAreas.push(val);
+                }
+            });
+
+            MyApp.ResearchAreas.sort();
+
         });
 
-        MyApp.keywords.sort();
+        MyApp.Organizations.sort();
+        MyApp.Regions.sort();
+        //MyApp.keywords.sort();
 
         createDataTable();
         addFilters();
-        abstractPopup();
+        configurePopups();
     });
 })
 
-function GenerateTitleColumn(entry) { //entry value from spreadsheet
-    var title = entry.gsx$title.$t;
-    var abstract = entry.gsx$abstract.$t;
-    var link = entry.gsx$linkstowhat.$t;
+function hideUnavailableOrganizations(){
+    var fileredData = MyApp.oTable._('tr', {"filter":"applied"});
 
-    return "<a href='" + link + "' class='abstract-popover' data-toggle='popover' data-content='" + abstract + "' data-original-title='Abstract'>" + title + "</a>";
+    //Get departments available after the filters are set
+    MyApp.Organizations = [];
+    $.each(fileredData, function (key, val) {
+        var org = val[MyApp.filterIndexes["organizations"]];
+
+        if ($.inArray(org, MyApp.Organizations) === -1 && org.length !== 0) {
+                MyApp.Organizations.push(org);
+        }
+    });
+
+    // $(":checkbox", "#organizations").each(function () {
+    //     //if a checkbox isn't in the list of available departments, hide it
+    //     if ($.inArray(this.name, MyApp.Organizations) === -1) {
+    //         $(this).parent().css("display", "none");
+    //     } else {
+    //         $(this).parent().css("display", "block");
+    //     }
+    // });
 }
 
-function abstractPopup() {
-    $("#spreadsheet").popover({
-        selector: '.abstract-popover',
+
+function configurePopups(){
+    $("#spreadsheet").popover({ 
+        selector: '.researcher-popover, .project-popover',
         trigger: 'hover'
     });
 }
 
+
+
 function addFilters(){
-    var $filter = $("#filter_elements");
+    var $organizations = $("#organizations");
     
-    $.each(MyApp.keywords, function (key, val) {
-        $filter.append('<li><label><input type="checkbox" name="' + val + '"> ' + val + '</label></li>');
+    $.each(MyApp.Organizations, function (key, val) {
+        $organizations.append('<li><label><input type="checkbox" name="' + val + '"> ' + val + '</label></li>');
     });
-        
-    $filter.on("change", function (e) {
-        e.preventDefault();
-        var selected = this.name;
 
+
+    var $region = $("#regions");
+    
+    $.each(MyApp.Regions, function (key, val) {
+        $region.append('<li><label><input type="checkbox" name="' + val + '"> ' + val + '</label></li>');
+    });
+
+
+    var $researcharea = $("#researcharea");
+    
+    $.each(MyApp.ResearchAreas, function (key, val) {
+        $researcharea.append('<li><label><input type="checkbox" name="' + val + '"> ' + val + '</label></li>');
+    });
+
+
+    $(".filterrow").on("click", "ul.filterlist", function (e) {
         var filterRegex = "";
-        var filters = [];
+        var filterName = this.id;
+        var filterIndex = MyApp.filterIndexes[filterName];
 
-        $("input:checkbox", this).each(function (key, val) {
+        var filters = [];
+        $("input", this).each(function (key, val) {
             if (val.checked) {
                 if (filterRegex.length !== 0) {
                     filterRegex += "|";
                 }
 
-                filterRegex += "(^" + val.name + "$)"; //Use the hat and dollar to require an exact match
+                filterRegex += val.name; //Use the hat and dollar to require an exact match                
             }
         });
 
-        console.log(filterRegex);
-        MyApp.oTable.fnFilter(filterRegex, 4, true, false);
+        MyApp.oTable.fnFilter(filterRegex, filterIndex, true, false);
+        hideUnavailableOrganizations();
         displayCurrentFilters();
     });
 
     $("#clearfilters").click(function (e) {
         e.preventDefault();
 
-        $(":checkbox", $filter).each(function () {
+        $(":checkbox", "ul.filterlist").each(function () {
             this.checked = false;
         });
 
-        $filter.change();
+        $("ul.filterlist").click();
     });
 }
 
+function GenerateResearcherColumn(val /* entry value from spreadsheet */){
+    var name = val.gsx$name.$t;
+    var title = val.gsx$positiontitle.$t;
+        
+    //var website = "<a target='_blank' href='" + val.gsx$website.$t + "'>" + val.gsx$website.$t + "</a>";
+    //var email = "<a href='mailto:" + val["gsx$e-mail"].$t + "'>" + val["gsx$e-mail"].$t + "</a>";
+    // var allResearchInfo = "Research areas: " + val.gsx$researchareas.$t;
+    var allResearchInfo = val.gsx$researchareas.$t;
+
+    var content = allResearchInfo; //could expand content later
+    var researcher = "<a href='#' class='researcher-popover' data-toggle='popover' data-content='" + allResearchInfo + "' data-original-title='" + name + "'>" + name + "</a><br /><span class='discreet'>" + title + "</span>";
+        
+    return researcher;
+}
+
+function GenerateProjectColumn(val /* entry value from spreadsheet */){
+    var project1title = "<span style='font-size: 0.8em;'>" + val.gsx$project1title.$t.trunc(20) + "</span>";
+    var project1details = "Status: " + val.gsx$expectedcompletiondate.$t + (val.gsx$linktoprojectwebsite.$t ? "—" + val.gsx$linktoprojectwebsite.$t : '');
+    var project1 = "<a href='#' class='project-popover' data-toggle='popover' data-content='" + project1details + "' data-original-title='" + val.gsx$project1title.$t + "'>" + project1title + "</a>";
+
+    var project2title = "<span style='font-size: 0.8em;'>" + val.gsx$project2title.$t.trunc(20) + "</span>";
+    var project2details = "Status: " + val.gsx$expectedcompletiondate_2.$t + (val.gsx$linktoprojectwebsite_2.$t ? "—" + val.gsx$linktoprojectwebsite_2.$t : '');
+    var project2 = "<a href='#' class='project-popover' data-toggle='popover' data-content='" + project2details + "' data-original-title='" + val.gsx$project2title.$t + "'>" + project2title + "</a>";
+
+    var project3title = "<span style='font-size: 0.8em;'>" + val.gsx$project3title.$t.trunc(20) + "</span>";
+    var project3details = "Status: " + val.gsx$expectedcompletiondate_3.$t + (val.gsx$linktoprojectwebsite_3.$t ? "—" + val.gsx$linktoprojectwebsite_3.$t : '');
+    var project3 = "<a href='#' class='project-popover' data-toggle='popover' data-content='" + project3details + "' data-original-title='" + val.gsx$project3title.$t + "'>" + project3title + "</a>";
+
+    var projects = project1 + (val.gsx$project2title.$t ? project2 : '') + (val.gsx$project3title.$t ? project3 : '');
+        
+    var allResearchInfo = val.gsx$researchareas.$t;
+
+    // var researcher = "<a href='#' class='researcher-popover' data-toggle='popover' data-content='" + allResearchInfo + "' data-original-title='" + name + "'>" + name + "</a><br /><span class='discreet'>" + title + "</span>";
+        
+    return projects;
+}
+
+
+
 function displayCurrentFilters() {
     var $filterAlert = $("#filters");
+    //var regionFilter = $("#regions"); // Wrong selector..?
     
     var filters = "";
-    
-    $(":checked", "#filter_elements").each(function () {
+
+    /*
+    if (regionFilter){
+        filters += "<strong>" + this.name + "</strong>";
+    }
+    */
+
+    $("input:checked", "#filterAccordian").each(function () {
         if (filters.length !== 0) {
             filters += " + "
         }
@@ -134,8 +246,8 @@ function createDataTable() {
 
     MyApp.oTable = $("#spreadsheet").dataTable({
         "aoColumnDefs": [
-            { "sType": "link-content", "aTargets": [ 0 ] },
-            { "bVisible": false, "aTargets": [ -1 ] } //hide the keywords column for now (the last column, hence -1)
+            //{ "sType": "link-content", "aTargets": [ 0 ] },
+            { "bVisible": false, "aTargets": [ -2, -3, -1 ] } //hide the keywords column for now (the last column, hence -1)
         ],
         "iDisplayLength": 20,
         "bLengthChange": false,
