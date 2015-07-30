@@ -2,38 +2,37 @@
 MyApp.spreadsheetData = [];
 MyApp.keywords = [];
 MyApp.headerData = [
-    { "sTitle": "Name" }, { "sTitle": "Organization" }, { "sTitle": "Projects" }, { "sTitle": "Contact" }, { "sTitle": "City" }, { "sTitle": "region" }, { "sTitle": "organizations" }, { "sTitle": "researchareas" }
+    { "sTitle": "Title" }, { "sTitle": "Program" }, { "sTitle": "Year" }, { "sTitle": "Type" }, { "sTitle": "region" }, { "sTitle": "organizations" }, { "sTitle": "categories" }
 ];
-MyApp.filterIndexes = { "organizations": 6, "regions": 5, "researcharea" : 7 };
-MyApp.Organizations = [], MyApp.Regions = [], MyApp.ResearchAreas = [];
+MyApp.filterIndexes = { "organizations": 6, "regions": 5, "categories" : 7 };
+MyApp.Organizations = [], MyApp.Regions = [], MyApp.categories = [];
 
 String.prototype.trunc = function (n) {
     return this.substr(0, n - 1) + (this.length > n ? '&hellip;' : '');
 };
 
 $(function () {
-    var url = "https://spreadsheets.google.com/feeds/list/0AhTxmYCYi3fpdGRrelZaT2F0ajBmalJzTlEzQU96dUE/1/public/values?alt=json-in-script&callback=?";
+    var url = "https://spreadsheets.google.com/feeds/list/1y7A89kMdcA8_uGTky0ec5Qksj4g9cIIpm4veVYrNDb4/1/public/values?alt=json-in-script&callback=?";
     $.getJSON(url, {}, function (data) {
         $.each(data.feed.entry, function (key, val) {
-            var name = val.gsx$name.$t;
+            var title = val.gsx$title.$t;
             var dept = val.gsx$departmentprogram.$t + '<br /><span class="discreet">' + val.gsx$organization.$t + '</span>';
             var orgtype = val.gsx$typeoforganization.$t;
             var website = "<a target='_blank' href='" + val.gsx$personalwebsitelink.$t + "'><i class='icon-globe'></i></a>";
             var email = "<a href='mailto:" + val["gsx$email"].$t + "'><i class='icon-envelope'></i></a>";
-            var contact = email + ' ' + (val.gsx$personalwebsitelink.$t ? website : '') + '<br />' + val.gsx$telephone.$t;
-            var city = "<span class='city'>" + val.gsx$citytown.$t + ', ' + val.gsx$state.$t + "</span>";
+            var contact = email + ' ' + (val.gsx$personalwebsitelink.$t ? website : '') + '<br />' + val.gsx$type.$t;
             var region = val.gsx$region.$t;
-            var researchareas = val.gsx$researchareas.$t;
+            var categories = val.gsx$categories.$t;
 
-            // var allResearchInfo = val.gsx$gsx:positiontitle.$t + '<br />' + val.gsx$telephone.$t + '<br />' + val.gsx$researchareas.$t;
+            // var allResearchInfo = val.gsx$gsx:positiontitle.$t + '<br />' + val.gsx$telephone.$t + '<br />' + val.gsx$categories.$t;
             
             MyApp.spreadsheetData.push(
                 [
                     GenerateResearcherColumn(val), 
                     dept, 
                     GenerateProjectColumn(val), 
-                    contact, city, 
-                    region, orgtype, researchareas
+                    contact, 
+                    region, orgtype, categories
                 ]);
 
             if ($.inArray(orgtype, MyApp.Organizations) === -1 && orgtype.length !== 0) {
@@ -51,15 +50,15 @@ $(function () {
 
             /* DOH */
             //Add the keywords, which are semi-colon separated. First trim them and then replace the CRLF, then split.
-            $.each(researchareas.trim().replace(/^[\r\n]+|\.|[\r\n]+$/g, "").split(';'), function (key, val) {
+            $.each(categories.trim().replace(/^[\r\n]+|\.|[\r\n]+$/g, "").split(';'), function (key, val) {
                 val = val.trim(); //need to trim the semi-colon separated values after split
                 
-                if ($.inArray(val, MyApp.ResearchAreas) === -1 && val.length !== 0) {
-                    MyApp.ResearchAreas.push(val);
+                if ($.inArray(val, MyApp.categories) === -1 && val.length !== 0) {
+                    MyApp.categories.push(val);
                 }
             });
 
-            MyApp.ResearchAreas.sort();
+            MyApp.categories.sort();
 
         });
 
@@ -69,7 +68,6 @@ $(function () {
 
         createDataTable();
         addFilters();
-        configurePopups();
     });
 })
 
@@ -97,15 +95,6 @@ function hideUnavailableOrganizations(){
 }
 
 
-function configurePopups(){
-    $("#spreadsheet").popover({ 
-        selector: '.researcher-popover, .project-popover',
-        trigger: 'hover'
-    });
-}
-
-
-
 function addFilters(){
     var $organizations = $("#organizations");
     
@@ -123,7 +112,7 @@ function addFilters(){
 
     var $researcharea = $("#researcharea");
     
-    $.each(MyApp.ResearchAreas, function (key, val) {
+    $.each(MyApp.categories, function (key, val) {
         $researcharea.append('<li><label><input type="checkbox" name="' + val + '"> ' + val + '</label></li>');
     });
 
@@ -161,13 +150,13 @@ function addFilters(){
 }
 
 function GenerateResearcherColumn(val /* entry value from spreadsheet */){
-    var name = val.gsx$name.$t;
+    var name = val.gsx$title.$t;
     var title = val.gsx$positiontitle.$t;
         
     //var website = "<a target='_blank' href='" + val.gsx$website.$t + "'>" + val.gsx$website.$t + "</a>";
     //var email = "<a href='mailto:" + val["gsx$e-mail"].$t + "'>" + val["gsx$e-mail"].$t + "</a>";
-    // var allResearchInfo = "Research areas: " + val.gsx$researchareas.$t;
-    var allResearchInfo = val.gsx$researchareas.$t;
+    // var allResearchInfo = "Research areas: " + val.gsx$categories.$t;
+    var allResearchInfo = val.gsx$categories.$t;
 
     var content = allResearchInfo; //could expand content later
     var researcher = "<a href='#' class='researcher-popover' data-toggle='popover' data-content='" + allResearchInfo + "' data-original-title='" + name + "'>" + name + "</a><br /><span class='discreet'>" + title + "</span>";
@@ -190,7 +179,7 @@ function GenerateProjectColumn(val /* entry value from spreadsheet */){
 
     var projects = project1 + (val.gsx$project2title.$t ? project2 : '') + (val.gsx$project3title.$t ? project3 : '');
         
-    var allResearchInfo = val.gsx$researchareas.$t;
+    var allResearchInfo = val.gsx$categories.$t;
 
     // var researcher = "<a href='#' class='researcher-popover' data-toggle='popover' data-content='" + allResearchInfo + "' data-original-title='" + name + "'>" + name + "</a><br /><span class='discreet'>" + title + "</span>";
         

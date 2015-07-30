@@ -14,8 +14,6 @@
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/DataTables-1.9.4/media/css/jquery.dataTables.css">
-
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -25,10 +23,6 @@
         <div class="container-fluid">
 
             <!-- Main hero unit for a primary marketing message or call to action -->
-            <div class="hero-unit">
-                <h1>ASI</h1>
-                <p>Searchable Farmworker Database</p>                
-            </div>
 
             <div id="filters"></div>
 
@@ -40,7 +34,7 @@
                     <button id="clearfilters" class="btn btn-info">Clear selections</button>
                     <br><br>
                     <div class="accordion" id="filterAccordian">
-                      <div class="accordion-group">
+                    <!--   <div class="accordion-group">
                         <div class="accordion-heading">
                           <a class="accordion-toggle" data-toggle="collapse" href="#collapseOrganizations">
                             Organizations <i class="icon-chevron-down pull-right"></i>
@@ -51,11 +45,11 @@
                             <ul id="organizations" class="unstyled filterlist"></ul>
                           </div>
                         </div>
-                      </div>                       
+                      </div>  -->                      
                       <div class="accordion-group">
                         <div class="accordion-heading">
                           <a class="accordion-toggle" data-toggle="collapse" href="#collapseRegions">
-                            Regions <i class="icon-chevron-down pull-right"></i>
+                            Programs <i class="icon-chevron-down pull-right"></i>
                           </a>
                         </div>
                         <div id="collapseRegions" class="accordion-body collapse">
@@ -69,7 +63,7 @@
                       <div class="accordion-group">
                         <div class="accordion-heading">
                           <a class="accordion-toggle" data-toggle="collapse" href="#collapseResearchAreas">
-                            Research Areas <i class="icon-chevron-down pull-right"></i>
+                            Categories <i class="icon-chevron-down pull-right"></i>
                           </a>
                         </div>
                         <div id="collapseResearchAreas" class="accordion-body collapse">
@@ -87,13 +81,6 @@
                     <table id="spreadsheet" class="table-bordered"></table>
                 </div>
             </div>
-                        
-            <hr>
-
-            <footer>
-                <p>&copy; UC Davis @2013</p>
-            </footer>
-
         </div> <!-- /container -->
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
