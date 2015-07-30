@@ -3330,5 +3330,5 @@ body.section-styles #content .borders {
 .template-plone-app-collection-interfaces-icollection span.documentByLine {
   display: block; }
 
-body.section-topics .tileFooter {
+body.section-topics p.tileFooter {
   display: none; }
