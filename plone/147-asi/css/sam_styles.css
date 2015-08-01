@@ -195,6 +195,8 @@ div.listingBar span {
 
 #content a.internal-link.topic_textbox {
     color: red;
+    text-decoration: none;
+    background-color: ;
    }
 /*
     background-color:rgba(33, 33, 33, 0.7);
