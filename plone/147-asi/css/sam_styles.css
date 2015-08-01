@@ -193,7 +193,7 @@ div.listingBar span {
 
 /*----------------- Topics -------------------------*/
 
-a.internal-link.topic_textbox {
+#content a.internal-link.topic_textbox {
     color: red;
    }
 /*
