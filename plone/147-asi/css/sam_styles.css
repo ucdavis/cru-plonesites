@@ -192,22 +192,14 @@ div.listingBar span {
 */
 
 /*----------------- Topics -------------------------*/
-/*
+
 a.internal-link.topic_textbox {
     color: red;
    }
-
+/*
     background-color:rgba(33, 33, 33, 0.7);
     text-decoration: none;
     
 
     */
-    /*
-.topic_textbox {
-    color: orange;
-}
-*/
 
-.site-asi #content ul li a:link{
-color:orange;
-}
