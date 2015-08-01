@@ -192,7 +192,7 @@ div.listingBar span {
 */
 
 /*----------------- Topics -------------------------*/
-.site-asi div .topic_textbox {
+.site-asi a .topic_textbox {
     color: red;
 }
 
