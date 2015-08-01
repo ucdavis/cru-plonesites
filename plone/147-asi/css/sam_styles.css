@@ -191,3 +191,8 @@ div.listingBar span {
 }
 */
 
+/*----------------- Topics -------------------------*/
+div .topic_name {
+    color: red;
+}
+
