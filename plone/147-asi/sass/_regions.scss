@@ -201,22 +201,23 @@ p.standout_gold {
 		// left:-38px;
 	}
 	.homepage_programs {
-		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#114266+0,6dbad7+100 */
-background: #114266; /* Old browsers */
-background: -moz-linear-gradient(-45deg,  #114266 0%, #6dbad7 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#114266), color-stop(100%,#6dbad7)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(-45deg,  #114266 0%,#6dbad7 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(-45deg,  #114266 0%,#6dbad7 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(-45deg,  #114266 0%,#6dbad7 100%); /* IE10+ */
-background: linear-gradient(135deg,  #114266 0%,#6dbad7 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#114266', endColorstr='#6dbad7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+// 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#114266+0,6dbad7+100 */
+// background: #114266; /* Old browsers */
+// background: -moz-linear-gradient(-45deg,  #114266 0%, #6dbad7 100%); /* FF3.6+ */
+// background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#114266), color-stop(100%,#6dbad7)); /* Chrome,Safari4+ */
+// background: -webkit-linear-gradient(-45deg,  #114266 0%,#6dbad7 100%); /* Chrome10+,Safari5.1+ */
+// background: -o-linear-gradient(-45deg,  #114266 0%,#6dbad7 100%); /* Opera 11.10+ */
+// background: -ms-linear-gradient(-45deg,  #114266 0%,#6dbad7 100%); /* IE10+ */
+// background: linear-gradient(135deg,  #114266 0%,#6dbad7 100%); /* W3C */
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#114266', endColorstr='#6dbad7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		background-color:$ucdavis-blue;
 		border-top:5px solid $asi_main;
 		padding-bottom:3%;
+		padding-top:4px;
 		.programs_contents {
 			@include outer-container;
 			.programs_feed {
-
+				margin-top:4%;
 			}
 		}
 	}
@@ -224,6 +225,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#114266', end
 		background-color:$secondary-bg;
 		border-top:5px solid $asi_main;
 		padding-bottom:3%;
+		padding-top:4px;
+		margin-top:4%;
 		.focus_contents {
 			@include outer-container;
 			.focus_feed {

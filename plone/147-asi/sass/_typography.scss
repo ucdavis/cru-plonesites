@@ -238,10 +238,11 @@ p {
 	}
 	.portlet-static-homepage-welcome & {
 		padding-top:4%;
-		font-size:1.8rem;
+		font-size:2.4rem;
 		text-align:center;
+		color:$main-font;
 		line-height:1.8;
-		font-family:$sans-serif;
+		font-family:$serif;
 	}
 	&.eventdescription {
 		font-size:1.4rem;
