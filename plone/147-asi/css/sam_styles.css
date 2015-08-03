@@ -192,20 +192,6 @@ div.listingBar span {
 */
 
 /*----------------- Topics -------------------------*/
-/*
-#content a.internal-link.topic_textbox {
-    color: #fff;
-    text-decoration: none;
-    background-color: rgba(33, 33, 33, 0.7);
-    display: inline-block;
-    position:relative;
-    height:50px;
-    top:100px;
-   }
-   */
-.topic_textbox{
-
-}
 
 #content a.internal-link.topic_text{
     color:#fff;
@@ -219,7 +205,7 @@ div.listingBar span {
     padding-right:5%;
 }
 
-.twolines a{
+.twolines{
     line-height: 40px;
     padding-top: 2px;
     padding-bottom: 2px;
