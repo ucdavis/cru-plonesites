@@ -2505,6 +2505,22 @@ p.standout_gold {
   width: 100%;
   display: inline-block; }
 
+.section-homepage .homepage_focus {
+  background-color: #FDFDFD;
+  border-top: 5px solid #1C5BA5;
+  padding: 3% 0%; }
+  .section-homepage .homepage_focus .focus_contents {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #c8c7cc; }
+    @media (max-width: 1000px) {
+      .section-homepage .homepage_focus .focus_contents {
+        width: 90%; } }
+    @media (max-width: 750px) {
+      .section-homepage .homepage_focus .focus_contents {
+        width: 95%; } }
 .section-homepage .homepage_head {
   background-color: rgba(0, 0, 0, 0.0002);
   z-index: 999;

@@ -200,6 +200,16 @@ p.standout_gold {
 	ul.submenu {
 		// left:-38px;
 	}
+	.homepage_focus	{
+		background-color:$secondary-bg;
+		border-top:5px solid $asi_main;
+		padding:3% 0%;
+		.focus_contents {
+			@include outer-container;
+			background-color:#fff;
+			border:1px solid $borders;
+		}
+	}
 	.homepage_head {
 		background-color:rgba(0,0,0,.0002);
 		z-index:999;
