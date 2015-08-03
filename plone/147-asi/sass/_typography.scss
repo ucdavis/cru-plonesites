@@ -155,9 +155,11 @@ h3 {
 	&.home_section_header {
 		background-color:$asi_main;
 		color:#fff;
-		padding:1%;
+		padding:0.5% 1%;
+		margin-top:0px;
 		display:inline;
 		position:absolute;
+		left:10%;
 	}
 	.eventdetailsside & {
 		font-family:$sans-serif;

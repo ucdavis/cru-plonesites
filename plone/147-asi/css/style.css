@@ -1810,9 +1810,11 @@ h3 {
   h3.home_section_header {
     background-color: #1C5BA5;
     color: #fff;
-    padding: 1.5%;
+    padding: 0.5% 1%;
+    margin-top: 0px;
     display: inline;
-    position: absolute; }
+    position: absolute;
+    left: 10%; }
   .eventdetailsside h3 {
     font-family: "proxima-nova", sans-serif;
     color: #fff;
