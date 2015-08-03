@@ -201,13 +201,22 @@ p.standout_gold {
 		// left:-38px;
 	}
 	.homepage_programs {
-		background-color:$secondary-bg;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#114266+0,6dbad7+100 */
+background: #114266; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #114266 0%, #6dbad7 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#114266), color-stop(100%,#6dbad7)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #114266 0%,#6dbad7 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #114266 0%,#6dbad7 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #114266 0%,#6dbad7 100%); /* IE10+ */
+background: linear-gradient(135deg,  #114266 0%,#6dbad7 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#114266', endColorstr='#6dbad7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 		border-top:5px solid $asi_main;
 		padding-bottom:3%;
 		.programs_contents {
 			@include outer-container;
 			.programs_feed {
-				
+
 			}
 		}
 	}
@@ -221,7 +230,7 @@ p.standout_gold {
 				background-color:#fff;
 				border:1px solid $borders;
 				padding:3.5%;
-				margin-top:5%;
+				margin-top:4%;
 			}
 		}
 	}
@@ -360,7 +369,6 @@ p.standout_gold {
 		background-color:$background-color;
 		border-top:1px solid $borders;
 		border-bottom:1px solid $borders;
-		margin-top:5%;
 		// margin-bottom:2%;
 		.spotlight-section {
 			@include outer-container;
