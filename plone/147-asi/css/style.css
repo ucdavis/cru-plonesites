@@ -2512,6 +2512,20 @@ p.standout_gold {
   width: 100%;
   display: inline-block; }
 
+.section-homepage .homepage_programs {
+  background-color: #f5f5f5;
+  border-top: 5px solid #1C5BA5;
+  padding-bottom: 3%; }
+  .section-homepage .homepage_programs .programs_contents {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto; }
+    @media (max-width: 1000px) {
+      .section-homepage .homepage_programs .programs_contents {
+        width: 90%; } }
+    @media (max-width: 750px) {
+      .section-homepage .homepage_programs .programs_contents {
+        width: 95%; } }
 .section-homepage .homepage_focus {
   background-color: #f5f5f5;
   border-top: 5px solid #1C5BA5;
@@ -2642,18 +2656,6 @@ p.standout_gold {
       width: 90%; } }
   @media (max-width: 750px) {
     .section-homepage .portlet-static-homepage-welcome {
-      width: 95%; } }
-.section-homepage .homepage_programs {
-  width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
-  max-width: 90rem;
-  text-align: center; }
-  @media (max-width: 1000px) {
-    .section-homepage .homepage_programs {
-      width: 90%; } }
-  @media (max-width: 750px) {
-    .section-homepage .homepage_programs {
       width: 95%; } }
 .section-homepage #portal-breadcrumbs {
   display: none; }

@@ -200,6 +200,17 @@ p.standout_gold {
 	ul.submenu {
 		// left:-38px;
 	}
+	.homepage_programs {
+		background-color:$secondary-bg;
+		border-top:5px solid $asi_main;
+		padding-bottom:3%;
+		.programs_contents {
+			@include outer-container;
+			.programs_feed {
+				
+			}
+		}
+	}
 	.homepage_focus	{
 		background-color:$secondary-bg;
 		border-top:5px solid $asi_main;
@@ -234,6 +245,7 @@ p.standout_gold {
 			margin-top:16px;
 			vertical-align: top;
 		}
+
 		.homepage_search {
 			display:inline-block;
 			vertical-align: top;
@@ -340,11 +352,6 @@ p.standout_gold {
 	 //    }
 	}
 	
-	.homepage_programs {
-		@include outer-container;
-		max-width:90rem;
-		text-align:center;
-	}
 	
 	#portal-breadcrumbs {
 		display:none;
