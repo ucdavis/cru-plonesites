@@ -1,0 +1,83 @@
+// Mobile menu
+
+@import "mpmenu/*.png";
+@include all-mpmenu-sprites; 
+
+// If you need to change the sprite (i.e. add a new icon)
+// re-include line 3 & 4 above, and hide line 13-20 below. 
+// Then once SASS recompiles, find the new line that matches 
+// the below, put it there, and comment out line 3 & 4 again.
+// Firefox can't load the icons when the background-image URL is
+// url('/img/whatevs') So it needs to be switched to url(../img/whatevs)
+
+.mpmenu-sprite,.mpmenu-flag,.mpmenu-flask,
+.mpmenu-globe,.mpmenu-heart,.mpmenu-home,
+.mpmenu-info,.mpmenu-left,.mpmenu-news,
+.mpmenu-right,.mpmenu-star,.mpmenu-users,
+.mpmenu-right:after,.mp-menu ul li.mpmenu-left:before {
+	background-image: url(../img/mpmenu-s0733c5c654.png);
+	background-repeat:no-repeat;
+}
+
+.diazoed .portlet-static-mpnav {display: block;}
+
+
+.menu-trigger {
+	float: right;
+	display: none;
+}
+
+.menu-trigger:before {
+	background: url(../img/icon-menu.png);
+	height: 21px; width: 29px;
+	top: 18px; right: 0px; left: auto;
+}
+
+.mp-menu ul {
+
+	li > a {
+		font-size: 1.25em;
+	}
+
+	li > a.icon {
+		padding-left: 3em;
+		margin-left: 1.5em;
+	}
+
+	li.sub > a {
+		font-size: 0.9em;
+		background: transparentize(#fff,0.95);
+		padding-left: 3.6em;
+
+		&:hover {background: transparent;}
+	}	
+}
+
+.mpmenu-right {
+	background-image: none;
+
+	&:after {
+		content: '';
+		display: inline-block;
+		width: 54px; height: 29px;
+		@include mpmenu-sprite(right);
+		background-position: 0 -446px;
+	}
+}
+
+.mp-menu ul li.mpmenu-left {
+	background-image: none;
+
+	&:before {
+		content: '';
+		display: inline-block;
+		width: 54px; height: 54px;
+		@include mpmenu-sprite(left);
+		left: -12px;
+		opacity: 0.2;
+	}
+}
+
+h2.icon {
+	padding-left: 3.6em;
+}
