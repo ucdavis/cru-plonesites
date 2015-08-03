@@ -209,10 +209,9 @@ div.listingBar span {
 
 #content a.internal-link.topic_text{
     color:#fff;
-    font-family: 'proxima-nova', sans-serif;
-    font-size: 14px;
     text-decoration:none;
     background-color:rgba(33, 33, 33, 0.7);
+    padding: 5px;
 }
 
 .topic_image {
