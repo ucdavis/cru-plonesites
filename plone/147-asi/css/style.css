@@ -2506,9 +2506,11 @@ p.standout_gold {
   display: inline-block; }
 
 .section-homepage .homepage_head {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.02);
   z-index: 999;
-  position: relative; }
+  position: relative;
+  height: 50px;
+  margin-bottom: -50px; }
   .section-homepage .homepage_head .homepage_head_contents {
     width: 80%;
     max-width: 1200px;
@@ -2520,9 +2522,13 @@ p.standout_gold {
     @media (max-width: 750px) {
       .section-homepage .homepage_head .homepage_head_contents {
         width: 95%; } }
+  .section-homepage .homepage_head .portletItem {
+    padding-top: 2%;
+    float: right; }
   .section-homepage .homepage_head .homepage_logo {
     display: inline-block;
     width: 200px;
+    margin-top: 16px;
     vertical-align: top; }
   .section-homepage .homepage_head .homepage_search {
     display: inline-block;
@@ -2532,7 +2538,7 @@ p.standout_gold {
     .section-homepage .homepage_head .homepage_search .portletHeader {
       display: none; }
     .section-homepage .homepage_head .homepage_search input.searchField {
-      border: 1px solid #c8c7cc;
+      border: 1px solid rgba(255, 255, 255, 0.2);
       border-radius: 1px;
       background-color: rgba(255, 255, 255, 0.4);
       width: 200px;
@@ -2543,7 +2549,7 @@ p.standout_gold {
       display: inline-block;
       background-color: rgba(255, 255, 255, 0.7);
       color: #232323;
-      border: 1px solid #c8c7cc;
+      border: 1px solid rgba(255, 255, 255, 0.2);
       height: 35px;
       font-size: 1.2rem;
       font-family: "proxima-nova", sans-serif;
