@@ -192,7 +192,7 @@ div.listingBar span {
 */
 
 /*----------------- Topics -------------------------*/
-
+/*
 #content a.internal-link.topic_textbox {
     color: #fff;
     text-decoration: none;
@@ -202,10 +202,19 @@ div.listingBar span {
     height:50px;
     top:100px;
    }
-/*
-    background-color:rgba(33, 33, 33, 0.7);
-    text-decoration: none;
-    
+   */
+.topic_textbox{
 
-    */
+}
+
+.topic_text{
+    color:#fff;
+    text-decoration:none;
+    background-color:;
+}
+
+.topic_image {
+    rgba(33, 33, 33, 0.7);
+}
+
 
