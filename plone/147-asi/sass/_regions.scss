@@ -206,10 +206,12 @@ p.standout_gold {
 		padding-bottom:3%;
 		.focus_contents {
 			@include outer-container;
-			background-color:#fff;
-			border:1px solid $borders;
-			padding:3.5%;
-			margin-top:5%;
+			.focus_feed {
+				background-color:#fff;
+				border:1px solid $borders;
+				padding:3.5%;
+				margin-top:5%;
+			}
 		}
 	}
 	.homepage_head {

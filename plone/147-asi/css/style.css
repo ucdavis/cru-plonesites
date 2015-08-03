@@ -2519,17 +2519,18 @@ p.standout_gold {
   .section-homepage .homepage_focus .focus_contents {
     width: 80%;
     max-width: 1200px;
-    margin: 0 auto;
-    background-color: #fff;
-    border: 1px solid #c8c7cc;
-    padding: 3.5%;
-    margin-top: 5%; }
+    margin: 0 auto; }
     @media (max-width: 1000px) {
       .section-homepage .homepage_focus .focus_contents {
         width: 90%; } }
     @media (max-width: 750px) {
       .section-homepage .homepage_focus .focus_contents {
         width: 95%; } }
+    .section-homepage .homepage_focus .focus_contents .focus_feed {
+      background-color: #fff;
+      border: 1px solid #c8c7cc;
+      padding: 3.5%;
+      margin-top: 5%; }
 .section-homepage .homepage_head {
   background-color: rgba(0, 0, 0, 0.0002);
   z-index: 999;
