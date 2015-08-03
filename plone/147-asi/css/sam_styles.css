@@ -212,6 +212,8 @@ div.listingBar span {
     text-decoration:none;
     background-color:rgba(33, 33, 33, 0.7);
     padding: 5px;
+    position:relative;
+    bottom: 30px;
 }
 
 .topic_image {
