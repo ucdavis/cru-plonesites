@@ -208,33 +208,27 @@ p.standout_gold {
 			@include outer-container;
 		}
 		.homepage_search {
-			@include outer-container;
-			text-align:center;
-			width:60%;
-			margin-bottom:2.5%;
-			margin-top:1%;
 			.portletHeader {
 				display:none;
 			}
 			input.searchField {
-				border:2px solid $borders;
-				border-radius:2px;
+				border:1px solid $borders;
+				border-radius:1px;
 				background-color:rgba(255,255,255,0.4);
-				width:66%;
-				height:50px;
+				width:200px;
+				height:35px;
+				font-size:1.4rem;
 			}
 			input.searchButton {
 				width:15%;
-				margin-left:2%;
 				display:inline-block;
-				background-color:rgba(255,255,255,0.4);
+				background-color:rgba(255,255,255,0.7);
 				color:#232323;
-				border:none;
-				box-shadow:0 -3px 0 rgba(0, 0, 0, 0.15) inset;
-				height:50px;
-				font-size:1.6rem;
+				border:1px solid $borders;
+				height:35px;
+				font-size:1.2rem;
 				font-family: $sans-serif;
-				border-radius:2px;
+				border-radius:1px;
 			}
 			dd.portletFooter {
 				display:none;

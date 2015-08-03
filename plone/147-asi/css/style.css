@@ -2519,42 +2519,27 @@ p.standout_gold {
     @media (max-width: 750px) {
       .section-homepage .homepage_head .homepage_head_contents {
         width: 95%; } }
-  .section-homepage .homepage_head .homepage_search {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-    width: 60%;
-    margin-bottom: 2.5%;
-    margin-top: 1%; }
-    @media (max-width: 1000px) {
-      .section-homepage .homepage_head .homepage_search {
-        width: 90%; } }
-    @media (max-width: 750px) {
-      .section-homepage .homepage_head .homepage_search {
-        width: 95%; } }
-    .section-homepage .homepage_head .homepage_search .portletHeader {
-      display: none; }
-    .section-homepage .homepage_head .homepage_search input.searchField {
-      border: 2px solid #c8c7cc;
-      border-radius: 2px;
-      background-color: rgba(255, 255, 255, 0.4);
-      width: 66%;
-      height: 50px; }
-    .section-homepage .homepage_head .homepage_search input.searchButton {
-      width: 15%;
-      margin-left: 2%;
-      display: inline-block;
-      background-color: rgba(255, 255, 255, 0.4);
-      color: #232323;
-      border: none;
-      box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.15) inset;
-      height: 50px;
-      font-size: 1.6rem;
-      font-family: "proxima-nova", sans-serif;
-      border-radius: 2px; }
-    .section-homepage .homepage_head .homepage_search dd.portletFooter {
-      display: none; }
+  .section-homepage .homepage_head .homepage_search .portletHeader {
+    display: none; }
+  .section-homepage .homepage_head .homepage_search input.searchField {
+    border: 1px solid #c8c7cc;
+    border-radius: 1px;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 200px;
+    height: 35px;
+    font-size: 1.4rem; }
+  .section-homepage .homepage_head .homepage_search input.searchButton {
+    width: 15%;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #232323;
+    border: 1px solid #c8c7cc;
+    height: 35px;
+    font-size: 1.2rem;
+    font-family: "proxima-nova", sans-serif;
+    border-radius: 1px; }
+  .section-homepage .homepage_head .homepage_search dd.portletFooter {
+    display: none; }
 .section-homepage .top-header-bg {
   display: none; }
 .section-homepage .homepage_slider {
