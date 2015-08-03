@@ -219,10 +219,11 @@ div.listingBar span {
     padding-right:5%;
 }
 
-.topic_image {
+.three-col-list a{
+    line-height: 40px;
+    padding-top:2px;
+    padding-bottom: 2px;
 }
 
-#content a.internal-link.topic_text:hover{
-    color:#2473AA;
-}
+
 
