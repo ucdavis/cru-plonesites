@@ -355,6 +355,7 @@ p.standout_gold {
 	.portlet-static-homepage-welcome {
 		@include outer-container;
 		margin:7% auto;
+		margin-top:3%;
 		max-width:80rem;
 		min-width:50rem;
 		// border-top:4px solid $asi_main;
