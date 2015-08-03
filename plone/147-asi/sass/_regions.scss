@@ -203,12 +203,12 @@ p.standout_gold {
 	.homepage_focus	{
 		background-color:$secondary-bg;
 		border-top:5px solid $asi_main;
-		padding:3% 0%;
+		padding-bottom:3%;
 		.focus_contents {
 			@include outer-container;
 			background-color:#fff;
 			border:1px solid $borders;
-			padding:5%;
+			padding:3.5%;
 		}
 	}
 	.homepage_head {

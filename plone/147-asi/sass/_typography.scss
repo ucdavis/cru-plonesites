@@ -152,6 +152,12 @@ h3 {
 		text-transform: uppercase;
 		margin-top:6%;
 	}
+	&.home_section_header {
+		background-color:$asi_main;
+		color:#fff;
+		padding:2%;
+		margin-bottom:4%;
+	}
 	.eventdetailsside & {
 		font-family:$sans-serif;
 		color:#fff;
