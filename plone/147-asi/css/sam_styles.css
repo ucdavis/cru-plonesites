@@ -209,12 +209,13 @@ div.listingBar span {
 
 #content a.internal-link.topic_text{
     color:#fff;
+    font-size: 22px;
     text-decoration:none;
     background-color:rgba(33, 33, 33, 0.6);
     padding: 5px;
     position:relative;
     left:0px;
-    bottom: 30px;
+    bottom: 60px;
     padding-right:5%;
 }
 
