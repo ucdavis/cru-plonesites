@@ -207,14 +207,13 @@ div.listingBar span {
 
 }
 
-.topic_text{
+#content a.internal-link.topic_text{
     color:#fff;
     text-decoration:none;
-    background-color:;
+    background-color:rgba(33, 33, 33, 0.7);;
 }
 
 .topic_image {
-    rgba(33, 33, 33, 0.7);
 }
 
 
