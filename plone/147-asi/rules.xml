@@ -21,7 +21,7 @@
     <copy css:content=".portlet-static-homepage-nivo" css:theme=".homepage_slider" />
     <copy css:content=".portlet-static-homepage-welcome" css:theme=".homepage_welcome" />
     <copy css:content=".section-homepage .portletSearch" css:theme=".homepage_search" />
-    <copy css:content=".portlet-static-homepage-focus" css:theme=".focus_contents" />
+    <copy css:content=".portlet-static-homepage-focus" css:theme=".focus_feed" />
     <copy css:content=".portlet-static-homepage-programs" css:theme=".homepage_programs" />
     <copy css:content=".portlet-collection-spotlight" css:theme=".spotlight_feature" />
     <copy css:content=".section-homepage dl.portletEvents" css:theme=".spotlight_events" />

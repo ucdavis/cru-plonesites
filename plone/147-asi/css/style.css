@@ -1812,9 +1812,8 @@ h3 {
     color: #fff;
     padding: 0.5% 1%;
     margin-top: 0px;
-    display: inline;
-    position: absolute;
-    left: 10%; }
+    margin-bottom: 4%;
+    display: inline; }
   .eventdetailsside h3 {
     font-family: "proxima-nova", sans-serif;
     color: #fff;
