@@ -201,12 +201,45 @@ p.standout_gold {
 		// left:-38px;
 	}
 	.homepage_head {
-		background-color:rgba(0,0,0,.5);
+		background-color:rgba(0,0,0,.12);
 		z-index:999;
 		position:relative;
 		.homepage_head_contents {
 			@include outer-container;
 		}
+		.homepage_search {
+			@include outer-container;
+			text-align:center;
+			width:60%;
+			margin-bottom:2.5%;
+			margin-top:1%;
+			.portletHeader {
+				display:none;
+			}
+			input.searchField {
+				border:2px solid $borders;
+				border-radius:2px;
+				background-color:rgba(255,255,255,0.4);
+				width:66%;
+				height:50px;
+			}
+			input.searchButton {
+				width:15%;
+				margin-left:2%;
+				display:inline-block;
+				background-color:rgba(255,255,255,0.4);
+				color:#232323;
+				border:none;
+				box-shadow:0 -3px 0 rgba(0, 0, 0, 0.15) inset;
+				height:50px;
+				font-size:1.6rem;
+				font-family: $sans-serif;
+				border-radius:2px;
+			}
+			dd.portletFooter {
+				display:none;
+			}
+	}
 	}
 	.top-header-bg {
 		// background-color:rgba(0,0,0,.5);
@@ -281,38 +314,7 @@ p.standout_gold {
 		// 	margin-top:10%;
 	 //    }
 	}
-	.homepage_search {
-		@include outer-container;
-		text-align:center;
-		width:60%;
-		margin-bottom:2.5%;
-		margin-top:1%;
-		.portletHeader {
-			display:none;
-		}
-		input.searchField {
-			border:2px solid $borders;
-			border-radius:2px;
-			width:66%;
-			height:50px;
-		}
-		input.searchButton {
-			width:15%;
-			margin-left:2%;
-			display:inline-block;
-			background-color:$asi_main;
-			color:#fff;
-			border:none;
-			box-shadow:0 -3px 0 rgba(0, 0, 0, 0.15) inset;
-			height:50px;
-			font-size:1.6rem;
-			font-family: $sans-serif;
-			border-radius:2px;
-		}
-		dd.portletFooter {
-			display:none;
-		}
-	}
+	
 	.homepage_programs {
 		@include outer-container;
 		max-width:90rem;

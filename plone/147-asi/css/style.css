@@ -2506,7 +2506,7 @@ p.standout_gold {
   display: inline-block; }
 
 .section-homepage .homepage_head {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.12);
   z-index: 999;
   position: relative; }
   .section-homepage .homepage_head .homepage_head_contents {
@@ -2519,6 +2519,42 @@ p.standout_gold {
     @media (max-width: 750px) {
       .section-homepage .homepage_head .homepage_head_contents {
         width: 95%; } }
+  .section-homepage .homepage_head .homepage_search {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 2.5%;
+    margin-top: 1%; }
+    @media (max-width: 1000px) {
+      .section-homepage .homepage_head .homepage_search {
+        width: 90%; } }
+    @media (max-width: 750px) {
+      .section-homepage .homepage_head .homepage_search {
+        width: 95%; } }
+    .section-homepage .homepage_head .homepage_search .portletHeader {
+      display: none; }
+    .section-homepage .homepage_head .homepage_search input.searchField {
+      border: 2px solid #c8c7cc;
+      border-radius: 2px;
+      background-color: rgba(255, 255, 255, 0.4);
+      width: 66%;
+      height: 50px; }
+    .section-homepage .homepage_head .homepage_search input.searchButton {
+      width: 15%;
+      margin-left: 2%;
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.4);
+      color: #232323;
+      border: none;
+      box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.15) inset;
+      height: 50px;
+      font-size: 1.6rem;
+      font-family: "proxima-nova", sans-serif;
+      border-radius: 2px; }
+    .section-homepage .homepage_head .homepage_search dd.portletFooter {
+      display: none; }
 .section-homepage .top-header-bg {
   display: none; }
 .section-homepage .homepage_slider {
@@ -2580,41 +2616,6 @@ p.standout_gold {
   @media (max-width: 750px) {
     .section-homepage .portlet-static-homepage-welcome {
       width: 95%; } }
-.section-homepage .homepage_search {
-  width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-  width: 60%;
-  margin-bottom: 2.5%;
-  margin-top: 1%; }
-  @media (max-width: 1000px) {
-    .section-homepage .homepage_search {
-      width: 90%; } }
-  @media (max-width: 750px) {
-    .section-homepage .homepage_search {
-      width: 95%; } }
-  .section-homepage .homepage_search .portletHeader {
-    display: none; }
-  .section-homepage .homepage_search input.searchField {
-    border: 2px solid #c8c7cc;
-    border-radius: 2px;
-    width: 66%;
-    height: 50px; }
-  .section-homepage .homepage_search input.searchButton {
-    width: 15%;
-    margin-left: 2%;
-    display: inline-block;
-    background-color: #1C5BA5;
-    color: #fff;
-    border: none;
-    box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.15) inset;
-    height: 50px;
-    font-size: 1.6rem;
-    font-family: "proxima-nova", sans-serif;
-    border-radius: 2px; }
-  .section-homepage .homepage_search dd.portletFooter {
-    display: none; }
 .section-homepage .homepage_programs {
   width: 80%;
   max-width: 1200px;
