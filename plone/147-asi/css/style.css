@@ -1895,7 +1895,6 @@ p {
     font-size: 1.4rem;
     line-height: 21px; }
   .portlet-static-homepage-welcome p {
-    padding-top: 4%;
     font-size: 2.4rem;
     text-align: center;
     color: #242424;
@@ -1916,6 +1915,18 @@ ul.two-col-list {
     margin-bottom: 1%; }
     @media (max-width: 750px) {
       ul.two-col-list li {
+        width: 100%;
+        display: list-item !important; } }
+ul.three-col-list {
+  padding-left: 0px;
+  margin-left: 0px !important; }
+  ul.three-col-list li {
+    width: 33%;
+    display: inline-block !important;
+    margin-top: 1%;
+    margin-bottom: 1%; }
+    @media (max-width: 750px) {
+      ul.three-col-list li {
         width: 100%;
         display: list-item !important; } }
 #footer_contents ul li {
@@ -2653,7 +2664,7 @@ p.standout_gold {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 5%;
+  margin: 7% auto;
   max-width: 80rem;
   min-width: 50rem;
   text-align: center; }
