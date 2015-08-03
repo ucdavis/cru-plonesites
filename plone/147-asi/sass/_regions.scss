@@ -200,7 +200,14 @@ p.standout_gold {
 	ul.submenu {
 		// left:-38px;
 	}
-
+	.homepage_head {
+		background-color:rgba(0,0,0,.5);
+		z-index:999;
+		position:relative;
+		.homepage_head_contents {
+			@include outer-container;
+		}
+	}
 	.top-header-bg {
 		// background-color:rgba(0,0,0,.5);
 		// z-index:999;
