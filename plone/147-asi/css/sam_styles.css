@@ -219,4 +219,7 @@ div.listingBar span {
 .topic_image {
 }
 
+#content a.internal-link.topic_text:hover{
+    color:#2473AA;
+}
 
