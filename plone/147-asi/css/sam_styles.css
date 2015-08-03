@@ -191,3 +191,21 @@ div.listingBar span {
 }
 */
 
+/*----------------- Topics -------------------------*/
+
+#content a.internal-link.topic_textbox {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(33, 33, 33, 0.7);
+    display: inline-block;
+    position:relative;
+    height:50px;
+    top:100px;
+   }
+/*
+    background-color:rgba(33, 33, 33, 0.7);
+    text-decoration: none;
+    
+
+    */
+
