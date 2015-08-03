@@ -197,8 +197,9 @@ div.listingBar span {
     color: #fff;
     text-decoration: none;
     background-color: rgba(33, 33, 33, 0.7);
-    position: inline-block;
-    top:100px;
+    display: inline-block;
+    position:relative;
+    
    }
 /*
     background-color:rgba(33, 33, 33, 0.7);
