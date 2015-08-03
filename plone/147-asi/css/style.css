@@ -2512,7 +2512,8 @@ p.standout_gold {
   .section-homepage .homepage_head .homepage_head_contents {
     width: 80%;
     max-width: 1200px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    overflow: hidden; }
     @media (max-width: 1000px) {
       .section-homepage .homepage_head .homepage_head_contents {
         width: 90%; } }

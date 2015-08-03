@@ -206,12 +206,12 @@ p.standout_gold {
 		position:relative;
 		.homepage_head_contents {
 			@include outer-container;
+			overflow:hidden;
 		}
 		.homepage_logo {
 			display:inline-block;
 			width:200px;
 			vertical-align: top;
-
 		}
 		.homepage_search {
 			display:inline-block;
