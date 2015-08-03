@@ -211,5 +211,7 @@ div.listingBar span {
     padding-bottom: 2px;
 }
 
-
+li.topic_textbox {
+    vertical-align: top;
+}
 
