@@ -1810,9 +1810,9 @@ h3 {
   h3.home_section_header {
     background-color: #1C5BA5;
     color: #fff;
-    padding: 2%;
-    margin-bottom: 4%;
-    display: block; }
+    padding: 1.5%;
+    display: inline;
+    position: absolute; }
   .eventdetailsside h3 {
     font-family: "proxima-nova", sans-serif;
     color: #fff;
@@ -2521,7 +2521,8 @@ p.standout_gold {
     margin: 0 auto;
     background-color: #fff;
     border: 1px solid #c8c7cc;
-    padding: 3.5%; }
+    padding: 3.5%;
+    margin-top: 5%; }
     @media (max-width: 1000px) {
       .section-homepage .homepage_focus .focus_contents {
         width: 90%; } }
