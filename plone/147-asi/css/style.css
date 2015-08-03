@@ -2744,7 +2744,7 @@ table.secondary_table tr:first-child td {
   margin-top: -85px; }
 
 .donormap {
-  background: url(../images/donor4.jpg) no-repeat top left;
+  background: url(../images/donormap.jpg) no-repeat top left;
   width: 723px;
   height: 545px;
   padding: 20px 100px 10px 15px; }
@@ -3329,6 +3329,3 @@ body.section-styles #content .borders {
 
 .template-plone-app-collection-interfaces-icollection span.documentByLine {
   display: block; }
-
-body.section-topics p.tileFooter {
-  display: none; }
