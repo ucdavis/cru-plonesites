@@ -1814,6 +1814,9 @@ h3 {
     margin-top: 0px;
     margin-bottom: 4%;
     display: inline; }
+  .portlet-static-homepage-focus h3 {
+    font-weight: 600;
+    margin-top: 0px; }
   .eventdetailsside h3 {
     font-family: "proxima-nova", sans-serif;
     color: #fff;
@@ -2562,6 +2565,11 @@ p.standout_gold {
       border: 1px solid #c8c7cc;
       padding: 3.5%;
       margin-top: 4%; }
+      .section-homepage .homepage_focus .focus_contents .focus_feed li {
+        overflow: hidden;
+        margin-bottom: 30px; }
+        .section-homepage .homepage_focus .focus_contents .focus_feed li img {
+          margin-right: 3.5%; }
 .section-homepage .homepage_head {
   background-color: rgba(0, 0, 0, 0.0002);
   z-index: 999;
