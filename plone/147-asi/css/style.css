@@ -2617,18 +2617,19 @@ p.standout_gold {
       height: 36px;
       padding: 3px;
       vertical-align: top;
-      width: 36px; }
+      width: 36px;
+      color: rgba(255, 255, 255, 1.0e-05); }
     .section-homepage .homepage_head .homepage_search dd.portletFooter {
       display: none; }
 .section-homepage .top-header-bg {
   display: none; }
 .section-homepage .homepage_slider {
   postion: relative;
-  height: 450px;
+  height: 475px;
   overflow: hidden; }
   @media (max-width: 1000px) {
     .section-homepage .homepage_slider {
-      height: 400px; } }
+      height: 425px; } }
   @media (max-width: 850px) {
     .section-homepage .homepage_slider {
       height: 350px; } }
@@ -2636,7 +2637,7 @@ p.standout_gold {
     margin-top: 0px; }
   .section-homepage .homepage_slider .banner--title {
     text-align: center;
-    margin-top: -40%;
+    margin-top: -36%;
     display: flex;
     flex-direction: column; }
     .section-homepage .homepage_slider .banner--title img {
