@@ -282,15 +282,23 @@ p.standout_gold {
 				font-size:1.4rem;
 			}
 			input.searchButton {
-				width:53px;
-				display:inline-block;
-				background-color:rgba(255,255,255,0.7);
-				color:#232323;
-				border:1px solid rgba(255,255,255,0.2);
-				height:35px;
-				font-size:1.2rem;
-				font-family: $sans-serif;
-				border-radius:1px;
+				// width:53px;
+				// display:inline-block;
+				// background-color:rgba(255,255,255,0.7);
+				// color:#232323;
+				// border:1px solid rgba(255,255,255,0.2);
+				// height:35px;
+				// font-size:1.2rem;
+				// font-family: $sans-serif;
+				// border-radius:1px;
+				background: transparent url("../images/icon-search.svg") no-repeat scroll center 10px;
+				border: 0px none;
+				cursor: pointer;
+				display: inline-block;
+				height: 36px;
+				padding: 3px;
+				vertical-align: top;
+				width: 36px;
 			}
 			dd.portletFooter {
 				display:none;
