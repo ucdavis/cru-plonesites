@@ -1897,7 +1897,7 @@ p {
   .portlet-static-homepage-welcome p {
     font-size: 2.4rem;
     text-align: center;
-    color: #242424;
+    color: #5C5C5C;
     line-height: 1.8;
     font-family: "ff-tisa-web-pro", Georgia, serif; }
   p.eventdescription {
@@ -2664,8 +2664,8 @@ p.standout_gold {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  margin: 7% auto;
-  margin-top: 3%;
+  margin-top: 8%;
+  margin-bottom: 9%;
   max-width: 80rem;
   min-width: 50rem;
   text-align: center; }
