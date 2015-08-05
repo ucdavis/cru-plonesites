@@ -194,9 +194,9 @@ div.listingBar span {
 /*----------------- Topics -------------------------*/
 
 #content a.topic_text, a.topic_text{
-    color:#fff;
+    color:#fff !important;
     font-size: 20px;
-    text-decoration:none;
+    text-decoration:none !important;
     background-color:rgba(33, 33, 33, 0.6);
     padding: 2px;
     position:relative;
@@ -213,13 +213,14 @@ div.listingBar span {
     bottom: 99px;
 }
 
-#content li.topic_textbox {
-    vertical-align: top;
-    min-height:375px;
-}
-
 li.topic_textbox {
     vertical-align: top;
     min-height:375px;
 }
+/*
+li.topic_textbox {
+    vertical-align: top;
+    min-height:375px;
+}
+*/
 
