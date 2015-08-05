@@ -202,7 +202,8 @@ div.listingBar span {
     position:relative;
     left:0px;
     bottom: 60px;
-    padding-right:5%;
+    padding-right:3%;
+    padding-left: 2.5%;
 }
 
 #content a.internal-link.twolines{
