@@ -207,7 +207,7 @@ div.listingBar span {
 }
 
 #content a.twolines, a.twolines{
-    line-height: 38px;
+    line-height: 37px;
     padding-top: 2px;
     padding-bottom: 2px;
     bottom: 99px;
@@ -217,6 +217,8 @@ li.topic_textbox {
     vertical-align: top;
     min-height:375px;
 }
+
+
 /*
 li.topic_textbox {
     vertical-align: top;
