@@ -195,7 +195,7 @@ div.listingBar span {
 
 #content a.internal-link.topic_text{
     color:#fff;
-    font-size: 22px;
+    font-size: 20px;
     text-decoration:none;
     background-color:rgba(33, 33, 33, 0.6);
     padding: 2px;
@@ -209,6 +209,7 @@ div.listingBar span {
     line-height: 40px;
     padding-top: 2px;
     padding-bottom: 2px;
+    bottom: 80px;
 }
 
 li.topic_textbox {
