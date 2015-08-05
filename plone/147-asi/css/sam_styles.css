@@ -214,5 +214,6 @@ div.listingBar span {
 
 li.topic_textbox {
     vertical-align: top;
+    min-height:375px;
 }
 
