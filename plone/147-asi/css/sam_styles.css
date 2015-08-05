@@ -218,11 +218,8 @@ li.topic_textbox {
     min-height:375px;
 }
 
-
-/*
-li.topic_textbox {
-    vertical-align: top;
-    min-height:375px;
+/*----------- Homepage ---------------------*/
+.section-homepage .homepage_programs {
+    background-image: url("ricepaper.tif");
 }
-*/
 
