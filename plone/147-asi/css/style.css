@@ -2962,6 +2962,10 @@ form#searchform input.searchButton {
   font-family: "proxima-nova",sans-serif;
   border-radius: 2px; }
 
+body.template-database_view .well {
+  background-color: none;
+  border: none; }
+
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
     float: left;

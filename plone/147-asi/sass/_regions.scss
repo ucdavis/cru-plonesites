@@ -732,3 +732,10 @@ form#searchform {
 		border-radius: 2px;
 	}
 }
+// database 
+body.template-database_view {
+	.well {
+		background-color:none;
+		border:none;
+	}
+}
