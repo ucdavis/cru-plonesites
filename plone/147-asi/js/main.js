@@ -16,13 +16,11 @@ $(function () {
     $.getJSON(url, {}, function (data) {
         $.each(data.feed.entry, function (key, val) {
             var title = val.gsx$title.$t;
-            var dept = val.gsx$departmentprogram.$t
-             // + '<br /><span class="discreet">' + val.gsx$organization.$t + '</span>'
-             ;
+            var prog = val.gsx$program.$t;
+            var year = val.gsx$year.$t;
             var orgtype = val.gsx$typeoforganization.$t;
-            var website = "<a target='_blank' href='" + val.gsx$personalwebsitelink.$t + "'><i class='icon-globe'></i></a>";
-            var email = "<a href='mailto:" + val["gsx$email"].$t + "'><i class='icon-envelope'></i></a>";
-            var contact = email + ' ' + (val.gsx$personalwebsitelink.$t ? website : '') + '<br />' + val.gsx$type.$t;
+            var website = "<a target='_blank' href='" + val.gsx$link.$t + "'></a>";
+            var type = val.gsx$type.$t;
             var region = val.gsx$region.$t;
             var categories = val.gsx$categories.$t;
 
@@ -30,10 +28,10 @@ $(function () {
             
             MyApp.spreadsheetData.push(
                 [
-                    GenerateResearcherColumn(val), 
-                    dept, 
-                    GenerateProjectColumn(val), 
-                    contact, 
+                    GenerateTitleColumn(val), 
+                    prog, 
+                    year, 
+                    type, 
                     region, orgtype, categories
                 ]);
 
@@ -151,47 +149,24 @@ function addFilters(){
     });
 }
 
-function GenerateResearcherColumn(val /* entry value from spreadsheet */){
+function GenerateTitleColumn(val /* entry value from spreadsheet */){
     var name = val.gsx$title.$t;
-    var title = val.gsx$positiontitle.$t;
-        
+    // var title = val.gsx$positiontitle.$t;
+    var website = val.gsx$link.$t;
     //var website = "<a target='_blank' href='" + val.gsx$website.$t + "'>" + val.gsx$website.$t + "</a>";
     //var email = "<a href='mailto:" + val["gsx$e-mail"].$t + "'>" + val["gsx$e-mail"].$t + "</a>";
     // var allResearchInfo = "Research areas: " + val.gsx$categories.$t;
-    var allResearchInfo = val.gsx$categories.$t;
+    // var allResearchInfo = val.gsx$categories.$t;
 
-    var content = allResearchInfo; //could expand content later
-    var researcher = 
-    // "<a href='#' class='researcher-popover' data-toggle='popover' data-content='" + allResearchInfo + "' data-original-title='" + name + "'>" + 
+    // var content = allResearchInfo; //could expand content later
+    var title = 
+    "<a href='"+ website +"'>" + 
     name
-     // + "</a><br /><span class='discreet'>" + title + "</span>"
+     + "</a>"
      ;
         
-    return researcher;
+    return title;
 }
-
-// ASI Project DATE column
-function GenerateProjectColumn(val /* entry value from spreadsheet */){
-    // var project1title = "<span style='font-size: 0.8em;'>" + val.gsx$project1title.$t.trunc(20) + "</span>";
-    // var project1details = "Status: " + val.gsx$expectedcompletiondate.$t + (val.gsx$linktoprojectwebsite.$t ? "—" + val.gsx$linktoprojectwebsite.$t : '');
-    var project1 =  val.gsx$project1title.$t;
-
-    // var project2title = "<span style='font-size: 0.8em;'>" + val.gsx$project2title.$t.trunc(20) + "</span>";
-    // var project2details = "Status: " + val.gsx$expectedcompletiondate_2.$t + (val.gsx$linktoprojectwebsite_2.$t ? "—" + val.gsx$linktoprojectwebsite_2.$t : '');
-    // var project2 = "<a href='#' class='project-popover' data-toggle='popover' data-content='" + project2details + "' data-original-title='" + val.gsx$project2title.$t + "'>" + project2title + "</a>";
-
-    // var project3title = "<span style='font-size: 0.8em;'>" + val.gsx$project3title.$t.trunc(20) + "</span>";
-    // var project3details = "Status: " + val.gsx$expectedcompletiondate_3.$t + (val.gsx$linktoprojectwebsite_3.$t ? "—" + val.gsx$linktoprojectwebsite_3.$t : '');
-    // var project3 = "<a href='#' class='project-popover' data-toggle='popover' data-content='" + project3details + "' data-original-title='" + val.gsx$project3title.$t + "'>" + project3title + "</a>";
-
-    var projects = project1;
-        
-    var allResearchInfo = val.gsx$categories.$t;
-
-    // var researcher = "<a href='#' class='researcher-popover' data-toggle='popover' data-content='" + allResearchInfo + "' data-original-title='" + name + "'>" + name + "</a><br /><span class='discreet'>" + title + "</span>";
-        
-    return projects;
-}   
 
 
 
