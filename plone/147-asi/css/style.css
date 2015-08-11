@@ -2384,7 +2384,8 @@ input.searchButton {
 .template-plone-app-collection-interfaces-icollection .tileItem {
   margin-bottom: 4%; }
 
-abbr.dtstart, abbr.dtend {
+abbr.dtstart,
+abbr.dtend {
   color: #DA611E;
   border-bottom: none; }
 
@@ -2397,7 +2398,8 @@ abbr.dtstart, abbr.dtend {
   vertical-align: top;
   padding-bottom: 1%; }
 
-#searchGadget, .LSBox input.searchButton {
+#searchGadget,
+.LSBox input.searchButton {
   color: #242424; }
 
 input.searchField {
@@ -2463,19 +2465,25 @@ body.template-event_view .eventdetailsside {
   text-decoration: none; }
 #content .cta h2 a {
   color: #002855; }
-#content .cta p a:link, #content .cta p a {
+#content .cta p a:link,
+#content .cta p a {
   color: #242424; }
-#content .cta:hover p a, #content .cta:hover h2 a, #content .cta:hover h2 a:link, #content .cta:hover h2 a:visited {
+#content .cta:hover p a,
+#content .cta:hover h2 a,
+#content .cta:hover h2 a:link,
+#content .cta:hover h2 a:visited {
   color: #C99700 !important; }
 
 .template-directory_standard_view .row {
   position: inherit;
   float: none; }
-.template-directory_standard_view .position-0, .template-directory_standard_view .position-4 {
+.template-directory_standard_view .position-0,
+.template-directory_standard_view .position-4 {
   margin-left: 0px; }
 .template-directory_standard_view .cell {
   left: 0; }
-.template-directory_standard_view .width-13, .template-directory_standard_view .width-3 {
+.template-directory_standard_view .width-13,
+.template-directory_standard_view .width-3 {
   width: auto; }
 .template-directory_standard_view .width-3 {
   margin-right: 20px; }
@@ -2515,9 +2523,11 @@ p.standout {
   p.standout a {
     color: #fff; }
 
-.portletstatic p.standout a:link, .portletstatic .portlet_column p.standout a:visited {
+.portletstatic p.standout a:link,
+.portletstatic .portlet_column p.standout a:visited {
   color: #C99700; }
-  .portletstatic p.standout a:link:hover, .portletstatic .portlet_column p.standout a:visited:hover {
+  .portletstatic p.standout a:link:hover,
+  .portletstatic .portlet_column p.standout a:visited:hover {
     color: #fff; }
 
 p.standout_gold {
@@ -2739,7 +2749,8 @@ p.standout_gold {
       vertical-align: top; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletFooter {
         display: none; }
-      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem.odd, .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem.even {
+      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem.odd,
+      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem.even {
         background-color: #fff;
         border: 1px solid #c8c7cc;
         padding: 4%;
@@ -2959,11 +2970,11 @@ form#searchform input.searchButton {
   border: medium none;
   box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
   font-size: 1.6rem;
-  font-family: "proxima-nova",sans-serif;
+  font-family: "proxima-nova", sans-serif;
   border-radius: 2px; }
 
-body.template-database_view .well {
-  background-color: none;
+.well {
+  background-color: rgba(255, 255, 255, 0.09);
   border: none; }
 
 @media all and (max-width: 600px) {
