@@ -18,9 +18,11 @@ $(function () {
             var title = val.gsx$title.$t;
             var prog = val.gsx$program.$t;
             var year = val.gsx$year.$t;
-            var orgtype = val.gsx$typeoforganization.$t;
-            var website = "<a target='_blank' href='" + val.gsx$link.$t + "'></a>";
             var type = val.gsx$type.$t;
+
+            var orgtype = val.gsx$typeoforganization.$t;
+
+            var website = "<a target='_blank' href='" + val.gsx$link.$t + "'></a>";
             var region = val.gsx$region.$t;
             var categories = val.gsx$categories.$t;
 
@@ -31,8 +33,9 @@ $(function () {
                     GenerateTitleColumn(val), 
                     prog, 
                     year, 
-                    type, 
-                    region, orgtype, categories
+                    type,
+                    orgtype,
+                    region, categories
                 ]);
 
             if ($.inArray(orgtype, MyApp.Organizations) === -1 && orgtype.length !== 0) {
