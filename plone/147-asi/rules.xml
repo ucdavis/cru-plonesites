@@ -12,7 +12,7 @@
     <before css:content="head style, head link, head script, head meta" css:theme-children="head" />
 
     <!--Favicons-->
-    <theme href="asi-db.html" css:if-content=".template-database_view" />
+    <!-- <theme href="asi-db.html" css:if-content=".template-database_view" /> -->
     <theme href="index.html" css:if-content=".section-homepage" />
     <theme href="content.html" css:if-content="#visual-portal-wrapper" />
 
