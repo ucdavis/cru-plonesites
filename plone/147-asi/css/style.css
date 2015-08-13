@@ -2635,7 +2635,7 @@ p.standout_gold {
   display: none; }
 .section-homepage .homepage_slider {
   postion: relative;
-  height: 475px;
+  height: 600px;
   overflow: hidden; }
   @media (max-width: 1000px) {
     .section-homepage .homepage_slider {
