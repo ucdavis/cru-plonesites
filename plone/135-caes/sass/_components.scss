@@ -30,7 +30,7 @@ img.image-left, img.image-right, .captioned img {border: 0px;}
 #content img.image-right, 
 #content img.image-left,
 dl.captioned dt img,
-.newsImage, #content img, #content iframe,
+.newsImage, #content img,
 .template-haystack .search-results img {
 	@include img-border;
 	max-width: 100%;
