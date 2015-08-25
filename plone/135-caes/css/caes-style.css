@@ -3443,3 +3443,6 @@ footer {
 .nivoSlider a {
   border: 0;
   display: block; }
+
+.section-calendar nav.section {
+  display: none; }
