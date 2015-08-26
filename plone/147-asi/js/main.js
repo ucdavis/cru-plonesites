@@ -163,7 +163,7 @@ function GenerateTitleColumn(val /* entry value from spreadsheet */){
 
     // var content = allResearchInfo; //could expand content later
     var title = 
-    "<a href='"+ website +"'>" + 
+    "<a href='"+ website +"' target=_blank >" + 
     name
      + "</a>"
      ;
