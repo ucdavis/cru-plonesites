@@ -2670,6 +2670,11 @@ body.section-homepage {
       @media (max-width: 1000px) {
         .section-homepage .homepage_slider .banner--title h3 {
           font-size: 1.6rem; } }
+.section-homepage li.topic_textbox {
+  vertical-align: top;
+  min-height: 375px; }
+  .section-homepage li.topic_textbox img {
+    width: 100%; }
 .section-homepage .portlet-static-homepage-welcome {
   width: 80%;
   max-width: 1200px;
