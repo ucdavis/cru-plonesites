@@ -140,9 +140,9 @@ h2 {
 	// 	background-color:lighten($asi_main,5);
 	// }
 	.homepage_welcome & {
-		font-size:1.6rem;
-		text-transform: uppercase;
-		color:$asi_main;
+		font-size:2rem;
+		// text-transform: uppercase;
+		color:#27AA81;
 	}
 }
 h3 {
@@ -245,7 +245,7 @@ p {
 	.portlet-static-homepage-welcome & {
 		// font-size:2.4rem;
 		// text-align:center;
-		// color:#5C5C5C;
+		color:#5C5C5C;
 		// line-height:1.8;
 		// font-family:$serif;
 	}

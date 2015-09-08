@@ -1794,9 +1794,8 @@ h2 {
     .site-sustainable-sourcing .lefthead h2 a:hover {
       color: #E1BB33 !important; }
   .homepage_welcome h2 {
-    font-size: 1.6rem;
-    text-transform: uppercase;
-    color: #1C5BA5; }
+    font-size: 2rem;
+    color: #27AA81; }
 
 h3 {
   font-size: 1.8rem;
@@ -1896,6 +1895,8 @@ p {
   .bottom_ports p {
     font-size: 1.4rem;
     line-height: 21px; }
+  .portlet-static-homepage-welcome p {
+    color: #5C5C5C; }
   p.eventdescription {
     font-size: 1.4rem;
     font-family: "proxima-nova", sans-serif;
@@ -2531,7 +2532,7 @@ p.standout_gold {
   display: inline-block; }
 
 body.section-homepage {
-  background-color: #f5f5f5; }
+  background-color: #f4f4f4; }
 
 .section-homepage .homepage_programs {
   background-color: #002855;
@@ -2684,7 +2685,7 @@ body.section-homepage {
 .section-homepage #portal-breadcrumbs {
   display: none; }
 .section-homepage .spotlight-bg {
-  background-color: #f5f5f5;
+  background-color: #f4f4f4;
   border-top: 1px solid #c8c7cc;
   border-bottom: 1px solid #c8c7cc; }
   .section-homepage .spotlight-bg .spotlight-section {
@@ -3388,7 +3389,7 @@ body.section-styles #content .middle-gray {
 body.section-styles #content .light-gray {
   background: #9b9b9b; }
 body.section-styles #content .background-color {
-  background: #f5f5f5; }
+  background: #f4f4f4; }
 body.section-styles #content .box-color {
   background: #ffffff; }
 body.section-styles #content .borders {
