@@ -1592,11 +1592,13 @@ ul#sub_top_drop-nav {
   @media (max-width: 750px) {
     .section-homepage #portal-globalnav {
       width: 95%; } }
+  .section-homepage #portal-globalnav li a {
+    color: #434343; }
   .section-homepage #portal-globalnav .selected a {
     background-color: transparent; }
     .section-homepage #portal-globalnav .selected a:hover {
       background-color: transparent;
-      color: #242424; }
+      color: #1C5BA5; }
   .section-homepage #portal-globalnav ul {
     list-style-type: circle; }
   .section-homepage #portal-globalnav li {

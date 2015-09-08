@@ -317,11 +317,16 @@ ul#sub_top_drop-nav {
 	// border:3px solid #4A90E2;
 	text-align:center;
 	margin-top:-11px;
+	li {
+		a {
+			color:#434343;
+		}
+	}
 	.selected a {
 		background-color:transparent;
 		&:hover{
 			background-color:transparent;
-			color:$main-font;
+			color:$asi-main;
 		}
 	}
 	ul {
