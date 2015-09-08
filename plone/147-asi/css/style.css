@@ -1573,22 +1573,17 @@ ul#sub_top_drop-nav {
 .section-homepage nav {
   max-width: 100%;
   width: 100%;
-  height: 50px;
   margin: 0 auto !important;
-  background-color: #1C5BA5;
-  border-top: 3px solid #4A90E2;
-  border-bottom: 3px solid #4A90E2; }
+  background-color: #fff;
+  border-top: 3px solid #c8c7cc;
+  border-bottom: 3px solid #c8c7cc; }
 
 .section-homepage #portal-globalnav {
   margin: 0px;
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  width: 60%;
   font-size: 100%;
-  padding: 12px 8px;
-  background-color: #1C5BA5;
-  border: 3px solid #4A90E2;
   text-align: center;
   margin-top: -11px; }
   @media (max-width: 1000px) {
@@ -1601,7 +1596,7 @@ ul#sub_top_drop-nav {
     background-color: transparent; }
     .section-homepage #portal-globalnav .selected a:hover {
       background-color: transparent;
-      color: #fff; }
+      color: #242424; }
   .section-homepage #portal-globalnav ul {
     list-style-type: circle; }
   .section-homepage #portal-globalnav li {
@@ -2649,7 +2644,7 @@ p.standout_gold {
     margin-top: 0px; }
   .section-homepage .homepage_slider .banner--title {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 7%;
     display: flex;
     flex-direction: column; }
     .section-homepage .homepage_slider .banner--title h1 {
