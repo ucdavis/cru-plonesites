@@ -2635,7 +2635,7 @@ body.section-homepage {
   display: none; }
 .section-homepage .homepage_slider {
   postion: relative;
-  padding: 100px 0px;
+  padding: 70px 0px;
   height: auto;
   overflow: hidden;
   background: transparent url("../images/asi_banner.jpg") no-repeat scroll 0% 0%;
@@ -2644,7 +2644,7 @@ body.section-homepage {
     margin-top: 0px; }
   .section-homepage .homepage_slider .banner--title {
     text-align: center;
-    margin-top: 7%;
+    margin-top: 2%;
     display: flex;
     flex-direction: column; }
     .section-homepage .homepage_slider .banner--title h1 {
