@@ -2637,8 +2637,8 @@ p.standout_gold {
   postion: relative;
   height: 350px;
   overflow: hidden;
-  background-image: url(../images/asi_banner.jpg);
-  background-position: 50% 15%; }
+  background: transparent url("../images/asi_banner.jpg") no-repeat scroll 0% 0%;
+  background-size: cover; }
   @media (max-width: 1000px) {
     .section-homepage .homepage_slider {
       height: 225px; } }
