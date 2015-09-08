@@ -360,12 +360,12 @@ body.section-homepage {
             //     margin-top: -5%;
             // }
             h1 {
-                font-size: 3rem;
+                font-size: 2.8rem;
                 background-color: $secondary-color;
                 margin-bottom: 0px;
                 font-family: $sans-serif;
                 font-weight: 400;
-                padding: 1.4rem 4.5rem 1.0rem 2rem;
+                padding: 1.2rem 4rem 0.8rem 4rem;
                 color: #fff;
                 margin: 0 auto;
                 display: inline-block;
@@ -393,10 +393,10 @@ body.section-homepage {
         @include outer-container;
         margin-top: 8%;
         margin-bottom: 9%;
-        max-width: 80rem;
-        min-width: 50rem;
+        // max-width: 80rem;
+        // min-width: 50rem;
         // border-top:4px solid $asi_main;
-        text-align: center;
+        // text-align: center;
         // @include breakpoint(laptop) {
         // 	margin-top:10%;
         //    }

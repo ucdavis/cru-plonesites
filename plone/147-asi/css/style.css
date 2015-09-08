@@ -1794,7 +1794,9 @@ h2 {
     .site-sustainable-sourcing .lefthead h2 a:hover {
       color: #E1BB33 !important; }
   .homepage_welcome h2 {
-    font-size: 2.6rem; }
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #1C5BA5; }
 
 h3 {
   font-size: 1.8rem;
@@ -1894,12 +1896,6 @@ p {
   .bottom_ports p {
     font-size: 1.4rem;
     line-height: 21px; }
-  .portlet-static-homepage-welcome p {
-    font-size: 2.4rem;
-    text-align: center;
-    color: #5C5C5C;
-    line-height: 1.8;
-    font-family: "ff-tisa-web-pro", Georgia, serif; }
   p.eventdescription {
     font-size: 1.4rem;
     font-family: "proxima-nova", sans-serif;
@@ -2648,12 +2644,12 @@ body.section-homepage {
     display: flex;
     flex-direction: column; }
     .section-homepage .homepage_slider .banner--title h1 {
-      font-size: 3rem;
+      font-size: 2.8rem;
       background-color: #C99700;
       margin-bottom: 0px;
       font-family: "proxima-nova", sans-serif;
       font-weight: 400;
-      padding: 1.4rem 4.5rem 1.0rem 2rem;
+      padding: 1.2rem 4rem 0.8rem 4rem;
       color: #fff;
       margin: 0 auto;
       display: inline-block; }
@@ -2678,10 +2674,7 @@ body.section-homepage {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 8%;
-  margin-bottom: 9%;
-  max-width: 80rem;
-  min-width: 50rem;
-  text-align: center; }
+  margin-bottom: 9%; }
   @media (max-width: 1000px) {
     .section-homepage .portlet-static-homepage-welcome {
       width: 90%; } }
