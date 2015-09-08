@@ -2635,19 +2635,20 @@ p.standout_gold {
   display: none; }
 .section-homepage .homepage_slider {
   postion: relative;
-  height: 600px;
-  overflow: hidden; }
+  height: 350px;
+  overflow: hidden;
+  background-image: url(../images/fieldbanner.jpg); }
   @media (max-width: 1000px) {
     .section-homepage .homepage_slider {
-      height: 425px; } }
+      height: 225px; } }
   @media (max-width: 850px) {
     .section-homepage .homepage_slider {
-      height: 350px; } }
+      height: 150px; } }
   .section-homepage .homepage_slider p {
     margin-top: 0px; }
   .section-homepage .homepage_slider .banner--title {
     text-align: center;
-    margin-top: -36%;
+    margin-top: -45%;
     display: flex;
     flex-direction: column; }
     .section-homepage .homepage_slider .banner--title img {
