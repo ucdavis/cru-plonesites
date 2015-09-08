@@ -285,8 +285,16 @@ ul {
 			}
 		}
 		li.program_list_item {
+			position:relative;
 			img {
 				width:100%;
+			}
+			a.program_title {
+				font-size:2.2rem;
+				color:#fff;
+				text-align: center;
+				
+
 			}
 		}
 	}

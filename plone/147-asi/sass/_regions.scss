@@ -389,13 +389,7 @@ body.section-homepage {
             }
         }
     }
-    li.topic_textbox {
-        vertical-align: top;
-        min-height:375px;
-        img {
-            width:100%;
-        }
-    }
+
     .portlet-static-homepage-welcome {
         @include outer-container;
         margin-top: 8%;

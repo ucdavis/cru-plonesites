@@ -1926,8 +1926,14 @@ ul.three-col-list {
       ul.three-col-list li {
         width: 100%;
         display: list-item !important; } }
-  ul.three-col-list li.program_list_item img {
-    width: 100%; }
+  ul.three-col-list li.program_list_item {
+    position: relative; }
+    ul.three-col-list li.program_list_item img {
+      width: 100%; }
+    ul.three-col-list li.program_list_item a.program_title {
+      font-size: 2.2rem;
+      color: #fff;
+      text-align: center; }
 #footer_contents ul li {
   display: list-item;
   list-style: none;
@@ -2672,11 +2678,6 @@ body.section-homepage {
       @media (max-width: 1000px) {
         .section-homepage .homepage_slider .banner--title h3 {
           font-size: 1.6rem; } }
-.section-homepage li.topic_textbox {
-  vertical-align: top;
-  min-height: 375px; }
-  .section-homepage li.topic_textbox img {
-    width: 100%; }
 .section-homepage .portlet-static-homepage-welcome {
   width: 80%;
   max-width: 1200px;
