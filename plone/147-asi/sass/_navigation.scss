@@ -303,20 +303,21 @@ ul#sub_top_drop-nav {
 	// height:50px;
 	margin:0 auto !important;
 	background-color:#fff;
-	border-top:3px solid $borders;
-	border-bottom:3px solid $borders;
+	border-top:1px solid $borders;
+	border-bottom:1px solid $borders;
 	
 }
 .section-homepage #portal-globalnav {
 	margin:0px;
 	@include outer-container;
+	padding:10px 0px;
 	// width:60%;
 	font-size:100%;
 	// padding:12px 8px;
 	// background-color:$asi_main;
 	// border:3px solid #4A90E2;
 	text-align:center;
-	margin-top:-11px;
+	// margin-top:-11px;
 	li {
 		a {
 			color:#434343;
