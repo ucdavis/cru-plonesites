@@ -2534,8 +2534,9 @@ p.standout_gold {
   width: 100%;
   display: inline-block; }
 
-body .section-homepage {
+body.section-homepage {
   background-color: #f5f5f5; }
+
 .section-homepage .homepage_programs {
   background-color: #002855;
   border-top: 5px solid #1C5BA5;
@@ -2634,16 +2635,11 @@ body .section-homepage {
   display: none; }
 .section-homepage .homepage_slider {
   postion: relative;
-  height: 350px;
+  padding: 100px 0px;
+  height: auto;
   overflow: hidden;
   background: transparent url("../images/asi_banner.jpg") no-repeat scroll 0% 0%;
   background-size: cover; }
-  @media (max-width: 1000px) {
-    .section-homepage .homepage_slider {
-      height: 225px; } }
-  @media (max-width: 850px) {
-    .section-homepage .homepage_slider {
-      height: 150px; } }
   .section-homepage .homepage_slider p {
     margin-top: 0px; }
   .section-homepage .homepage_slider .banner--title {

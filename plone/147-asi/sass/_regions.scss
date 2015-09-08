@@ -209,11 +209,11 @@ p.standout_gold {
     width: 100%;
     display: inline-block;
 }
-
+body.section-homepage {
+    background-color: $background-color;
+}
 .section-homepage {
-    body & {
-        background-color: $background-color;
-    }
+
     ul.submenu {
         // left:-38px;
     }
@@ -330,16 +330,20 @@ p.standout_gold {
     }
     .homepage_slider {
         postion: relative;
-        height: 350px;
+        padding:100px 0px;
+        height:auto;
         overflow: hidden;
         background:transparent url("../images/asi_banner.jpg") no-repeat scroll 0% 0%;
         background-size:cover;
-        @include breakpoint (laptop) {
-            height: 225px;
-        }
-        @include breakpoint (rufus) {
-            height: 150px;
-        }
+        // @include breakpoint (desktop) {
+        //     height: 275px;
+        // }
+        // @include breakpoint (laptop) {
+        //     height: 200px;
+        // }
+        // @include breakpoint (rufus) {
+        //     height: 150px;
+        // }
         p {
             margin-top: 0px;
         }
