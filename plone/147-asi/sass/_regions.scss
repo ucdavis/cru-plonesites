@@ -330,6 +330,7 @@ p.standout_gold {
         height: 350px;
         overflow: hidden;
         background-image:url(../images/fieldbanner.jpg);
+        background-position: 50% 15%;
         @include breakpoint (laptop) {
             height: 225px;
         }
@@ -344,13 +345,13 @@ p.standout_gold {
             // position:absolute;
             // bottom:40%;
             // left:32.5%;
-            margin-top: -45%;
+            margin-top: 5%;
             // background-image:url("../images/fieldbanner.jpg") cover no-repeat;
             display: flex;
             flex-direction: column;
-            img {
-                margin-top: -5%;
-            }
+            // img {
+            //     margin-top: -5%;
+            // }
             h1 {
                 font-size: 3rem;
                 background-color: $secondary-color;

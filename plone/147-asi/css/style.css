@@ -2637,7 +2637,8 @@ p.standout_gold {
   postion: relative;
   height: 350px;
   overflow: hidden;
-  background-image: url(../images/fieldbanner.jpg); }
+  background-image: url(../images/fieldbanner.jpg);
+  background-position: 50% 15%; }
   @media (max-width: 1000px) {
     .section-homepage .homepage_slider {
       height: 225px; } }
@@ -2648,11 +2649,9 @@ p.standout_gold {
     margin-top: 0px; }
   .section-homepage .homepage_slider .banner--title {
     text-align: center;
-    margin-top: -45%;
+    margin-top: 5%;
     display: flex;
     flex-direction: column; }
-    .section-homepage .homepage_slider .banner--title img {
-      margin-top: -5%; }
     .section-homepage .homepage_slider .banner--title h1 {
       font-size: 3rem;
       background-color: #C99700;
