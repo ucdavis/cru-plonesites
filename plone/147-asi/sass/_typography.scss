@@ -284,6 +284,11 @@ ul {
 				display:list-item !important;
 			}
 		}
+		li.program_list_item {
+			img {
+				width:100%;
+			}
+		}
 	}
 	#footer_contents & li{
 		display: list-item;
