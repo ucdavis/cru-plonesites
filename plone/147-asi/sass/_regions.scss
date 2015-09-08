@@ -211,6 +211,9 @@ p.standout_gold {
 }
 
 .section-homepage {
+    body & {
+        background-color: $background-color;
+    }
     ul.submenu {
         // left:-38px;
     }
