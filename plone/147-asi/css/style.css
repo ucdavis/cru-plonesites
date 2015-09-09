@@ -1941,7 +1941,9 @@ ul.three-col-list {
       color: #fff;
       position: absolute;
       bottom: 50%;
-      z-index: 99999; }
+      z-index: 99999;
+      left: 25%;
+      right: 25%; }
 #footer_contents ul li {
   display: list-item;
   list-style: none;
