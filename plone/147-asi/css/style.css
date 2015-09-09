@@ -1927,6 +1927,7 @@ ul.three-col-list {
         width: 100%;
         display: list-item !important; } }
   ul.three-col-list li.program_list_item {
+    vertical-align: top;
     text-align: center; }
     ul.three-col-list li.program_list_item img {
       width: 100%; }
