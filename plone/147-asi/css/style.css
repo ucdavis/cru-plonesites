@@ -1934,19 +1934,20 @@ ul.three-col-list {
       position: relative;
       display: block; }
       ul.three-col-list li.program_list_item a:hover img {
-        opacity: none; }
+        opacity: 1; }
     ul.three-col-list li.program_list_item img {
       width: 100%;
       position: relative;
-      opacity: .5; }
+      opacity: .2; }
     ul.three-col-list li.program_list_item span.program_title {
-      font-size: 2.2rem;
+      font-size: 2.4rem;
       color: #fff;
       position: absolute;
       bottom: 50%;
       z-index: 99999;
-      left: 25%;
-      right: 25%; }
+      left: 16%;
+      right: 16%;
+      line-height: 1.6; }
 #footer_contents ul li {
   display: list-item;
   list-style: none;
