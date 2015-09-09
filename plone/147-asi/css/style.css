@@ -1927,13 +1927,12 @@ ul.three-col-list {
         width: 100%;
         display: list-item !important; } }
   ul.three-col-list li.program_list_item {
-    position: relative; }
+    text-align: center; }
     ul.three-col-list li.program_list_item img {
       width: 100%; }
     ul.three-col-list li.program_list_item a.program_title {
       font-size: 2.2rem;
-      color: #fff;
-      text-align: center; }
+      color: #fff; }
 #footer_contents ul li {
   display: list-item;
   list-style: none;
