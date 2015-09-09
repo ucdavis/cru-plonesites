@@ -1933,9 +1933,12 @@ ul.three-col-list {
     ul.three-col-list li.program_list_item a {
       position: relative;
       display: block; }
+      ul.three-col-list li.program_list_item a:hover img {
+        opacity: none; }
     ul.three-col-list li.program_list_item img {
       width: 100%;
-      position: relative; }
+      position: relative;
+      opacity: .5; }
     ul.three-col-list li.program_list_item span.program_title {
       font-size: 2.2rem;
       color: #fff;
