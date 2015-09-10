@@ -130,7 +130,11 @@ height: auto;
 
 
 */
-
+@media all and (max-width: 700px) {
+   .nivo-caption {
+    display: none;
+   }
+}
 
 
 
