@@ -2646,6 +2646,10 @@ body.section-homepage {
         text-align: center;
         vertical-align: top;
         display: inline-block; }
+        @media (max-width: 650px) {
+          .section-homepage .homepage_focus .focus_contents .focus_feed .focus-col {
+            width: 100%;
+            margin-bottom: 2%; } }
 .section-homepage .homepage_head {
   background-color: rgba(0, 0, 0, 0.0002);
   z-index: 999;

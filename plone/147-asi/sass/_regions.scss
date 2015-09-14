@@ -256,6 +256,10 @@ body.section-homepage {
                     text-align: center;
                     vertical-align: top;
                     display:inline-block;
+                    @include breakpoint (navcut) {
+                        width:100%;
+                        margin-bottom:2%;
+                    }
                 }
             }
         }
