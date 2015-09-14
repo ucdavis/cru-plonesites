@@ -1972,6 +1972,15 @@ ul.three-col-list {
       left: 10%;
       right: 10%;
       line-height: 1.6; }
+      ul.three-col-list li.program_list_item span.program_title.sf_title {
+        bottom: 50%; }
+      @media (max-width: 1250px) {
+        ul.three-col-list li.program_list_item span.program_title {
+          font-size: 2rem; } }
+      @media (max-width: 1000px) {
+        ul.three-col-list li.program_list_item span.program_title {
+          font-size: 1.6rem;
+          bottom: 31%; } }
 #footer_contents ul li {
   display: list-item;
   list-style: none;

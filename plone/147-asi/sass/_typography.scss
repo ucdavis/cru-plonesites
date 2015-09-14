@@ -341,6 +341,16 @@ ul {
                 left: 10%;
                 right: 10%;
                 line-height: 1.6;
+                &.sf_title {
+                	bottom:50%;
+                }
+                @include breakpoint (desktop) {
+                	font-size:2rem;
+                }
+                @include breakpoint (laptop) {
+                	font-size:1.6rem;
+                	bottom:31%;
+                }
             }
         }
     }
