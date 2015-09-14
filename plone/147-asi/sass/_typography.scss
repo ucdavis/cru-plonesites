@@ -161,6 +161,7 @@ h3 {
 		margin-top:0px;
 		display:inline;
 		margin-left:5%;
+		display: none;
 	}
 	.portlet-static-homepage-focus & {
 		font-weight: 600;
@@ -292,6 +293,7 @@ ul {
 			a {
 				position:relative;
 				display:block;
+				@include transitiontime;
 				&:hover img {
 					opacity:1;
 				}
@@ -299,16 +301,16 @@ ul {
 			img {
 				width:100%;
 				position:relative;
-				opacity:.2;
+				opacity:.4;
 			}
 			span.program_title {
 				font-size:2.4rem;
 				color:#fff;
 				position:absolute;
-				bottom:50%;
+				bottom:45%;
 				z-index: 99999;
-				left:16%;
-				right:16%;
+				left:10%;
+				right:10%;
 				line-height: 1.6;
 			}
 		}
