@@ -1908,6 +1908,8 @@ p {
     font-size: 1.4rem;
     line-height: 21px; }
   .portlet-static-homepage-welcome p {
+    font-size: 2.4rem;
+    text-align: center;
     color: #5C5C5C; }
   p.eventdescription {
     font-size: 1.4rem;
@@ -2731,8 +2733,8 @@ body.section-homepage {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 8%;
-  margin-bottom: 9%;
+  margin-top: 4%;
+  margin-bottom: 5%;
   text-align: center; }
   @media (max-width: 1000px) {
     .section-homepage .portlet-static-homepage-welcome {
