@@ -1983,6 +1983,10 @@ ul.three-col-list {
         ul.three-col-list li.program_list_item span.program_title {
           font-size: 1.6rem;
           bottom: 31%; } }
+      @media (max-width: 750px) {
+        ul.three-col-list li.program_list_item span.program_title {
+          font-size: 1.8rem;
+          bottom: 41%; } }
 #footer_contents ul li {
   display: list-item;
   list-style: none;
@@ -2059,7 +2063,7 @@ ul.program_list {
 @media (max-width: 750px) {
   .section-homepage ul.three-col-list li {
     width: 49.8%;
-    display: inline-block; } }
+    display: inline-block !important; } }
 @media (max-width: 650px) {
   .section-homepage ul.three-col-list li {
     width: 100%;

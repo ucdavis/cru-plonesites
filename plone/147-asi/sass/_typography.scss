@@ -354,6 +354,10 @@ ul {
                     font-size: 1.6rem;
                     bottom: 31%;
                 }
+                @include breakpoint (tablet) {
+                    font-size: 1.8rem;
+                    bottom: 41%;
+                }
             }
         }
     }
@@ -468,7 +472,7 @@ ul {
     li {
         @include breakpoint (tablet) {
             width: 49.8%;
-            display: inline-block;
+            display: inline-block !important;
         }
         @include breakpoint (navcut) {
             width: 100%;
