@@ -1970,10 +1970,7 @@ ul.three-col-list {
       z-index: 99999;
       left: 10%;
       right: 10%;
-      line-height: 1.6;
-      -moz-box-shadow: 1px 1px 5px 6px #ccc;
-      -webkit-box-shadow: 1px 1px 5px 6px #ccc;
-      box-shadow: 1px 1px 5px 6px #ccc; }
+      line-height: 1.6; }
       ul.three-col-list li.program_list_item span.program_title.sf_title {
         bottom: 50%; }
       @media (max-width: 1250px) {
@@ -2632,11 +2629,11 @@ body.section-homepage {
       border: 1px solid #c8c7cc;
       padding: 3.5%;
       margin-top: 4%; }
-      .section-homepage .homepage_focus .focus_contents .focus_feed li {
-        overflow: hidden;
-        margin-bottom: 30px; }
-        .section-homepage .homepage_focus .focus_contents .focus_feed li img {
-          margin-right: 3.5%; }
+      .section-homepage .homepage_focus .focus_contents .focus_feed .focus-col {
+        width: 33%;
+        text-align: center;
+        vertical-align: top;
+        display: inline-block; }
 .section-homepage .homepage_head {
   background-color: rgba(0, 0, 0, 0.0002);
   z-index: 999;

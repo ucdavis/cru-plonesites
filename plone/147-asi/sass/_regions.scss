@@ -246,12 +246,11 @@ body.section-homepage {
                 border: 1px solid $borders;
                 padding: 3.5%;
                 margin-top: 4%;
-                li {
-                    overflow: hidden;
-                    margin-bottom: 30px;
-                    img {
-                        margin-right: 3.5%;
-                    }
+                .focus-col {
+                    width:33%;
+                    text-align: center;
+                    vertical-align: top;
+                    display:inline-block;
                 }
             }
         }
