@@ -2620,6 +2620,9 @@ body.section-homepage {
   border-bottom: 5px solid #1C5BA5;
   padding-bottom: 4%;
   padding-top: 4px; }
+  @media (max-width: 1000px) {
+    .section-homepage .homepage_focus {
+      padding-bottom: 0px; } }
   .section-homepage .homepage_focus .focus_contents {
     width: 80%;
     max-width: 1200px;
@@ -2630,6 +2633,9 @@ body.section-homepage {
     @media (max-width: 750px) {
       .section-homepage .homepage_focus .focus_contents {
         width: 95%; } }
+    @media (max-width: 1000px) {
+      .section-homepage .homepage_focus .focus_contents {
+        width: 100%; } }
     .section-homepage .homepage_focus .focus_contents .focus_feed {
       background-color: #fff;
       border: 1px solid #c8c7cc;

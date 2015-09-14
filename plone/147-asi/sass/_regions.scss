@@ -238,9 +238,14 @@ body.section-homepage {
         border-bottom: 5px solid $asi_main;
         padding-bottom: 4%;
         padding-top: 4px;
-    
+        @include breakpoint (laptop) {
+            padding-bottom:0px;
+        }
         .focus_contents {
             @include outer-container;
+            @include breakpoint (laptop) {
+                width:100%;
+            }
             .focus_feed {
                 background-color: #fff;
                 border: 1px solid $borders;
