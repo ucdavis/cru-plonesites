@@ -3032,8 +3032,7 @@ form#searchform input.searchButton {
   font-size: 120%;
   padding-left: 2%; }
 .section-data label, .section-data .label {
-  font-size: 1.4rem;
-  text-transform: uppercase;
+  font-size: 1.6rem;
   line-height: 1.5; }
 
 @media all and (max-width: 600px) {
