@@ -276,8 +276,10 @@ p {
         font-size:2.4rem;
         text-align:center;
         color: #5C5C5C;
-        // line-height:1.8;
-        // font-family:$serif;
+        line-height:1.8;
+        max-width:10rem;
+        margin:0 auto;
+        font-family:$sans-serif;
     }
     &.eventdescription {
         font-size: 1.4rem;

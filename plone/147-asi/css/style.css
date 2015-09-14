@@ -1910,7 +1910,11 @@ p {
   .portlet-static-homepage-welcome p {
     font-size: 2.4rem;
     text-align: center;
-    color: #5C5C5C; }
+    color: #5C5C5C;
+    line-height: 1.8;
+    max-width: 10rem;
+    margin: 0 auto;
+    font-family: "proxima-nova", sans-serif; }
   p.eventdescription {
     font-size: 1.4rem;
     font-family: "proxima-nova", sans-serif;
@@ -2371,6 +2375,9 @@ input.searchButton {
 .sarep-main-bg {
   background-color: #004B85; }
 
+.sarep-accent-bg {
+  background-color: #DDB307; }
+
 .sarep-main {
   color: #004B85 !important; }
 
@@ -2684,7 +2691,7 @@ body.section-homepage {
       padding: 3px;
       vertical-align: top;
       width: 36px;
-      color: rgba(255, 255, 255, 1.0e-05); }
+      color: rgba(255, 255, 255, 1.0e-05) !important; }
     .section-homepage .homepage_head .homepage_search dd.portletFooter {
       display: none; }
 .section-homepage .top-header-bg {
@@ -3015,7 +3022,7 @@ form#searchform input.searchPage {
 form#searchform input.searchButton {
   width: 100px;
   background-color: #1C5BA5;
-  color: #FFF;
+  color: rgba(255, 255, 255, 0.001) !important;
   border: medium none;
   box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
   font-size: 1.6rem;

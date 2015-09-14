@@ -309,7 +309,7 @@ body.section-homepage {
                 padding: 3px;
                 vertical-align: top;
                 width: 36px;
-                color: rgba(255, 255, 255, .00001);
+                color: rgba(255, 255, 255, .00001) !important;
             }
             dd.portletFooter {
                 display: none;
@@ -741,7 +741,7 @@ form#searchform {
     input.searchButton {
         width: 100px;
         background-color: #1C5BA5;
-        color: #FFF;
+        color: rgba(255,255,255,.001) !important;
         border: medium none;
         box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
         font-size: 1.6rem;
