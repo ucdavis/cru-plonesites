@@ -1820,8 +1820,7 @@ h3 {
     padding: 1% 1.5%;
     margin-top: 0px;
     display: inline;
-    margin-left: 5%;
-    display: none; }
+    margin-left: 5%; }
   .portlet-static-homepage-focus h3 {
     font-weight: 600;
     margin-top: 0px; }
@@ -1971,7 +1970,10 @@ ul.three-col-list {
       z-index: 99999;
       left: 10%;
       right: 10%;
-      line-height: 1.6; }
+      line-height: 1.6;
+      -moz-box-shadow: 1px 1px 5px 6px #ccc;
+      -webkit-box-shadow: 1px 1px 5px 6px #ccc;
+      box-shadow: 1px 1px 5px 6px #ccc; }
       ul.three-col-list li.program_list_item span.program_title.sf_title {
         bottom: 50%; }
       @media (max-width: 1250px) {

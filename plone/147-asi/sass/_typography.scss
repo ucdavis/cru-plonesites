@@ -182,7 +182,7 @@ h3 {
         margin-top: 0px;
         display: inline;
         margin-left: 5%;
-        display: none;
+        // display: none;
     }
     .portlet-static-homepage-focus & {
         font-weight: 600;
@@ -341,15 +341,18 @@ ul {
                 left: 10%;
                 right: 10%;
                 line-height: 1.6;
+                -moz-box-shadow: 1px 1px 5px 6px #ccc;
+                -webkit-box-shadow: 1px 1px 5px 6px #ccc;
+                box-shadow: 1px 1px 5px 6px #ccc;
                 &.sf_title {
-                	bottom:50%;
+                    bottom: 50%;
                 }
                 @include breakpoint (desktop) {
-                	font-size:2rem;
+                    font-size: 2rem;
                 }
                 @include breakpoint (laptop) {
-                	font-size:1.6rem;
-                	bottom:31%;
+                    font-size: 1.6rem;
+                    bottom: 31%;
                 }
             }
         }
@@ -468,7 +471,7 @@ ul {
             display: inline-block;
         }
         @include breakpoint (navcut) {
-        	width: 100%;
+            width: 100%;
             display: list-item !important;
         }
     }
