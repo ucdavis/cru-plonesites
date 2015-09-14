@@ -67,7 +67,7 @@ iframe {
 	padding:1rem 2rem 1rem 2rem;
 	@include accent-theme-bg-color;
   &:hover {
-    opacity:.95;
+    opacity:.55;
   }
 }
 .btn-margin {
@@ -151,9 +151,6 @@ input.searchButton {
 }
 .sarep-main-bg {
   background-color:$sarep-main;
-}
-.sarep-accent-bg {
-  background-color:$sarep-accent;
 }
 .sarep-main {
   color:$sarep_main !important;

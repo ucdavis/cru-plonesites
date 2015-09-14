@@ -2293,7 +2293,7 @@ iframe {
   .site-sustainable-sourcing .btn {
     background-color: #E1BB33; }
   .btn:hover {
-    opacity: .95; }
+    opacity: .55; }
 
 .btn-margin {
   margin-top: 9%; }
@@ -2374,9 +2374,6 @@ input.searchButton {
 
 .sarep-main-bg {
   background-color: #004B85; }
-
-.sarep-accent-bg {
-  background-color: #DDB307; }
 
 .sarep-main {
   color: #004B85 !important; }
