@@ -757,3 +757,15 @@ form#searchform {
     padding:0px;
     box-shadow:none;
 }
+// data set
+.section-data {
+    form {
+        font-size:120%;
+        padding-left:2%;
+    }
+    label, .label {
+        font-size:1.4rem;
+        text-transform: uppercase;
+        line-height:1.5;
+    }
+}

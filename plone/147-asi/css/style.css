@@ -3028,6 +3028,14 @@ form#searchform input.searchButton {
   padding: 0px;
   box-shadow: none; }
 
+.section-data form {
+  font-size: 120%;
+  padding-left: 2%; }
+.section-data label, .section-data .label {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  line-height: 1.5; }
+
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
     float: left;
