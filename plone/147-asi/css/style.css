@@ -2646,6 +2646,10 @@ body.section-homepage {
         text-align: center;
         vertical-align: top;
         display: inline-block; }
+        .section-homepage .homepage_focus .focus_contents .focus_feed .focus-col h3 {
+          font-size: 2.0rem; }
+        .section-homepage .homepage_focus .focus_contents .focus_feed .focus-col img {
+          margin-bottom: 4%; }
         @media (max-width: 650px) {
           .section-homepage .homepage_focus .focus_contents .focus_feed .focus-col {
             width: 100%;
