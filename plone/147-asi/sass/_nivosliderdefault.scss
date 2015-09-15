@@ -12,6 +12,10 @@ Supports Thumbs: true
 	position:relative;
 	background:#fff url(../images/loading.gif) no-repeat 50% 50%;
 	max-height:579px;
+	@include breakpoint (navcut) {
+		height:260px;
+		background-color:#191919;
+	}
 }
 .theme-default .nivoSlider img {
 	position:absolute;
@@ -91,8 +95,8 @@ Supports Thumbs: true
 	    width:70%;
 	    // background-color:rgba(100,255,100,.3);
 	  }
-	  @include breakpoint(mobile) {
-	    left:.5%
+	  @include breakpoint(navcut) {
+	    left:0%
 	  }
 	  // @include breakpoint(navcut){
 	  // 	.theme-default .nivo-caption {

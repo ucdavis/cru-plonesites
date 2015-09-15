@@ -3294,6 +3294,10 @@ Supports Thumbs: true
   position: relative;
   background: #fff url(../images/loading.gif) no-repeat 50% 50%;
   max-height: 579px; }
+  @media (max-width: 650px) {
+    .theme-default .nivoSlider {
+      height: 260px;
+      background-color: #191919; } }
 
 .theme-default .nivoSlider img {
   position: absolute;
@@ -3371,6 +3375,9 @@ Supports Thumbs: true
     .theme-default .nivo-caption {
       left: 1%;
       width: 70%; } }
+  @media (max-width: 650px) {
+    .theme-default .nivo-caption {
+      left: 0%; } }
   .theme-default .nivo-caption h3 {
     font-size: 2.4rem;
     font-family: "proxima-nova", sans-serif;
