@@ -4,13 +4,17 @@
 
 .alert {
   height:auto;
-  background-color:$sarep-main;
+  background-color:#4A90E2;
   text-align: center;
   padding:4px 0px;
   p {
     color:#fff;
-    font-size:1.6rem;
+    font-size:1.4rem;
+    line-height: 1.4;
     font-family: $sans-serif;
+    a:link, a:visited {
+      color:rgba(255,255,255,.75);
+    }
   }
 }
 .fadeinup {
