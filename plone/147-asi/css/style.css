@@ -962,6 +962,10 @@ header {
       display: inline-block;
       vertical-align: top;
       margin-right: 4.3%; }
+      @media (max-width: 850px) {
+        #bottom_ports-bg .bottom_ports .width-1\:3 {
+          width: 100%;
+          margin-bottom: 6%; } }
     #bottom_ports-bg .bottom_ports .cell {
       float: none;
       left: 0; }

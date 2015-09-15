@@ -218,6 +218,10 @@ header {
 			display:inline-block;
 			vertical-align:top;
 			margin-right:4.3%;
+			@include breakpoint (rufus) {
+				width:100%;
+				margin-bottom:6%;
+			}
 		}
 		.cell {
 			float:none;
