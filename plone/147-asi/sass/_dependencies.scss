@@ -90,7 +90,7 @@
 	// colors yay
 	$green:				#7E8843; // portlet headers
 // variables yo!
-	$max-width: 1200px;
+	$max-width: 1400px;
 
 @mixin breakpoint($point) {
    @if $point == desktop {
