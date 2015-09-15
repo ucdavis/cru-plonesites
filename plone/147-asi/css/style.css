@@ -2229,6 +2229,16 @@ span.code {
   font-size: 1.3rem;
   color: #9b9b9b; }
 
+.alert {
+  height: auto;
+  background-color: #004B85;
+  text-align: center;
+  padding: 4px 0px; }
+  .alert p {
+    color: #fff;
+    font-size: 1.6rem;
+    font-family: "proxima-nova", sans-serif; }
+
 .fadeinup {
   animation-delay: 0s;
   animation-direction: normal;

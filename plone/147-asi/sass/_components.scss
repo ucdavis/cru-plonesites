@@ -2,6 +2,17 @@
 // Modular components and their states. 
 // These pieces should be able to be used anywhere. Things like: icons, buttons, messages, etc.
 
+.alert {
+  height:auto;
+  background-color:$sarep-main;
+  text-align: center;
+  padding:4px 0px;
+  p {
+    color:#fff;
+    font-size:1.6rem;
+    font-family: $sans-serif;
+  }
+}
 .fadeinup {
   animation-delay: 0s;
     animation-direction: normal;
