@@ -3292,12 +3292,11 @@ Supports Thumbs: true
 */
 .theme-default .nivoSlider {
   position: relative;
-  background: #fff url(../images/loading.gif) no-repeat 50% 50%;
+  background: #191919 no-repeat 50% 50%;
   max-height: 579px; }
   @media (max-width: 650px) {
     .theme-default .nivoSlider {
-      height: 260px;
-      background-color: #191919; } }
+      height: 260px; } }
 
 .theme-default .nivoSlider img {
   position: absolute;

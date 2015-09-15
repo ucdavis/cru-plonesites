@@ -10,11 +10,11 @@ Supports Thumbs: true
 
 .theme-default .nivoSlider {
 	position:relative;
-	background:#fff url(../images/loading.gif) no-repeat 50% 50%;
+	background:#191919 no-repeat 50% 50%;
 	max-height:579px;
 	@include breakpoint (navcut) {
 		height:260px;
-		background-color:#191919;
+		
 	}
 }
 .theme-default .nivoSlider img {
