@@ -3311,7 +3311,7 @@ Supports Thumbs: true
 .theme-default .nivo-controlNav {
   text-align: right;
   margin-top: -22px;
-  z-index: 9999;
+  z-index: 100;
   position: relative;
   color: rgba(255, 255, 255, 0.01);
   margin-right: 5%; }
