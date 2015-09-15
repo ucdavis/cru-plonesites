@@ -3512,3 +3512,9 @@ body.section-styles #content .borders {
 
 .template-plone-app-collection-interfaces-icollection span.documentByLine {
   display: block; }
+
+.logo-header h2 {
+  display: none; }
+
+.template-default_error_message .logo-header h2 {
+  display: block; }
