@@ -563,7 +563,7 @@ dt.portletHeader {
     margin-top: 6px;
     padding-bottom: 5px;
     @include accent-theme-bg-color;
-    a {
+    a, a:link, a:visited {
         color: #fff;
     }
     a:hover {
