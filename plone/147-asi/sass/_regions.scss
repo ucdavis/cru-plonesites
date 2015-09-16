@@ -30,7 +30,10 @@ abbr.dtend {
 
 #searchGadget,
 .LSBox input.searchButton {
-    color: #fff;
+    color: $main-font;
+}
+.webkit .LSBox input.searchButton {
+    color:rgba(255,255,255,.00001) !important;
 }
 .section-homepage .LSBox input.searchButton {
     color:rgba(255,255,255,.00001) !important;
