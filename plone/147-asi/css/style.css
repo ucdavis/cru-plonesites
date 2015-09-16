@@ -2363,6 +2363,9 @@ table.abouttable th {
   padding-bottom: 1em;
   padding-top: .5em; }
 
+table.secondary_table td {
+  min-width: 250px; }
+
 #content table.abouttable {
   margin-bottom: 2em; }
 
