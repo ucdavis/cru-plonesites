@@ -28,12 +28,10 @@ abbr.dtend {
     padding-bottom: 1%;
 }
 
-#searchGadget,
-.LSBox input.searchButton {
+#searchGadget {
     color: $main-font;
-    text-indent:9999px
 }
-.webkit .LSBox input.searchButton {
+.LSBox input.searchButton {
     text-indent:9999px;
     color:#fff;
 }

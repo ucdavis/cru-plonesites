@@ -2488,12 +2488,10 @@ abbr.dtend {
   vertical-align: top;
   padding-bottom: 1%; }
 
-#searchGadget,
-.LSBox input.searchButton {
-  color: #242424;
-  text-indent: 9999px; }
+#searchGadget {
+  color: #242424; }
 
-.webkit .LSBox input.searchButton {
+.LSBox input.searchButton {
   text-indent: 9999px;
   color: #fff; }
 
