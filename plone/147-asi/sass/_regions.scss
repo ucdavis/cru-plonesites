@@ -32,6 +32,9 @@ abbr.dtend {
 .LSBox input.searchButton {
     color: $main-font;
 }
+.section-homepage .LSBox input.searchButton {
+    color:rgba(255,255,255,.00001) !important;
+}
 
 input.searchField {
     -moz-appearance: none;

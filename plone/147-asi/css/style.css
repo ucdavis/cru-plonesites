@@ -857,6 +857,7 @@ header {
       padding: 3px;
       vertical-align: top;
       width: 36px;
+      text-indent: 9999em;
       background-position: center 10px; }
     .header_contents .righthead #portal-searchbox {
       clear: none;
@@ -2490,6 +2491,9 @@ abbr.dtend {
 #searchGadget,
 .LSBox input.searchButton {
   color: #242424; }
+
+.section-homepage .LSBox input.searchButton {
+  color: rgba(255, 255, 255, 1.0e-05) !important; }
 
 input.searchField {
   -moz-appearance: none;
