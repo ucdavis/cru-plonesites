@@ -2490,7 +2490,7 @@ abbr.dtend {
 
 #searchGadget,
 .LSBox input.searchButton {
-  color: #242424; }
+  color: #fff; }
 
 .section-homepage .LSBox input.searchButton {
   color: rgba(255, 255, 255, 1.0e-05) !important; }
