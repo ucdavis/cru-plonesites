@@ -2490,13 +2490,12 @@ abbr.dtend {
 
 #searchGadget,
 .LSBox input.searchButton {
-  color: #242424; }
+  color: #242424;
+  text-indent: 9999px; }
 
 .webkit .LSBox input.searchButton {
-  color: rgba(255, 255, 255, 1.0e-05) !important; }
-
-.section-homepage .LSBox input.searchButton {
-  color: rgba(255, 255, 255, 1.0e-05) !important; }
+  text-indent: 9999px;
+  color: #fff; }
 
 input.searchField {
   -moz-appearance: none;

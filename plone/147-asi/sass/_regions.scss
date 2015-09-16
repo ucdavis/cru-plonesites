@@ -31,13 +31,13 @@ abbr.dtend {
 #searchGadget,
 .LSBox input.searchButton {
     color: $main-font;
+    text-indent:9999px
 }
 .webkit .LSBox input.searchButton {
-    color:rgba(255,255,255,.00001) !important;
+    text-indent:9999px;
+    color:#fff;
 }
-.section-homepage .LSBox input.searchButton {
-    color:rgba(255,255,255,.00001) !important;
-}
+
 
 input.searchField {
     -moz-appearance: none;
