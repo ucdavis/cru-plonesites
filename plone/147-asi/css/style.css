@@ -1807,6 +1807,19 @@ h2 {
       color: #E6A65D !important; }
     .site-sustainable-sourcing .lefthead h2 a:hover {
       color: #E1BB33 !important; }
+  h2.programs_homepage_header {
+    text-align: center;
+    font-family: "proxima-nova", sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 18px 4px 14px;
+    letter-spacing: .5px;
+    margin-top: 6px;
+    padding-bottom: 5px;
+    background-color: #1C5BA5; }
   .homepage_welcome h2 {
     font-size: 2rem;
     color: #27AA81; }
