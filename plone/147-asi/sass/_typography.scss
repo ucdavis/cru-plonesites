@@ -148,7 +148,8 @@ h2 {
             @include accent-theme-color;
         }
     }
-    &.programs_homepage_header {
+    .programs_homepage_header &
+     {
     	text-align:center;
     	font-family: $sans-serif;
 	    color: #fff;

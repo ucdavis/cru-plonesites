@@ -221,6 +221,9 @@ body.section-homepage {
     ul.submenu {
         // left:-38px;
     }
+    .programs_homepage_header {
+        
+    }
     .homepage_programs {
         // 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#114266+0,6dbad7+100 */
         // background: #114266; /* Old browsers */
@@ -239,7 +242,6 @@ body.section-homepage {
     }
     .homepage_focus {
         background-color: $secondary-bg;
-        border-bottom: 5px solid $asi_main;
         padding-bottom: 4%;
         padding-top: 4px;
         @include breakpoint (laptop) {
