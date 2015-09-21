@@ -2252,12 +2252,12 @@ span.code {
   background-color: #4A90E2;
   text-align: center;
   padding: 4px 0px; }
-  .alert p {
+  .alert span {
     color: #fff;
     font-size: 1.4rem;
     line-height: 1.4;
     font-family: "proxima-nova", sans-serif; }
-    .alert p a:link, .alert p a:visited {
+    .alert span a:link, .alert span a:visited {
       color: rgba(255, 255, 255, 0.75); }
 
 .fadeinup {
