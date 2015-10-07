@@ -489,7 +489,7 @@ span.quicklinkbutton a:hover {
 }
 
 /* Twitter button */ 
-#content_box .twitter {
+#content_box .twitter img{
     padding: 5 px;
     margin - right: 12 px;
     margin - top: 3 px;
