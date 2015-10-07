@@ -488,8 +488,12 @@ span.quicklinkbutton a:hover {
 	background-color: #5084b8;
 }
 
-
-
+/* Twitter button */ 
+#content_box .twitter {
+    padding: 5 px;
+    margin - right: 12 px;
+    margin - top: 3 px;
+}
 
 
 
