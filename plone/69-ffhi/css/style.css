@@ -800,11 +800,18 @@ ul.twocol li {
 #plone-document-byline {
   display: none !important; }
 
+.subsection-news-at-ffhi #plone-document-byline {
+  color: #fff; }
+  .subsection-news-at-ffhi #plone-document-byline span {
+    color: #434343;
+    margin-left: -14px; }
+
 .template-newsitem_view #plone-document-byline {
-  display: block !important; }
+  display: block !important;
+  font-size: 1.5rem; }
   .template-newsitem_view #plone-document-byline span.documentModified {
     display: none; }
-  .template-newsitem_view #plone-document-byline span.documentContributors {
+  .template-newsitem_view #plone-document-byline .documentContributors {
     display: none; }
 
 dt.portletHeader {
