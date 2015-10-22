@@ -800,9 +800,9 @@ ul.twocol li {
 #plone-document-byline {
   display: none !important; }
 
-.subsection-news-at-ffhi #plone-document-byline {
+.subsection-news-at-ffhi .documentByLine {
   color: #fff; }
-  .subsection-news-at-ffhi #plone-document-byline span {
+  .subsection-news-at-ffhi .documentByLine span {
     color: #434343;
     margin-left: -14px; }
 
