@@ -89,6 +89,12 @@ ul.twocol li {
 }
 .template-newsitem_view #plone-document-byline {
 	display:block !important;
+	span.documentModified {
+		display:none;
+	}
+	span.documentContributors {
+		display:none;
+	}
 }
 dt.portletHeader /* portlet header */ {
 	font-family:$sans-serif;

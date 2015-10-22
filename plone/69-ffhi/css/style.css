@@ -802,6 +802,10 @@ ul.twocol li {
 
 .template-newsitem_view #plone-document-byline {
   display: block !important; }
+  .template-newsitem_view #plone-document-byline span.documentModified {
+    display: none; }
+  .template-newsitem_view #plone-document-byline span.documentContributors {
+    display: none; }
 
 dt.portletHeader {
   font-family: "futura-pt-1", "futura-pt-2", Futura Std, Futura, Arial, sans-serif;
