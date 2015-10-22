@@ -800,6 +800,9 @@ ul.twocol li {
 #plone-document-byline {
   display: none !important; }
 
+.template-newsitem_view #plone-document-byline {
+  display: block !important; }
+
 dt.portletHeader {
   font-family: "futura-pt-1", "futura-pt-2", Futura Std, Futura, Arial, sans-serif;
   color: #333433;
