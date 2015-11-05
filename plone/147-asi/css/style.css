@@ -2745,6 +2745,10 @@ body.section-homepage {
       display: none; }
 .section-homepage .top-header-bg {
   display: none; }
+.webkit .section-homepage .homepage_slider .banner--title {
+  width:50%;
+  margin-left:25%;
+}
 .section-homepage .homepage_slider {
   position: relative;
   padding: 70px 0px;
