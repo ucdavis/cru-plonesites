@@ -374,6 +374,10 @@ body.section-homepage {
             // img {
             //     margin-top: -5%;
             // }
+            .webkit & {
+                width:40%;
+                left:30%;
+            }
             h1 {
                 font-size: 2.8rem;
                 background-color: $secondary-color;
