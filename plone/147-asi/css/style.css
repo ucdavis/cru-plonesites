@@ -2746,7 +2746,7 @@ body.section-homepage {
 .section-homepage .top-header-bg {
   display: none; }
 .section-homepage .homepage_slider {
-  postion: relative;
+  position: relative;
   padding: 70px 0px;
   height: auto;
   overflow: hidden;
