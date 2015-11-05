@@ -10,12 +10,6 @@
     }
 }
 
-abbr.dtstart,
-abbr.dtend {
-    color: #DA611E;
-    border-bottom: none;
-}
-
 .breadandsearch {
     border-bottom: 1px solid $borders;
     // margin-top:2%;
@@ -792,4 +786,18 @@ form#searchform {
         font-size:1.6rem;
         line-height:1.5;
     }
+}
+
+//events 
+
+.section-event-calendar .tileItem {
+    padding: 1% 1% 1% 4%;
+    background-color: $background-color;
+    border-left:4px solid $california-poppy;
+}
+
+abbr.dtstart,
+abbr.dtend {
+    color: $california-poppy;
+    border-bottom: none;
 }
