@@ -2993,10 +2993,10 @@ form#searchform input.searchButton {
 .section-event-calendar .tileItem {
   padding: 1% 1% 1% 4%;
   background-color: #f4f4f4;
-  border-left: 4px solid #ed8800; }
+  border-left: 4px solid #1C5BA5; }
 
 abbr.dtstart, abbr.dtend {
-  color: #ed8800;
+  color: #1C5BA5;
   border-bottom: none; }
 
 @media all and (max-width: 600px) {
