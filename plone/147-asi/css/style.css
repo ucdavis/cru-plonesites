@@ -1724,7 +1724,7 @@ h2 {
     font-family: "proxima-nova", sans-serif;
     color: #fff;
     font-weight: 400;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     display: inline-block;
     padding: 12px 20px 4px 16px;
@@ -2664,7 +2664,7 @@ body.section-homepage {
     flex-direction: column; }
     .webkit .section-homepage .homepage_slider .banner--title {
       width: 40%;
-      left: 30%; }
+      margin-left: 30%; }
     .section-homepage .homepage_slider .banner--title h1 {
       font-size: 2.8rem;
       background-color: #C99700;
@@ -2696,7 +2696,6 @@ body.section-homepage {
   max-width: 1400px;
   margin: 0 auto;
   margin-top: 4%;
-  margin-bottom: 5%;
   text-align: center; }
   @media (max-width: 1000px) {
     .section-homepage .portlet-static-homepage-welcome {
@@ -2707,9 +2706,7 @@ body.section-homepage {
 .section-homepage #portal-breadcrumbs {
   display: none; }
 .section-homepage .spotlight-bg {
-  background-color: #f4f4f4;
-  border-top: 1px solid #c8c7cc;
-  border-bottom: 1px solid #c8c7cc; }
+  background-color: #f4f4f4; }
   .section-homepage .spotlight-bg .spotlight-section {
     width: 80%;
     max-width: 1400px;
@@ -2752,8 +2749,9 @@ body.section-homepage {
           margin-top: 4%;
           margin-left: 4%; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article p {
-          margin-bottom: 4%;
-          margin-left: 4%; }
+          margin-bottom: 3%;
+          margin-left: 3%;
+          margin-right: 3%; }
     .section-homepage .spotlight-bg .spotlight-section .spotlight_events {
       width: 44%;
       display: inline-block;
@@ -3441,7 +3439,9 @@ body.section-styles #content .borders {
   display: none; }
 
 .template-plone-app-collection-interfaces-icollection span.documentByLine {
-  display: block; }
+  display: block;
+  font-size: 1.6rem;
+  line-height: 1.5; }
 
 .logo-header h2 {
   display: none; }
