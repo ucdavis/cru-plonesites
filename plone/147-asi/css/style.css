@@ -2720,11 +2720,10 @@ body.section-homepage {
     .section-homepage .spotlight-bg .spotlight-section .portletFooter {
       display: none; }
     .section-homepage .spotlight-bg .spotlight-section .spotlight_feature {
-      width: 40%;
+      width: 47%;
       display: inline-block;
       vertical-align: top;
-      margin-right: 7%;
-      margin-left: 6%; }
+      margin-right: 5%; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature a.contenttype-news-item {
         width: 100%;
         font-size: 1.8rem;
@@ -2749,7 +2748,7 @@ body.section-homepage {
           margin-left: 3%;
           margin-right: 3%; }
     .section-homepage .spotlight-bg .spotlight-section .spotlight_events {
-      width: 44%;
+      width: 47.5%;
       display: inline-block;
       vertical-align: top; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletFooter {
