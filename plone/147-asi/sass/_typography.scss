@@ -172,14 +172,16 @@ h2 {
     	font-family: $sans-serif;
 	    color: #fff;
 	    font-weight: 400;
-	    font-size: 1.8rem;
+	    font-size: 1.6rem;
 	    text-transform: uppercase;
 	    display: inline-block;
-	    padding: 12px 20px 4px 16px;
+	    padding: 12px 20px;
 	    letter-spacing: .5px;
 	    padding-bottom: 5px;
 	    background-color:$asi_main;
 	    margin-bottom:0px;
+        border-top-right-radius:3px;
+        border-top-left-radius:3px;
     }
     // &.welcome_header {
     // 	font-family:$sans-serif;

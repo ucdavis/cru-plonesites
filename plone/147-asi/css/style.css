@@ -1724,14 +1724,16 @@ h2 {
     font-family: "proxima-nova", sans-serif;
     color: #fff;
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-transform: uppercase;
     display: inline-block;
-    padding: 12px 20px 4px 16px;
+    padding: 12px 20px;
     letter-spacing: .5px;
     padding-bottom: 5px;
     background-color: #1C5BA5;
-    margin-bottom: 0px; }
+    margin-bottom: 0px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px; }
   .homepage_welcome h2 {
     font-size: 2rem;
     color: #27AA81; }
@@ -2576,8 +2578,8 @@ body.section-homepage {
     .section-homepage .homepage_focus .focus_contents .focus_feed {
       background-color: #fff;
       border: 1px solid #c8c7cc;
-      padding: 3.5%;
-      margin-top: 4%;
+      padding: 5%;
+      padding-top: 7%;
       border-top: 5px solid #1C5BA5; }
       .section-homepage .homepage_focus .focus_contents .focus_feed .focus-col {
         width: 33%;
@@ -2693,6 +2695,7 @@ body.section-homepage {
   max-width: 1400px;
   margin: 0 auto;
   margin-top: 4%;
+  margin-bottom: 5%;
   text-align: center; }
   @media (max-width: 1000px) {
     .section-homepage .portlet-static-homepage-welcome {
