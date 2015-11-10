@@ -237,7 +237,6 @@ body.section-homepage {
     .homepage_focus {
         background-color: $secondary-bg;
         padding-bottom: 4%;
-        padding-top: 4px;
         @include breakpoint (laptop) {
             padding-bottom:0px;
         }

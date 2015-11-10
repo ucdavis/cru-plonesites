@@ -2557,8 +2557,7 @@ body.section-homepage {
   border-top: 5px solid #1C5BA5; }
 .section-homepage .homepage_focus {
   background-color: #f5f5f5;
-  padding-bottom: 4%;
-  padding-top: 4px; }
+  padding-bottom: 4%; }
   @media (max-width: 1000px) {
     .section-homepage .homepage_focus {
       padding-bottom: 0px; } }
