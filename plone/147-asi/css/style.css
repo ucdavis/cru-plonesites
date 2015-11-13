@@ -827,6 +827,17 @@ header {
   .full_banner .theme-default .nivo-controlNav {
     margin-right: 9%; }
 
+.homepage_slide {
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: #fff; }
+  .homepage_slide p {
+    margin-top: 0px; }
+  .homepage_slide .theme-default .nivo-controlNav {
+    margin-right: 9%; }
+
 .slider-wrapper {
   overflow: hidden;
   max-width: 2100px;
@@ -2577,8 +2588,8 @@ body.section-homepage {
     .section-homepage .homepage_focus .focus_contents .focus_feed {
       background-color: #fff;
       border: 1px solid #c8c7cc;
-      padding: 5%;
-      padding-top: 7%;
+      padding: 2%;
+      padding-top: 5%;
       border-top: 5px solid #1C5BA5; }
       .section-homepage .homepage_focus .focus_contents .focus_feed .focus-col {
         width: 33%;
