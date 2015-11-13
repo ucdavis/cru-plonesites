@@ -828,7 +828,7 @@ header {
     margin-right: 9%; }
 
 .homepage_slide {
-  margin-top: 5px solid #1C5BA5;
+  border-top: 5px solid #1C5BA5;
   margin: 0 auto;
   margin-top: 5%;
   margin-bottom: 7%;
