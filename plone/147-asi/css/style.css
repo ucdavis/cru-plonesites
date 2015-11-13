@@ -828,11 +828,14 @@ header {
     margin-right: 9%; }
 
 .homepage_slide {
+  margin-top: 5px solid #1C5BA5;
   margin: 0 auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 5%;
+  margin-bottom: 7%;
   text-align: center;
   background-color: #fff; }
+  .homepage_slide a:link {
+    color: #fff; }
   .homepage_slide p {
     margin-top: 0px; }
   .homepage_slide .theme-default .nivo-controlNav {
@@ -3240,7 +3243,7 @@ Supports Thumbs: true
 .theme-default .nivoSlider {
   position: relative;
   background: #191919 no-repeat 50% 50%;
-  max-height: 579px; }
+  max-height: 600px; }
   @media (max-width: 650px) {
     .theme-default .nivoSlider {
       height: 260px; } }

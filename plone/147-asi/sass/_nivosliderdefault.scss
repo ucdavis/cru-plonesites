@@ -11,7 +11,7 @@ Supports Thumbs: true
 .theme-default .nivoSlider {
 	position:relative;
 	background:#191919 no-repeat 50% 50%;
-	max-height:579px;
+	max-height:600px;
 	@include breakpoint (navcut) {
 		height:260px;
 		

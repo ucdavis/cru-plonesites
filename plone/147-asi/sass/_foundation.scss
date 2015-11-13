@@ -161,11 +161,15 @@ header {
 	}
 }
 .homepage_slide {
+	margin-top:5px solid $asi-main;
 	margin:0 auto;
-	margin-top:0px;
-	margin-bottom:0px;
+	margin-top:5%;
+	margin-bottom:7%;
 	text-align:center;
 	background-color:#fff;
+	a:link {
+		color:#fff;
+	}
 	p {
 		margin-top:0px;
 	}
