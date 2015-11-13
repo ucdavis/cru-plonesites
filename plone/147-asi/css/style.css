@@ -830,7 +830,7 @@ header {
 .homepage_slide {
   border-top: 5px solid #1C5BA5;
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 0px;
   margin-bottom: 7%;
   text-align: center;
   background-color: #fff; }
