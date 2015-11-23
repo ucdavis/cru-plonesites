@@ -328,7 +328,7 @@ img.tileImage {
     transition-duration: .05s;
     transition-timing-function: ease-out;
 
-  height: 219px;
+  height: 300px;
   border-bottom:3px solid #d9aa01;
 
 }
