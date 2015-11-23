@@ -24,7 +24,7 @@
     <copy css:content=".portlet-static-homepage-focus" css:theme=".focus_feed" />
     <copy css:content=".portlet-static-homepage-programs" css:theme=".programs_feed" />
     <copy css:content=".portlet-static-homepage_slide" css:theme=".homepage_slide" />
-    <copy css:content=".portlet-collection-spotlight" css:theme=".spotlight_feature" />
+    <copy css:content=".portlet-collection-news" css:theme=".spotlight_feature" />
     <copy css:content=".section-homepage dl.portletEvents" css:theme=".spotlight_events" />
 
 
