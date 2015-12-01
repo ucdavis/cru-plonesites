@@ -274,9 +274,9 @@ legend {
     font-weight: 600;
 }
 p.caption{
-        font-size:1.2rem;
-        color:#434343;
-        margin-top:4px;
+        font-size:1.2rem !important;
+        color:#434343 !important;
+        margin-top:4px !important;
     }
 p {
     font-family: $serif;
