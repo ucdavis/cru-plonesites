@@ -2418,6 +2418,10 @@ input.searchButton {
 .center-t {
   text-align: center; }
 
+.fgBaseEditForm {
+  font-size: 160%;
+  line-height: 1.5; }
+
 .template-plone-app-collection-interfaces-icollection .tileItem {
   margin-bottom: 4%; }
 
