@@ -29,7 +29,7 @@
     <copy css:content="html" css:theme="html" attributes="lang dir" />
     <copy css:content="head base" css:theme="head base" />
     <replace css:content="head title" css:theme="head title" />
-    <replace content="/html/head/title/text()" css:theme="#logo-contain h1" />
+    <!--<replace content="/html/head/title/text()" css:theme="#logo-contain h1" />-->
     <before css:content="head style, head link, head script, head meta" css:theme-children="head" />
 
     <!--Favicons-->
@@ -38,7 +38,7 @@
     <!--Content-->
     
 
-    <!-- events xml -->
+    <!-- events xml
     <copy css:content="a.eventtitle" css:theme="span.event h2" />
     <copy css:content="span.eventdate" css:theme="span.date" />
     <copy css:content="span.eventdesc" css:theme="span.event p" /> -->
@@ -71,7 +71,6 @@
 
     <copy css:content=".portlet-static-head-nav" css:theme="#top_nav" />
     <copy css:content=".section-front-page dl.portlet-static-the-rmi-experience" css:theme="#socialportlet" />
-    <copy css:content=".section-front-page .portlet-static-section_banner" css:theme="#socialportlet" />
     <copy css:content="dl.portlet-static-support dd.portletItem" css:theme="#support_content" />
     <drop css:if-content="body.section-front-page" css:content="#parent-fieldname-title" />
     <drop css:content="dd.portletFooterNews" />
