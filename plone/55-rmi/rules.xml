@@ -49,10 +49,10 @@
     <theme href="front-page.html" css:if-content="body.section-front-page"/>
     
     <!-- events -->
-<!--     <copy css:content=".portletEvents a.eventstitlep" css:theme="#events a.eventslink" attributes="href" />
+    <copy css:content=".portletEvents a.eventstitlep" css:theme="#events a.eventslink" attributes="href" />
     <replace css:content=".portletEvents dd" css:theme="#events dt" />
     <copy css:content=".portletEvents a.more" css:theme=".readmore" />
- -->
+
 
 
     <copy css:content=".portletNews a.newstitlep" css:theme="#news a.newslink" attributes="href" />
