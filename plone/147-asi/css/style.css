@@ -3177,6 +3177,9 @@ abbr.dtend {
   color: #1C5BA5;
   border-bottom: none; }
 
+.section-blog img.newsImage {
+  display: none; }
+
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
     float: left;
