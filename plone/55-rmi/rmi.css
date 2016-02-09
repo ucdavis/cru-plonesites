@@ -24,7 +24,7 @@ body {
 	margin: 0 auto;
 	font-size:62.5%;
 	max-width:1200px;
-	background-color:#ffffff;
+	background-color:rgb(247,247,247);
 	letter-spacing: .5px;
 	padding-bottom: 20px;
 }
@@ -112,10 +112,10 @@ h6 {
 #container {
 	margin: 0 auto;
 	max-width:1200px;
-	border-left: solid 1px #f0f0e8;
-	border-right:solid 1px #f0f0e8;
-	border-bottom: solid 1px #f0f0e8;
-	background-color:#fffefa;
+	border-left: solid 1px #c7c8cc;
+	border-right:solid 1px #c7c8cc;
+	border-bottom: solid 1px #c7c8cc;
+	background-color:#fff;
 	height:auto;
 	margin-top:0px;
 }
