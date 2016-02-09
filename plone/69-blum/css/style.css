@@ -951,7 +951,7 @@ input.searchField {
     height: 25px; }
 
 #searchGadget, .LSBox input.searchButton {
-  color: #fff; }
+  color: #000; }
 
 .searchSection {
   display: none; }
@@ -1965,7 +1965,7 @@ Supports Thumbs: true
   width: 15%; }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  color: #ffffff; }
+  color: #888888; }
 
 div.listingBar a:hover {
   background-color: #E9BE60; }
