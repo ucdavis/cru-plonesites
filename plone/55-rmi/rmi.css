@@ -496,7 +496,7 @@ input[type=button] {
 	margin-right:auto;
 }
 #slide_img {
-	width:70%;
+	width:100%;
 	border-top-width: 5px;
 	border-top-style: solid;
 	border-top-color: #421b4a;
@@ -2062,8 +2062,6 @@ ul.pagination {
 	position:absolute;
 	z-index: 8000;
 	top:22px;
-	right:360px;
-
 }
 
 .pagination li {float:left; margin: 0 2px; list-style:none;}
