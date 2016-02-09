@@ -3187,6 +3187,9 @@ abbr.dtend {
     margin-bottom: 10px;
     margin-left: 0px; }
 
+.section-blog p.tileBody {
+  margin-left: 153px; }
+
 .section-blog p.tileFooter {
   text-align: right; }
 
