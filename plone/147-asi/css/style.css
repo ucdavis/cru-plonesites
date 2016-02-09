@@ -3184,7 +3184,11 @@ abbr.dtend {
   .section-blog #content .tileItem img.tileImage {
     float: left;
     margin-right: 25px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    margin-left: 0px; }
+
+.section-blog p.tileFooter {
+  text-align: right; }
 
 .section-blog img.newsImage {
   display: none; }

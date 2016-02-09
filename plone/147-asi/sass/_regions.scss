@@ -813,7 +813,11 @@ abbr.dtend {
             float:left;
             margin-right:25px;
             margin-bottom:10px;
+            margin-left:0px;
         }
+    }
+    p.tileFooter {
+        text-align: right;
     }
     img.newsImage {
         display:none;
