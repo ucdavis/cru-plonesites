@@ -804,7 +804,18 @@ abbr.dtend {
 }
 
 //blog 
-
-.section-blog img.newsImage {
-    display:none;
+.section-blog {
+    #content .tileItem {
+        border-bottom:1px solid $borders;
+        margin-bottom:2%;
+        padding-bottom:2%;
+        img.tileImage {
+            float:left;
+            margin-right:25px;
+            margin-bottom:10px;
+        }
+    }
+    img.newsImage {
+        display:none;
+    }
 }

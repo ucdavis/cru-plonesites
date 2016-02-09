@@ -3177,6 +3177,15 @@ abbr.dtend {
   color: #1C5BA5;
   border-bottom: none; }
 
+.section-blog #content .tileItem {
+  border-bottom: 1px solid #c8c7cc;
+  margin-bottom: 2%;
+  padding-bottom: 2%; }
+  .section-blog #content .tileItem img.tileImage {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 10px; }
+
 .section-blog img.newsImage {
   display: none; }
 
