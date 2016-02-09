@@ -6,13 +6,26 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
   display: block; }
 
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-audio, canvas, video {
+audio,
+canvas,
+video {
   display: inline-block; }
 
 /**
@@ -65,7 +78,8 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-a:active, a:hover {
+a:active,
+a:hover {
   outline: 0; }
 
 /* ==========================================================================
@@ -91,7 +105,8 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-b, strong {
+b,
+strong {
   font-weight: bold; }
 
 /**
@@ -119,7 +134,10 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
   font-family: monospace, serif;
   font-size: 1em; }
 
@@ -144,7 +162,8 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -223,7 +242,10 @@ legend {
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  * 4. Improve appearance and consistency with IE 6/7.
  */
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
   font-family: inherit;
   /* 1 */
   font-size: 100%;
@@ -235,7 +257,8 @@ button, input, select, textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-button, input {
+button,
+input {
   line-height: normal; }
 
 /**
@@ -244,7 +267,8 @@ button, input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-button, select {
+button,
+select {
   text-transform: none; }
 
 /**
@@ -256,7 +280,10 @@ button, select {
  * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-button, html input[type="button"], input[type="reset"], input[type="submit"] {
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
@@ -265,7 +292,8 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-button[disabled], html input[disabled] {
+button[disabled],
+html input[disabled] {
   cursor: default; }
 
 /**
@@ -274,7 +302,8 @@ button[disabled], html input[disabled] {
  * 3. Remove excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-input[type="checkbox"], input[type="radio"] {
+input[type="checkbox"],
+input[type="radio"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -299,13 +328,15 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-button::-moz-focus-inner, input::-moz-focus-inner {
+button::-moz-focus-inner,
+input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
@@ -337,13 +368,26 @@ table {
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
   display: block; }
 
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-audio, canvas, video {
+audio,
+canvas,
+video {
   display: inline-block; }
 
 /**
@@ -396,7 +440,8 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-a:active, a:hover {
+a:active,
+a:hover {
   outline: 0; }
 
 /* ==========================================================================
@@ -422,7 +467,8 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-b, strong {
+b,
+strong {
   font-weight: bold; }
 
 /**
@@ -450,7 +496,10 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
   font-family: monospace, serif;
   font-size: 1em; }
 
@@ -475,7 +524,8 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -554,7 +604,10 @@ legend {
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  * 4. Improve appearance and consistency with IE 6/7.
  */
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
   font-family: inherit;
   /* 1 */
   font-size: 100%;
@@ -566,7 +619,8 @@ button, input, select, textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-button, input {
+button,
+input {
   line-height: normal; }
 
 /**
@@ -575,7 +629,8 @@ button, input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-button, select {
+button,
+select {
   text-transform: none; }
 
 /**
@@ -587,7 +642,10 @@ button, select {
  * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-button, html input[type="button"], input[type="reset"], input[type="submit"] {
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
@@ -596,7 +654,8 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-button[disabled], html input[disabled] {
+button[disabled],
+html input[disabled] {
   cursor: default; }
 
 /**
@@ -605,7 +664,8 @@ button[disabled], html input[disabled] {
  * 3. Remove excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-input[type="checkbox"], input[type="radio"] {
+input[type="checkbox"],
+input[type="radio"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -630,13 +690,15 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-button::-moz-focus-inner, input::-moz-focus-inner {
+button::-moz-focus-inner,
+input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
@@ -1019,17 +1081,22 @@ header {
 .portletstatic ul {
   margin-left: 6%;
   margin-top: 2px; }
+
 .portletstatic ul.nonlist {
   margin-left: 0px; }
   .portletstatic ul.nonlist li {
     list-style: none;
     font-size: 1.4rem; }
+
 .portletstatic a:link, .portletstatic .portlet_column a:visited {
   color: #002855; }
+
 .portletstatic a:hover {
   color: #C99700; }
+
 .portletstatic dd.portletItem {
   margin-bottom: 10px; }
+
 .portletstatic .portletWrapper {
   margin-bottom: 30px; }
 
@@ -1042,7 +1109,7 @@ header {
   right: 2%;
   display: none;
   text-indent: -9999px;
-  background: url('../images/icon_top.png') no-repeat; }
+  background: url("../images/icon_top.png") no-repeat; }
 
 /* ---- Template: One Column; --- */
 .template-onecol_view .innerds, .template-fg_base_view_p3 .portaltype-formfolder .innerds {
@@ -1062,12 +1129,16 @@ header {
   display: block;
   margin: 0 auto;
   margin-top: 20px; }
+
 .template-hp-ctafeed_view .frontportlets_contents {
   padding-top: 0px; }
+
 .template-hp-ctafeed_view .frontmain {
   width: 100%; }
+
 .template-hp-ctafeed_view .frontaside {
   display: none; }
+
 .template-hp-ctafeed_view .BelowPortletManager1, .template-hp-ctafeed_view .BelowPortletManager2, .template-hp-ctafeed_view .BelowPortletManager3 {
   margin-top: 13px; }
 
@@ -1335,7 +1406,8 @@ nav {
 .slicknav_nav .slicknav_item a, .slicknav_nav .slicknav_parent-link a {
   display: inline; }
 
-.slicknav_menu:before, .slicknav_menu:after {
+.slicknav_menu:before,
+.slicknav_menu:after {
   content: " ";
   display: table; }
 
@@ -1374,16 +1446,22 @@ nav {
 
 .site-ASI .slicknav_menu {
   background-color: #174a86; }
+
 .site-sarep .slicknav_menu {
   background-color: #003761; }
+
 .site-rr .slicknav_menu {
   background-color: #a57c00; }
+
 .site-sf .slicknav_menu {
   background-color: #003325; }
+
 .site-infas .slicknav_menu {
   background-color: #237276; }
+
 .site-safs .slicknav_menu {
   background-color: #351d13; }
+
 .site-sustainable-sourcing .slicknav_menu {
   background-color: #4d6c7f; }
 
@@ -1411,7 +1489,8 @@ nav {
   text-decoration: none;
   color: #fff; }
 
-.slicknav_nav .slicknav_item a, .slicknav_nav .slicknav_parent-link a {
+.slicknav_nav .slicknav_item a,
+.slicknav_nav .slicknav_parent-link a {
   padding: 0;
   margin: 0; }
 
@@ -1441,8 +1520,10 @@ nav {
     position: relative;
     float: left;
     padding: 5px; }
+
 #top_drop-nav li ul {
   display: none; }
+
 #top_drop-nav ul li a {
   display: inline-block;
   padding: 5px 15px 5px 10px;
@@ -1465,28 +1546,39 @@ nav {
     background-color: #517285; }
   .section-homepage #top_drop-nav ul li a {
     background-color: transparent; }
+
 .site-ASI #top_drop-nav li ul {
   background-color: #184f8f; }
+
 .site-sarep #top_drop-nav li ul {
   background-color: #003d6c; }
+
 .site-rr #top_drop-nav li ul {
   background-color: #b08400; }
+
 .site-sf #top_drop-nav li ul {
   background-color: #003e2d; }
+
 .site-infas #top_drop-nav li ul {
   background-color: #25797e; }
+
 .site-safs #top_drop-nav li ul {
   background-color: #3c2216; }
+
 .site-sustainable-sourcing #top_drop-nav li ul {
   background-color: #517285; }
+
 .section-homepage #top_drop-nav li ul {
   background-color: rgba(0, 0, 0, 0.5);
   margin-top: 8px; }
+
 #top_drop-nav li:hover ul {
   display: block;
   position: absolute; }
+
 #top_drop-nav li:hover li {
   float: none; }
+
 #top_drop-nav li ul li {
   border-top: 0px; }
 
@@ -1639,6 +1731,7 @@ html {
     color: #E6A65D !important; }
   .site-sustainable-sourcing .top-header a:hover {
     color: #E1BB33 !important; }
+
 .section-homepage .spotlight_events .portletItem a.tile {
   font-size: 1.8rem;
   color: #242424; }
@@ -1647,27 +1740,35 @@ html {
 
 header a:link {
   color: #fff; }
+
 #content p a:link {
   color: #2473aa;
   text-decoration: underline; }
+
 #content ul li a:link {
   color: #2473aa;
   text-decoration: underline; }
+
 #content h2 a:link {
   color: #242424; }
+
 #content h3 a:link {
   color: #242424; }
 
 header a:visited {
   color: #fff; }
+
 #content p a:visited {
   color: #2473aa;
   text-decoration: underline; }
+
 #content ul li a:visited {
   color: #2473aa;
   text-decoration: underline; }
+
 #content h2 a:visited {
   color: #242424; }
+
 #content h3 a:visited {
   color: #242424; }
 
@@ -1687,10 +1788,19 @@ a:hover {
 a:active {
   color: #C99700; }
 
-label, input {
+label,
+input {
   font-family: "proxima-nova", sans-serif; }
 
-h1, .h1, h2, .h2, h3, .h3, h4, h5, h6 {
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+h5,
+h6 {
   margin-top: 1rem;
   margin-bottom: 1rem;
   line-height: 1.5;
@@ -1813,7 +1923,9 @@ h6 {
   text-transform: uppercase;
   color: #fff; }
 
-b, strong, th {
+b,
+strong,
+th {
   font-weight: 800; }
 
 label {
@@ -1879,6 +1991,7 @@ ul.two-col-list {
       ul.two-col-list li {
         width: 100%;
         display: list-item !important; } }
+
 ul.three-col-list {
   padding-left: 0px;
   margin-left: 0px !important; }
@@ -1938,6 +2051,7 @@ ul.three-col-list {
         ul.three-col-list li.program_list_item span.program_title {
           font-size: 1.8rem;
           bottom: 41%; } }
+
 #footer_contents ul li {
   display: list-item;
   list-style: none;
@@ -1949,8 +2063,10 @@ ul.three-col-list {
     color: #fff; }
     #footer_contents ul li a:hover {
       color: fff; }
+
 .portletstatic ul {
   color: #777777; }
+
 ul.image_list {
   margin-left: 0px; }
   ul.image_list li {
@@ -1966,6 +2082,7 @@ ul.image_list {
       padding-right: 0px; }
       .section-homepage ul.image_list li:last-child {
         margin-right: 0px; }
+
 ul.program_list {
   margin-left: 0px; }
   ul.program_list li {
@@ -2008,6 +2125,7 @@ ul.program_list {
         background-color: #678ca2; }
     ul.program_list li:last-child {
       margin-right: 0px; }
+
 .content ul {
   list-style-type: disc; }
 
@@ -2015,6 +2133,7 @@ ul.program_list {
   .section-homepage ul.three-col-list li {
     width: 49.8%;
     display: inline-block !important; } }
+
 @media (max-width: 650px) {
   .section-homepage ul.three-col-list li {
     width: 100%;
@@ -2067,7 +2186,8 @@ li {
     padding: .4rem;
     color: #777777; }
 
-#content .documentDescription, #content #description {
+#content .documentDescription,
+#content #description {
   font-family: "ff-tisa-web-pro", Georgia, serif;
   color: #9B9B9B;
   font-size: 18px;
@@ -2076,7 +2196,8 @@ li {
   line-height: 1.5em;
   letter-spacing: 0.15px; }
 
-#content div.documentByLine, span.documentByLine {
+#content div.documentByLine,
+span.documentByLine {
   font-family: "proxima-nova", sans-serif;
   color: #242424;
   font-size: 14px;
@@ -2205,7 +2326,6 @@ span.code {
   0% {
     opacity: .0;
     -webkit-transform: translateY(10%); }
-
   100% {
     opacity: 1;
     -webkit-transform: translateY(0%); } }
@@ -2214,7 +2334,6 @@ span.code {
   0% {
     opacity: .0;
     -moz-transform: translateY(10%); }
-
   100% {
     opacity: 1;
     -moz-transform: translateY(0%); } }
@@ -2223,7 +2342,6 @@ span.code {
   0% {
     opacity: .0;
     transform: translateY(10%); }
-
   100% {
     opacity: 1;
     transform: translateY(0%); } }
@@ -2318,7 +2436,7 @@ table.secondary_table td {
 
 img.bordered {
   border-radius: 2%;
-  box-shadow: 0 0 0 0.25em #FFFFFF, 0 0 0 .5em #C99700; }
+  box-shadow: 0 0 0 0.25em #FFFFFF, 0 0 0 0.5em #C99700; }
 
 dd.image-caption {
   font-size: 100%;
@@ -2499,24 +2617,38 @@ body.template-event_view .eventdetailsside {
 #content .cta p a:visited {
   color: #242424;
   text-decoration: none; }
+
 #content .cta p a {
   text-decoration: none; }
+
 #content .cta h2 a {
   color: #002855; }
-#content .cta p a:link, #content .cta p a {
+
+#content .cta p a:link,
+#content .cta p a {
   color: #242424; }
-#content .cta:hover p a, #content .cta:hover h2 a, #content .cta:hover h2 a:link, #content .cta:hover h2 a:visited {
+
+#content .cta:hover p a,
+#content .cta:hover h2 a,
+#content .cta:hover h2 a:link,
+#content .cta:hover h2 a:visited {
   color: #C99700 !important; }
 
 .template-directory_standard_view .row {
   position: inherit;
   float: none; }
-.template-directory_standard_view .position-0, .template-directory_standard_view .position-4 {
+
+.template-directory_standard_view .position-0,
+.template-directory_standard_view .position-4 {
   margin-left: 0px; }
+
 .template-directory_standard_view .cell {
   left: 0; }
-.template-directory_standard_view .width-13, .template-directory_standard_view .width-3 {
+
+.template-directory_standard_view .width-13,
+.template-directory_standard_view .width-3 {
   width: auto; }
+
 .template-directory_standard_view .width-3 {
   margin-right: 20px; }
 
@@ -2537,7 +2669,7 @@ body.template-event_view .eventdetailsside {
   text-align: center; }
   .giving_image img {
     border-radius: 50%;
-    box-shadow: 0 0 0 0.25em #FFFFFF, 0 0 0 .5em #C99700; }
+    box-shadow: 0 0 0 0.25em #FFFFFF, 0 0 0 0.5em #C99700; }
 
 .giving_words {
   width: 48%;
@@ -2555,9 +2687,11 @@ p.standout {
   p.standout a {
     color: #fff; }
 
-.portletstatic p.standout a:link, .portletstatic .portlet_column p.standout a:visited {
+.portletstatic p.standout a:link,
+.portletstatic .portlet_column p.standout a:visited {
   color: #C99700; }
-  .portletstatic p.standout a:link:hover, .portletstatic .portlet_column p.standout a:visited:hover {
+  .portletstatic p.standout a:link:hover,
+  .portletstatic .portlet_column p.standout a:visited:hover {
     color: #fff; }
 
 p.standout_gold {
@@ -2572,9 +2706,11 @@ body.section-homepage {
 
 .section-homepage .programs_homepage_header {
   text-align: center; }
+
 .section-homepage .homepage_programs {
   background-color: #242424;
   border-top: 5px solid #1C5BA5; }
+
 .section-homepage .homepage_focus {
   background-color: #f5f5f5;
   padding-bottom: 4%; }
@@ -2606,13 +2742,14 @@ body.section-homepage {
         vertical-align: top;
         display: inline-block; }
         .section-homepage .homepage_focus .focus_contents .focus_feed .focus-col h3 {
-          font-size: 2rem; }
+          font-size: 2.0rem; }
         .section-homepage .homepage_focus .focus_contents .focus_feed .focus-col img {
           margin-bottom: 4%; }
         @media (max-width: 650px) {
           .section-homepage .homepage_focus .focus_contents .focus_feed .focus-col {
             width: 100%;
             margin-bottom: 2%; } }
+
 .section-homepage .homepage_head {
   background-color: rgba(0, 0, 0, 0.0002);
   z-index: 999;
@@ -2664,8 +2801,10 @@ body.section-homepage {
       color: rgba(255, 255, 255, 1e-05) !important; }
     .section-homepage .homepage_head .homepage_search dd.portletFooter {
       display: none; }
+
 .section-homepage .top-header-bg {
   display: none; }
+
 .section-homepage .homepage_slider {
   postion: relative;
   padding: 70px 0px;
@@ -2709,6 +2848,7 @@ body.section-homepage {
       @media (max-width: 1000px) {
         .section-homepage .homepage_slider .banner--title h3 {
           font-size: 1.6rem; } }
+
 .section-homepage .portlet-static-homepage-welcome {
   width: 80%;
   max-width: 1400px;
@@ -2722,8 +2862,10 @@ body.section-homepage {
   @media (max-width: 750px) {
     .section-homepage .portlet-static-homepage-welcome {
       width: 95%; } }
+
 .section-homepage #portal-breadcrumbs {
   display: none; }
+
 .section-homepage .spotlight-bg {
   background-color: #f4f4f4; }
   .section-homepage .spotlight-bg .spotlight-section {
@@ -2776,7 +2918,8 @@ body.section-homepage {
       vertical-align: top; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletFooter {
         display: none; }
-      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem.odd, .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem.even {
+      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem.odd,
+      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem.even {
         background-color: #fff;
         border: 1px solid #c8c7cc;
         padding: 4%;
@@ -2787,6 +2930,7 @@ body.section-homepage {
         border-top: 2px solid #FFB208 !important; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem:first-child {
         border-top: 2px solid #FFB208 !important; }
+
 .section-homepage .icons-on .contenttype-news-item {
   background: none !important;
   padding-left: 0px !important; }
@@ -2798,6 +2942,7 @@ body.section-homepage {
 .portaltype-fsdfacultystaffdirectory .innerds {
   width: 100%;
   padding-right: 0%; }
+
 .portaltype-fsdfacultystaffdirectory .portlet_column {
   display: none; }
 
@@ -2808,14 +2953,17 @@ body.section-homepage {
 
 .portaltype-ultimate_asi_file #content-core div.field {
   margin: 4% 0px; }
+
 .portaltype-ultimate_asi_file fieldset#folder-listing {
   display: none; }
+
 .portaltype-ultimate_asi_file label {
   font-size: 1.4rem;
   text-transform: uppercase;
   color: #9b9b9b;
   display: block;
   margin-bottom: 1%; }
+
 .portaltype-ultimate_asi_file span {
   font-size: 1.6rem; }
 
@@ -2824,6 +2972,7 @@ table.secondary_table tr td {
   table.secondary_table tr td img {
     padding-right: 10%;
     padding-top: 7%; }
+
 table.secondary_table tr:nth-child(odd) td {
   padding-top: 3%;
   border-bottom: 2px solid #000; }
@@ -2841,8 +2990,10 @@ table.secondary_table tr:nth-child(odd) td {
     border-color: #E6A65D; }
   .site-sustainable-sourcing table.secondary_table tr:nth-child(odd) td {
     border-color: #E1BB33; }
+
 table.secondary_table .webkit tr:nth-child(odd) td:first-child {
   width: 3%; }
+
 table.secondary_table tr:first-child td {
   padding-top: 1%; }
 
@@ -2968,6 +3119,7 @@ span.popup.donor:after {
   padding-top: 1.5%; }
   #search-results dt.contenttype-document a {
     font-size: 1.8rem; }
+
 #search-results dd {
   font-size: 1.6rem; }
 
@@ -2989,6 +3141,7 @@ form#searchform input.searchPage {
   width: 300px; }
   .webkit form#searchform input.searchPage {
     height: 25px; }
+
 form#searchform input.searchButton {
   width: 100px;
   background-color: #1C5BA5;
@@ -3008,6 +3161,7 @@ form#searchform input.searchButton {
 .section-data form {
   font-size: 120%;
   padding-left: 2%; }
+
 .section-data label, .section-data .label {
   font-size: 1.6rem;
   line-height: 1.5; }
@@ -3018,7 +3172,8 @@ form#searchform input.searchButton {
   border-left: 4px solid #1C5BA5;
   border-radius: 2px; }
 
-abbr.dtstart, abbr.dtend {
+abbr.dtstart,
+abbr.dtend {
   color: #1C5BA5;
   border-bottom: none; }
 
@@ -3428,34 +3583,46 @@ body.section-styles #content .swatch {
   background: #ccc;
   overflow: hidden;
   clear: both; }
+
 body.section-styles #content dl {
   display: block;
   clear: both;
   margin-bottom: 100px; }
+
 body.section-styles #content dt, body.section-styles #content dd {
   float: left;
   padding: 5px; }
+
 body.section-styles #content dt {
   font-weight: bold;
   font-size: .9em;
   width: 80px;
   text-align: right; }
+
 body.section-styles #content dd {
   margin-left: 0; }
+
 body.section-styles #content .primary-color {
   background: #002855; }
+
 body.section-styles #content .secondary-color {
   background: #C99700; }
+
 body.section-styles #content .dark-gray {
   background: #242424; }
+
 body.section-styles #content .middle-gray {
   background: #515151; }
+
 body.section-styles #content .light-gray {
   background: #9b9b9b; }
+
 body.section-styles #content .background-color {
   background: #f4f4f4; }
+
 body.section-styles #content .box-color {
   background: #ffffff; }
+
 body.section-styles #content .borders {
   background: #c8c7cc; }
 
@@ -3476,5 +3643,3 @@ body.section-styles #content .borders {
 
 .template-default_error_message .logo-header h2 {
   display: block; }
-
-/*# sourceMappingURL=style.css.map */
