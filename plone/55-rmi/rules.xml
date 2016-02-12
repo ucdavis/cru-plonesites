@@ -70,7 +70,7 @@
 
 
     <copy css:content=".portlet-static-head-nav" css:theme="#top_nav" />
-    <copy css:content=".section-front-page dl.portlet-static-the-rmi-experience" css:theme="#socialportlet" />
+    <copy css:content=".section-front-page .portlet-static-stay-connected" css:theme="#socialportlet" />
     <copy css:content="dl.portlet-static-support dd.portletItem" css:theme="#support_content" />
     <drop css:if-content="body.section-front-page" css:content="#parent-fieldname-title" />
     <drop css:content="dd.portletFooterNews" />
