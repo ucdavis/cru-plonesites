@@ -2491,10 +2491,10 @@ span.slidedate {
 }
 .portlet-static-section_banners img {
 	padding:0px !important;
-	border:none;
+	border:none !important;
 }
-.portlet-static-section_banners img#__mce_tmp{
-	display:none;
+img#__mce_tmp{
+	display:none !important;
 }
 
 
