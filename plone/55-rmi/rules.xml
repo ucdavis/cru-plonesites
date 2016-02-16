@@ -55,7 +55,7 @@
 
 
 
-    <copy css:content=".portletNews a.newstitlep" css:theme="#news a.newslink" attributes="href" />
+   <!--  <copy css:content=".portletNews a.newstitlep" css:theme="#news a.newslink" attributes="href" /> -->
     <!-- <replace css:content=".portletNews dd" css:theme="#news dt" />
     <drop css:content=".newsImageContainer" />
     <drop css:content="#parent-fieldname-description" /> -->
