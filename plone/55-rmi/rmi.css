@@ -2489,6 +2489,12 @@ span.slidedate {
 	
 
 }
-
+.portlet-static-section_banners img {
+	padding:0px !important;
+	border:none;
+}
+.portlet-static-section_banners img#__mce_tmp{
+	display:none;
+}
 
 
