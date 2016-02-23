@@ -2499,5 +2499,11 @@ span.slidedate {
 img#__mce_tmp{
 	display:none !important;
 }
+a.newsletter-btn {
+	padding:6px 18px;
+	border:1px solid #b06c43;
+	font-size:16px;
+	text-align:center;
+}
 
 
