@@ -2505,5 +2505,10 @@ a.newsletter-btn {
 	font-size:16px;
 	text-align:center;
 }
-
+.twitter_feed {
+	width:91%;
+}
+.facebook_feed {
+	margin-top:20px;
+}
 
