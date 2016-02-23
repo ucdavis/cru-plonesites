@@ -890,7 +890,7 @@ p.readmore a:hover {
 	margin-top:13px;
 	margin-bottom:10px;	
 }
-#addons a {
+#support_content a {
 	text-decoration:none;
 	color:#333333;
 	font-size:1.2em;
@@ -899,7 +899,7 @@ p.readmore a:hover {
 
 	
 }
-#addons h2 {
+#support_content h2 {
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
 	border-bottom-color: #b06c43;
@@ -912,16 +912,16 @@ p.readmore a:hover {
 	margin-bottom:7px;
 	letter-spacing: .25px;
 }
-#addons ul {
+#support_content ul {
 	padding-left:30px;
 	
 }
-#addons li {
+#support_content li {
 	list-style-image:url(images/li.png);
 	padding-bottom:6px;
 	display: list-item;
 }
-#addons a:hover {
+#support_content a:hover {
 	text-decoration: underline;
 	color:#6e6e6e;
 }
