@@ -360,7 +360,7 @@ img.tileImage {
   display:inline-block;
   margin:0px;
   padding:0px;
-  margin-left: 15px;
+  margin-left:0px;
 }
 #ul1 li {
   height:100%;
@@ -372,6 +372,7 @@ img.tileImage {
   vertical-align:middle;
   position: relative;
   border-left: 1px solid #99A9BB;
+  padding:0px 20px;
 
 }
 #ul1 li a {
@@ -379,7 +380,7 @@ img.tileImage {
   text-decoration:none;
   display: inline-block;
   color:#ffffff;
-  font-size:1.5em;
+  font-size:1.4em;
   font-family: "futura-pt", sans-serif;
   font-style: normal;
   font-weight: 400;
