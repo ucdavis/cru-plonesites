@@ -134,7 +134,7 @@ p a {
 	color:#335379;
 }
 p a:visited {
-	color:#335379;
+	color:rgb(0,0,208);
 }
 p a:visited:hover {
 	color:#c79900;
