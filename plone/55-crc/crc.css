@@ -336,7 +336,9 @@ img.tileImage {
 #nav_content {
 	position: relative;
 }
-
+#nav_content li:last-child ul.submenu {
+	width:200px;
+}
 #nav_content:hover #ul1 ul.submenu {
   display: block;
 }
