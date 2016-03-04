@@ -542,7 +542,12 @@ li.fb {
 li.fb a:hover {
 	background-position: -80px -95px;
 }
-
+h1#parent-fieldname-title {
+	font-size:2.6rem;
+	margin-bottom:5px;
+	margin-left:15px;
+	margin-top:20px;
+}
 #slider {
 	display:none;
 	height:287px;
@@ -577,8 +582,7 @@ h1#parent-fieldname-title {
 }
 #bc {
 	display: inline-block;
-	width: 30%;
-	margin-top: 31px;
+	margin-top: 10px;
 	margin-left: 15px;
 	font-size: 1.4em;
 	font-family: "kepler-std",serif;
