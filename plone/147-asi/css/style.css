@@ -2293,6 +2293,10 @@ span.code {
   font-size: 1.3rem;
   color: #9b9b9b; }
 
+#content .pullquote {
+  width: 40%;
+  font-size: 2.0rem; }
+
 .alert {
   height: auto;
   background-color: #4A90E2;
