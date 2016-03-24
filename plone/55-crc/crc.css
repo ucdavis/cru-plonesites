@@ -1116,7 +1116,7 @@ span.slidedate {
 
 
 .template-twocolstandard_view #leftcontent {
-	width:68%;
+	width:66%;
 }
 .template-twocolstandard_view #leftcontent li {
 	padding: 0px;
@@ -1127,7 +1127,7 @@ span.slidedate {
 }
 
 .template-twocolstandard_view .portlet_column {
-	width:25%;
+	width:27%;
 }
 
 
@@ -1192,10 +1192,10 @@ span.slidedate {
 
 /* news + events landing */
 .template-events_collection_landing #leftcontent {
-	width: 68%
+	width: 66%
 }
 .template-events_collection_landing .portlet_column {
-	width:25%;
+	width:27%;
 }
 .template-events_collection_landing span.edate {
 	font-family: "futura-pt", “Century Gothic”, AppleGothic, sans-serif;
