@@ -607,7 +607,8 @@ h1#parent-fieldname-title {
 	display: inline;
 }
 .sitebutton {
-	display:inline-block;	
+	display: block;
+	margin: 20px 0px;	
 }
 .sitebutton a {
 	background-color: #FFFFFF;
