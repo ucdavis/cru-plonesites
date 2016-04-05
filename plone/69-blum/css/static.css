@@ -1,6 +1,9 @@
 /*== static styles ==*/
 
-a#parent-fieldname-image img{
-	width: 100%;
-	height: 100%;
+
+
+/* individual news item*/
+.newsImageContainer img {
+height: 50%;
+width: 50%;
 }
