@@ -4,6 +4,6 @@
 
 /* individual news item*/
 .newsImageContainer img {
-height: 200%;
-width: 200%;
+height: auto;
+width: 300px;
 }
