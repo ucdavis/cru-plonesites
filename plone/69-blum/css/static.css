@@ -2,8 +2,14 @@
 
 
 
-/* individual news item*/
+/* individual news item */
 .newsImageContainer img {
 height: auto;
 width: 300px;
+}
+
+/* event and initiative images */
+#form-widgets-image img {
+	width: 50%
+	height: 50%;
 }
