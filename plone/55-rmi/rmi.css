@@ -2519,9 +2519,10 @@ iframe {
 .campaign {
 	font-size:12px;
 	margin-bottom:5px;
-	display:block;
+	
 }
 .campaign a {
 	font-size:14px;
 	text-transorm:none !important;
+	display:block;
 }
