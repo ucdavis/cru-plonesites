@@ -2518,11 +2518,11 @@ iframe {
 
 .campaign {
 	font-size:12px;
-	margin-bottom:5px;
+	margin-bottom:15px;
 	
 }
 .campaign a {
 	font-size:14px;
-	text-transorm:none !important;
+	text-transform:none !important;
 	display:block;
 }
