@@ -9,7 +9,7 @@ width: 300px;
 }
 
 /* event and initiative images */
-#form-widgets-image img {
+span #form-widgets-image img {
 	width: 50%
 	height: 50%;
 }
