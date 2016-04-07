@@ -9,7 +9,7 @@ width: 300px;
 }
 
 /* event and initiative images */
-span #form-widgets-image img {
+span #form-widgets-image .named-image-widget .required .namedblobimage-fieldimg {
 	width: 50%
 	height: 50%;
 }
