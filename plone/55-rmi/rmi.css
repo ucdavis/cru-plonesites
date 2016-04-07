@@ -2517,6 +2517,10 @@ iframe {
 }
 
 .campaign {
+	font-size:14px;
+	margin-bottom:5px;
+}
+.campaign a {
 	font-size:16px;
-	background-color: #000;
+	text-transorm:none !important;
 }
