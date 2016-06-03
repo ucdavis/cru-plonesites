@@ -454,6 +454,9 @@ Main content
 
 /* tables */
 
+table img {
+	max-width: inherit;
+}
 table.plain th, table.plain td, table.productstable td, table.productstable th {
 	font-family: "futura-pt",Futura Std,Futura,Arial,sans-serif;
     font-style: normal;
