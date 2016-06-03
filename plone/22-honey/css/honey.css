@@ -454,7 +454,7 @@ Main content
 
 /* tables */
 
-table img {
+table.productstable tr td img {
 	max-width: inherit;
 }
 table.plain th, table.plain td, table.productstable td, table.productstable th {
