@@ -3034,7 +3034,7 @@ input[type="submit"] {
         .main .news .box.gold .leadtext a:link, .main .news .box.gold .leadtext a:visited {
           color: rgba(0, 40, 85, 0.9) !important; }
     .main .news .box.lightgold {
-      background: rgba(217, 161, 2, 0.7); }
+      background:  #E4CB7F; }
       .main .news .box.lightgold.feature h4 {
         color: #C99700; }
     .main .news .box.large {
