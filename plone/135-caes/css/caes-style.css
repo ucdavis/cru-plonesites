@@ -2101,7 +2101,7 @@ input[type="submit"] {
 .main .news .box.blue .buttons {
   clear: both; }
   .main .news .box.blue .buttons a, .main .news .box.blue .buttons a:link {
-    background-color: #113661;
+    background-color: #002855;
     border: 3px solid #071626;
     display: inline-block; }
     @media (min-width: 420px) {
@@ -2124,7 +2124,7 @@ input[type="submit"] {
     background-color: #154277; }
 
 .header {
-  background: #113661; }
+  background: #002855; }
   .header .top {
     margin: 0px auto;
     min-height: 55px;
