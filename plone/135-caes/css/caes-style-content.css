@@ -1865,7 +1865,7 @@ input[type="submit"] {
 .main .news .box.actions a, .main .news .box.actions a:link, .main .news .box.blue .buttons a, .main .news .box.blue .buttons a:link {
   display: block;
   width: 100%;
-  background-color: #a1770f;
+  background-color: #C99700;
   border: 3px solid #866222;
   min-height: 54px;
   font-family: "futura-pt", "Futura-Medium", Futura Std, Futura, Arial, sans-serif;
@@ -2333,7 +2333,7 @@ input[type="submit"] {
     height: 26px;
     padding: 10px 12px 4px;
     margin-top: 0px;
-    background: #a1770f;
+    background: #C99700;
     display: block;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -2658,7 +2658,7 @@ input[type="submit"] {
         margin-top: 0;
         padding: 1em 0.5em 0.5em;
         color: #fff;
-        background: #a1770f;
+        background: #C99700;
         font-size: 0.75em; }
     .main .news .box.blue {
       background: rgba(0, 40, 85, 0.5);
@@ -2810,7 +2810,7 @@ input[type="submit"] {
           text-transform: none;
           letter-spacing: 0.25px; }
     .main .news .box.gold {
-      background: #a1770f;
+      background: #C99700;
       color: #fff; }
       .main .news .box.gold a:link, .main .news .box.gold a:visited {
         color: #fff !important;
@@ -2824,7 +2824,7 @@ input[type="submit"] {
     .main .news .box.lightgold {
       background: rgba(217, 161, 2, 0.7); }
       .main .news .box.lightgold.feature h4 {
-        color: #a1770f; }
+        color: #C99700; }
     .main .news .box.large {
       font-size: 2.1em;
       font-weight: 200;
@@ -3023,7 +3023,7 @@ input[type="submit"] {
       height: 50px;
       margin-top: 8px;
       background: url(../img/btn-frontpageaction.png) #c99700 no-repeat right center;
-      border: 2px solid #a1770f; }
+      border: 2px solid #C99700; }
       .main .actions .buttons a img {
         padding: 0 5%;
         vertical-align: middle; }
