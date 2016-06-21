@@ -3449,6 +3449,11 @@ footer {
   box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
   height:50px;
   text-align:left;
+  padding-left:15px;
+  padding-top:15px;
+}
+.homepagebtn--sidebar i {
+  padding-left:10px;
 }
 .homepagebtn--sidebar a {
   color:#fff;
