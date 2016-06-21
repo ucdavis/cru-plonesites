@@ -3451,14 +3451,14 @@ footer {
   text-align:left;
   padding-left:15px;
   padding-top:15px;
+  border-radius:2px;
 }
 .homepagebtn--sidebar i {
   padding-left:10px;
 }
 .homepagebtn--sidebar a {
   color:#fff;
-  text-transform: uppercase;
   font-weight:400;
-  font-size:1.2rem;
+  font-size:1.4rem;
   font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif;
 }
