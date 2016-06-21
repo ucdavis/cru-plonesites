@@ -3448,10 +3448,12 @@ footer {
   background-color: #C99700;
   box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
   height:50px;
-  text-align:center;
+  text-align:left;
 }
 .homepagebtn--sidebar a {
   color:#fff;
   text-transform: uppercase;
-  font-weight:bold;
+  font-weight:400;
+  font-size:1.2rem;
+  font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif;
 }
