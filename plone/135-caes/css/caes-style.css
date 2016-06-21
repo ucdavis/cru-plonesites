@@ -3453,8 +3453,11 @@ footer {
   padding-top:15px;
   border-radius:2px;
 }
+p.homepagebtn--sidebar:hover {
+  background-color:rgba(201,155,0,.8);
+}
 .homepagebtn--sidebar i {
-  padding-left:10px;
+  padding-right:12px;
 }
 .homepagebtn--sidebar a {
   color:#fff;
