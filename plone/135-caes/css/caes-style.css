@@ -3317,7 +3317,7 @@ input[type="submit"] {
         .main .actions .internal li.ucdavis img {
           width: 100%; }
   .main .actions .portlet-static-social {
-    width: 24%;
+    width: 75%;
     margin: 0 auto; }
     @media (min-width: 420px) {
       .main .actions .portlet-static-social {
@@ -3326,10 +3326,10 @@ input[type="submit"] {
       .main .actions .portlet-static-social {
         width: 100%; } }
     .main .actions .portlet-static-social a {
-      width: 32%;
+      width: 24%;
       display: inline-block; }
     .main .actions .portlet-static-social img {
-      width: 24%; }
+      width: 76%; }
 
 footer {
   clear: both;
