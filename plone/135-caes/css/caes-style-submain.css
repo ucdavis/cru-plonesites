@@ -4235,7 +4235,7 @@ dl.portlet-collection-faculty .portletFooter {
   font-size: 1.5em; }
 
 .slidefeature {
-  height: 266px; }
+  /*height: 266px;*/ }
 
 div.portlet-static-nivo {
   width: 1190px;
@@ -4325,12 +4325,12 @@ div.portlet-static-nivo {
   margin-top: 0em; }
 .section-outreach .main .news .box.gold p.leadtext, .section-research .main .news .box.gold p.leadtext {
   margin-top: 1em; }
-
+/*
 .subsection-future-future .slidefeature {
   height: 310px; }
 .subsection-future-future .nivoSlider {
   width: 1440px; }
-
+*/
 /* ---- students - student life ---- */
 .subsection-future-life-student-life .slidefeature {
   height: 365px; }
