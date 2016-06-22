@@ -3465,3 +3465,6 @@ p.homepagebtn--sidebar:hover {
   font-size:1.4rem;
   font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif;
 }
+.portlet-static-media {
+  min-height:362px;
+}
