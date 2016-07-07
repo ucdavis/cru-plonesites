@@ -90,5 +90,9 @@
   /* sidebar inside article stylez*/
   .article-sidebar p{
     font-size: 0.8em;
-    background-color: rgb(234,234,233);
+
+  }
+
+  .article-sidebar {
+   background-color: rgb(234,234,233);
   }
