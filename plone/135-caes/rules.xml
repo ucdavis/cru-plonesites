@@ -152,6 +152,7 @@
     <copy css:content=".section-news .portlet-static-header" css:theme=".newsheader" />
     <copy css:content=".portlet-static-topics a" css:theme=".related .more a" attributes="href" />
     <replace css:content=".portlet-static-share ul" css:theme=".rightcol .share ul" />
+    <copy css:content=".portlet-static-more-info" css:theme=".rightcol .feature_news_info" />
 
     <!-- job post / event specific -->
     <copy css:content=".eventDetails table .app-period" css:theme=".rightcol .details .app-period" />
