@@ -88,6 +88,7 @@
 
 
   /* sidebar inside article stylez*/
-  .article-sidebar {
-    font-size: 0.9em;
+  .article-sidebar p{
+    font-size: 0.8em;
+    background-color: rgb(234,234,233);
   }
