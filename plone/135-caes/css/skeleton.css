@@ -77,3 +77,11 @@
   .offset-by-one-half.columns     { margin-left: 52%; }
 
 }
+
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
