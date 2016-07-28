@@ -3471,3 +3471,6 @@ p.homepagebtn--sidebar:hover {
 .article {
   min-height:370px;
 }
+.article:last-child {
+  width:62%;
+}
