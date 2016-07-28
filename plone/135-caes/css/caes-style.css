@@ -2743,8 +2743,7 @@ input[type="submit"] {
     border: 1px solid rgba(33, 33, 33, 0.1);
     vertical-align: top;
     margin: 0 6px 6px 0;
-    color: rgba(7, 22, 38, 0.7);
-  height:400px; }
+    color: rgba(7, 22, 38, 0.7); }
     @media (min-width: 420px) {
       .main .news .box {
         width: 48.5%; } }
@@ -3469,6 +3468,6 @@ p.homepagebtn--sidebar:hover {
 .portlet-static-media {
   min-height:362px;
 }
-.main .box .news .article {
+.main .news .box .article {
   min-height:400px;
 }
