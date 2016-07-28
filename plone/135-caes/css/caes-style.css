@@ -3473,12 +3473,12 @@ p.homepagebtn--sidebar:hover {
 }
 .article:last-child {
   width:65% !important;
-  min-height:300px; 
+  min-height:300px;
 }
 .article:last-child img {
-  max-height: 235px;
-    width: auto;
-    float: left;
-    padding-right: 25px;
+  max-height: 235px !important;
+    width: auto !important;
+    float: left !important;
+    padding-right: 25px !important;
 
 }
