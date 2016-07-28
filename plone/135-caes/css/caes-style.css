@@ -3473,12 +3473,14 @@ p.homepagebtn--sidebar:hover {
 }
 .article:last-child {
   width:65% !important;
-  min-height:300px;
+  min-height:267px !important;
+  padding-left:15px !important;
+  border-left:4px solid #c99700;
 }
 .article:last-child img {
   max-height: 235px !important;
-    width: auto !important;
-    float: left !important;
-    padding-right: 25px !important;
+  width: auto !important;
+  float: left !important;
+  padding-right: 25px !important;
 
 }
