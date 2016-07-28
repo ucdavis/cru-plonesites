@@ -3475,7 +3475,7 @@ p.homepagebtn--sidebar:hover {
   width:65% !important;
   min-height:267px !important;
   padding-left:15px !important;
-  /*border-left:4px solid #c99700 !important;*/
+  border-top:4px solid #c99700 !important;
 }
 .article:last-child img {
   max-height: 235px !important;
