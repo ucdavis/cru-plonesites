@@ -3484,3 +3484,6 @@ p.homepagebtn--sidebar:hover {
   padding-right: 25px !important;
 
 }
+.award_header {
+  display:none;
+}
