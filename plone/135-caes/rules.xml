@@ -132,7 +132,7 @@
     <copy css:content="#portlets-above div.box" css:theme=".news.masonry" />
     <prepend css:content="#portlets-above div.grid-sizer" css:theme=".news.masonry" />
 
-    <copy css:content=".portlet-collection-awards-news-homepage .box" css:theme=".award_header" />
+    <replace css:content=".portlet-collection-awards-news-homepage .box" css:theme=".award_header" />
 
     <!-- front page -->
     <copy css:content=".section-front-page .portlet-static-media" css:theme=".section-front-page .actions .media-slider" />
