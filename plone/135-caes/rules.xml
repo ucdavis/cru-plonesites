@@ -17,7 +17,7 @@
     <theme href="jobpost.html" css:if-content=".template-jobpost_view" />
     <theme href="feature.html" css:if-content=".template-feature_view" />
     <theme href="feature-tall.html" css:if-content=".template-featuretall_view" />
-    
+
     <theme href="haystack.html" css:if-content=".template-haystack" />
     <theme href="center.html" css:if-content=".portaltype-center" />
 
@@ -89,7 +89,7 @@
         <copy css:content-children="#portlets-below .portlet-collection-college-spotlight .article p" css:theme="#portaltab-news .col.story p" />
         <copy css:content-children="#portlets-below .portlet-collection-college-spotlight .article h4" css:theme="#portaltab-news .col.story h3" />
 
-        
+
     <replace css:content="#portaltab-connect > a" css:theme="#portaltab-connect > a" />
         <copy css:content=".portlet-static-nav .connect-menu" css:theme="#portaltab-connect .col.nav" />
         <copy css:content-children="#portlets-below .portlet-static-connect-news" css:theme="#portaltab-connect .col.story" />
@@ -132,6 +132,8 @@
     <copy css:content="#portlets-above div.box" css:theme=".news.masonry" />
     <prepend css:content="#portlets-above div.grid-sizer" css:theme=".news.masonry" />
 
+    <copy css:content=".portlet-collection-awards-news-homepage .box" css:theme=".award_header" />
+
     <!-- front page -->
     <copy css:content=".section-front-page .portlet-static-media" css:theme=".section-front-page .actions .media-slider" />
     <copy css:content=".section-front-page .portletContent" css:theme=".section-front-page .actions .ads" />
@@ -162,7 +164,7 @@
     <copy css:content=".eventDetails table .apply-online" css:theme=".rightcol .details .apply-online" />
 
     <replace css:content=".portlet-static-open-positions .position-categories" css:theme=".rightcol .categories ul" />
-    <replace css:content=".portlet-static-open-positions .viewall a" css:theme=".rightcol .categories .more a" /> 
+    <replace css:content=".portlet-static-open-positions .viewall a" css:theme=".rightcol .categories .more a" />
 
 
     <!-- content pages -->
