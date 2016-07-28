@@ -3468,3 +3468,6 @@ p.homepagebtn--sidebar:hover {
 .portlet-static-media {
   min-height:362px;
 }
+.main .box .article {
+  min-height:400px;
+}
