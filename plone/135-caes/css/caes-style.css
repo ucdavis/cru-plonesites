@@ -3471,17 +3471,14 @@ p.homepagebtn--sidebar:hover {
 .article {
   min-height:370px;
 }
-/*.article:last-child {
-  width:65% !important;
-  min-height:267px !important;
-  padding-left:15px !important;
-  border-top:4px solid #c99700 !important;
-  background-image: url("../img/awards_bg.svg") !important;
+.article:last-child {
+  border-top:4px solid #002855 !important;
+  background-image: url("../img/bg-awards.svg") !important;
   background-repeat:no-repeat !important;
-  background-position: 250px 5px !important;
+  /*background-position: 250px 5px !important;*/
   ;
 }
-.article:last-child img {
+/*.article:last-child img {
   max-height: 235px !important;
   width: auto !important;
   float: left !important;
