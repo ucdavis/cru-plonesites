@@ -3472,19 +3472,15 @@ p.homepagebtn--sidebar:hover {
   min-height:370px;
 }
 .article:last-child {
-  border-top:4px solid #002855 !important;
   background-image: url("../img/bg-awards.svg") !important;
   background-repeat:no-repeat !important;
   /*background-position: 250px 5px !important;*/
   ;
 }
-/*.article:last-child img {
-  max-height: 235px !important;
-  width: auto !important;
-  float: left !important;
-  padding-right: 25px !important;
+.article:last-child img {
+  margin-top:40px;
 
-}*/
+}
 .award_header {
   display:none;
 }
