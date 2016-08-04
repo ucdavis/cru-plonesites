@@ -3471,16 +3471,16 @@ p.homepagebtn--sidebar:hover {
 .article {
   min-height:370px;
 }
-.article:last-child {
+/*.article:last-child {
   background-image: url("../img/bg-awards.svg") !important;
   background-repeat:no-repeat !important;
-  /*background-position: 250px 5px !important;*/
+  /*background-position: 250px 5px !important;
   ;
 }
 .article:last-child img {
   margin-top:40px;
 
-}
+}*/
 .award_header {
   display:none;
 }
