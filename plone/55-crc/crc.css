@@ -120,12 +120,12 @@ img.image-left {
 
 #leftcontent li:first-child {
 	padding-top: 0px;
-} 
+}
 * li {
 	display:list-item;
 }
 a {
-	text-decoration:none;	
+	text-decoration:none;
 }
 a:link, a:visited {
 	color:inherit;
@@ -168,8 +168,8 @@ p a:link:hover {
 #container td p, #container td li, #container td blockquote, #container td td {font-size: 1em;}
 
 a:hover {
-	color:#C79900;	
-	
+	color:#C79900;
+
 }
 a.mail-link {
 	color:#335379;
@@ -185,7 +185,7 @@ a.email:hover {
 	margin-right: auto;
 	margin-left: auto;
 
-	
+
 }
 img.tileImage {
 	float:left;
@@ -197,7 +197,7 @@ img.tileImage {
 
 
 
-/* 
+/*
 
 !!!!!!!!! TOP CSS : TOP NAV AND LOGO !!!!!!!
 
@@ -234,7 +234,7 @@ img.tileImage {
 	  background-color: #FFFFFF;
     border: 1px solid #E6E6E6;
     padding: 6px 9px 2px;
-	
+
 }
 #signup a:hover {
 	color:#002855;
@@ -257,7 +257,7 @@ img.tileImage {
 
 
 
- /* 
+ /*
 
 !!!!!!!!! MAIN NAVIGATION !!!!!!!
 
@@ -356,7 +356,7 @@ img.tileImage {
 }
 #ul1 {
   height:100%;
-  list-style:none;  
+  list-style:none;
   display:inline-block;
   margin:0px;
   padding:0px;
@@ -392,7 +392,7 @@ img.tileImage {
 
 }
 #ul1 li a:hover {
-  color:#bb9207;  
+  color:#bb9207;
   text-decoration: underline;
 }
 
@@ -411,7 +411,7 @@ img.tileImage {
   display: block;
   width:100%;
   border:none;
-  
+
 
 }
 #ul1 ul.submenu li a {
@@ -427,7 +427,7 @@ img.tileImage {
   text-align: left;
   font-size: 1em;
   margin-left: 18px;
-  
+
 }
 #ul1 ul.submenu li a:hover {
   color:#bb9207;
@@ -444,7 +444,7 @@ img.tileImage {
   text-align:right;
   display: inline;
   margin-right: 10px;
-  
+
 }
 
 input[type=text] {
@@ -452,7 +452,7 @@ input[type=text] {
 }
 input[type=button] {
   width:40%;
-  margin-top: 1px;  
+  margin-top: 1px;
 }
 #quicklinks {
 	clear: both;
@@ -492,7 +492,7 @@ span.quicklinkbutton a:hover {
 }
 
 
-/* Twitter button 
+/* Twitter button
 #content_box .twitter img{
     border: none;
     background-color: none;
@@ -501,7 +501,7 @@ span.quicklinkbutton a:hover {
 
 
 
-/* 
+/*
 
 !!!!!!!!! Main Content !!!!!!!
 
@@ -512,7 +512,7 @@ span.quicklinkbutton a:hover {
 	margin-left:auto;
 	margin-right:auto;
 	width:100%;
-	min-height: 600px;	
+	min-height: 600px;
 }
 .section-front-page #leftcontent {
 	width:61%;
@@ -558,6 +558,9 @@ h1#parent-fieldname-title {
 .template-withslider_view #slider {
 	display:block;
 }
+.template-twocolstandard_view_slider #slider {
+	display:block;
+}
 .section-front-page #slider {
 	display: block;
 }
@@ -578,7 +581,7 @@ h1#parent-fieldname-title {
 	font-style: normal;
 	font-weight: 500;
 	margin-top: 26px;
-	letter-spacing:inherit;	
+	letter-spacing:inherit;
 }
 #bc {
 	display: inline-block;
@@ -597,7 +600,7 @@ h1#parent-fieldname-title {
 }
 #moresites {
 	display:none;
-	float:right;	
+	float:right;
 	margin-top: 25px;
 }
 .section-front-page #moresites {
@@ -608,7 +611,7 @@ h1#parent-fieldname-title {
 }
 .sitebutton {
 	display: block;
-	margin: 20px 0px;	
+	margin: 20px 0px;
 }
 .sitebutton a {
 	background-color: #FFFFFF;
@@ -688,7 +691,7 @@ h1#parent-fieldname-title {
 	vertical-align:top;
 	padding: 10px 18px 10px 24px;
 	position: relative;
-}	
+}
 
 #leftcontent h1#parent-fieldname-title {
 	display: none;
@@ -759,12 +762,12 @@ ul#frontpageci li {
 
 
 
-/* 
+/*
 
 !!!!!!!!! EVENTS  !!!!!!!
 
-*/	
-	
+*/
+
 
 h2.tabheadsevents {
 	background-color: #022a56;
@@ -780,7 +783,7 @@ h2.tabheadsevents {
 	font-family: "kepler-std",serif;
 	font-style: normal;
 	font-weight: 500;
-}	
+}
 .section-front-page #events {
 	display: block;
 }
@@ -804,7 +807,7 @@ a.moreevents {
 	font-weight: 400;
 }
 dl.events_contents {
-	width:100%;	
+	width:100%;
 	padding: 10px 20px;
 }
 dd.eventrow {
@@ -813,7 +816,7 @@ dd.eventrow {
 	display:inline-block;
 	vertical-align:middle;
 	border-right: solid 1px #d9d9d9;
-	padding: 10px 0;	
+	padding: 10px 0;
 	height: 28px;
 }
 dd:last-child{
@@ -836,7 +839,7 @@ span.etitle {
 	color:#002855;
 	font-weight: 600;
 	vertical-align: top;
-	
+
 }
 
 
@@ -847,7 +850,7 @@ span.etitle {
 
 
 
-/* 
+/*
 
 !!!!!!!!! FOOTER INFO !!!!!!! !!!!!!!!! FOOTER INFO !!!!!!! !!!!!!!!! FOOTER INFO !!!!!!!
 
@@ -962,7 +965,7 @@ span.etitle {
 	border:none;
 	margin: 0px;
 	padding: 0px;
-	width:88%; 	
+	width:88%;
 	display: inline-block;
 }
 
@@ -1028,7 +1031,7 @@ ul.pagination {
 	background-color: #E1BB33;
 }
 .caption h2 {
-	
+
 	color:#002855;
 	line-height:1.2em;
 	font-size:1.8em;
@@ -1075,7 +1078,7 @@ ul.pagination {
 
 }
 span.slidedate {
-	
+
 	color:#d36e2b;
 	line-height:1.3em;
 	font-size:1.4em;
@@ -1086,7 +1089,7 @@ span.slidedate {
 	font-weight: 300;
 }
 
-/* 
+/*
 
 ---------------------||||||||| KUPU Edits |||||||||-----
 
@@ -1105,7 +1108,7 @@ span.slidedate {
 
 
 
-/* 
+/*
 
 ---------------------||||||||| TEMPLATE SECION |||||||||-----
 
@@ -1155,7 +1158,7 @@ span.slidedate {
 }
 
 
-/* 
+/*
 
 ---------------------||||||||| NEWS section |||||||||-----
 
@@ -1175,7 +1178,7 @@ span.slidedate {
 .template-withslider_view img.newsImage {
 	display:none;
 }
-/* 
+/*
 
 ---------------------||||||||| EVENTsection |||||||||-----
 
@@ -1312,7 +1315,7 @@ dt.portletHeader.collect {
 	min-height: 76px;
 }
 
-/* 
+/*
 
 ---------------------||||||||| OUR WORK Sections |||||||||-----
 
@@ -1353,7 +1356,7 @@ dt.portletHeader.collect {
 	margin-bottom: 15px;
 	margin-top: 15px;
 	margin-right: 15px;
-		
+
 }
 #content-core .sitebutton a {
 	background-color: #FFFFFF;
@@ -1786,7 +1789,7 @@ table.dataTable tr.odd {
 
 /* other browsers */
 /*.gecko {
-	
+
 }  moz*/
 
 /* chrome + safari */
@@ -1854,7 +1857,7 @@ table.dataTable tr.odd {
 	#leftcontent {
 		width: 100%;
 	}
-	
+
 
 }
 @media all and (max-device-width: 500px) {
@@ -1922,4 +1925,3 @@ body.template-folder_listing #content-core dt {
 	font-weight: 400;
 	padding-bottom: 25px;
 }
-
