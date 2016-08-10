@@ -48,9 +48,10 @@
     <!--content-->
 
             <!--slider -->
+
             <copy css:content=".portlet-static-slider" css:theme="#slider" />
             <copy css:content=".portletStaticText.portlet-static-our-sites" css:theme="#moresites" />
- <copy css:content="#portal-breadcrumbs" css:theme="#bc" />
+            <copy css:content="#portal-breadcrumbs" css:theme="#bc" />
 
             <append css:content="#portlets-below" css:theme="#leftcontent" />
             <!--side bar -->
@@ -77,7 +78,7 @@
     <copy css:content="#content" css:theme="#leftcontent" />
     <replace css:content="h1.documentFirstHeading" css:theme="h2.tabheads" />
 
- 
+
 
     <strip css:content="#content" attribute="id" />
     <drop css:content="p#link-presentation" />
