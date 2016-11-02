@@ -2526,3 +2526,10 @@ iframe {
 	text-transform:none !important;
 	display:block;
 }
+
+.display_archive {
+	display:none;
+}
+.support_content .display_archive {
+	display:block;
+}
