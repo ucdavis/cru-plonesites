@@ -3,7 +3,7 @@
 
 * {
 	/*background-color:rgba(200,200,200,.5);*/
-	box-sizing:border-box;	
+	box-sizing:border-box;
 }
 a {
 	color:inherit;
@@ -73,7 +73,7 @@ h3 {
     font-style: normal;
     font-weight: 700;
     letter-spacing: 0.5px;
- 
+
     padding: 1px 0;
 }
 h5 {
@@ -117,7 +117,7 @@ h6 {
 	margin-top:0px;
 }
 
-/* 
+/*
 
 !!!!!!!!! GENERIC LIST INFO !!!!!!!
 
@@ -162,7 +162,7 @@ h6 {
 
 
 
-/* 
+/*
 
 !!!!!!!!! TOP CSS : TOP NAV AND LOGO !!!!!!!
 
@@ -235,7 +235,7 @@ ul#list-nav li a:hover {
 
 
 
-/* 
+/*
 
 !!!!!!!!! MIDDLE CSS : ALMOST EVERYTHING !!!!!!!
 
@@ -251,7 +251,7 @@ ul#list-nav li a:hover {
 	text-align:center;
 	padding-bottom: 10px;
     padding-top: 10px;
-	
+
 }
 #banner h1 {
 	font-size:5.6em;
@@ -289,7 +289,7 @@ span.discreet {
 	font-family: "futura-pt", Futura,“Century Gothic”, AppleGothic sans-serif;
 	font-style: normal;
 	font-weight: 400;
-}		
+}
 
 
 
@@ -297,7 +297,7 @@ span.discreet {
 
 
 
-/* 
+/*
 
 !!!!!!!!! MAIN NAVIGATION !!!!!!!
 
@@ -349,7 +349,7 @@ span.discreet {
 	border-right-color:#d1cfc7;
 }
 #ul1 li a:hover {
-	color:#808080;	
+	color:#808080;
 	text-decoration: underline;
 }
 
@@ -415,7 +415,7 @@ input[type=text] {
 	margin-right: 10px;
 }
 input[type=button] {
-	width:30%;	
+	width:30%;
 }
 
 
@@ -425,7 +425,7 @@ input[type=button] {
 
 
 
-/* 
+/*
 
 !!!!!!!!! MAIN_CONTENT !!!!!!!
 
@@ -440,13 +440,13 @@ input[type=button] {
 }
 
 #main_content {
-	width:100%;	
+	width:100%;
 	margin-left:auto;
 	margin-right:auto;
 	display:inline-block;
 	clear:both;
 	/*margin-bottom: 10px;*/
-	
+
 }
 
 
@@ -458,7 +458,7 @@ input[type=button] {
 	margin-right:2%;
 }
 #main_content div {
-	vertical-align:top;	
+	vertical-align:top;
 }
 
 #main_content h1 {
@@ -484,7 +484,7 @@ input[type=button] {
 	font-family: "futura-pt", Futura,“Century Gothic”, AppleGothic sans-serif;
 	font-style: normal;
 	font-weight: 400;
-}		
+}
 
 #slider {
 	width:100%;
@@ -502,7 +502,7 @@ input[type=button] {
 	padding-top:5px;
 }
 #slide_img img{
-	width:100%;	
+	width:100%;
 	border:none;
 	margin: 0px;
 	padding:0px;
@@ -561,23 +561,23 @@ p.claresig img {
 
 
 
-/* 
+/*
 
 !!!!!!!!! FRONT PAGE PORTLETS !!!!!!!
 
 */
 
 #front_portlets {
-	width:100%;	
+	width:100%;
 	margin-left:auto;
 	margin-right:auto;
 	display:inline-block;
 	clear:both;
 	margin-top: -11px;
-	
+
 }
 #front_portlets div {
-	vertical-align:top;	
+	vertical-align:top;
 }
 
 #front_portlets h1 {
@@ -607,15 +607,15 @@ p.claresig img {
 	font-family: "futura-pt", Futura,“Century Gothic”, AppleGothic sans-serif;
 font-style: normal;
 font-weight: 400;
-}		
-	
+}
 
 
 
 
 
 
-/* 
+
+/*
 
 !!!!!!!!! FRONT PAGE _ EVENTS INFO !!!!!!!
 
@@ -629,7 +629,7 @@ font-weight: 400;
 }
 
 #events {
-	
+
 }
 
 dl.eventdl {
@@ -663,13 +663,13 @@ span.event {
 }
 span.event a {
 	text-decoration:none;
-	color:#080808;	
-	
+	color:#080808;
+
 }
 span.event h2 {
 	font-size:1.6em;
 	line-height:1.2em;
-	margin:0px;	
+	margin:0px;
 	margin-top:-1px;
 	font-family: "warnock-pro-display",serif;
 font-style: normal;
@@ -685,7 +685,7 @@ span.event h2 a:hover {
 	line-height:1.4em;
 	color:#262626;
 	margin-bottom:1.0em;
-	
+
 }
 a.more {
 	float:right;
@@ -704,7 +704,7 @@ a.more:hover {
 
 
 
-/* 
+/*
 
 !!!!!!!!! FRONT PAGE _ NEWS INFO !!!!!!!
 
@@ -805,7 +805,7 @@ p.readmore a:hover {
 
 
 
-/* 
+/*
 
 !!!!!!!!! FRONT PAGE _ SUPPORT INFO !!!!!!!
 
@@ -888,7 +888,7 @@ p.readmore a:hover {
 #addons {
 	width:100%;
 	margin-top:13px;
-	margin-bottom:10px;	
+	margin-bottom:10px;
 }
 #support_content a {
 	text-decoration:none;
@@ -897,7 +897,7 @@ p.readmore a:hover {
 	text-transform:uppercase;
 	font-family: "warnock-pro-display",serif;
 
-	
+
 }
 #support_content h2 {
 	border-bottom-width: 2px;
@@ -914,7 +914,7 @@ p.readmore a:hover {
 }
 #support_content ul {
 	padding-left:30px;
-	
+
 }
 #support_content li {
 	list-style-image:url(images/li.png);
@@ -936,7 +936,7 @@ p.readmore a:hover {
 
 
 
-/* 
+/*
 
 !!!!!!!!! FOOTER INFO !!!!!!!
 
@@ -1005,7 +1005,7 @@ ul#foot-nav li a:hover {
 	float:right;
 }
 #right_foot div {
-	vertical-align:top;	
+	vertical-align:top;
 }
 #social {
 	width:45%;
@@ -1019,7 +1019,7 @@ ul#foot-nav li a:hover {
 	padding-top: 6px;
 	margin-top: 5px;
 	}
-	
+
 #social h2 {
 	color:#421b4a;
 	font-size:1.6em;
@@ -1029,7 +1029,7 @@ ul#foot-nav li a:hover {
 #social ul li {
 	display:inline-block;
 	list-style:none;
-	
+
 }
 #social ul li a{
 	background-image:url(images/social-icons.png);
@@ -1042,7 +1042,7 @@ ul#foot-nav li a:hover {
 	padding-left:30px;
 	margin-top:5px;
 	margin-left:4px;
-		
+
 }
 li.fb a {
 	background-position: 0 -30px;
@@ -1051,7 +1051,7 @@ li.tw a {
 	background-position: 0 -60px;
 }
 li.rss a {
-	
+
 }
 li.fb a:hover {
 	background-position: 30px -30px;
@@ -1097,10 +1097,10 @@ back up options
 	border-top-width: 5px;
 	border-top-style: solid;
 	border-top-color: #421b4a;
-} */ 
+} */
 
 
-/* 
+/*
 
 !!!!!!!!! UNIQUE BANNER CSS !!!!!!!
 
@@ -1120,7 +1120,7 @@ back up options
 	padding-top:9px;
 	padding-bottom:18px;
 	text-align: left;
-	
+
 }
 span.unibanner {
 	width:47%;
@@ -1146,7 +1146,7 @@ font-family: "futura-pt", Futura,“Century Gothic”, AppleGothic sans-serif;
 	font-family: "futura-pt", Futura,“Century Gothic”, AppleGothic sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	
+
 
 }
 span.uniquetitle {
@@ -1177,7 +1177,7 @@ span.uniquetitleIPP {
 
 
 
-/* 
+/*
 
 ---------------------||||||||| TEMPLATE SECION |||||||||-----
 
@@ -1187,7 +1187,7 @@ span.uniquetitleIPP {
 
 
 
-/* 
+/*
 
 !!!!!!!!! TWOcol_VIEW : ABOUT,C and D, IPP PRETTY MUCH EVERYTHING BUT NEWs and EVENTS; !!!!!!!
 
@@ -1246,10 +1246,10 @@ span.uniquetitleIPP {
 	font-family: "futura-pt", Futura,“Century Gothic”, AppleGothic sans-serif;
 	font-style: normal;
 	font-weight: 400;
-}	
+}
 
 
-/* 
+/*
 
 !!!!!!!!! TWOcolsummary_VIEW : ARCHIVE pages !!!!!!!
 
@@ -1285,7 +1285,7 @@ span.uniquetitleIPP {
 
 
 
-/* 
+/*
 
 !!!!!!!!! EVENTS PAGE : EVERYTHING; !!!!!!!
 
@@ -1494,7 +1494,7 @@ table.listing tbody {
 	margin-left: 0px;
 }
 .template-annual_events_view #content-core p {
-	
+
 }
 .template-annual_events_view #content-core a {
 	color:#421b4a;
@@ -1520,7 +1520,7 @@ table.listing tbody {
 
 
 
-/* 
+/*
 
 !!!!!!!!! NEWS PAGE : EVERYTHING; !!!!!!!
 
@@ -1745,7 +1745,7 @@ span.newstitlep{
 
 
 
-/* 
+/*
 
 !!!!!!!!! Publications CSS HERE  !!!!!!!
 
@@ -1783,7 +1783,7 @@ span.newstitlep{
 
 
 
-/* 
+/*
 
 !!!!!!!!! BUTTONS CSS HERE  !!!!!!!
 
@@ -1907,7 +1907,7 @@ font-weight: 700;
 
 
 
-/* 
+/*
 
 !!!!!!!!! CENTER AND DEPARTMENTS PAGE  !!!!!!!
 
@@ -1939,7 +1939,7 @@ ul#centersanddepartments {
 	margin-left: 0px;
 }
 
-/* 
+/*
 
 !!!!!!!!! Portlet Breadcrumbs  !!!!!!!
 
@@ -1952,7 +1952,7 @@ ul#centersanddepartments {
 }
 
 
-/* 
+/*
 
 !!!!!!!!! Static Portlet CSS  !!!!!!!
 
@@ -2024,7 +2024,7 @@ span.statichead {
 	border:none;
 	margin: 0px;
 	padding: 0px;
-	width:100%; 	
+	width:100%;
 	display: inline-block;
 	border-top: 5px solid #421b4a;
 	padding-top: 5px;
@@ -2034,7 +2034,7 @@ span.statichead {
 	border:none;
 	margin: 0px;
 	padding: 0px;
-	width:100%; 	
+	width:100%;
 	display: inline-block;
 	border-top: 5px solid #421b4a;
 	padding-top: 5px;
@@ -2093,7 +2093,7 @@ ul.pagination {
 	top: 0px
 }
 .caption h2 {
-	
+
 	color:#421b4a;
 	line-height:1.2em;
 	font-size:3.0em;
@@ -2115,7 +2115,7 @@ ul.pagination {
 
 }
 span.slidedate {
-	
+
 	color:#b06c43;
 	line-height:1.3em;
 	font-size:1.4em;
@@ -2237,7 +2237,7 @@ blockquote.pullquote {
 
 /* Styles */
 #ul1 {
-	margin-left: 1% !important;	
+	margin-left: 1% !important;
 }
 }
 @media all and (min-width : 885px) and (max-width : 979px) {
@@ -2367,7 +2367,7 @@ span.uniquetitle {
 }
 }
 
-	
+
 
 
 
@@ -2456,7 +2456,7 @@ span.slidedate {
 	#ul1 {
 		margin-left: 0px;
 	}
-	
+
 
 }
 
@@ -2486,11 +2486,11 @@ span.slidedate {
 	#support {
 		width: 100%;
 	}
-	
+
 
 }
 .portlet-static-section_banners h2 {
-	
+
 }
 .portlet-static-section_banners img {
 	padding:0px !important;
@@ -2519,7 +2519,7 @@ iframe {
 .campaign {
 	font-size:12px;
 	margin-bottom:15px;
-	
+
 }
 .campaign a {
 	font-size:14px;
@@ -2530,6 +2530,6 @@ iframe {
 .display_archive {
 	display:none;
 }
-.support_content .display_archive {
+#support_content .display_archive {
 	display:block;
 }
