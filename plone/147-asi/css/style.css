@@ -1418,7 +1418,7 @@ nav {
 .slicknav_menu {
   *zoom: 1; }
 
-/* 
+/*
     User Default Style
     Change the following styles to modify the appearance of the menu.
 */
@@ -2793,7 +2793,7 @@ body.section-homepage {
       border: 1px solid rgba(255, 255, 255, 0.2);
       border-radius: 1px;
       background-color: rgba(255, 255, 255, 0.4);
-      width: 200px;
+      width: 240px;
       height: 35px;
       font-size: 1.4rem; }
     .section-homepage .homepage_head .homepage_search input.searchButton {
