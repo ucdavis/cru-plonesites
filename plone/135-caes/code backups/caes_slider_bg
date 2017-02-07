@@ -1,0 +1,24 @@
+<div class="slider-wrapper theme-light">
+    <div class="nivoSlider" id="slider">
+        <a class="internal-link" href="resolveuid/4a93c0ee8f484924be5b19d21e2823a0" target="_self" title="">
+          <img class="image-inline" src="resolveuid/d413f60faa114a68b2c5ca773c2f0793" title="#nivo-slide1" /></a>
+        <a class="internal-link" href="resolveuid/02d58ecb73b54c0d826f97ca6063529d" target="_self" title="">
+          <img class="image-inline" src="resolveuid/571ae3f7050545c1a462e28eff76a328" title="#nivo-slide3" /></a>
+    </div>
+</div>
+<div class="nivo-html-caption" id="nivo-slide1">
+    <div class="static text">
+        <div class="spotlighttext">
+            <h4>News Spotlight</h4>
+            <h2><a class="internal-link" href="resolveuid/294ff80962024e67afc78b529b275445" target="_self" title="">UC Davis Helps Winemakers Sustainably Produce Premium Wine »</a></h2>
+        </div>
+    </div>
+</div>
+<div class="nivo-html-caption" id="nivo-slide3">
+    <div class="static text">
+        <div class="spotlighttext">
+            <h4>News Spotlight</h4>
+            <h2><a class="internal-link" href="resolveuid/52f0f04af1864e859e7c195f05195b4e" target="_self" title="">How Would You Like To See Your Gifts at Work? »</a></h2>
+        </div>
+    </div>
+</div>

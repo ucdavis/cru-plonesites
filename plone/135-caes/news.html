@@ -159,7 +159,7 @@
               <li><a class="icon icon-photo" href="#">Collections</a></li>
               <li><a class="icon icon-wallet" href="#">Credits</a></li>
             </ul>
-              
+
           </div>
         </nav>
         <!-- /mp-menu -->
@@ -271,7 +271,7 @@
 
 <section class="mid">
   <div class="pathbar">
-    <span class="home"><a href="#">Home</a></span> 
+    <span class="home"><a href="#">Home</a></span>
     <span class="crumb"><a href="#">News Center</a></span>
     <span class="crumb last"><a href="#">Article title</a></span>
   </div>
@@ -298,7 +298,7 @@
     <div class="archive">
     </div>
     <div class="feature_news_info">
-      
+
     </div>
     <nav class="section">
       <h3>In this section</h3>
@@ -336,10 +336,10 @@
       <p class="more"><a>Advanced search options</a></p>
     </div>
   </section>
-</section>    
+</section>
 
 <a class="scrollup" href="#">Scroll to top</a>
-    
+
 <footer>
   <div class="container">
     <section class="contact">
@@ -371,7 +371,7 @@
 
 
     </section>
-  </div> 
+  </div>
   <span class="clear">&nbsp;</span>
 </footer>
 </div>
@@ -407,7 +407,7 @@
       /* Simple image gallery. Uses default settings */
 
       $('.fancybox').fancybox();
-       
+
       /*Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
       */
       $('.fancybox-media')
@@ -434,7 +434,7 @@
     });
   </script>
   <script type="text/javascript">
-  $(document).ready(function() {  
+  $(document).ready(function() {
     $(".rightcol nav").find("a[href='"+window.location.href+"']").filter(":last").addClass("current");
   });
   </script>
@@ -442,24 +442,50 @@
 
 <!-- code for scroll up -->
 <script type="text/javascript">
-    $(document).ready(function(){ 
- 
+    $(document).ready(function(){
+
         $(window).scroll(function(){
             if ($(this).scrollTop() > 100) {
                 $('.scrollup').fadeIn();
             } else {
                 $('.scrollup').fadeOut();
             }
-        }); 
- 
+        });
+
         $('.scrollup').click(function(){
             $("html, body").animate({ scrollTop: 0 }, 600);
             return false;
         });
- 
+
     });
 </script>
 
+<!-- code to enable nivo slider -->
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript">
+jQuery(window).load(function() {
+    $('#slider').nivoSlider({
+        effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+        animSpeed: 1000, // Slide transition speed
+        pauseTime: 8000, // How long each slide will show
+        directionNav: false, // Next & Prev navigation
+        controlNav: true, // 1,2,3... navigation
+        controlNavThumbs: false, // Use thumbnails for Control Nav
+        pauseOnHover: true, // Stop animation while hovering
+        manualAdvance: false // Force manual transitions
+    });
+    $('#slider-media').nivoSlider({
+        effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+        animSpeed: 1000, // Slide transition speed
+        pauseTime: 8000, // How long each slide will show
+        directionNav: false, // Next & Prev navigation
+        controlNav: true, // 1,2,3... navigation
+        controlNavThumbs: false, // Use thumbnails for Control Nav
+        pauseOnHover: true, // Stop animation while hovering
+        manualAdvance: false // Force manual transitions
+    });
+});
+</script>
 
 <!-- code for Google Analytics -->
 <div id="footer-js">&nbsp;</div>

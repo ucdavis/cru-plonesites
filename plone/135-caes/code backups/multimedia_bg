@@ -1,0 +1,54 @@
+<h4>Multimedia</h4>
+<div class="slider-wrapper theme-light">
+    <div class="nivoSlider" id="slider-media">
+        <a class="fancybox-media nivo-imageLink external-link" href="http://www.youtube.com/embed/Z5QFzhNx6RY" target="_self" title=""><img class="image-inline" src="resolveuid/c8070d8fd6d0495eb0228e6dc1ae9d12" title="#media1" /></a>
+        <a class="fancybox-media nivo-imageLink external-link" href="http://www.youtube.com/embed/0Mkc1OqvwRk" target="_self" title=""><img class="image-inline" src="resolveuid/f0dc120fc2ca4a17b8c72546d5a9c03f" title="#media2" /></a>
+        <a class="fancybox-media nivo-imageLink external-link" href="http://www.youtube.com/embed/r-j_osusBxk" target="_self" title=""><img class="image-inline" src="resolveuid/7eb5c627a10d48b1967227bd3f3c03e8" title="#media5" /></a>
+        <a class="fancybox-media nivo-imageLink external-link" href="http://www.youtube.com/embed/ivpg04VwyrA" target="_self" title=""><img class="image-inline" src="resolveuid/b8deb041dd314c3ab5635a0c233489a1" title="#media3" /></a>
+        <a class="fancybox-media nivo-imageLink external-link" href="http://www.youtube.com/embed/3U61oCxH4Sw" target="_self" title=""><img class="image-inline" src="resolveuid/da70c7b59104444a9f653db211ac0cf7" title="#media4" /></a>
+        <a class="fancybox-media nivo-imageLink external-link" href="http://www.youtube.com/embed/sHxgyjLiOB0" target="_self" title=""><img class="image-inline" src="resolveuid/9e227948bcd1405db653a97c0d9d0abf" title="#media6" /></a>
+    </div>
+</div>
+<div class="nivo-html-caption" id="media1">
+    <div class="static text">
+        <h4><a class="internal-link" href="resolveuid/046fe45ac3204f429da9baa14b5475a4" rel="media-gallery" target="_self" title="">Our College is Cool</a></h4>
+        <p>See what CA&amp;ES has to offer and hear from our dean, our faculty, and our students.</p>
+    </div>
+</div>
+<div class="nivo-html-caption" id="media5">
+    <div class="static text">
+        <h4><a class="internal-link" href="resolveuid/63cf2556d9e740dd9c9198f693009115" target="_self" title="">Nestbox Highway</a></h4>
+        <p><span>Thanks to the Putah Creek Nestbox Highway, there are more songbirds in Northern California.</span></p>
+    </div>
+</div>
+<!-- <div class="nivo-html-caption" id="media2">
+<div class="static text">
+<h4><a class="internal-link" href="resolveuid/d4a1bf670eff437390777b41215fc7d5" target="_self" title="">See What Scientists Learn From a Big Fire</a></h4>
+<p>Making Science Out of Fire at Stebbins Cold Canyon Natural Reserve.</p>
+</div>
+</div> -->
+<div class="nivo-html-caption" id="media6">
+    <div class="static text">
+        <h4><a class="internal-link" href="resolveuid/d0e5575e9f2442fda6133f87b6759203" rel="media-gallery" target="_self" title="">One of a Kind: Raoul Adamchak</a></h4>
+        <p>Market Garden Coordinator, UC Davis Student Farm; Community Supported Agriculture (CSA) Coordinator, Agricultural Sustainability Institute.</p>
+    </div>
+</div>
+<div class="nivo-html-caption" id="media4">
+    <div class="static text">
+        <h4><a class="internal-link" href="resolveuid/d4a1bf670eff437390777b41215fc7d5" rel="media-gallery" target="_self" title="">One of a Kind: Kiko Barr ’15</a></h4>
+        <p>“This is a little bit dorky, but in high school I was really into this video game called Harvest Moon. You play a farmer who inherits his great uncle’s land."</p>
+    </div>
+</div>
+<div class="nivo-html-caption" id="media2">
+    <div class="static text">
+        <h4><a class="internal-link" href="resolveuid/aedfef6ae9ce4b7ebeb9293a13f848f0" target="_self" title="">Arabica Coffee Genome Sequenced</a></h4>
+        <p>The first public genome sequence for Coffee arabica, the species responsible for more than 70 percent of global coffee production, was released today by researchers at the University of California, Davis.</p>
+    </div>
+</div>
+<div class="nivo-html-caption" id="media3">
+    <div class="static text">
+        <h4><a class="internal-link" href="resolveuid/090a79754cc242c8bec88d032c387c7a" rel="media-gallery" target="_self" title="">Life on the UC Davis Student Farm</a></h4>
+        <p><span>The UC Davis Student Farm is one of the cornerstone examples of experiential learning of sustainable agriculture and food systems in Davis.</span>.</p>
+    </div>
+</div>
+<p><a class="internal-link" href="resolveuid/c9c2cea7eda8416faf7326ccc1d883f0" target="_self" title="">Additional multimedia »</a></p>
