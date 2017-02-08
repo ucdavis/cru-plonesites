@@ -4256,9 +4256,9 @@ div.portlet-static-nivo {
   display: block; }
 /* Summary text for majors page */
 .subsection-future-academics-majors #content .documentDescription, .thegoods div.documentDescription {
-  font-family: "futura-pt", "Futura-Medium", Futura Std, Futura, Arial, sans-serif;
-    color: #002855;
-    font-weight: 400;
-    font-size: 1.4em;
-    margin: 0 10px 25px 0;
+  font-family: "futura-pt", "Futura-Medium", Futura Std, Futura, Arial, sans-serif !important;
+    color: #002855 !important;
+    font-weight: 400 !important;
+    font-size: 1.4em !important;
+    margin: 0 10px 25px 0 !important;
 }
