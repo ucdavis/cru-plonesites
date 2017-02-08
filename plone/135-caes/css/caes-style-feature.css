@@ -4254,3 +4254,11 @@ div.portlet-static-nivo {
 .nivoSlider a {
   border: 0;
   display: block; }
+/* Summary text for majors page */
+.subsection-future-academics-majors #content .documentDescription, .thegoods div.documentDescription {
+  font-family: "futura-pt", "Futura-Medium", Futura Std, Futura, Arial, sans-serif;
+    color: #002855;
+    font-weight: 400;
+    font-size: 1.4em;
+    margin: 0 10px 25px 0;
+}
