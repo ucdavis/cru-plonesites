@@ -19,11 +19,14 @@
 <body>
 <header>
   <section class="header_contents">
-    <div class="lefthead"></div>
-    <div class="righthead">
-      <div class="topnav"></div>
-      <div class="searchbar">search</div>
+    <div class="flex-wrapper">
+      <div class="lefthead"></div>
+      <div class="righthead">
+        <div class="topnav"></div>
+        <div class="searchbar">search</div>
+      </div>
     </div>
+
     <div id="nav-toggle"><a href="#"></a></div>
     <nav>
             <ul id="nav">
@@ -58,7 +61,7 @@
 </header>
 
 <div id="paralax">
-    
+
 </div>
 
 
@@ -74,15 +77,15 @@
         <p>asdasfas</p>
       </div>
       <div class="frontaside">
-         <p>asdasfas</p>   
+         <p>asdasfas</p>
       </div>
   </div>
 </div>
-    
-  
-    
-    
-   
+
+
+
+
+
 <a href="#" class="scrollup">Scroll</a>
 <footer>
   <div id="footer_contents">
@@ -118,21 +121,21 @@
     </div>
 </footer>
 <script type="text/javascript">
-    $(document).ready(function(){ 
- 
+    $(document).ready(function(){
+
         $(window).scroll(function(){
             if ($(this).scrollTop() > 100) {
                 $('.scrollup').fadeIn();
             } else {
                 $('.scrollup').fadeOut();
             }
-        }); 
- 
+        });
+
         $('.scrollup').click(function(){
             $("html, body").animate({ scrollTop: 0 }, 600);
             return false;
         });
- 
+
     });
 </script>
 <script type="text/javascript">

@@ -22,11 +22,14 @@
 <body>
 <header>
   <section class="header_contents">
-    <div class="lefthead"></div>
-    <div class="righthead">
-      <div class="topnav"></div>
-      <div class="searchbar">search</div>
+    <div class="flex-wrapper">
+      <div class="lefthead"></div>
+      <div class="righthead">
+        <div class="topnav"></div>
+        <div class="searchbar">search</div>
+      </div>
     </div>
+
     <div id="nav-toggle"><a href="#"></a></div>
     <nav>
             <ul id="nav">
@@ -56,19 +59,19 @@
                 </ul>
             </li>
               </ul>
-    </nav> 
+    </nav>
   </section>
 </header>
 
 <div id="paralax">
-    
+
 </div>
 
 
 <div id="totalcontent">
   <div class="bread"></div>
   <div class="maincol">
-  
+
   </div>
   <div class="portlet_column">
                             <div class="manage"> </div>
@@ -85,19 +88,19 @@
                             <div class="portletstatic">
                                 <h2>Featured Project: <br /> African Stock Photos</h2>
                                 <hr />
-                              
+
                                 <img src="images/project.png">
                                 <h5>March 23rd, 2013</h5>
                                 <p>Michael Rios, Associate Professor in the Department of Human Ecology, has recently celebrated the publication of his new book, Dialogos: Placemaking in Latino Communities.  Go to the Sacramento Diasporas Project page for more information.</p>
-                             
+
                             </div>
-                            
+
                     </div>
 </div>
 
 
-        
-   
+
+
 <a href="#" class="scrollup">Scroll</a>
 <footer>
   <div id="footer_contents">
@@ -147,21 +150,21 @@
       } );
     </script>
 <script type="text/javascript">
-    $(document).ready(function(){ 
- 
+    $(document).ready(function(){
+
         $(window).scroll(function(){
             if ($(this).scrollTop() > 100) {
                 $('.scrollup').fadeIn();
             } else {
                 $('.scrollup').fadeOut();
             }
-        }); 
- 
+        });
+
         $('.scrollup').click(function(){
             $("html, body").animate({ scrollTop: 0 }, 600);
             return false;
         });
- 
+
     });
 </script>
 <script type="text/javascript">
