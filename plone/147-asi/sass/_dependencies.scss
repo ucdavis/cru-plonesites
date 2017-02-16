@@ -1059,7 +1059,7 @@ textarea {
 	// colors yay
 	$green:				#7E8843; // portlet headers
 // variables yo!
-	$max-width: 1400px;
+	$max-width: 1600px;
 
 @mixin breakpoint($point) {
    @if $point == desktop {
@@ -1207,7 +1207,3 @@ textarea {
 	.site-safs & {border-color: $safs_accent;}
 	.site-sustainable-sourcing & {border-color: $sustain_accent;}
 }
-
-
-
-
