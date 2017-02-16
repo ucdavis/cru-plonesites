@@ -252,7 +252,7 @@ body.section-homepage {
                 padding-top:5%;
                 border-top:5px solid $asi_main;
                 .focus-col {
-                    width:33%;
+                    width:33.3%;
                     text-align: center;
                     vertical-align: top;
                     display:inline-block;
@@ -286,7 +286,7 @@ body.section-homepage {
         }
         .homepage_logo {
             display: inline-block;
-            width: 200px;
+            width: 250px;
             margin-top: 16px;
             vertical-align: top;
         }
@@ -526,7 +526,7 @@ body.section-homepage {
     }
 }
 
-// ultimate ASI file 
+// ultimate ASI file
 .portaltype-ultimate_asi_file {
     #content-core {
         div.field {
@@ -548,7 +548,7 @@ body.section-homepage {
     }
 }
 
-// table 
+// table
 table.secondary_table {
     tr {
         td {
@@ -722,7 +722,7 @@ span.popup.donor:after {
     left: 75px;
 }
 
-// search results 
+// search results
 #search-results {
     dt.contenttype-document {
         padding-top: 1.5%;
@@ -769,7 +769,7 @@ form#searchform {
     }
 }
 
-// database 
+// database
 .well {
     background-color: rgba(255,255,255,.09);
     border: none;
@@ -788,7 +788,7 @@ form#searchform {
     }
 }
 
-//events 
+//events
 
 .section-event-calendar .tileItem {
     padding: 1% 1% 1% 4%;
@@ -803,7 +803,7 @@ abbr.dtend {
     border-bottom: none;
 }
 
-//blog 
+//blog
 .section-blog {
     #content .tileItem {
         border-bottom:1px solid $borders;
@@ -817,7 +817,7 @@ abbr.dtend {
         }
     }
     p.tileBody {
-        margin-left:153px; 
+        margin-left:153px;
     }
     p.tileFooter {
         text-align: right;
