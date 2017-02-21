@@ -2289,7 +2289,7 @@ input[type="submit"] {
       .template-feature_view .slidefeature img, .portaltype-center .slidefeature img, .portaltype-department .slidefeature img, .portaltype-club .slidefeature img, .portaltype-major .slidefeature img {
         left: 0; } }
   .template-feature_view .slidefeature .static.text .spotlighttext, .portaltype-center .slidefeature .static.text .spotlighttext, .portaltype-department .slidefeature .static.text .spotlighttext, .portaltype-club .slidefeature .static.text .spotlighttext, .portaltype-major .slidefeature .static.text .spotlighttext {
-    bottom: 0px; }
+    bottom: 25px; }
     @media (min-width: 1400px) {
       .template-feature_view .slidefeature .static.text .spotlighttext, .portaltype-center .slidefeature .static.text .spotlighttext, .portaltype-department .slidefeature .static.text .spotlighttext, .portaltype-club .slidefeature .static.text .spotlighttext, .portaltype-major .slidefeature .static.text .spotlighttext {
         bottom: 0; } }
@@ -4059,6 +4059,9 @@ div.portlet-static-nivo {
   @media (min-width: 1000px) {
     .slider {
       height: 405px; } }
+      @media (min-width: 1171px) {
+        .slider {
+          height: 346px; } }
   .slider .text {
     z-index: 500;
     position: relative;
@@ -4071,6 +4074,9 @@ div.portlet-static-nivo {
     @media (min-width: 1400px) {
       .slider .text {
         height: 425px; } }
+        @media (min-width: 1171px) {
+          .slider .text {
+            height: 346px; } }
     @media (min-width: 1000px) {
       .slider .text {
         height: 405px; } }
