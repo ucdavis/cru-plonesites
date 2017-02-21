@@ -2292,7 +2292,7 @@ input[type="submit"] {
     bottom: 75px; }
     @media (min-width: 1400px) {
       .template-feature_view .slidefeature .static.text .spotlighttext, .portaltype-center .slidefeature .static.text .spotlighttext, .portaltype-department .slidefeature .static.text .spotlighttext, .portaltype-club .slidefeature .static.text .spotlighttext, .portaltype-major .slidefeature .static.text .spotlighttext {
-        bottom: 0; } }
+        bottom: 75px; } }
 
 .slider {
   width: 100%;
