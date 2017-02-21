@@ -2289,7 +2289,7 @@ input[type="submit"] {
       .template-feature_view .slidefeature img, .portaltype-center .slidefeature img, .portaltype-department .slidefeature img, .portaltype-club .slidefeature img, .portaltype-major .slidefeature img {
         left: 0; } }
   .template-feature_view .slidefeature .static.text .spotlighttext, .portaltype-center .slidefeature .static.text .spotlighttext, .portaltype-department .slidefeature .static.text .spotlighttext, .portaltype-club .slidefeature .static.text .spotlighttext, .portaltype-major .slidefeature .static.text .spotlighttext {
-    bottom: 60px; }
+    bottom: 0px; }
     @media (min-width: 1400px) {
       .template-feature_view .slidefeature .static.text .spotlighttext, .portaltype-center .slidefeature .static.text .spotlighttext, .portaltype-department .slidefeature .static.text .spotlighttext, .portaltype-club .slidefeature .static.text .spotlighttext, .portaltype-major .slidefeature .static.text .spotlighttext {
         bottom: 0; } }
@@ -4279,6 +4279,5 @@ div.portlet-static-nivo {
   color:rgb(222,180,8) !important;
 }
 #majormajor ul li a {
-  text-decoration:none !important;
   color:rgb(0,73,135) !important;
 }
