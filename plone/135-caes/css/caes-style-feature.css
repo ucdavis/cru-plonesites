@@ -4042,11 +4042,11 @@ div.portlet-static-nivo {
     width: 100%;
     margin: 0 auto;
     position: relative; }
-    div.portlet-static-nivo ul li {
+    /*div.portlet-static-nivo ul li {
       height: 310px;
       overflow: hidden;
       margin-bottom: 0px;
-      float: none; }
+      float: none; }*/
 
 .slider {
   height: 375px;
