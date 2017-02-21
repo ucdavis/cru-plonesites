@@ -1865,7 +1865,7 @@ input[type="submit"] {
 .main .news .box.actions a, .main .news .box.actions a:link, .main .news .box.blue .buttons a, .main .news .box.blue .buttons a:link {
   display: block;
   width: 100%;
-  background-color: #C99700;
+  background-color: #DAAA00;
   border: 3px solid #866222;
   min-height: 54px;
   font-family: "futura-pt", "Futura-Medium", Futura Std, Futura, Arial, sans-serif;
@@ -2333,7 +2333,7 @@ input[type="submit"] {
     height: 26px;
     padding: 10px 12px 4px;
     margin-top: 0px;
-    background: #C99700;
+    background: #DAAA00;
     display: block;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -2585,7 +2585,7 @@ input[type="submit"] {
       color: #d9a102;
       font-weight: 700; }
     .main .news .box a:hover, .main .news .box a:active {
-      color: #c99700;
+      color: #DAAA00;
       font-weight: 700; }
     .main .news .box .leadtext {
       background: #002855;
@@ -2658,7 +2658,7 @@ input[type="submit"] {
         margin-top: 0;
         padding: 1em 0.5em 0.5em;
         color: #fff;
-        background: #C99700;
+        background: #DAAA00;
         font-size: 0.75em; }
     .main .news .box.blue {
       background: rgba(0, 40, 85, 0.5);
@@ -2810,7 +2810,7 @@ input[type="submit"] {
           text-transform: none;
           letter-spacing: 0.25px; }
     .main .news .box.gold {
-      background: #C99700;
+      background: #DAAA00;
       color: #fff; }
       .main .news .box.gold a:link, .main .news .box.gold a:visited {
         color: #fff !important;
@@ -2824,7 +2824,7 @@ input[type="submit"] {
     .main .news .box.lightgold {
       background:  #E4CB7F; }
       .main .news .box.lightgold.feature h4 {
-        color: #C99700; }
+        color: #DAAA00; }
     .main .news .box.large {
       font-size: 2.1em;
       font-weight: 200;
@@ -2926,7 +2926,7 @@ input[type="submit"] {
       text-transform: uppercase;
       letter-spacing: 2px;
       font-weight: inherit;
-      color: #c99700;
+      color: #DAAA00;
       font-weight: 700;
       font-size: 0.8em;
       margin: 0.5em 0.5em 0.25em; }
@@ -3022,8 +3022,8 @@ input[type="submit"] {
       display: block;
       height: 50px;
       margin-top: 8px;
-      background: url(../img/btn-frontpageaction.png) #c99700 no-repeat right center;
-      border: 2px solid #C99700; }
+      background: url(../img/btn-frontpageaction.png) #DAAA00 no-repeat right center;
+      border: 2px solid #DAAA00; }
       .main .actions .buttons a img {
         padding: 0 5%;
         vertical-align: middle; }
@@ -3298,8 +3298,8 @@ footer {
   .thegoods #content .menuitem.button a {
     font-family: "futura-pt", "Futura-Medium", Futura Std, Futura, Arial, sans-serif;
     font-weight: 768px;
-    background: url(../img/bg-logobtn.jpg) top right #c99700 no-repeat;
-    border: 3px solid #c99700;
+    background: url(../img/bg-logobtn.jpg) top right #DAAA00 no-repeat;
+    border: 3px solid #DAAA00;
     min-height: 34px;
     padding-top: 10px; }
 
@@ -3498,7 +3498,7 @@ dl.portlet dt {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
-    color: #c99700;
+    color: #DAAA00;
     margin-top: 1em; }
   .rightcol .more a {
     padding-left: 10px; }
@@ -4049,13 +4049,13 @@ div.portlet-static-nivo {
       float: none; }
 
 .slider {
-  height: 250px;
+  height: 375px;
   width: 1440px;
   /* what it was before */
   width: 100%; }
   @media (min-width: 1400px) {
     .slider {
-      height: 310px; } }
+      height: 425px; } }
   .slider .text {
     z-index: 500;
     position: relative;
@@ -4170,7 +4170,7 @@ div.portlet-static-nivo {
     border-bottom: solid 1px #DDDDDD; }
   .subsection-overview-facts .fact-distinctions p.ranking {
     color: #fff;
-    background-color: #C99700;
+    background-color: #DAAA00;
     width: 100px;
     text-align: center;
     border-radius: 50px;
@@ -4186,7 +4186,7 @@ div.portlet-static-nivo {
     margin-right: 0px; }
   .subsection-overview-facts .fact-distinctions p.rankingsmaller {
     color: #fff;
-    background-color: #C99700;
+    background-color: #DAAA00;
     width: 60px;
     text-align: center;
     border-radius: 40px;
