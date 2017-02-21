@@ -4074,13 +4074,10 @@ div.portlet-static-nivo {
     display: block; }
     @media (min-width: 1400px) {
       .slider .text {
-        height: 425px; } }
+        height: 380px; } }
     @media (min-width: 1000px) {
       .slider .text {
-        height: 405px; } }
-    @media (min-width: 850px) {
-      .slider .text {
-        height: 405px; } }
+        height: 354px; } }
     @media (min-width: 768px) {
       .slider .text {
         max-width: 85%; } }
