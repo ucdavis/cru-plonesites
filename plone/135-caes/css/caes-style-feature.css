@@ -2289,8 +2289,8 @@ input[type="submit"] {
       .template-feature_view .slidefeature img, .portaltype-center .slidefeature img, .portaltype-department .slidefeature img, .portaltype-club .slidefeature img, .portaltype-major .slidefeature img {
         left: 0; } }
   .template-feature_view .slidefeature .static.text .spotlighttext, .portaltype-center .slidefeature .static.text .spotlighttext, .portaltype-department .slidefeature .static.text .spotlighttext, .portaltype-club .slidefeature .static.text .spotlighttext, .portaltype-major .slidefeature .static.text .spotlighttext {
-    bottom: 75px; }
-    @media (min-width: 1400px) {
+    bottom: 25px; }
+    @media (min-width: 1000px) {
       .template-feature_view .slidefeature .static.text .spotlighttext, .portaltype-center .slidefeature .static.text .spotlighttext, .portaltype-department .slidefeature .static.text .spotlighttext, .portaltype-club .slidefeature .static.text .spotlighttext, .portaltype-major .slidefeature .static.text .spotlighttext {
         bottom: 75px; } }
 
