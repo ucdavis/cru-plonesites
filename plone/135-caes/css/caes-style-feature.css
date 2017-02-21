@@ -4059,10 +4059,6 @@ div.portlet-static-nivo {
   @media (min-width: 1000px) {
     .slider {
       height: 405px; } }
-  @media (min-width: 850px) {
-    .slider {
-      height: 405px; } }
-
   .slider .text {
     z-index: 500;
     position: relative;
@@ -4074,10 +4070,10 @@ div.portlet-static-nivo {
     display: block; }
     @media (min-width: 1400px) {
       .slider .text {
-        height: 380px; } }
+        height: 400px; } }
     @media (min-width: 1000px) {
       .slider .text {
-        height: 354px; } }
+        height: 384px; } }
     @media (min-width: 768px) {
       .slider .text {
         max-width: 85%; } }
