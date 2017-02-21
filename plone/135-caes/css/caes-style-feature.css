@@ -4070,10 +4070,10 @@ div.portlet-static-nivo {
     display: block; }
     @media (min-width: 1400px) {
       .slider .text {
-        height: 400px; } }
+        height: 425px; } }
     @media (min-width: 1000px) {
       .slider .text {
-        height: 384px; } }
+        height: 405px; } }
     @media (min-width: 768px) {
       .slider .text {
         max-width: 85%; } }
