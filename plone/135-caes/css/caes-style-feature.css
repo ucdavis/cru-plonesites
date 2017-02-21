@@ -4270,15 +4270,15 @@ div.portlet-static-nivo {
     margin: 0 10px 25px 0 !important;
 }
 .majormajor ul {
-  list-style-type: none;
-  padding-left:0px;
-  margin-left:0px;
-  margin-top:10px;
+  list-style-type: none !important;
+  padding-left:0px !important;
+  margin-left:0px !important;
+  margin-top:10px !important;
 }
 .majormajor h3 {
-  color:rgb(222,180,8);
+  color:rgb(222,180,8) !important;
 }
 .majormajor ul li a {
-  text-decoration:none;
-  color:rgb(0,73,135);
+  text-decoration:none !important;
+  color:rgb(0,73,135) !important;
 }
