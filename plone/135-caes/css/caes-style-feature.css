@@ -4049,16 +4049,20 @@ div.portlet-static-nivo {
       float: none; }*/
 
 .slider {
-  height: 375px;
+  height: 310px;
   width: 1440px;
   /* what it was before */
   width: 100%; }
   @media (min-width: 1400px) {
     .slider {
       height: 425px; } }
-  @media (max-width: 700px) {
+  @media (min-width: 1000px) {
     .slider {
-      height: 310px; } }
+      height: 405px; } }
+  @media (min-width: 850px) {
+    .slider {
+      height: 405px; } }
+
   .slider .text {
     z-index: 500;
     position: relative;
