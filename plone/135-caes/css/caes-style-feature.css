@@ -4269,3 +4269,16 @@ div.portlet-static-nivo {
     font-size: 1.4em !important;
     margin: 0 10px 25px 0 !important;
 }
+.majormajor ul {
+  list-style-type: none;
+  padding-left:0px;
+  margin-left:0px;
+  margin-top:10px;
+}
+.majormajor h3 {
+  color:rgb(222,180,8);
+}
+.majormajor ul li a {
+  text-decoration:none;
+  color:rgb(0,73,135);
+}
