@@ -4056,10 +4056,10 @@ div.portlet-static-nivo {
   @media (min-width: 1400px) {
     .slider {
       height: 425px; } }
-  @media (min-width: 1000px) {
+  @media (min-width: 1172px) {
     .slider {
       height: 405px; } }
-      @media (min-width: 1171px) {
+      @media (min-width: 1000px) {
         .slider {
           height: 346px; } }
   .slider .text {
@@ -4074,10 +4074,10 @@ div.portlet-static-nivo {
     @media (min-width: 1400px) {
       .slider .text {
         height: 425px; } }
-        @media (min-width: 1171px) {
+        @media (min-width: 1000px) {
           .slider .text {
             height: 346px; } }
-    @media (min-width: 1000px) {
+    @media (min-width: 1171px) {
       .slider .text {
         height: 405px; } }
     @media (min-width: 768px) {
