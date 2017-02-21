@@ -4056,6 +4056,9 @@ div.portlet-static-nivo {
   @media (min-width: 1400px) {
     .slider {
       height: 425px; } }
+  @media (max-width: 700px) {
+    .slider {
+      height: 310px; } }
   .slider .text {
     z-index: 500;
     position: relative;
