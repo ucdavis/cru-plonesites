@@ -3389,7 +3389,7 @@ footer {
             width: 20%; } }
         footer .container section.social li a {
           padding-bottom: 2px;
-          
+
           /*background: url(../img/sprite-sosh.png) 0px -3px no-repeat; }*/
         }
         footer .container section.social li.facebook a {
@@ -4326,6 +4326,8 @@ div.portlet-static-nivo {
   margin-top: 0em; }
 .section-outreach .main .news .box.gold p.leadtext, .section-research .main .news .box.gold p.leadtext {
   margin-top: 1em; }
+  .subsection-current-current .slidefeature {
+    height: 310px; }
 /*
 .subsection-future-future .slidefeature {
   height: 310px; }
