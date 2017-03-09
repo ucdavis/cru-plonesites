@@ -194,11 +194,6 @@ h2 {
     // 	margin-bottom:0px;
     // 	background-color:lighten($asi_main,5);
     // }
-    .homepage_welcome & {
-        font-size: 2rem;
-        // text-transform: uppercase;
-        color: #27AA81;
-    }
 }
 
 h3 {
@@ -312,15 +307,15 @@ p {
         font-size: 1.4rem;
         line-height: 21px;
     }
-    .portlet-static-homepage-welcome & {
-        font-size:2.4rem;
-        text-align:center;
-        color: #5C5C5C;
-        line-height:1.8;
-        max-width:100rem;
-        margin:0 auto;
-        font-family:$sans-serif;
-    }
+    // .portlet-static-homepage-welcome & {
+    //     font-size:2.4rem;
+    //     text-align:center;
+    //     color: #5C5C5C;
+    //     line-height:1.8;
+    //     max-width:100rem;
+    //     margin:0 auto;
+    //     font-family:$sans-serif;
+    // }
     &.eventdescription {
         font-size: 1.4rem;
         font-family: $sans-serif;
