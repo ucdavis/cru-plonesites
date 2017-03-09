@@ -893,7 +893,10 @@ header {
   margin-top: 0px;
   margin-bottom: 7%;
   text-align: center;
-  background-color: #fff; }
+  background-color: #fff;
+  border-top: 6px solid #fff;
+  min-height: 260px;
+  max-height: 700px; }
   .homepage_slide .nivo-controlNav {
     display: none; }
   .homepage_slide a:link {
@@ -3207,8 +3210,6 @@ abbr.dtend {
     align-items: center; }
     .statement-wrapper .statement-icons .statement-image {
       text-align: center; }
-      .statement-wrapper .statement-icons .statement-image img {
-        width: 50%; }
 
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
