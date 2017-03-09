@@ -833,11 +833,15 @@ abbr.dtend {
     width:50%;
     display:flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
-    padding-top:3.5%;
+    padding-top:20px;
     .statement-image {
       width: 100%;
+      &:last-child {
+        margin-bottom:7px;
+        margin-top:7px;
+      }
 
     }
   }
