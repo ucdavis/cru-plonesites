@@ -350,6 +350,9 @@ ul {
                 width: 100%;
                 display: list-item !important;
             }
+            @include breakpoint (laptop) {
+              width:33.1%;
+            }
         }
         li.program_list_item {
             vertical-align: top;

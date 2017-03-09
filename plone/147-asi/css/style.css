@@ -1998,6 +1998,9 @@ ul.three-col-list {
       ul.three-col-list li {
         width: 100%;
         display: list-item !important; } }
+    @media (max-width: 1000px) {
+      ul.three-col-list li {
+        width: 33.1%; } }
   ul.three-col-list li.program_list_item {
     vertical-align: top;
     text-align: center;
