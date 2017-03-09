@@ -2709,7 +2709,7 @@ p.standout_gold {
   display: inline-block; }
 
 body.section-homepage {
-  background-color: #f4f4f4; }
+  background-color: #fafafa; }
 
 .section-homepage .programs_homepage_header {
   text-align: center; }
@@ -2877,7 +2877,7 @@ body.section-homepage {
   display: none; }
 
 .section-homepage .spotlight-bg {
-  background-color: #f4f4f4; }
+  background-color: #fafafa; }
   .section-homepage .spotlight-bg .spotlight-section {
     width: 80%;
     max-width: 1600px;
@@ -3178,7 +3178,7 @@ form#searchform input.searchButton {
 
 .section-event-calendar .tileItem {
   padding: 1% 1% 1% 4%;
-  background-color: #f4f4f4;
+  background-color: #fafafa;
   border-left: 4px solid #1C5BA5;
   border-radius: 2px; }
 
@@ -3647,7 +3647,7 @@ body.section-styles #content .light-gray {
   background: #9b9b9b; }
 
 body.section-styles #content .background-color {
-  background: #f4f4f4; }
+  background: #fafafa; }
 
 body.section-styles #content .box-color {
   background: #ffffff; }
