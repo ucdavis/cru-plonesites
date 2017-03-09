@@ -894,6 +894,8 @@ header {
   margin-bottom: 7%;
   text-align: center;
   background-color: #fff; }
+  .homepage_slide .nivo-controlNav {
+    display: none; }
   .homepage_slide a:link {
     color: #fff; }
   .homepage_slide p {
@@ -3201,9 +3203,12 @@ abbr.dtend {
   .statement-wrapper .statement-icons {
     width: 45%;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center; }
     .statement-wrapper .statement-icons .statement-image {
       text-align: center; }
+      .statement-wrapper .statement-icons .statement-image img {
+        width: 50%; }
 
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
