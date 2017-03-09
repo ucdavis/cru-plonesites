@@ -3195,10 +3195,13 @@ abbr.dtend {
 
 .statement-wrapper {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-between; }
+  .statement-wrapper .statement-info {
+    width: 45%; }
   .statement-wrapper .statement-icons {
+    width: 45%;
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-between; }
     .statement-wrapper .statement-icons .statement-image {
       text-align: center; }
 
