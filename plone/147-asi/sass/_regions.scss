@@ -409,8 +409,8 @@ body.section-homepage {
 
     .portlet-static-homepage-welcome {
         @include outer-container;
-        margin-top: 3%;
-        margin-bottom:3%;
+        margin-top: 3.5%;
+        margin-bottom:3.5%;
     }
     #portal-breadcrumbs {
         display: none;
@@ -824,20 +824,21 @@ abbr.dtend {
 }
 .statement-wrapper {
   display:flex;
-  justify-content: space-between;;
+  justify-content: space-between;
+
   .statement-info {
     width:45%;
   }
   .statement-icons {
-    width:45%;
+    width:50%;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
+    padding-top:3.5%;
     .statement-image {
-      text-align: center;
-      img {
-        
-      }
+      width: 100%;
+
     }
   }
 }
