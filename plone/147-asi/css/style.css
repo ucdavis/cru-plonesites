@@ -3202,8 +3202,15 @@ abbr.dtend {
 .statement-wrapper {
   display: flex;
   justify-content: space-between; }
+  @media (max-width: 1000px) {
+    .statement-wrapper {
+      display: block; } }
   .statement-wrapper .statement-info {
     width: 45%; }
+    @media (max-width: 1000px) {
+      .statement-wrapper .statement-info {
+        width: 100%;
+        text-align: center; } }
   .statement-wrapper .statement-icons {
     width: 50%;
     display: flex;
@@ -3211,6 +3218,10 @@ abbr.dtend {
     align-items: flex-start;
     text-align: center;
     padding-top: 20px; }
+    @media (max-width: 1000px) {
+      .statement-wrapper .statement-icons {
+        width: 100%;
+        margin-top: 16px; } }
     .statement-wrapper .statement-icons .statement-image {
       width: 100%; }
       .statement-wrapper .statement-icons .statement-image:last-child {

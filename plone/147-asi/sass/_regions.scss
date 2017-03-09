@@ -825,9 +825,15 @@ abbr.dtend {
 .statement-wrapper {
   display:flex;
   justify-content: space-between;
-
+  @include breakpoint (laptop) {
+    display:block;
+  }
   .statement-info {
     width:45%;
+    @include breakpoint (laptop) {
+      width:100%;
+      text-align: center;
+    }
   }
   .statement-icons {
     width:50%;
@@ -836,6 +842,10 @@ abbr.dtend {
     align-items: flex-start;
     text-align: center;
     padding-top:20px;
+    @include breakpoint (laptop) {
+      width:100%;
+      margin-top:16px;
+    }
     .statement-image {
       width: 100%;
       &:last-child {
