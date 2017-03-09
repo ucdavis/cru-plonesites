@@ -1990,7 +1990,7 @@ ul.three-col-list {
   padding-left: 0px;
   margin-left: 0px !important; }
   ul.three-col-list li {
-    width: 33.3%;
+    width: 33.2%;
     display: inline-block !important;
     margin-top: 1%;
     margin-bottom: 1%; }
@@ -3206,13 +3206,12 @@ abbr.dtend {
     .statement-wrapper {
       display: block; } }
   .statement-wrapper .statement-info {
-    width: 45%; }
+    width: 100%; }
     @media (max-width: 1000px) {
       .statement-wrapper .statement-info {
-        width: 100%;
         text-align: center; } }
   .statement-wrapper .statement-icons {
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -3220,7 +3219,6 @@ abbr.dtend {
     padding-top: 20px; }
     @media (max-width: 1000px) {
       .statement-wrapper .statement-icons {
-        width: 100%;
         margin-top: 16px; } }
     .statement-wrapper .statement-icons .statement-image {
       width: 100%; }

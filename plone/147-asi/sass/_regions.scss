@@ -829,21 +829,19 @@ abbr.dtend {
     display:block;
   }
   .statement-info {
-    width:45%;
+    width:100%;
     @include breakpoint (laptop) {
-      width:100%;
       text-align: center;
     }
   }
   .statement-icons {
-    width:50%;
+    width:100%;
     display:flex;
     justify-content: space-between;
     align-items: flex-start;
     text-align: center;
     padding-top:20px;
     @include breakpoint (laptop) {
-      width:100%;
       margin-top:16px;
     }
     .statement-image {
