@@ -822,3 +822,14 @@ abbr.dtend {
         display:none;
     }
 }
+.statement-wrapper {
+  display:flex;
+  justify-content: space-around;
+  .statement-icons {
+    display:flex;
+    justify-content: space-around;
+    .statement-image {
+      text-align: center;
+    }
+  }
+}

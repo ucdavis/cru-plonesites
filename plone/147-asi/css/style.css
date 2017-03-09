@@ -889,7 +889,6 @@ header {
     margin-right: 9%; }
 
 .homepage_slide {
-  border-top: 5px solid #1C5BA5;
   margin: 0 auto;
   margin-top: 0px;
   margin-bottom: 7%;
@@ -3193,6 +3192,15 @@ abbr.dtend {
 
 .section-blog img.newsImage {
   display: none; }
+
+.statement-wrapper {
+  display: flex;
+  justify-content: space-around; }
+  .statement-wrapper .statement-icons {
+    display: flex;
+    justify-content: space-around; }
+    .statement-wrapper .statement-icons .statement-image {
+      text-align: center; }
 
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
