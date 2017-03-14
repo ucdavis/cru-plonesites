@@ -2252,8 +2252,6 @@ dt.portletHeader {
         color: #E6A65D !important; }
       .site-sustainable-sourcing .bottom_ports dt.portletHeader a:hover {
         color: #E1BB33 !important; }
-  .section-homepage .spotlight_feature dt.portletHeader {
-    background-color: #1C5BA5; }
   .section-homepage dt.portletHeader {
     border-top-right-radius: 2px;
     border-top-left-radius: 2px; }
@@ -2892,25 +2890,23 @@ body.section-homepage {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap; }
-      .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .flex > dt {
-        flex: 0 1 100%; }
-      .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .flex > div {
-        flex: 1 0 33%;
-        text-align: center;
-        padding: 10px; }
+      .section-homepage .spotlight-bg .spotlight-section .spotlight_feature dt.portletHeader {
+        margin-bottom: 0;
+        flex: 0 1 100%;
+        background-color: #fafafa;
+        color: #C99700 !important;
+        font-weight: 600 !important;
+        font-size: 1.6rem !important; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature a.contenttype-news-item {
         font-size: 1.8rem;
         color: #242424;
         font-family: "proxima-nova", sans-serif; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature a.contenttype-news-item img {
           width: 100%; }
-      .section-homepage .spotlight-bg .spotlight-section .spotlight_feature dt.portletHeader {
-        margin-bottom: 0; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article {
-        background-color: #fff;
-        border-left: 1px solid #c8c7cc;
-        border-right: 1px solid #c8c7cc;
-        border-bottom: 1px solid #c8c7cc; }
+        flex: 1 0 33%;
+        text-align: center;
+        padding: 10px; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article h2 {
           padding-left: 0;
           margin-top: 4%;

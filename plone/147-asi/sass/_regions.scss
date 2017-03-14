@@ -474,17 +474,14 @@ body.section-homepage {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
-                .flex > dt {
+                dt.portletHeader {
+                    margin-bottom: 0;
                     flex: 0 1 100%;
+                    background-color:$background-color;
+                    color:$secondary-color !important;
+                    font-weight:600 !important;
+                    font-size:1.6rem !important;
                 }
-                .flex > div {
-                    flex: 1 0 33%;
-                    text-align: center;
-                    padding: 10px;
-                }
-
-
-
                 & a.contenttype-news-item {
 
                     font-size: 1.8rem;
@@ -496,19 +493,10 @@ body.section-homepage {
 
                     }
                 }
-
-                dt.portletHeader {
-                    margin-bottom: 0;
-                }
-
                 .box.article {
-                    // border-top:5px solid $asi-main;
-                    // padding-top:3%;
-                    background-color: #fff;
-                    border-left: 1px solid $borders;
-                    border-right: 1px solid $borders;
-                    border-bottom: 1px solid $borders;
-
+                  flex: 1 0 33%;
+                  text-align: center;
+                  padding: 10px;
                     h2 {
                         padding-left: 0;
                         margin-top: 4%;
