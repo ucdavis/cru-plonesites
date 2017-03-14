@@ -430,10 +430,9 @@ body.section-homepage {
                 display: none;
             }
             .spotlight_feature {
-                width: 47%;
-                display: inline-block;
-                vertical-align: top;
-                margin-right: 5%;
+                display:flex;
+                justify-content: space-between;
+                align-items: flex-start;
                 & a.contenttype-news-item {
                     width: 100%;
                     font-size: 1.8rem;
@@ -466,29 +465,8 @@ body.section-homepage {
                     }
                 }
             }
-            .spotlight_events {
-                width: 47.5%;
-                display: inline-block;
-                vertical-align: top;
-                .portletFooter {
-                    display: none;
-                }
-                .portletItem.odd,
-                .portletItem.even {
-                    background-color: #fff;
-                    border: 1px solid $borders;
-                    padding: 4%;
-                    padding-top: 4%;
-                    margin-top: 0px;
-                    margin-bottom: 4%;
-                }
-                dd:first-child {
-                    border-top: 2px solid $asi_accent !important;
-                }
-                .portletItem:first-child {
-                    border-top: 2px solid $asi_accent !important;
-                }
-            }
+
+
         }
     }
     .icons-on .contenttype-news-item {
@@ -496,7 +474,29 @@ body.section-homepage {
         padding-left: 0px !important;
     }
 }
+.event-wrapper  {
+  .spotlight_events {
 
+      .portletFooter {
+          display: none;
+      }
+      .portletItem.odd,
+      .portletItem.even {
+          background-color: #fff;
+          border: 1px solid $borders;
+          padding: 4%;
+          padding-top: 4%;
+          margin-top: 0px;
+          margin-bottom: 4%;
+      }
+      dd:first-child {
+          border-top: 2px solid $asi_accent !important;
+      }
+      .portletItem:first-child {
+          border-top: 2px solid $asi_accent !important;
+      }
+  }
+}
 .spotlight_events dd.portletItem.odd:first-child {
     border-top: 2px solid $asi-accent;
     margin-top: 0px;

@@ -2890,10 +2890,9 @@ body.section-homepage {
     .section-homepage .spotlight-bg .spotlight-section .portletFooter {
       display: none; }
     .section-homepage .spotlight-bg .spotlight-section .spotlight_feature {
-      width: 47%;
-      display: inline-block;
-      vertical-align: top;
-      margin-right: 5%; }
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature a.contenttype-news-item {
         width: 100%;
         font-size: 1.8rem;
@@ -2917,28 +2916,28 @@ body.section-homepage {
           margin-bottom: 3%;
           margin-left: 3%;
           margin-right: 3%; }
-    .section-homepage .spotlight-bg .spotlight-section .spotlight_events {
-      width: 47.5%;
-      display: inline-block;
-      vertical-align: top; }
-      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletFooter {
-        display: none; }
-      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem.odd,
-      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem.even {
-        background-color: #fff;
-        border: 1px solid #c8c7cc;
-        padding: 4%;
-        padding-top: 4%;
-        margin-top: 0px;
-        margin-bottom: 4%; }
-      .section-homepage .spotlight-bg .spotlight-section .spotlight_events dd:first-child {
-        border-top: 2px solid #FFB208 !important; }
-      .section-homepage .spotlight-bg .spotlight-section .spotlight_events .portletItem:first-child {
-        border-top: 2px solid #FFB208 !important; }
 
 .section-homepage .icons-on .contenttype-news-item {
   background: none !important;
   padding-left: 0px !important; }
+
+.event-wrapper .spotlight_events .portletFooter {
+  display: none; }
+
+.event-wrapper .spotlight_events .portletItem.odd,
+.event-wrapper .spotlight_events .portletItem.even {
+  background-color: #fff;
+  border: 1px solid #c8c7cc;
+  padding: 4%;
+  padding-top: 4%;
+  margin-top: 0px;
+  margin-bottom: 4%; }
+
+.event-wrapper .spotlight_events dd:first-child {
+  border-top: 2px solid #FFB208 !important; }
+
+.event-wrapper .spotlight_events .portletItem:first-child {
+  border-top: 2px solid #FFB208 !important; }
 
 .spotlight_events dd.portletItem.odd:first-child {
   border-top: 2px solid #FFB208;
