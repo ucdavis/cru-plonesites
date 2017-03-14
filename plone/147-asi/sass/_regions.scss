@@ -380,15 +380,7 @@ body.section-homepage {
         overflow: hidden;
         background: transparent url("../images/asi_banner.jpg") no-repeat scroll 0 0;
         background-size: cover;
-        // @include breakpoint (desktop) {
-        //     height: 275px;
-        // }
-        // @include breakpoint (laptop) {
-        //     height: 200px;
-        // }
-        // @include breakpoint (rufus) {
-        //     height: 150px;
-        // }
+
         p {
             margin-top: 0;
         }
@@ -478,9 +470,12 @@ body.section-homepage {
                     margin-bottom: 0;
                     flex: 0 1 100%;
                     background-color:$background-color;
-                    color:$secondary-color !important;
                     font-weight:600 !important;
                     font-size:1.6rem !important;
+                    text-transform: none !important;
+                     a, a:visited {
+                       color:$secondary-color !important;
+                     }
                 }
                 & a.contenttype-news-item {
 
@@ -495,7 +490,6 @@ body.section-homepage {
                 }
                 .box.article {
                   flex: 1 0 33%;
-                  text-align: center;
                   padding: 10px;
                     h2 {
                         padding-left: 0;

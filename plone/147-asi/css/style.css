@@ -891,7 +891,7 @@ header {
 .homepage_slide {
   margin: 0 auto;
   margin-top: 0px;
-  margin-bottom: 7%;
+  margin-bottom: 3.5%;
   text-align: center;
   background-color: #fff;
   border-top: 6px solid #fff;
@@ -2894,9 +2894,11 @@ body.section-homepage {
         margin-bottom: 0;
         flex: 0 1 100%;
         background-color: #fafafa;
-        color: #C99700 !important;
         font-weight: 600 !important;
-        font-size: 1.6rem !important; }
+        font-size: 1.6rem !important;
+        text-transform: none !important; }
+        .section-homepage .spotlight-bg .spotlight-section .spotlight_feature dt.portletHeader a, .section-homepage .spotlight-bg .spotlight-section .spotlight_feature dt.portletHeader a:visited {
+          color: #C99700 !important; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature a.contenttype-news-item {
         font-size: 1.8rem;
         color: #242424;
@@ -2905,7 +2907,6 @@ body.section-homepage {
           width: 100%; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article {
         flex: 1 0 33%;
-        text-align: center;
         padding: 10px; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article h2 {
           padding-left: 0;
