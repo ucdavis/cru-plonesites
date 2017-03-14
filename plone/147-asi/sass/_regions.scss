@@ -73,11 +73,13 @@ body.template-event_view .eventdetailsside {
     }
 }
 //breadcrumbers
+
 #portal-breadcrumbs {
     margin-top: 20px;
     margin-bottom: 0;
 }
 // call to actions
+
 .cta {
     width: 20%;
     display: inline-block;
@@ -132,6 +134,7 @@ body.template-event_view .eventdetailsside {
     }
 }
 // Staff directory
+
 .template-directory_standard_view {
     .row {
         position: inherit;
@@ -157,6 +160,7 @@ body.template-event_view .eventdetailsside {
     }
 }
 //grant section
+
 .grants {
     margin-bottom: 45px;
 
@@ -166,6 +170,7 @@ body.template-event_view .eventdetailsside {
     }
 }
 //giving support
+
 .givingdiv {
     margin: 30px 0;
     padding: 15px 0;
@@ -466,43 +471,42 @@ body.section-homepage {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
+
                 dt.portletHeader {
                     margin-bottom: 0;
                     flex: 0 1 100%;
-                    background-color:$background-color;
-                    font-weight:600 !important;
-                    font-size:1.6rem !important;
+                    background-color: $background-color;
+                    font-weight: 600 !important;
+                    font-size: 2.2rem !important;
                     text-transform: none !important;
-                     a, a:visited {
-                       color:$secondary-color !important;
-                     }
-                }
-                & a.contenttype-news-item {
 
+                    a,
+                    a:visited {
+                        color: $secondary-color !important;
+                    }
+                }
+
+                & a.contenttype-news-item {
                     font-size: 1.8rem;
                     color: $main-font;
                     font-family: $sans-serif;
 
                     img {
                         width: 100%;
-
                     }
                 }
+
                 .box.article {
-                  flex: 1 0 33%;
-                  padding: 10px;
+                    flex: 1 0 33%;
+                    padding: 10px;
+
                     h2 {
                         padding-left: 0;
                         margin-top: 8px;
-
                     }
-span.details {
-  display:block;
-}
-                    p {
-                        margin-bottom: 3%;
-                        margin-left: 3%;
-                        margin-right: 3%;
+
+                    span.details {
+                        display: block;
                     }
                 }
             }
@@ -545,6 +549,7 @@ span.details {
     margin-top: 0;
 }
 // people
+
 .portaltype-fsdfacultystaffdirectory {
     .innerds {
         width: 100%;
@@ -564,6 +569,7 @@ span.details {
     }
 }
 // ultimate ASI file
+
 .portaltype-ultimate_asi_file {
     #content-core {
         div.field {
@@ -588,6 +594,7 @@ span.details {
     }
 }
 // table
+
 table.secondary_table {
     tr {
         td {
@@ -615,12 +622,14 @@ table.secondary_table {
     }
 }
 // SF hack
+
 .template-landing_view.site-sf #bottom_ports-bg {
     iframe {
         margin-top: -85px;
     }
 }
 // Donor map
+
 .donormap {
     background: url("../images/donormap.jpg") no-repeat top left;
     width: 723px;
@@ -763,6 +772,7 @@ span.popup.donor:after {
     left: 75px;
 }
 // search results
+
 #search-results {
     dt.contenttype-document {
         padding-top: 1.5%;
@@ -812,6 +822,7 @@ form#searchform {
     }
 }
 // database
+
 .well {
     background-color: rgba(255,255,255,.09);
     border: none;
@@ -833,6 +844,7 @@ form#searchform {
     }
 }
 //events
+
 .section-event-calendar .tileItem {
     padding: 1% 1% 1% 4%;
     background-color: $background-color;
@@ -846,6 +858,7 @@ abbr.dtstart {
     border-bottom: none;
 }
 //blog
+
 .section-blog {
     #content .tileItem {
         border-bottom: 1px solid $borders;
