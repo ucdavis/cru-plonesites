@@ -2910,8 +2910,9 @@ body.section-homepage {
         padding: 10px; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article h2 {
           padding-left: 0;
-          margin-top: 4%;
-          margin-left: 4%; }
+          margin-top: 8px; }
+        .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article span.details {
+          display: block; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article p {
           margin-bottom: 3%;
           margin-left: 3%;
