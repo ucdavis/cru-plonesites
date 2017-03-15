@@ -4268,7 +4268,7 @@ div.portlet-static-nivo {
         max-width: 90%; } }
   div.portlet-static-nivo img {
     overflow: hidden;
-    margin-bottom: 0px;
+    margin: 0 auto;
     height: 100%;
     max-width: 2000px; }
   div.portlet-static-nivo .nivo-caption {
