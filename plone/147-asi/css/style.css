@@ -1969,7 +1969,7 @@ p {
     font-size: 1.4rem;
     line-height: 21px; }
   p.eventdescription {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-family: "proxima-nova", sans-serif;
     color: #fff; }
 
@@ -2939,7 +2939,7 @@ body.section-homepage {
     .event-wrapper .spotlight_events .portletItem .event-descrip {
       flex-basis: 50%;
       border-right: 2px solid rgba(255, 255, 255, 0.9);
-      padding-right: 2%; }
+      padding-right: 4%; }
     .event-wrapper .spotlight_events .portletItem .event-more {
       flex-basis: 13%; }
       .event-wrapper .spotlight_events .portletItem .event-more a.tile {
@@ -3235,7 +3235,9 @@ abbr.dtstart {
       .statement-wrapper .statement-icons {
         margin-top: 16px; } }
     .statement-wrapper .statement-icons .statement-image {
-      width: 100%; }
+      width: 29%; }
+      .statement-wrapper .statement-icons .statement-image p {
+        font-size: 1.4rem; }
       .statement-wrapper .statement-icons .statement-image:last-child {
         margin-bottom: 7px;
         margin-top: 7px; }

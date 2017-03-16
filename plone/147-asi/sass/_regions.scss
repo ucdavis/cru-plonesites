@@ -548,7 +548,7 @@ body.section-homepage {
             .event-descrip {
                 flex-basis: 50%;
                 border-right: 2px solid rgba(255,255,255,0.9);
-                padding-right: 2%;
+                padding-right: 4%;
             }
 
             .event-more {
@@ -936,7 +936,7 @@ abbr.dtstart {
     }
 
     .statement-icons {
-        
+
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
@@ -947,8 +947,10 @@ abbr.dtstart {
         }
 
         .statement-image {
-            width: 100%;
-
+            width: 29%;
+            p {
+              font-size:1.4rem;
+            }
             &:last-child {
                 margin-bottom: 7px;
                 margin-top: 7px;
