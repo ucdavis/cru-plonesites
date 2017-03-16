@@ -526,6 +526,11 @@ body.section-homepage {
         display:flex;
         justify-content: space-between;
         align-items: flex-start;
+        .event-date-title {
+          border-right:4px solid rgba(255,255,255,0.9);
+          margin-right:3%;
+          padding-right:1%;
+        }
       }
         .portletFooter {
             display: none;
@@ -534,8 +539,9 @@ body.section-homepage {
         .portletItem.even,
         .portletItem.odd {
             padding: 4%;
-            margin-top: 0;
-            margin-bottom: 4%;
+            margin:0;
+            border-top:6px solid #fff;
+            border-bottom:6px solid #fff;
         }
 
         // dd:first-child {
