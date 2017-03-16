@@ -521,6 +521,12 @@ body.section-homepage {
 
 .event-wrapper {
     .spotlight_events {
+      background-color: $asi-main;
+      .portletItem {
+        display:flex;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
         .portletFooter {
             display: none;
         }
@@ -534,13 +540,13 @@ body.section-homepage {
             margin-bottom: 4%;
         }
 
-        dd:first-child {
-            border-top: 2px solid $asi_accent !important;
-        }
-
-        .portletItem:first-child {
-            border-top: 2px solid $asi_accent !important;
-        }
+        // dd:first-child {
+        //     border-top: 2px solid $asi_accent !important;
+        // }
+        //
+        // .portletItem:first-child {
+        //     border-top: 2px solid $asi_accent !important;
+        // }
     }
 }
 

@@ -46,9 +46,9 @@ a {
     }
     .section-homepage .spotlight_events .portletItem &.tile {
         font-size: 1.8rem;
-        color: $main-font;
+        color: #ffffff;
         &:hover {
-            color: $asi-accent;
+            color: #fff;
         }
     }
 }
@@ -319,7 +319,7 @@ p {
     &.eventdescription {
         font-size: 1.4rem;
         font-family: $sans-serif;
-        color: #717272;
+        color: #fff;
     }
 }
 
@@ -620,7 +620,7 @@ dt.portletHeader {
             }
         }
     }
-    
+
     .section-homepage & {
         border-top-right-radius: 2px;
         border-top-left-radius: 2px;
@@ -660,7 +660,7 @@ span {
     .section-homepage .spotlight_events &.portletItemDetails {
         font-size: 1.4rem;
         font-family: $sans-serif;
-        color: #DA611E;
+        color: rgba(255,255,255,.07);
     }
 }
 

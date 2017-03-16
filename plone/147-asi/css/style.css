@@ -1739,9 +1739,9 @@ html {
 
 .section-homepage .spotlight_events .portletItem a.tile {
   font-size: 1.8rem;
-  color: #242424; }
+  color: #ffffff; }
   .section-homepage .spotlight_events .portletItem a.tile:hover {
-    color: #FFB208; }
+    color: #fff; }
 
 header a:link {
   color: #fff; }
@@ -1971,7 +1971,7 @@ p {
   p.eventdescription {
     font-size: 1.4rem;
     font-family: "proxima-nova", sans-serif;
-    color: #717272; }
+    color: #fff; }
 
 ul.two-col-list {
   padding-left: 0px;
@@ -2276,7 +2276,7 @@ dt.portletHeader {
 .section-homepage .spotlight_events span.portletItemDetails {
   font-size: 1.4rem;
   font-family: "proxima-nova", sans-serif;
-  color: #DA611E; }
+  color: rgba(255, 255, 255, 0.07); }
 
 span.code {
   background-color: #eee;
@@ -2919,22 +2919,21 @@ body.section-homepage {
   background: none !important;
   padding-left: 0 !important; }
 
-.event-wrapper .spotlight_events .portletFooter {
-  display: none; }
-
-.event-wrapper .spotlight_events .portletItem.even,
-.event-wrapper .spotlight_events .portletItem.odd {
-  background-color: #fff;
-  border: 1px solid #c8c7cc;
-  padding: 4%;
-  margin-top: 0;
-  margin-bottom: 4%; }
-
-.event-wrapper .spotlight_events dd:first-child {
-  border-top: 2px solid #FFB208 !important; }
-
-.event-wrapper .spotlight_events .portletItem:first-child {
-  border-top: 2px solid #FFB208 !important; }
+.event-wrapper .spotlight_events {
+  background-color: #1C5BA5; }
+  .event-wrapper .spotlight_events .portletItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+  .event-wrapper .spotlight_events .portletFooter {
+    display: none; }
+  .event-wrapper .spotlight_events .portletItem.even,
+  .event-wrapper .spotlight_events .portletItem.odd {
+    background-color: #fff;
+    border: 1px solid #c8c7cc;
+    padding: 4%;
+    margin-top: 0;
+    margin-bottom: 4%; }
 
 .spotlight_events dd.portletItem.odd:first-child {
   border-top: 2px solid #FFB208;
