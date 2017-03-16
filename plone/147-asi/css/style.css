@@ -2908,10 +2908,13 @@ body.section-homepage {
           width: 100%; }
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article {
         flex: 1 0 33%;
-        padding: 10px; }
+        padding: 24px; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article h2 {
           padding-left: 0;
-          margin-top: 8px; }
+          margin-top: 8px;
+          font-size: 1.8rem; }
+        .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article p {
+          font-size: 1.4rem; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article span.details {
           display: block; }
 

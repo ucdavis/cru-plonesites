@@ -498,13 +498,16 @@ body.section-homepage {
 
                 .box.article {
                     flex: 1 0 33%;
-                    padding: 10px;
+                    padding: 24px;
 
                     h2 {
                         padding-left: 0;
                         margin-top: 8px;
+                        font-size:1.8rem;
                     }
-
+p {
+  font-size:1.4rem;
+}
                     span.details {
                         display: block;
                     }
