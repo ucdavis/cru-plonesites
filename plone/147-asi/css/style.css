@@ -3219,14 +3219,13 @@ abbr.dtstart {
     .statement-wrapper {
       display: block; } }
   .statement-wrapper .statement-info {
-    width: 100%; }
+    width: 90%; }
     .statement-wrapper .statement-info p {
       max-width: 600px; }
     @media (max-width: 1000px) {
       .statement-wrapper .statement-info {
         text-align: center; } }
   .statement-wrapper .statement-icons {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
