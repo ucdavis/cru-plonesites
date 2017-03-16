@@ -533,8 +533,6 @@ body.section-homepage {
 
         .portletItem.even,
         .portletItem.odd {
-            background-color: #fff;
-            border: 1px solid $borders;
             padding: 4%;
             margin-top: 0;
             margin-bottom: 4%;
@@ -550,10 +548,6 @@ body.section-homepage {
     }
 }
 
-.spotlight_events dd.portletItem.odd:first-child {
-    border-top: 2px solid $asi-accent;
-    margin-top: 0;
-}
 // people
 
 .portaltype-fsdfacultystaffdirectory {

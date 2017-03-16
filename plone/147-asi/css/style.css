@@ -2929,15 +2929,9 @@ body.section-homepage {
     display: none; }
   .event-wrapper .spotlight_events .portletItem.even,
   .event-wrapper .spotlight_events .portletItem.odd {
-    background-color: #fff;
-    border: 1px solid #c8c7cc;
     padding: 4%;
     margin-top: 0;
     margin-bottom: 4%; }
-
-.spotlight_events dd.portletItem.odd:first-child {
-  border-top: 2px solid #FFB208;
-  margin-top: 0; }
 
 .portaltype-fsdfacultystaffdirectory .innerds {
   width: 100%;
