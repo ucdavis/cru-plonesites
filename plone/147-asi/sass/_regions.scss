@@ -528,14 +528,16 @@ body.section-homepage {
         align-items: center;
         .event-date-title {
           border-right:2px solid rgba(255,255,255,0.9);
-          margin-right:3.5%;
-          padding-right:1%;
+        flex-basis:25%
         }
         .event-descrip {
-          flex-basis:45%;
+          flex-basis:50%;
           border-right:2px solid rgba(255,255,255,0.9);
-          margin-right:3.5%;
-          padding-right:1%;
+
+          padding-right:2%;
+        }
+        .event-more {
+          flex-basis:13%;
         }
       }
         .portletFooter {
