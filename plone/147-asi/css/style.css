@@ -1990,7 +1990,7 @@ ul.three-col-list {
   padding-left: 0px;
   margin-left: 0px !important; }
   ul.three-col-list li {
-    width: 33.2%;
+    width: 33.1%;
     display: inline-block !important;
     margin-top: 1%;
     margin-bottom: 1%; }
@@ -1998,9 +1998,6 @@ ul.three-col-list {
       ul.three-col-list li {
         width: 100%;
         display: list-item !important; } }
-    @media (max-width: 1000px) {
-      ul.three-col-list li {
-        width: 33.1%; } }
   ul.three-col-list li.program_list_item {
     vertical-align: top;
     text-align: center;
@@ -2912,9 +2909,11 @@ body.section-homepage {
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article h2 {
           padding-left: 0;
           margin-top: 8px;
-          font-size: 1.8rem; }
+          font-size: 1.8rem;
+          margin-bottom: 0px; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article p {
-          font-size: 1.4rem; }
+          font-size: 1.4rem;
+          margin-top: 0px; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article span.details {
           display: block; }
 
@@ -2937,6 +2936,9 @@ body.section-homepage {
       padding-right: 2%; }
     .event-wrapper .spotlight_events .portletItem .event-more {
       flex-basis: 13%; }
+      .event-wrapper .spotlight_events .portletItem .event-more a.tile {
+        font-size: 1.4rem;
+        text-transform: uppercase; }
   .event-wrapper .spotlight_events .portletFooter {
     display: none; }
   .event-wrapper .spotlight_events .portletItem.even,

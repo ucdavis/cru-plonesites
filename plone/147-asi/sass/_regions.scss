@@ -504,9 +504,11 @@ body.section-homepage {
                         padding-left: 0;
                         margin-top: 8px;
                         font-size:1.8rem;
+                        margin-bottom:0px;
                     }
 p {
   font-size:1.4rem;
+  margin-top:0px;
 }
                     span.details {
                         display: block;
@@ -541,6 +543,10 @@ p {
         }
         .event-more {
           flex-basis:13%;
+          a.tile  {
+            font-size:1.4rem;
+            text-transform:uppercase;
+          }
         }
       }
         .portletFooter {
