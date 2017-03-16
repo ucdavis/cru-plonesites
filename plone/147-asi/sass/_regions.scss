@@ -927,6 +927,9 @@ abbr.dtstart {
 
     .statement-info {
         width: 100%;
+        p {
+          max-width:600px;
+        }
         @include breakpoint (laptop) {
             text-align: center;
         }

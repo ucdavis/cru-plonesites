@@ -3220,6 +3220,8 @@ abbr.dtstart {
       display: block; } }
   .statement-wrapper .statement-info {
     width: 100%; }
+    .statement-wrapper .statement-info p {
+      max-width: 600px; }
     @media (max-width: 1000px) {
       .statement-wrapper .statement-info {
         text-align: center; } }
