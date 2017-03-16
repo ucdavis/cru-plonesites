@@ -896,7 +896,7 @@ header {
   background-color: #fff;
   border-top: 6px solid #fff;
   border-bottom: 6px solid #fff;
-  min-height: 260px;
+  min-height: 200px;
   max-height: 700px; }
   .homepage_slide .nivo-controlNav {
     display: none; }
@@ -2906,14 +2906,17 @@ body.section-homepage {
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article {
         flex: 1 0 33%;
         padding: 24px; }
+        @media (max-width: 650px) {
+          .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article {
+            flex: 1 0 100%; } }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article h2 {
           padding-left: 0;
           margin-top: 8px;
           font-size: 1.8rem;
-          margin-bottom: 0px; }
+          margin-bottom: 0; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article p {
           font-size: 1.4rem;
-          margin-top: 0px; }
+          margin-top: 0; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article span.details {
           display: block; }
 
@@ -2930,6 +2933,9 @@ body.section-homepage {
     .event-wrapper .spotlight_events .portletItem .event-date-title {
       border-right: 2px solid rgba(255, 255, 255, 0.9);
       flex-basis: 25%; }
+      @media (max-width: 650px) {
+        .event-wrapper .spotlight_events .portletItem .event-date-title {
+          padding-right: 1%; } }
     .event-wrapper .spotlight_events .portletItem .event-descrip {
       flex-basis: 50%;
       border-right: 2px solid rgba(255, 255, 255, 0.9);
@@ -3461,9 +3467,6 @@ Supports Thumbs: true
   position: relative;
   background: #191919 no-repeat 50% 50%;
   max-height: 600px; }
-  @media (max-width: 650px) {
-    .theme-default .nivoSlider {
-      height: 260px; } }
 
 .theme-default .nivoSlider img {
   position: absolute;

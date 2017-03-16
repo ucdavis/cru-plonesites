@@ -499,17 +499,21 @@ body.section-homepage {
                 .box.article {
                     flex: 1 0 33%;
                     padding: 24px;
-
+                    @include breakpoint (navcut) {
+                      flex: 1 0 100%;
+                    }
                     h2 {
                         padding-left: 0;
                         margin-top: 8px;
-                        font-size:1.8rem;
-                        margin-bottom:0px;
+                        font-size: 1.8rem;
+                        margin-bottom: 0;
                     }
-p {
-  font-size:1.4rem;
-  margin-top:0px;
-}
+
+                    p {
+                        font-size: 1.4rem;
+                        margin-top: 0;
+                    }
+
                     span.details {
                         display: block;
                     }
@@ -526,29 +530,37 @@ p {
 
 .event-wrapper {
     .spotlight_events {
-      background-color: $asi-main;
-      .portletItem {
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
-        .event-date-title {
-          border-right:2px solid rgba(255,255,255,0.9);
-        flex-basis:25%
-        }
-        .event-descrip {
-          flex-basis:50%;
-          border-right:2px solid rgba(255,255,255,0.9);
+        background-color: $asi-main;
 
-          padding-right:2%;
+        .portletItem {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .event-date-title {
+                border-right: 2px solid rgba(255,255,255,0.9);
+                flex-basis: 25%;
+                @include breakpoint (navcut) {
+                  padding-right:1%;
+                }
+            }
+
+            .event-descrip {
+                flex-basis: 50%;
+                border-right: 2px solid rgba(255,255,255,0.9);
+                padding-right: 2%;
+            }
+
+            .event-more {
+                flex-basis: 13%;
+
+                a.tile {
+                    font-size: 1.4rem;
+                    text-transform: uppercase;
+                }
+            }
         }
-        .event-more {
-          flex-basis:13%;
-          a.tile  {
-            font-size:1.4rem;
-            text-transform:uppercase;
-          }
-        }
-      }
+
         .portletFooter {
             display: none;
         }
@@ -556,11 +568,10 @@ p {
         .portletItem.even,
         .portletItem.odd {
             padding: 4%;
-            margin:0;
-            border-top:6px solid #fff;
-            border-bottom:6px solid #fff;
+            margin: 0;
+            border-top: 6px solid #fff;
+            border-bottom: 6px solid #fff;
         }
-
         // dd:first-child {
         //     border-top: 2px solid $asi_accent !important;
         // }
@@ -570,9 +581,7 @@ p {
         // }
     }
 }
-
 // people
-
 .portaltype-fsdfacultystaffdirectory {
     .innerds {
         width: 100%;
