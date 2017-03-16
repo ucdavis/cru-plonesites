@@ -525,10 +525,16 @@ body.section-homepage {
       .portletItem {
         display:flex;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
         .event-date-title {
-          border-right:4px solid rgba(255,255,255,0.9);
-          margin-right:3%;
+          border-right:2px solid rgba(255,255,255,0.9);
+          margin-right:3.5%;
+          padding-right:1%;
+        }
+        .event-descrip {
+          flex-basis:45%;
+          border-right:2px solid rgba(255,255,255,0.9);
+          margin-right:3.5%;
           padding-right:1%;
         }
       }

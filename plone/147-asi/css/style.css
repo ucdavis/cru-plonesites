@@ -2924,10 +2924,15 @@ body.section-homepage {
   .event-wrapper .spotlight_events .portletItem {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; }
+    align-items: center; }
     .event-wrapper .spotlight_events .portletItem .event-date-title {
-      border-right: 4px solid rgba(255, 255, 255, 0.9);
-      margin-right: 3%;
+      border-right: 2px solid rgba(255, 255, 255, 0.9);
+      margin-right: 3.5%;
+      padding-right: 1%; }
+    .event-wrapper .spotlight_events .portletItem .event-descrip {
+      flex-basis: 45%;
+      border-right: 2px solid rgba(255, 255, 255, 0.9);
+      margin-right: 3.5%;
       padding-right: 1%; }
   .event-wrapper .spotlight_events .portletFooter {
     display: none; }
