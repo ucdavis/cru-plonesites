@@ -4644,3 +4644,48 @@ div.portlet-static-nivo {
 .nivoSlider a {
   border: 0;
   display: block; }
+
+  .slider {
+    height: 310px;
+    width: 1440px;
+    /* what it was before */
+    width: 100%; }
+    @media (min-width: 1400px) {
+      .slider {
+        height: 425px; } }
+    @media (min-width: 1172px) {
+      .slider {
+        height: 405px; } }
+        @media (min-width: 1000px) {
+          .slider {
+            height: 346px; } }
+    .slider .text {
+      z-index: 500;
+      position: relative;
+      width: 70%;
+      margin: 0px auto;
+      max-width: 90%;
+      width: 100%;
+      height: 310px;
+      display: block; }
+      @media (min-width: 1400px) {
+        .slider .text {
+          height: 425px; } }
+          @media (min-width: 1000px) {
+            .slider .text {
+              height: 346px; } }
+      @media (min-width: 1171px) {
+        .slider .text {
+          height: 405px; } }
+      @media (min-width: 768px) {
+        .slider .text {
+          max-width: 85%; } }
+      @media (min-width: 960px) {
+        .slider .text {
+          max-width: 90%; } }
+      @media (min-width: 620px) {
+        .slider .text {
+          left: -20px; } }
+      @media (min-width: 768px) {
+        .slider .text {
+          max-width: 90%; } }
