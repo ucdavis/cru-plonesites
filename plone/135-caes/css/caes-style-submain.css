@@ -2506,12 +2506,12 @@ input[type="submit"] {
       .template-feature_view .slidefeature .static.text .spotlighttext, .portaltype-center .slidefeature .static.text .spotlighttext, .portaltype-department .slidefeature .static.text .spotlighttext, .portaltype-club .slidefeature .static.text .spotlighttext, .portaltype-major .slidefeature .static.text .spotlighttext {
         bottom: 16%; } }
         @media (min-width: 620px) {
-            .section-front-page .portlet-static-nivo {
+            .diazo-submain .section-front-page .portlet-static-nivo {
                 bottom: 6%;
             }
         }
 @media (min-width: 1100px) {
-    .section-front-page .portlet-static-nivo {
+    .diazo-submain .section-front-page .portlet-static-nivo {
         bottom: 16%;
     }
 }
