@@ -1423,7 +1423,7 @@ nav {
 .slicknav_menu {
   *zoom: 1; }
 
-/* 
+/*
     User Default Style
     Change the following styles to modify the appearance of the menu.
 */
@@ -1640,7 +1640,7 @@ ul#sub_top_drop-nav {
     display: inline-block;
     float: none; }
     .section-homepage #portal-globalnav li a {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       font-weight: 400; }
   .section-homepage #portal-globalnav .selected > a {
     border-bottom: 5px solid #C99700; }
@@ -2823,7 +2823,7 @@ body.section-homepage {
       width: 40%;
       margin-left: 30%; }
     .section-homepage .homepage_slider .banner--title h1 {
-      font-size: 2.8rem;
+      font-size: 2.4rem;
       background-color: #C99700;
       margin-bottom: 0;
       font-family: "proxima-nova", sans-serif;
@@ -2841,9 +2841,9 @@ body.section-homepage {
       margin-top: 0;
       color: #515151;
       background-color: #fff;
-      font-size: 2rem;
+      font-size: 1.6rem;
       margin: 0 auto;
-      padding: 1.2rem 2rem;
+      padding: 0.6rem 2rem;
       font-weight: 100; }
       @media (max-width: 1000px) {
         .section-homepage .homepage_slider .banner--title h3 {
@@ -3221,7 +3221,7 @@ abbr.dtstart {
   .statement-wrapper .statement-info {
     width: 90%; }
     .statement-wrapper .statement-info p {
-      max-width: 600px; }
+      max-width: 540px; }
     @media (max-width: 1000px) {
       .statement-wrapper .statement-info {
         text-align: center; } }
@@ -3237,7 +3237,8 @@ abbr.dtstart {
     .statement-wrapper .statement-icons .statement-image {
       width: 29%; }
       .statement-wrapper .statement-icons .statement-image p {
-        font-size: 1.4rem; }
+        font-size: 1.4rem;
+        font-family: "proxima-nova", sans-serif; }
       .statement-wrapper .statement-icons .statement-image:last-child {
         margin-bottom: 7px;
         margin-top: 7px; }

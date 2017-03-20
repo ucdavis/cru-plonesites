@@ -408,7 +408,7 @@ body.section-homepage {
             }
 
             h1 {
-                font-size: 2.8rem;
+                font-size: 2.4rem;
                 background-color: $secondary-color;
                 margin-bottom: 0;
                 font-family: $sans-serif;
@@ -428,9 +428,9 @@ body.section-homepage {
                 margin-top: 0;
                 color: $middle-gray;
                 background-color: #fff;
-                font-size: 2rem;
+                font-size: 1.6rem;
                 margin: 0 auto;
-                padding: 1.2rem 2rem;
+                padding: 0.6rem 2rem;
                 font-weight: 100;
                 @include breakpoint (laptop) {
                     font-size: 1.6rem;
@@ -928,7 +928,7 @@ abbr.dtstart {
     .statement-info {
         width: 90%;
         p {
-          max-width:600px;
+          max-width:540px;
         }
         @include breakpoint (laptop) {
             text-align: center;
@@ -950,6 +950,7 @@ abbr.dtstart {
             width: 29%;
             p {
               font-size:1.4rem;
+              font-family: $sans-serif;
             }
             &:last-child {
                 margin-bottom: 7px;
