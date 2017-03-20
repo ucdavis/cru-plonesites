@@ -2668,7 +2668,8 @@ body.section-homepage {
   .section-homepage .homepage_programs .home_progs {
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    flex-wrap: wrap; }
     .section-homepage .homepage_programs .home_progs a {
       position: relative;
       display: block;

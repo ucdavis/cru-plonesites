@@ -246,6 +246,7 @@ body.section-homepage {
           display:flex;
           justify-content: space-between;
           align-items: center;
+          flex-wrap: wrap;
           a {
               position: relative;
               display: block;
