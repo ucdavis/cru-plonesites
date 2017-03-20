@@ -206,13 +206,12 @@ h3 {
         margin-top: 6%;
     }
     &.home_section_header {
-        background-color: $asi_main;
-        color: #fff;
-        padding: 1% 1.5%;
-        margin-top: 0px;
-        display: inline;
-        margin-left: 5%;
-        display: none;
+
+        color: $main-font;
+        font-size:2.4rem;
+        font-family: $sans-serif;
+        text-align: center;
+
     }
     .portlet-static-homepage-focus & {
         font-weight: 600;
@@ -359,7 +358,7 @@ ul {
             text-align: center;
             // position:absolute;
             margin: 0px;
-            
+
         }
     }
     #footer_contents & li {
