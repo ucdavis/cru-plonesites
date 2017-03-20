@@ -2682,9 +2682,6 @@ body.section-homepage {
   .section-homepage .home_progs div {
     background: #000;
     margin: 2% 0%; }
-    @media (min-width: 1251px) {
-      .section-homepage .home_progs div {
-        flex-basis: 29%; } }
   .section-homepage .home_progs a {
     position: relative;
     display: block;

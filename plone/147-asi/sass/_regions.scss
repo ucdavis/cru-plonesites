@@ -254,9 +254,9 @@ body.section-homepage {
         div {
           background:#000;
           margin:2% 0%;
-          @include breakpoint (rupert) {
-            flex-basis:29%;
-          }
+          // @include breakpoint (rupert) {
+          //   flex-basis:29%;
+          // }
         }
 
         a {
