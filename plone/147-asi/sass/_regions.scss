@@ -240,6 +240,8 @@ body.section-homepage {
 
     .homepage_programs {
         background-color: $background-color;
+          @include outer-container;
+
     }
 
     .home_progs {
@@ -252,24 +254,9 @@ body.section-homepage {
         div {
           background:#000;
           margin:2% 0%;
-          // &:nth-child(1) {
-          //     margin: 2% 0%;
-          // }
-          // &:nth-child(2) {
-          //     margin: 2% 0%;
-          // }
-          // &:nth-child(3) {
-          //     margin: 2% 0%;
-          // }
-          //   &:nth-child(4) {
-          //       margin: 2% 0%;
-          //   }
-          //   &:nth-child(5) {
-          //       margin: 2% 0%;
-          //   }
-          //   &:nth-child(6) {
-          //       margin: 2% 0%;
-          //   }
+          @include breakpoint (rupert) {
+            flex-basis:29%;
+          }
         }
 
         a {

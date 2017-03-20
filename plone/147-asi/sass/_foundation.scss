@@ -502,6 +502,7 @@ header {
 .doormat {
 	padding:1.5% 0%;
 	background-color:$secondary-bg;
+  display:flex;
 	.doormat_contents {
 		@include outer-container;
 		.footleft {

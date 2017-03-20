@@ -1081,6 +1081,10 @@ textarea {
      @media (max-width: 550px)  { @content ; }
 
   }
+  @else if $point == rupert {
+     @media (min-width: 1251px)  { @content ; }
+
+  }
 }
 // structure //
 @mixin outer-container {
