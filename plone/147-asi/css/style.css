@@ -2668,18 +2668,13 @@ body.section-homepage {
 
 .section-homepage .home_progs {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   text-align: center; }
   .section-homepage .home_progs div {
-    background: #000; }
-    .section-homepage .home_progs div:nth-child(4) {
-      margin: 2% 0%; }
-    .section-homepage .home_progs div:nth-child(5) {
-      margin: 2% 0%; }
-    .section-homepage .home_progs div:nth-child(6) {
-      margin: 2% 0%; }
+    background: #000;
+    margin: 2% 0%; }
   .section-homepage .home_progs a {
     position: relative;
     display: block;
