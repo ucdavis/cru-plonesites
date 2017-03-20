@@ -2665,54 +2665,55 @@ body.section-homepage {
 
 .section-homepage .homepage_programs {
   background-color: #fafafa; }
-  .section-homepage .homepage_programs .home_progs {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap; }
-    .section-homepage .homepage_programs .home_progs a {
-      position: relative;
-      display: block;
-      transition-delay: 0s;
-      transition-duration: 0.25s;
-      transition-property: all;
-      transition-timing-function: ease;
-      -webkit-transition-delay: 0s;
-      -webkit-transition-duration: 0.25s;
-      -webkit-transition-property: all;
-      -webkit-transition-timing-function: ease;
-      -moz-transition-delay: 0s;
-      -moz-transition-duration: 0.25s;
-      -moz-transition-property: all;
-      -moz-transition-timing-function: ease; }
-      .section-homepage .homepage_programs .home_progs a:hover img {
-        opacity: 1; }
-    .section-homepage .homepage_programs .home_progs img {
-      width: 100%;
-      position: relative;
-      opacity: .4; }
-    .section-homepage .homepage_programs .home_progs span.program_title {
-      font-size: 2.4rem;
-      color: #fff;
-      position: absolute;
-      bottom: 45%;
-      z-index: 99999;
-      left: 10%;
-      right: 10%;
-      line-height: 1.6; }
-      .section-homepage .homepage_programs .home_progs span.program_title.sf_title {
-        bottom: 50%; }
-      @media (max-width: 1250px) {
-        .section-homepage .homepage_programs .home_progs span.program_title {
-          font-size: 2rem; } }
-      @media (max-width: 1000px) {
-        .section-homepage .homepage_programs .home_progs span.program_title {
-          font-size: 1.6rem;
-          bottom: 31%; } }
-      @media (max-width: 750px) {
-        .section-homepage .homepage_programs .home_progs span.program_title {
-          font-size: 1.8rem;
-          bottom: 41%; } }
+
+.section-homepage .home_progs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }
+  .section-homepage .home_progs a {
+    position: relative;
+    display: block;
+    transition-delay: 0s;
+    transition-duration: 0.25s;
+    transition-property: all;
+    transition-timing-function: ease;
+    -webkit-transition-delay: 0s;
+    -webkit-transition-duration: 0.25s;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-delay: 0s;
+    -moz-transition-duration: 0.25s;
+    -moz-transition-property: all;
+    -moz-transition-timing-function: ease; }
+    .section-homepage .home_progs a:hover img {
+      opacity: 1; }
+  .section-homepage .home_progs img {
+    width: 100%;
+    position: relative;
+    opacity: .4; }
+  .section-homepage .home_progs span.program_title {
+    font-size: 2.4rem;
+    color: #fff;
+    position: absolute;
+    bottom: 45%;
+    z-index: 99999;
+    left: 10%;
+    right: 10%;
+    line-height: 1.6; }
+    .section-homepage .home_progs span.program_title.sf_title {
+      bottom: 50%; }
+    @media (max-width: 1250px) {
+      .section-homepage .home_progs span.program_title {
+        font-size: 2rem; } }
+    @media (max-width: 1000px) {
+      .section-homepage .home_progs span.program_title {
+        font-size: 1.6rem;
+        bottom: 31%; } }
+    @media (max-width: 750px) {
+      .section-homepage .home_progs span.program_title {
+        font-size: 1.8rem;
+        bottom: 41%; } }
 
 .section-homepage .homepage_focus {
   background-color: #f5f5f5;
