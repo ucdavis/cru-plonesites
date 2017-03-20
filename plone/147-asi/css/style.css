@@ -2670,7 +2670,16 @@ body.section-homepage {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  text-align: center; }
+  .section-homepage .home_progs div {
+    background: #000; }
+    .section-homepage .home_progs div:nth-child(4) {
+      margin: 2% 0%; }
+    .section-homepage .home_progs div:nth-child(5) {
+      margin: 2% 0%; }
+    .section-homepage .home_progs div:nth-child(6) {
+      margin: 2% 0%; }
   .section-homepage .home_progs a {
     position: relative;
     display: block;
@@ -2691,7 +2700,7 @@ body.section-homepage {
   .section-homepage .home_progs img {
     width: 100%;
     position: relative;
-    opacity: .4; }
+    opacity: 0.4; }
   .section-homepage .home_progs span.program_title {
     font-size: 2.4rem;
     color: #fff;

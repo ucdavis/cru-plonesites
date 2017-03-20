@@ -239,52 +239,72 @@ body.section-homepage {
     }
 
     .homepage_programs {
-
         background-color: $background-color;
     }
+
     .home_progs {
-      display:flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      a {
-          position: relative;
-          display: block;
-          @include transitiontime;
-          &:hover img {
-              opacity: 1;
-          }
-      }
-      img {
-          width: 100%;
-          position: relative;
-          opacity: .4;
-      }
-      span.program_title {
-          font-size: 2.4rem;
-          color: #fff;
-          position: absolute;
-          bottom: 45%;
-          z-index: 99999;
-          left: 10%;
-          right: 10%;
-          line-height: 1.6;
-          &.sf_title {
-              bottom: 50%;
-          }
-          @include breakpoint (desktop) {
-              font-size: 2rem;
-          }
-          @include breakpoint (laptop) {
-              font-size: 1.6rem;
-              bottom: 31%;
-          }
-          @include breakpoint (tablet) {
-              font-size: 1.8rem;
-              bottom: 41%;
-          }
-      }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+
+        div {
+          background:#000;
+            &:nth-child(4) {
+                margin: 2% 0%;
+            }
+            &:nth-child(5) {
+                margin: 2% 0%;
+            }
+            &:nth-child(6) {
+                margin: 2% 0%;
+            }
+        }
+
+        a {
+            position: relative;
+            display: block;
+            @include transitiontime;
+
+            &:hover img {
+                opacity: 1;
+            }
+        }
+
+        img {
+            width: 100%;
+            position: relative;
+            opacity: 0.4;
+        }
+
+        span.program_title {
+            font-size: 2.4rem;
+            color: #fff;
+            position: absolute;
+            bottom: 45%;
+            z-index: 99999;
+            left: 10%;
+            right: 10%;
+            line-height: 1.6;
+
+            &.sf_title {
+                bottom: 50%;
+            }
+            @include breakpoint (desktop) {
+                font-size: 2rem;
+            }
+            @include breakpoint (laptop) {
+                font-size: 1.6rem;
+                bottom: 31%;
+            }
+            @include breakpoint (tablet) {
+                font-size: 1.8rem;
+                bottom: 41%;
+            }
+        }
     }
+
     .homepage_focus {
         background-color: $secondary-bg;
         padding-bottom: 4%;
@@ -530,8 +550,9 @@ body.section-homepage {
                     flex: 1 0 33%;
                     padding: 24px;
                     @include breakpoint (navcut) {
-                      flex: 1 0 100%;
+                        flex: 1 0 100%;
                     }
+
                     h2 {
                         padding-left: 0;
                         margin-top: 8px;
@@ -571,7 +592,7 @@ body.section-homepage {
                 border-right: 2px solid rgba(255,255,255,0.9);
                 flex-basis: 25%;
                 @include breakpoint (navcut) {
-                  padding-right:1%;
+                    padding-right: 1%;
                 }
             }
 
@@ -612,6 +633,7 @@ body.section-homepage {
     }
 }
 // people
+
 .portaltype-fsdfacultystaffdirectory {
     .innerds {
         width: 100%;
@@ -957,8 +979,9 @@ abbr.dtstart {
 
     .statement-info {
         width: 90%;
+
         p {
-          max-width:540px;
+            max-width: 540px;
         }
         @include breakpoint (laptop) {
             text-align: center;
@@ -966,7 +989,6 @@ abbr.dtstart {
     }
 
     .statement-icons {
-
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
@@ -978,10 +1000,12 @@ abbr.dtstart {
 
         .statement-image {
             width: 29%;
+
             p {
-              font-size:1.4rem;
-              font-family: $sans-serif;
+                font-size: 1.4rem;
+                font-family: $sans-serif;
             }
+
             &:last-child {
                 margin-bottom: 7px;
                 margin-top: 7px;
