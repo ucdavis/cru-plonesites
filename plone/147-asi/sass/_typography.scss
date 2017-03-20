@@ -359,43 +359,7 @@ ul {
             text-align: center;
             // position:absolute;
             margin: 0px;
-            a {
-                position: relative;
-                display: block;
-                @include transitiontime;
-                &:hover img {
-                    opacity: 1;
-                }
-            }
-            img {
-                width: 100%;
-                position: relative;
-                opacity: .4;
-            }
-            span.program_title {
-                font-size: 2.4rem;
-                color: #fff;
-                position: absolute;
-                bottom: 45%;
-                z-index: 99999;
-                left: 10%;
-                right: 10%;
-                line-height: 1.6;
-                &.sf_title {
-                    bottom: 50%;
-                }
-                @include breakpoint (desktop) {
-                    font-size: 2rem;
-                }
-                @include breakpoint (laptop) {
-                    font-size: 1.6rem;
-                    bottom: 31%;
-                }
-                @include breakpoint (tablet) {
-                    font-size: 1.8rem;
-                    bottom: 41%;
-                }
-            }
+            
         }
     }
     #footer_contents & li {
