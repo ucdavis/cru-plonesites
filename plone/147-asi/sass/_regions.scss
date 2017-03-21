@@ -240,8 +240,7 @@ body.section-homepage {
 
     .homepage_programs {
         background-color: $background-color;
-          @include outer-container;
-
+        @include outer-container;
     }
 
     .home_progs {
@@ -252,18 +251,18 @@ body.section-homepage {
         text-align: center;
 
         div {
-          background:#000;
-          margin:2% 0%;
-          flex-basis:28%;
-          @include breakpoint (tablet) {
-            flex-basis:46%;
-          }
-          @include breakpoint (mobileonly) {
-            flex-basis:100%;
-          }
-          // @include breakpoint (rupert) {
-          //   flex-basis:29%;
-          // }
+            background: #000;
+            margin: 2% 0;
+            flex-basis: 28%;
+            @include breakpoint (tablet) {
+                flex-basis: 46%;
+            }
+            @include breakpoint (mobileonly) {
+                flex-basis: 100%;
+            }
+            // @include breakpoint (rupert) {
+            //   flex-basis:29%;
+            // }
         }
 
         a {
@@ -433,7 +432,7 @@ body.section-homepage {
     }
 
     .homepage_slider {
-      position:relative;
+        position: relative;
         padding: 70px 0;
         height: auto;
         overflow: hidden;
@@ -456,11 +455,10 @@ body.section-homepage {
             // img {
             //     margin-top: -5%;
             // }
-            width: 40%;
-            margin:0 auto;
-            @include breakpoint (mobileonly) {
-              width:80%;
-
+            width: 55%;
+            margin: 0 auto;
+            @include breakpoint (navcut) {
+                width: 80%;
             }
 
             h1 {
@@ -596,10 +594,8 @@ body.section-homepage {
 
             .event-date-title {
                 border-right: 2px solid rgba(255,255,255,0.9);
-                flex-basis: 25%;
-                @include breakpoint (navcut) {
-                    padding-right: 1%;
-                }
+                flex-basis: 29%;
+                padding-right: 4%;
             }
 
             .event-descrip {
@@ -1017,5 +1013,17 @@ abbr.dtstart {
                 margin-top: 7px;
             }
         }
+    }
+}
+
+.homepage_call {
+    position: relative;
+    width: 100%;
+
+    .homepage_call_text {
+        position: absolute;
+        top: 200px;
+        left: 0;
+        width: 50%;
     }
 }

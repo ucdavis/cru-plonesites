@@ -2681,7 +2681,7 @@ body.section-homepage {
   text-align: center; }
   .section-homepage .home_progs div {
     background: #000;
-    margin: 2% 0%;
+    margin: 2% 0;
     flex-basis: 28%; }
     @media (max-width: 750px) {
       .section-homepage .home_progs div {
@@ -2843,9 +2843,9 @@ body.section-homepage {
     margin-top: 2%;
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 55%;
     margin: 0 auto; }
-    @media (max-width: 550px) {
+    @media (max-width: 650px) {
       .section-homepage .homepage_slider .banner--title {
         width: 80%; } }
     .section-homepage .homepage_slider .banner--title h1 {
@@ -2958,10 +2958,8 @@ body.section-homepage {
     align-items: center; }
     .event-wrapper .spotlight_events .portletItem .event-date-title {
       border-right: 2px solid rgba(255, 255, 255, 0.9);
-      flex-basis: 25%; }
-      @media (max-width: 650px) {
-        .event-wrapper .spotlight_events .portletItem .event-date-title {
-          padding-right: 1%; } }
+      flex-basis: 29%;
+      padding-right: 4%; }
     .event-wrapper .spotlight_events .portletItem .event-descrip {
       flex-basis: 50%;
       border-right: 2px solid rgba(255, 255, 255, 0.9);
@@ -3268,6 +3266,15 @@ abbr.dtstart {
       .statement-wrapper .statement-icons .statement-image:last-child {
         margin-bottom: 7px;
         margin-top: 7px; }
+
+.homepage_call {
+  position: relative;
+  width: 100%; }
+  .homepage_call .homepage_call_text {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 50%; }
 
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
