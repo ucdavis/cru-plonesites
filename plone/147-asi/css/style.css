@@ -2329,6 +2329,10 @@ iframe {
 .btn-margin {
   margin-top: 9%; }
 
+.btn-slider {
+  box-shadow: none;
+  background-color: #1C5BA5; }
+
 /* ------
 
 tables

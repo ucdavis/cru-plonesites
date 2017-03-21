@@ -1,5 +1,5 @@
 // Components
-// Modular components and their states. 
+// Modular components and their states.
 // These pieces should be able to be used anywhere. Things like: icons, buttons, messages, etc.
 
 .alert {
@@ -39,7 +39,7 @@
     opacity: .0;
       -webkit-transform: translateY(10%);
   }
-  
+
   100% {
       opacity: 1;
       -webkit-transform: translateY( 0%);
@@ -70,7 +70,7 @@
 iframe {
   width:100;
 }
-//buttons 
+//buttons
 .btn {
   	box-shadow:0 -3px 0 rgba(0, 0, 0, 0.15) inset;
 	color: #FFFFFF !important;
@@ -87,6 +87,10 @@ iframe {
 }
 .btn-margin {
   margin-top:9%;
+}
+.btn-slider {
+  box-shadow:none;
+  background-color:$asi_main;
 }
 /* ------
 
@@ -251,7 +255,7 @@ input.searchButton {
 	text-align:center;
 }
 
-//form 
+//form
 .fgBaseEditForm {
   font-size:160%;
   line-height: 1.5;
