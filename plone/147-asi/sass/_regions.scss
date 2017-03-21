@@ -1019,23 +1019,25 @@ abbr.dtstart {
 .portlet-static-homepage_slide {
     position: relative;
     width: 100%;
-
+    text-align:left;
     h3 {
       position: absolute;
-      top: 200px;
-      left: 0;
-      width: 50%;
+      bottom:20%;
+      left: 10%;
+      padding:8px 16px;
+      color:#fff;
     }
     p {
       position: absolute;
-      top: 220px;
-      left: 0;
-      width: 50%;
+      left: 10%;
+      bottom:15%;
+      padding:8px 16px;
+      background-color:#fff;
     }
-    p a.btn {
+    a.btn {
       position: absolute;
-      top: 240px;
-      left: 0;
-      width: 50%;
+      bottom:10%;
+      left: 10%;
+
     }
 }

@@ -3273,22 +3273,24 @@ abbr.dtstart {
 
 .portlet-static-homepage_slide {
   position: relative;
-  width: 100%; }
+  width: 100%;
+  text-align: left; }
   .portlet-static-homepage_slide h3 {
     position: absolute;
-    top: 200px;
-    left: 0;
-    width: 50%; }
+    bottom: 20%;
+    left: 10%;
+    padding: 8px 16px;
+    color: #fff; }
   .portlet-static-homepage_slide p {
     position: absolute;
-    top: 220px;
-    left: 0;
-    width: 50%; }
-  .portlet-static-homepage_slide p a.btn {
+    left: 10%;
+    bottom: 15%;
+    padding: 8px 16px;
+    background-color: #fff; }
+  .portlet-static-homepage_slide a.btn {
     position: absolute;
-    top: 240px;
-    left: 0;
-    width: 50%; }
+    bottom: 10%;
+    left: 10%; }
 
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
