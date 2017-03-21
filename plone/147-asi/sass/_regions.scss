@@ -1016,14 +1016,26 @@ abbr.dtstart {
     }
 }
 
-.homepage_call {
+.portlet-static-homepage_slide {
     position: relative;
     width: 100%;
 
-    .homepage_call_text {
-        position: absolute;
-        top: 200px;
-        left: 0;
-        width: 50%;
+    h3 {
+      position: absolute;
+      top: 200px;
+      left: 0;
+      width: 50%;
+    }
+    p {
+      position: absolute;
+      top: 220px;
+      left: 0;
+      width: 50%;
+    }
+    p a.btn {
+      position: absolute;
+      top: 240px;
+      left: 0;
+      width: 50%;
     }
 }

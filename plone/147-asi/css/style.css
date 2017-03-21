@@ -3267,12 +3267,22 @@ abbr.dtstart {
         margin-bottom: 7px;
         margin-top: 7px; }
 
-.homepage_call {
+.portlet-static-homepage_slide {
   position: relative;
   width: 100%; }
-  .homepage_call .homepage_call_text {
+  .portlet-static-homepage_slide h3 {
     position: absolute;
     top: 200px;
+    left: 0;
+    width: 50%; }
+  .portlet-static-homepage_slide p {
+    position: absolute;
+    top: 220px;
+    left: 0;
+    width: 50%; }
+  .portlet-static-homepage_slide p a.btn {
+    position: absolute;
+    top: 240px;
     left: 0;
     width: 50%; }
 
