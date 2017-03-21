@@ -984,6 +984,12 @@ abbr.dtstart {
 
         p {
             max-width: 540px;
+            @include breakpoint (laptop) {
+              width:540px;
+              margin:0 auto;
+              margin-top:16px;
+              margin-bottom:32px;
+            }
         }
         @include breakpoint (laptop) {
             text-align: center;
@@ -1020,24 +1026,21 @@ abbr.dtstart {
     position: relative;
     width: 100%;
     text-align:left;
-    h3 {
+    .call-text {
       position: absolute;
-      bottom:20%;
+      bottom:31%;
       left: 10%;
+    }
+    h3 {
+
       padding:8px 16px;
       color:#fff;
     }
     p {
-      position: absolute;
-      left: 10%;
-      bottom:15%;
+
+      max-width:550px;
       padding:8px 16px;
       background-color:#fff;
     }
-    a.btn {
-      position: absolute;
-      bottom:10%;
-      left: 10%;
 
-    }
 }

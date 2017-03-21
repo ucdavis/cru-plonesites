@@ -3250,6 +3250,12 @@ abbr.dtstart {
     width: 90%; }
     .statement-wrapper .statement-info p {
       max-width: 540px; }
+      @media (max-width: 1000px) {
+        .statement-wrapper .statement-info p {
+          width: 540px;
+          margin: 0 auto;
+          margin-top: 16px;
+          margin-bottom: 32px; } }
     @media (max-width: 1000px) {
       .statement-wrapper .statement-info {
         text-align: center; } }
@@ -3275,22 +3281,17 @@ abbr.dtstart {
   position: relative;
   width: 100%;
   text-align: left; }
-  .portlet-static-homepage_slide h3 {
+  .portlet-static-homepage_slide .call-text {
     position: absolute;
-    bottom: 20%;
-    left: 10%;
+    bottom: 31%;
+    left: 10%; }
+  .portlet-static-homepage_slide h3 {
     padding: 8px 16px;
     color: #fff; }
   .portlet-static-homepage_slide p {
-    position: absolute;
-    left: 10%;
-    bottom: 15%;
+    max-width: 550px;
     padding: 8px 16px;
     background-color: #fff; }
-  .portlet-static-homepage_slide a.btn {
-    position: absolute;
-    bottom: 10%;
-    left: 10%; }
 
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
