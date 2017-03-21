@@ -1025,7 +1025,17 @@ abbr.dtstart {
         }
     }
 }
+.homepage_slide {
+  min-height:200px;
+  max-height:700px;
 
+	a:link {
+		color:#fff;
+	}
+	p {
+		margin-top:0px;
+	}
+}
 .portlet-static-homepage_slide {
     position: relative;
     width: 100%;
