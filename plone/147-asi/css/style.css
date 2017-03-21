@@ -2775,7 +2775,6 @@ body.section-homepage {
   .section-homepage .homepage_head .homepage_search {
     display: inline-block;
     vertical-align: top;
-    width: 500px;
     float: right; }
     .section-homepage .homepage_head .homepage_search .portletHeader {
       display: none; }
