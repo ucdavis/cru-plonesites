@@ -533,6 +533,7 @@ body.section-homepage {
                     font-weight: 600 !important;
                     font-size: 2.2rem !important;
                     text-transform: none !important;
+                    margin-left:0px;
 
                     a,
                     a:visited {
@@ -553,6 +554,9 @@ body.section-homepage {
                 .box.article {
                     flex: 1 0 33%;
                     padding: 24px;
+                    &:first-child {
+                      padding-left:0px;
+                    }
                     @include breakpoint (navcut) {
                         flex: 1 0 100%;
                     }
@@ -1038,10 +1042,14 @@ abbr.dtstart {
       margin-bottom:0px;
     }
     p {
-
       max-width:550px;
       padding:8px 16px;
       background-color:#fff;
+      margin-bottom:16px;
     }
+    span {
+
+    }
+
 
 }

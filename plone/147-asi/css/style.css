@@ -2923,7 +2923,8 @@ body.section-homepage {
         background-color: #fafafa;
         font-weight: 600 !important;
         font-size: 2.2rem !important;
-        text-transform: none !important; }
+        text-transform: none !important;
+        margin-left: 0px; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature dt.portletHeader a,
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature dt.portletHeader a:visited {
           color: #C99700 !important; }
@@ -2936,6 +2937,8 @@ body.section-homepage {
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article {
         flex: 1 0 33%;
         padding: 24px; }
+        .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article:first-child {
+          padding-left: 0px; }
         @media (max-width: 650px) {
           .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article {
             flex: 1 0 100%; } }
@@ -3293,7 +3296,8 @@ abbr.dtstart {
   .portlet-static-homepage_slide p {
     max-width: 550px;
     padding: 8px 16px;
-    background-color: #fff; }
+    background-color: #fff;
+    margin-bottom: 16px; }
 
 @media all and (max-width: 600px) {
   table.abouttable td, table.bordered, table.productstable, table.plain td {
