@@ -478,9 +478,11 @@ header {
 .doormat {
 	padding:1.5% 0%;
 	background-color:$secondary-bg;
-  display:flex;
+
 	.doormat_contents {
 		@include outer-container;
+      display:flex;
+      justify-content: space-between;
 		.footleft {
 			border-right:1px solid #E0E0E0;
 			padding-top:0px;
@@ -502,30 +504,32 @@ header {
 	          border-left:none;
 	    	}
 		}
-		.col-md-2 {
-			vertical-align:top;
-			display:inline-block;
-			width:18.6667%;
-			@include breakpoint(latte) {
-	          width:18%;
-	    	}
-	    	@include breakpoint(tablet) {
-	          width:24%;
-	    	}
-	    	@include breakpoint(mobileonly) {
-	          width:100%;
-	          text-align:center;
-	          border-bottom:1px solid #e5e5e5;
-	          padding-bottom:5px;
-	          margin-bottom:5px;
-	    	}
-
-		}
+    .col-md-2 {
+      flex-basis:18%;
+      @include breakpoint (tablet) {
+        flex-basis:25%;
+      }
+    }
+		// .col-md-2 {
+		// 	vertical-align:top;
+		// 	display:inline-block;
+		// 	width:18.6667%;
+		// 	@include breakpoint(latte) {
+	  //         width:18%;
+	  //   	}
+	  //   	@include breakpoint(tablet) {
+	  //         width:24%;
+	  //   	}
+	  //   	@include breakpoint(mobileonly) {
+	  //         width:100%;
+	  //         text-align:center;
+	  //         border-bottom:1px solid #e5e5e5;
+	  //         padding-bottom:5px;
+	  //         margin-bottom:5px;
+	  //   	}
+    //
+		// }
 		.col-md-4 {
-			vertical-align:top;
-			display:inline-block;
-			width:22.3333%;
-			margin-right:20px;
 			@include breakpoint(tablet) {
 	          display:none;
 	    	}
