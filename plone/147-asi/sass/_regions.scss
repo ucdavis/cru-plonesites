@@ -254,6 +254,13 @@ body.section-homepage {
         div {
           background:#000;
           margin:2% 0%;
+          flex-basis:28%;
+          @include breakpoint (tablet) {
+            flex-basis:46%;
+          }
+          @include breakpoint (mobileonly) {
+            flex-basis:100%;
+          }
           // @include breakpoint (rupert) {
           //   flex-basis:29%;
           // }
@@ -426,7 +433,7 @@ body.section-homepage {
     }
 
     .homepage_slider {
-        postion: relative;
+      position:relative;
         padding: 70px 0;
         height: auto;
         overflow: hidden;
@@ -449,9 +456,11 @@ body.section-homepage {
             // img {
             //     margin-top: -5%;
             // }
-            .webkit & {
-                width: 40%;
-                margin-left: 30%;
+            width: 40%;
+            margin:0 auto;
+            @include breakpoint (mobileonly) {
+              width:80%;
+
             }
 
             h1 {
