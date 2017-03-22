@@ -2892,7 +2892,8 @@ body.section-homepage {
         font-weight: 600 !important;
         font-size: 2.2rem !important;
         text-transform: none !important;
-        margin-left: 0px; }
+        margin-left: 0px;
+        padding-left: 0px; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature dt.portletHeader a,
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature dt.portletHeader a:visited {
           color: #C99700 !important; }
@@ -2905,8 +2906,6 @@ body.section-homepage {
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article {
         flex: 1 0 33%;
         padding: 24px; }
-        .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article:first-child {
-          padding-left: 0px; }
         @media (max-width: 650px) {
           .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article {
             flex: 1 0 100%; } }
@@ -3224,9 +3223,7 @@ abbr.dtstart {
       @media (max-width: 1000px) {
         .statement-wrapper .statement-info p {
           width: 540px;
-          margin: 0 auto;
-          margin-top: 16px;
-          margin-bottom: 32px; } }
+          margin: 16px auto 32px; } }
     @media (max-width: 1000px) {
       .statement-wrapper .statement-info {
         text-align: center; } }
@@ -3252,12 +3249,12 @@ abbr.dtstart {
   margin-bottom: 24px; }
 
 .homepage_slide {
-  min-height: 200px;
+  min-height: 122px;
   max-height: 700px; }
   .homepage_slide a:link {
     color: #fff; }
   .homepage_slide p {
-    margin-top: 0px; }
+    margin-top: 0; }
 
 .portlet-static-homepage_slide {
   position: relative;
@@ -3271,7 +3268,7 @@ abbr.dtstart {
     display: inline-block;
     padding: 8px 16px;
     color: #fff;
-    margin-bottom: 0px; }
+    margin-bottom: 0; }
   .portlet-static-homepage_slide p {
     max-width: 550px;
     padding: 8px 16px;

@@ -532,7 +532,8 @@ body.section-homepage {
                     font-weight: 600 !important;
                     font-size: 2.2rem !important;
                     text-transform: none !important;
-                    margin-left:0px;
+                    margin-left: 0px;
+                    padding-left: 0px;
 
                     a,
                     a:visited {
@@ -553,9 +554,7 @@ body.section-homepage {
                 .box.article {
                     flex: 1 0 33%;
                     padding: 24px;
-                    &:first-child {
-                      padding-left:0px;
-                    }
+
                     @include breakpoint (navcut) {
                         flex: 1 0 100%;
                     }
@@ -988,10 +987,8 @@ abbr.dtstart {
         p {
             max-width: 540px;
             @include breakpoint (laptop) {
-              width:540px;
-              margin:0 auto;
-              margin-top:16px;
-              margin-bottom:32px;
+                width: 540px;
+                margin: 16px auto 32px;
             }
         }
         @include breakpoint (laptop) {
@@ -1024,44 +1021,48 @@ abbr.dtstart {
         }
     }
 }
-.programs_feed {
-  margin-bottom:24px;
-}
-.homepage_slide {
-  min-height:200px;
-  max-height:700px;
 
-	a:link {
-		color:#fff;
-	}
-	p {
-		margin-top:0px;
-	}
+.programs_feed {
+    margin-bottom: 24px;
 }
+
+.homepage_slide {
+    min-height: 122px;
+    max-height: 700px;
+
+    a:link {
+        color: #fff;
+    }
+
+    p {
+        margin-top: 0;
+    }
+}
+
 .portlet-static-homepage_slide {
     position: relative;
     width: 100%;
-    text-align:left;
+    text-align: left;
+
     .call-text {
-      position: absolute;
-      bottom:12%;
-      left: 10%;
+        position: absolute;
+        bottom: 12%;
+        left: 10%;
     }
+
     h3 {
-      display:inline-block;
-      padding:8px 16px;
-      color:#fff;
-      margin-bottom:0px;
+        display: inline-block;
+        padding: 8px 16px;
+        color: #fff;
+        margin-bottom: 0;
     }
+
     p {
-      max-width:550px;
-      padding:8px 16px;
-      background-color:#fff;
-      margin-bottom:16px;
-    }
-    span {
-
+        max-width: 550px;
+        padding: 8px 16px;
+        background-color: #fff;
+        margin-bottom: 16px;
     }
 
-
+    span {}
 }
