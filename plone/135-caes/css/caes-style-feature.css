@@ -4295,9 +4295,19 @@ div.portlet-static-nivo {
   background-color: rgb(110,135,160);
   padding:8px 24px;
 }
-.callout-blue h4 {
-  color:#fff !important;
+.callout-blue h4 a{
+  color:rgba(255,255,255,.9) !important;
 }
 .callout-blue p {
-  color:#fff !important;
+  color:rgba(255,255,255,.75) !important;
+}
+.callout-blue p a {
+  color:rgba(255,255,255,.75) !important;
+}
+.callout-blue-btn a {
+  background-color:#002855;
+  color:rgba(255,255,255,.95);
+  padding:8px 16px;
+  text-transform: none !important;
+  border-radius:2px;
 }
