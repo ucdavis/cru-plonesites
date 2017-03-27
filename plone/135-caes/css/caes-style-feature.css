@@ -4289,3 +4289,15 @@ div.portlet-static-nivo {
 #majormajor ul li a {
   color:rgb(0,73,135) !important;
 }
+.callout-blue {
+  display:flex;
+  justify-content: space-between;
+  background-color: rgb(110,135,160);
+  padding:8px 24px;
+}
+.callout-blue h4 {
+  color:#fff !important;
+}
+.callout-blue p {
+  color:#fff !important;
+}
