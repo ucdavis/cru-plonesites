@@ -4307,12 +4307,17 @@ div.portlet-static-nivo {
 }
 .callout-blue-btn a {
   background-color:#002855;
-  color:rgba(255,255,255,.95) !important;
+  color:rgba(255,255,255,.85) !important;
   padding:8px 16px;
   text-transform: none !important;
   border-radius:2px;
   display:block;
   border-bottom:none !important;
+}
+.callout-blue-btn {margin-bottom:16px;}
+.callout-blue-btn a:hover {
+  background-color:#002855 !important;
+  color:rgb(255,255,255) !important;
 }
 
 .callbtn {
