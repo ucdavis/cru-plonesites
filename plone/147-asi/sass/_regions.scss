@@ -554,7 +554,9 @@ body.section-homepage {
                 .box.article {
                     flex: 1 0 33%;
                     padding: 24px;
-
+                    & :first-child {
+                      margin-left:-24px;
+                    }
                     @include breakpoint (navcut) {
                         flex: 1 0 100%;
                     }
@@ -982,11 +984,12 @@ abbr.dtstart {
     }
 
     .statement-info {
-        width: 90%;
+        width: 70%;
 
         p {
             max-width: 540px;
             @include breakpoint (laptop) {
+              text-align:center;
                 width: 540px;
                 margin: 16px auto 32px;
             }

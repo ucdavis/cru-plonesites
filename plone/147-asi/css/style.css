@@ -2906,6 +2906,8 @@ body.section-homepage {
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article {
         flex: 1 0 33%;
         padding: 24px; }
+        .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article :first-child {
+          margin-left: -24px; }
         @media (max-width: 650px) {
           .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article {
             flex: 1 0 100%; } }
@@ -3217,11 +3219,12 @@ abbr.dtstart {
     .statement-wrapper {
       display: block; } }
   .statement-wrapper .statement-info {
-    width: 90%; }
+    width: 70%; }
     .statement-wrapper .statement-info p {
       max-width: 540px; }
       @media (max-width: 1000px) {
         .statement-wrapper .statement-info p {
+          text-align: center;
           width: 540px;
           margin: 16px auto 32px; } }
     @media (max-width: 1000px) {
