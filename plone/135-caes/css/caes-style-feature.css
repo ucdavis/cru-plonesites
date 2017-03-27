@@ -4303,11 +4303,18 @@ div.portlet-static-nivo {
 }
 .callout-blue p a {
   color:rgba(255,255,255,.75) !important;
+  border-bottom:none !important;
 }
 .callout-blue-btn a {
   background-color:#002855;
-  color:rgba(255,255,255,.95);
+  color:rgba(255,255,255,.95) !important;
   padding:8px 16px;
   text-transform: none !important;
   border-radius:2px;
+  display:block;
+  border-bottom:none !important;
+}
+
+.callbtn {
+  align-self: center;
 }
