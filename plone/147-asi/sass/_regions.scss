@@ -554,7 +554,7 @@ body.section-homepage {
                 .box.article {
                     flex: 1 0 33%;
                     padding: 24px;
-                    
+
                     @include breakpoint (navcut) {
                         flex: 1 0 100%;
                     }
@@ -975,26 +975,26 @@ abbr.dtstart {
 }
 
 .statement-wrapper {
-    display: flex;
-    justify-content: space-between;
+
     @include breakpoint (laptop) {
         display: block;
     }
 
     .statement-info {
-        width: 70%;
+text-align: center;
 
         p {
             max-width: 540px;
-            @include breakpoint (laptop) {
-              text-align:center;
-                width: 540px;
-                margin: 16px auto 32px;
-            }
+            margin:0 auto;
+            // @include breakpoint (laptop) {
+            //   text-align:center;
+            //     width: 540px;
+            //     margin: 16px auto 32px;
+            // }
         }
-        @include breakpoint (laptop) {
-            text-align: center;
-        }
+        // @include breakpoint (laptop) {
+        //     text-align: center;
+        // }
     }
 
     .statement-icons {
@@ -1003,6 +1003,7 @@ abbr.dtstart {
         align-items: flex-start;
         text-align: center;
         padding-top: 20px;
+        margin-top:24px;
         @include breakpoint (laptop) {
             margin-top: 16px;
         }
@@ -1012,6 +1013,8 @@ abbr.dtstart {
 
             p {
                 font-size: 1.4rem;
+                font-weight:600;
+                margin-top:8px;
                 font-family: $sans-serif;
             }
 

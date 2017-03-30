@@ -3210,41 +3210,36 @@ abbr.dtstart {
 .section-blog img.newsImage {
   display: none; }
 
-.statement-wrapper {
+@media (max-width: 1000px) {
+  .statement-wrapper {
+    display: block; } }
+
+.statement-wrapper .statement-info {
+  text-align: center; }
+  .statement-wrapper .statement-info p {
+    max-width: 540px;
+    margin: 0 auto; }
+
+.statement-wrapper .statement-icons {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 24px; }
   @media (max-width: 1000px) {
-    .statement-wrapper {
-      display: block; } }
-  .statement-wrapper .statement-info {
-    width: 70%; }
-    .statement-wrapper .statement-info p {
-      max-width: 540px; }
-      @media (max-width: 1000px) {
-        .statement-wrapper .statement-info p {
-          text-align: center;
-          width: 540px;
-          margin: 16px auto 32px; } }
-    @media (max-width: 1000px) {
-      .statement-wrapper .statement-info {
-        text-align: center; } }
-  .statement-wrapper .statement-icons {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    text-align: center;
-    padding-top: 20px; }
-    @media (max-width: 1000px) {
-      .statement-wrapper .statement-icons {
-        margin-top: 16px; } }
-    .statement-wrapper .statement-icons .statement-image {
-      width: 29%; }
-      .statement-wrapper .statement-icons .statement-image p {
-        font-size: 1.4rem;
-        font-family: "proxima-nova", sans-serif; }
-      .statement-wrapper .statement-icons .statement-image:last-child {
-        margin-bottom: 7px;
-        margin-top: 7px; }
+    .statement-wrapper .statement-icons {
+      margin-top: 16px; } }
+  .statement-wrapper .statement-icons .statement-image {
+    width: 29%; }
+    .statement-wrapper .statement-icons .statement-image p {
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-top: 8px;
+      font-family: "proxima-nova", sans-serif; }
+    .statement-wrapper .statement-icons .statement-image:last-child {
+      margin-bottom: 7px;
+      margin-top: 7px; }
 
 .programs_feed {
   margin-bottom: 24px; }
