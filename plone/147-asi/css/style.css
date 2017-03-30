@@ -2906,8 +2906,6 @@ body.section-homepage {
       .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article {
         flex: 1 0 33%;
         padding: 24px; }
-        .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article :first-child {
-          margin-left: -24px; }
         @media (max-width: 650px) {
           .section-homepage .spotlight-bg .spotlight-section .spotlight_feature .box.article {
             flex: 1 0 100%; } }

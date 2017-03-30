@@ -554,9 +554,7 @@ body.section-homepage {
                 .box.article {
                     flex: 1 0 33%;
                     padding: 24px;
-                    & :first-child {
-                      margin-left:-24px;
-                    }
+                    
                     @include breakpoint (navcut) {
                         flex: 1 0 100%;
                     }
