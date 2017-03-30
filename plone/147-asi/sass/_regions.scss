@@ -526,14 +526,10 @@ body.section-homepage {
                 flex-wrap: wrap;
 
                 dt.portletHeader {
-                    margin-bottom: 0;
-                    flex: 0 1 100%;
-                    background-color: $background-color;
-                    font-weight: 600 !important;
-                    font-size: 2.2rem !important;
-                    text-transform: none !important;
-                    margin-left: 0px;
-                    padding-left: 0px;
+                  font-size: 2rem;
+                  line-height: 1.3;
+                  font-weight: 600;
+                  font-family: "proxima-nova", sans-serif;
 
                     a,
                     a:visited {
