@@ -526,10 +526,12 @@ body.section-homepage {
                 flex-wrap: wrap;
 
                 dt.portletHeader {
-                  font-size: 2rem;
-                  line-height: 1.3;
-                  font-weight: 600;
-                  font-family: "proxima-nova", sans-serif;
+                    margin-bottom: 0;
+                    flex: 0 1 100%;
+                    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 600;
+    font-family: "proxima-nova", sans-serif;
 
                     a,
                     a:visited {
