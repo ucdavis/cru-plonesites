@@ -2894,9 +2894,10 @@ body.section-homepage {
         line-height: 1.3;
         font-weight: 600;
         font-family: "proxima-nova", sans-serif;
-        color: #242424 !important;
         text-transform: none;
         text-align: center; }
+        .section-homepage .spotlight-bg .spotlight-section .spotlight_feature dt.portletHeader a {
+          color: #242424 !important; }
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature dt.portletHeader a,
         .section-homepage .spotlight-bg .spotlight-section .spotlight_feature dt.portletHeader a:visited {
           color: #C99700 !important; }

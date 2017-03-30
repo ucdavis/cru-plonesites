@@ -533,9 +533,12 @@ body.section-homepage {
     line-height: 1.3;
     font-weight: 600;
     font-family: "proxima-nova", sans-serif;
-    color:$main-font !important;
+
     text-transform: none;
     text-align: center;
+    a {
+      color:$main-font !important;
+    }
 
                     a,
                     a:visited {
