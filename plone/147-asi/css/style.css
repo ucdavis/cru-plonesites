@@ -3222,7 +3222,14 @@ abbr.dtstart {
   text-align: center; }
   .statement-wrapper .statement-info p {
     max-width: 540px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    text-transform: uppercase; }
+    .statement-wrapper .statement-info p.sunnygrass {
+      color: #78BE20; }
+    .statement-wrapper .statement-info p.oceanblue {
+      color: #008EAA; }
+    .statement-wrapper .statement-info p .rustbrick {
+      color: #DA611E; }
 
 .statement-wrapper .statement-icons {
   display: flex;
