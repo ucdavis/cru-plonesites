@@ -989,16 +989,6 @@ abbr.dtstart {
         p {
             max-width: 540px;
             margin: 0 auto;
-            text-transform: uppercase;
-            &.sunnygrass {
-              color:#78BE20;
-            }
-            &.oceanblue {
-              color:#008EAA;
-            }
-            .rustbrick {
-              color:#DA611E;
-            }
         }
 
     }
@@ -1018,10 +1008,11 @@ abbr.dtstart {
             width: 29%;
 
             p {
-                font-size: 1.4rem;
+                font-size: 1.2rem;
                 font-weight: 600;
                 margin-top: 8px;
                 font-family: $sans-serif;
+                text-transform: uppercase;
             }
 
             &:last-child {
