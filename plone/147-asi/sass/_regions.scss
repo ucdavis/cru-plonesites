@@ -252,7 +252,7 @@ body.section-homepage {
 
         div {
             background: #000;
-            margin: 2% 0;
+            margin: 2.5% 0;
             flex-basis: 28%;
             @include breakpoint (tablet) {
                 flex-basis: 46%;
@@ -282,7 +282,7 @@ body.section-homepage {
         }
 
         span.program_title {
-            font-size: 2.4rem;
+            font-size: 2rem;
             color: #fff;
             position: absolute;
             bottom: 30%;
@@ -292,7 +292,13 @@ body.section-homepage {
             line-height: 1.6;
 
             &.sf_title {
-                bottom: 50%;
+                bottom: 40%;
+            }
+            &.infas_title {
+                bottom: 28%;
+            }
+            &.sarep_title {
+              bottom:25%;
             }
             @include breakpoint (desktop) {
                 font-size: 2rem;

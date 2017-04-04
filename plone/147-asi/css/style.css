@@ -2664,7 +2664,7 @@ body.section-homepage {
   text-align: center; }
   .section-homepage .home_progs div {
     background: #000;
-    margin: 2% 0;
+    margin: 2.5% 0;
     flex-basis: 28%; }
     @media (max-width: 750px) {
       .section-homepage .home_progs div {
@@ -2694,7 +2694,7 @@ body.section-homepage {
     position: relative;
     opacity: 0.4; }
   .section-homepage .home_progs span.program_title {
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: #fff;
     position: absolute;
     bottom: 30%;
@@ -2703,7 +2703,11 @@ body.section-homepage {
     right: 10%;
     line-height: 1.6; }
     .section-homepage .home_progs span.program_title.sf_title {
-      bottom: 50%; }
+      bottom: 40%; }
+    .section-homepage .home_progs span.program_title.infas_title {
+      bottom: 28%; }
+    .section-homepage .home_progs span.program_title.sarep_title {
+      bottom: 25%; }
     @media (max-width: 1250px) {
       .section-homepage .home_progs span.program_title {
         font-size: 2rem; } }
