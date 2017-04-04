@@ -2468,13 +2468,13 @@ input.searchButton {
   font-size: 160%;
   line-height: 1.5; }
 
-.sunnygrass {
+p.sunnygrass {
   color: #78BE20; }
 
-.oceanblue {
+p.oceanblue {
   color: #008EAA; }
 
-.rustbrick {
+p.rustbrick {
   color: #DA611E; }
 
 .template-plone-app-collection-interfaces-icollection .tileItem {
