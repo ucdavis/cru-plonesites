@@ -2666,6 +2666,8 @@ body.section-homepage {
     background: #000;
     margin: 2.5% 0;
     flex-basis: 28%; }
+    .gecko .section-homepage .home_progs div {
+      margin-bottom: 45px; }
     @media (max-width: 750px) {
       .section-homepage .home_progs div {
         flex-basis: 46%; } }

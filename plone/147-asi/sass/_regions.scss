@@ -254,6 +254,10 @@ body.section-homepage {
             background: #000;
             margin: 2.5% 0;
             flex-basis: 28%;
+            .gecko & {
+                margin-bottom:45px;
+            }
+
             @include breakpoint (tablet) {
                 flex-basis: 46%;
             }
