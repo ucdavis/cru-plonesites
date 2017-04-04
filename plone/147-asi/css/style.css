@@ -2671,9 +2671,6 @@ body.section-homepage {
     @media (max-width: 750px) {
       .section-homepage .home_progs div {
         flex-basis: 46%; } }
-    @media (max-width: 550px) {
-      .section-homepage .home_progs div {
-        flex-basis: 100%; } }
   .section-homepage .home_progs a {
     position: relative;
     display: block;

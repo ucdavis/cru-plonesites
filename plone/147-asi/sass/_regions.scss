@@ -261,9 +261,7 @@ body.section-homepage {
             @include breakpoint (tablet) {
                 flex-basis: 46%;
             }
-            @include breakpoint (mobileonly) {
-                flex-basis: 100%;
-            }
+          
             // @include breakpoint (rupert) {
             //   flex-basis:29%;
             // }
