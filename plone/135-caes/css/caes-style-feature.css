@@ -5661,7 +5661,29 @@ div.portlet-static-nivo ul {
     display: block;
 }
 @media (max-width: 1400px) {
-    .slider, .slider .text {
+    .slider {
+        height: 310px;
+    }
+}
+
+@media (max-width: 1172px) {
+    .slider {
+        height: 278px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .slider {
+        height: 260px;
+    }
+}
+@media (max-width: 750px) {
+    .slider {
+        height: 250px;
+    }
+}
+@media (max-width: 1400px) {
+    .slider .text {
         height: 310px;
     }
 }
@@ -5673,12 +5695,12 @@ div.portlet-static-nivo ul {
 }
 
 @media (max-width: 1000px) {
-    .slider, .slider .text {
+    .slider .text {
         height: 260px;
     }
 }
 @media (max-width: 750px) {
-    .slider, .slider .text {
+    .slider .text {
         height: 250px;
     }
 }
