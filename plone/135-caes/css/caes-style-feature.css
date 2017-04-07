@@ -4323,6 +4323,11 @@ div.portlet-static-nivo {
   border-radius:2px;
   display:block;
   border-bottom:none !important;
+  margin-bottom:16px;
+}
+.callout-blue-btn a:hover {
+  background-color:rgba(255,255,255,.85);
+
 }
 /*.callout-blue-btn {margin-bottom:16px;}
 .callout-blue-btn a:hover {
