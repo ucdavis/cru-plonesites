@@ -5648,9 +5648,21 @@ div.portlet-static-nivo ul {
 
 
 
+
+
+.slider .text {
+    z-index: 500;
+    position: relative;
+    width: 70%;
+    margin: 0px auto;
+    max-width: 90%;
+    width: 100%;
+    height: 310px;
+    display: block;
+}
 @media (max-width: 1400px) {
     .slider, .slider .text {
-        height: 425px;
+        height: 310px;
     }
 }
 
@@ -5669,17 +5681,6 @@ div.portlet-static-nivo ul {
     .slider, .slider .text {
         height: 250px;
     }
-}
-
-.slider .text {
-    z-index: 500;
-    position: relative;
-    width: 70%;
-    margin: 0px auto;
-    max-width: 90%;
-    width: 100%;
-    height: 310px;
-    display: block;
 }
 
 @media (min-width: 768px) {
