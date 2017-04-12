@@ -6089,3 +6089,8 @@ div.portletStaticText .subsection-overview-facts .facts-notes li {
 .calslider img {
     width: 100%;
 }
+.calloutheader {
+  font-size: 1.6em;
+border-bottom: 2px solid rgba(0, 40, 85, 0.86);
+margin-bottom: 10px;
+}
