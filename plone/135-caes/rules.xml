@@ -125,7 +125,7 @@
 
 
     <!--<copy css:content=".portlet-static-slider" css:theme=".slidefeature .slider" />-->
-    <copy css:content=".portlet-static-nivo" css:theme=".goods .slidefeature .slider" />
+    <!-- <copy css:content=".portlet-static-nivo" css:theme=".goods .slidefeature .slider" /> -->
     <copy css:content=".portlet-static-calban" css:theme=".calslider" />
 
     <replace attributes="class" css:content=".documentDescription" css:theme=".thegoods p.description" />
