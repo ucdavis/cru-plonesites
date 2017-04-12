@@ -6054,3 +6054,6 @@ div.portletStaticText .subsection-overview-facts .facts-notes li {
 .callbtn {
     align-self: center;
 }
+.calslider img {
+  width:100%;
+}
