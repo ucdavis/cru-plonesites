@@ -6123,3 +6123,6 @@ margin-bottom: 10px;
     /* background: rgba(33, 33, 33, 0.5); */
     padding: 3px 5px 5px 10px;
 }
+.menutwopointoh h4 a:link, .menutwopointoh h4 a:visited, .menutwopointoh h4 a:hover, .menutwopointoh h4 a:active {
+  color: #fff !important;
+}
