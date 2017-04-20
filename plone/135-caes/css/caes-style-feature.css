@@ -6126,3 +6126,6 @@ margin-bottom: 10px;
 .menutwopointoh h4 a:link, .menutwopointoh h4 a:visited, #content-core .menutwopointoh h4 a:hover, .menutwopointoh h4 a:active {
   color: #fff !important;
 }
+.subsection-students-life .portlets-below .portlet-collection-news {
+  width:100%;
+}
