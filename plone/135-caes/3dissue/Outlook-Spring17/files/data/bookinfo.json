@@ -36,7 +36,7 @@
                     "value019": "15",
                     "value019a": "0",
                     "value020": "http://outlook.ucdavis.edu",
-                    "value022": "",
+                    "value022": "View more issues of \"Outlook\" online.",
                     "value023a": "0xe7cd6c",
                     "value023b": "0xffffff",
                     "value024a": "0.40",
@@ -360,7 +360,7 @@
                     "value019": "20",
                     "value019a": "0",
                     "value020": "http://ucdavisstores.com",
-                    "value022": "",
+                    "value022": "Visit UC Davis Stores online.",
                     "value023a": "0xe7cd6c",
                     "value023b": "0xffffff",
                     "value024a": "0.40",
@@ -505,7 +505,7 @@
                     "value019a": "0",
                     "value020": "http://caes.ucdavis.edu/giving",
                     "value022": "Create something big. Give today at caes.ucdavis.edu/giving.",
-                    "value023a": "0xcafdff",
+                    "value023a": "0xe7cc6c",
                     "value023b": "0xffffff",
                     "value024a": "0.40",
                     "value024b": "0.00",
@@ -1176,7 +1176,7 @@
             "value703": "true",
             "value703a": "158369:158656:185487:Outlook-Spring17",
             "value704": "",
-            "value705": "1493833804695"
+            "value705": "1493834384687"
         }
     }
 }
