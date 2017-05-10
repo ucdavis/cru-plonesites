@@ -2782,9 +2782,11 @@ body.section-homepage {
     float: right; }
   .section-homepage .homepage_head .homepage_logo {
     display: inline-block;
-    width: 250px;
     margin-top: 16px;
     vertical-align: top; }
+    .section-homepage .homepage_head .homepage_logo img {
+      display: inline;
+      margin-right: 4px; }
   .section-homepage .homepage_head .homepage_search {
     display: inline-block;
     vertical-align: top;
