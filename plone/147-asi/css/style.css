@@ -2786,7 +2786,8 @@ body.section-homepage {
     vertical-align: top; }
     .section-homepage .homepage_head .homepage_logo img {
       display: inline;
-      margin-right: 4px; }
+      margin-right: 4px;
+      vertical-align: middle; }
   .section-homepage .homepage_head .homepage_search {
     display: inline-block;
     vertical-align: top;
