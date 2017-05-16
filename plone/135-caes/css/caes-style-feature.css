@@ -3818,6 +3818,7 @@ input[type="submit"] {
 
 .main .news .box.blue .blueadvising h4 {
     text-transform: none;
+    color:#fff !important;
 }
 
 .main .news .box.blue .blueadvising h4 a {
@@ -3826,7 +3827,9 @@ input[type="submit"] {
     text-transform: none;
     letter-spacing: 0.25px;
 }
-
+#content .callout-blue-btn a:hover {
+  background-color:rgba(255, 255, 255, .85) !important;
+}
 .main .news .box.gold {
     background: #DAAA00;
     color: #fff;
