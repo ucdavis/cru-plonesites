@@ -1,3 +1,12 @@
 .subsection-overview-facts-2.0 .sliderfeature {
   display:none;
 }
+
+.subsection-overview-facts-distinctions .facts-z{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.subsection-overview-facts-distinctions .fact-box{
+	width: 30%;
+}
