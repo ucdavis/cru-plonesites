@@ -4699,3 +4699,6 @@ div.portlet-static-nivo {
           bottom: 16%;
       }
   }
+  .subsection-overview-facts-2.0 .slidefeature {
+    display:none;
+  }
