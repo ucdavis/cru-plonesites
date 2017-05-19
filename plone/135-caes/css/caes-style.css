@@ -2570,14 +2570,14 @@ input[type="submit"] {
 .section-front-page .portlet-static-nivo .static.text .spotlighttext {
   width: auto; }
 .section-front-page .portlet-static-nivo .nivo-caption {
-  width: auto;
+  /*width: auto;
   height: 100%;
   position: absolute;
   background: transparent;
   top: 0;
   right: 0;
   left: 0;
-  margin: auto; }
+margin: auto; }*/}
 .section-front-page .portlet-static-nivo img {
   position: absolute;
   right: 0;
