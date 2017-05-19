@@ -7,8 +7,12 @@
 .subsection-overview-facts-distinctions .facts-z{
 	display: flex;
 	flex-direction: row;
-	width: 100%;
+	width: 80%;
 }
 .subsection-overview-facts-distinctions .fact-box{
-	width: 30%;
+	width: 20%;
+}
+
+.subsection-overview-facts-distinctions .badge{
+  width: 20%;
 }
