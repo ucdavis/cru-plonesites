@@ -8,12 +8,13 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+
 }
 .subsection-overview-facts-distinctions .fact-box{
 	width: 30%;
 }
 
 .subsection-overview-facts-distinctions .badge{
-  width: 20%;
+  width: 200px;
 }
 
