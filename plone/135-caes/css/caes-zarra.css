@@ -12,9 +12,26 @@
 }
 .subsection-overview-facts-distinctions .fact-box{
 	width: 30%;
+	text-align: center;
 }
 
 .subsection-overview-facts-distinctions .badge{
   width: 200px;
 }
+
+.subsection-overview-facts-distinctions .inside-box {
+	width: 80%;
+	text-align: center;
+}
+
+.subsection-overview-facts-distinctions .fact-box .image-inline {
+	width: 70%;
+	text-align: center;
+}
+
+.subsection-overview-facts-distinctions .fact-box p {
+	font-size: 0.70em;
+}
+
+
 
