@@ -16,8 +16,8 @@
 	text-align: center;
 }
 
-.subsection-overview-facts-distinctions .badge{
-  width: 200px;
+.subsection-overview-facts-distinctions .main .news div img .badge{
+  width: 600px;
 }
 
 .subsection-overview-facts-distinctions .inside-box {
@@ -31,5 +31,5 @@
 }
 
 .subsection-overview-facts-distinctions .main .news .box.intro .fact-box p {
-	font-size: 0.70em;
+	font-size: 0.60em;
 }
