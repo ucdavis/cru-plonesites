@@ -4699,3 +4699,6 @@ div.portlet-static-nivo {
           bottom: 16%;
       }
   }
+  .section-admin .slidefeature {
+    display:none;
+  }
