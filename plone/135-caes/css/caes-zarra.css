@@ -35,7 +35,7 @@
   display:none;
 }
 .subsection-overview-facts-distinctions .fact-wrapper {
-  padding:36px;
+  padding:36px !important;
 }
 /*.subsection-overview-facts-distinctions .news.masonry {
   height:inherit !important;
@@ -164,6 +164,9 @@
   font-size:1.2rem;
   font-family: "futura-pt", "Futura-Medium", Futura Std, Futura, Arial, sans-serif;
   margin:10px;
+}
+.flexcol-4 {
+  align-self: center;
 }
 .flexcol-4 img {
   padding-left:6%;
