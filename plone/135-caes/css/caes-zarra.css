@@ -138,6 +138,9 @@
   font-family: "futura-pt", "Futura-Medium", Futura Std, Futura, Arial, sans-serif;
   margin-top:16px;
 }
+.factsubject {
+  padding-right:3%;
+}
 .factsubject h3 {
   font-size:1.1em;
   color:#fff;
@@ -152,11 +155,14 @@
 .factsubject ul {
   list-style: disc;
   margin-left:32px;
-  margin-bottom:30px;
+  margin-bottom:36px;
 }
 .factsubject li {
   display:list-item;
   font-size:1.2rem;
   font-family: "futura-pt", "Futura-Medium", Futura Std, Futura, Arial, sans-serif;
   margin:10px;
+}
+.flexcol-4 img {
+  padding-left:5%;
 }
