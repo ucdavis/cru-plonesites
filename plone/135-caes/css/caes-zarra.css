@@ -46,7 +46,9 @@
   margin-bottom:16px;
   margin-top:16px;
 }
-
+.flexcol img {
+  width:inherit;
+}
 .flexcol {
     -webkit-flex-basis: 0;flex
     -ms-flex-preferred-size: 0;
@@ -108,3 +110,7 @@
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
   }
+
+.flex-align-center {
+  align-items: center;
+}
