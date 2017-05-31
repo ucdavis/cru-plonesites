@@ -122,16 +122,13 @@
 .flex-align-center {
   align-items: center;
 }
-.fact-wrapper {
-  padding:24px;
-}
 .badge {
   margin:16px 0px 40px 0px;
   text-align: center;
 }
 .factbox {
   text-align: center;
-  margin-bottom:56px;
+  margin-bottom:80px;
 }
 .factbox p {
   font-size:1.1rem;
@@ -155,7 +152,7 @@
   margin-bottom:10px;
 }
 .factsubject ul {
-  list-style: disc3
+  list-style: disc;
   margin-left:32px;
   margin-bottom:36px;
 }
