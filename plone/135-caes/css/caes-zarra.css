@@ -34,6 +34,9 @@
 .subsection-overview-facts-distinctions .slidefeature {
   display:none;
 }
+.subsection-overview-facts-distinctions .news.masonry {
+  height:inherit !important;
+}
 .flexrow {
   display: -webkit-box;
   display: -webkit-flex;
@@ -116,10 +119,25 @@
 .flex-align-center {
   align-items: center;
 }
+.fact-wrapper {
+  padding:24px;
+}
 .badge {
   margin:16px 0px;
   text-align: center;
 }
 .factbox {
   text-align: center;
+}
+.factbox p {
+  font-size:1.1rem;
+  font-family: "futura-pt", "Futura-Medium", Futura Std, Futura, Arial, sans-serif;
+  margin-top:16px;
+}
+.factsubject h3 {
+  font-size:1.1em;
+  color:#fff;
+  background-color:#004987;
+  display:inline-block;
+  padding:10px 26px 8px 16px;
 }
