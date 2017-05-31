@@ -143,14 +143,16 @@
   font-weight: 500;
   letter-spacing: .5px;
   border-right:5px solid #DDB307;
+  margin-bottom:10px;
 }
 .factsubject ul {
   list-style: disc;
   margin-left:32px;
+  margin-bototm:30px;
 }
 .factsubject li {
   display:list-item;
-  font-size:1.1rem;
+  font-size:1.2rem;
   font-family: "futura-pt", "Futura-Medium", Futura Std, Futura, Arial, sans-serif;
-  margin:4px;
+  margin:10px;
 }

@@ -166,6 +166,8 @@
     <replace css:content=".portlet-static-open-positions .viewall a" css:theme=".rightcol .categories .more a" />
 
 
+    <!-- fact jimmy rig -->
+    <copy css:content=".portlet-static-one-big-column" css:theme=".fact-distinct" />
     <!-- content pages -->
     <replace css:content="#portal-column-two .portlet" css:theme=".goods .rightcol .portlet" />
     <after css:content="#portlets-below" css:theme-children=".goods .thegoods" />
