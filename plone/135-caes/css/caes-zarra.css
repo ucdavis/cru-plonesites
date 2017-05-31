@@ -34,9 +34,12 @@
 .subsection-overview-facts-distinctions .slidefeature {
   display:none;
 }
-.subsection-overview-facts-distinctions .fact-wrapper {
-  padding:36px !important;
+.subsection-overview-facts-distinctions .main .news .box {
+  padding:0px !important;
 }
+/*.subsection-overview-facts-distinctions .fact-wrapper {
+  padding:36px !important;
+}*/
 /*.subsection-overview-facts-distinctions .news.masonry {
   height:inherit !important;
 }*/
@@ -123,22 +126,26 @@
   align-items: center;
 }
 .badge {
-  margin:16px 0px 40px 0px;
+  padding:16px 0px 40px 0px;
   text-align: center;
 }
 .factbox {
   text-align: center;
-  margin-bottom:80px;
+  padding-bottom:40px;
 }
 .factbox p {
-  font-size:1.1rem;
+  font-size:1.2rem;
   font-family: "futura-pt", "Futura-Medium", Futura Std, Futura, Arial, sans-serif;
   margin-top:16px;
+  color:#fff;
 }
 .factsubject {
-  padding-right:3%;
+  padding-right:2%;
   border-right:2px solid #044887;
   margin-right:2%;
+}
+.facttworow {
+  padding:36px;
 }
 .factsubject h3 {
   font-size:1.1em;
@@ -150,6 +157,12 @@
   letter-spacing: .5px;
   border-right:5px solid #DDB307;
   margin-bottom:10px;
+  text-transform: uppercase;
+}
+.bg-wrapper {
+  background-color:#044887;
+  border-bottom:10px solid #DDB307;
+  margin-bottom:40px;
 }
 .factsubject ul {
   list-style: disc;
