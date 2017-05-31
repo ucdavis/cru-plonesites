@@ -34,6 +34,9 @@
 .subsection-overview-facts-distinctions .slidefeature {
   display:none;
 }
+.subsection-overview-facts-distinctions .fact-wrapper {
+  padding:36px;
+}
 /*.subsection-overview-facts-distinctions .news.masonry {
   height:inherit !important;
 }*/
@@ -51,7 +54,7 @@
   margin-top:16px;
 }
 
-.flexcol img, .badge img {
+.fact-wrapper img {
   width:inherit !important;
 }
 .flexcol {
@@ -123,11 +126,12 @@
   padding:24px;
 }
 .badge {
-  margin:16px 0px;
+  margin:16px 0px 40px 0px;
   text-align: center;
 }
 .factbox {
   text-align: center;
+  margin-bottom:56px;
 }
 .factbox p {
   font-size:1.1rem;
@@ -148,7 +152,7 @@
 .factsubject ul {
   list-style: disc;
   margin-left:32px;
-  margin-bototm:30px;
+  margin-bottom:30px;
 }
 .factsubject li {
   display:list-item;
