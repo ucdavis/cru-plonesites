@@ -34,9 +34,9 @@
 .subsection-overview-facts-distinctions .slidefeature {
   display:none;
 }
-.subsection-overview-facts-distinctions .news.masonry {
+/*.subsection-overview-facts-distinctions .news.masonry {
   height:inherit !important;
-}
+}*/
 .flexrow {
   display: -webkit-box;
   display: -webkit-flex;
