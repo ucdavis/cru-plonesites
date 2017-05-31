@@ -1,8 +1,6 @@
 /*Don't forget to add subsection-overview-facts-distinctions*/
 /*
-.subsection-overview-facts-distinctions .slidefeature {
-  display:none;
-}
+
 
 .subsection-overview-facts-distinctions .facts-z{
 	display: flex;
@@ -33,6 +31,9 @@
 .subsection-overview-facts-distinctions .main .news .box.intro .fact-box p {
 	font-size: 0.60em;
 }*/
+.subsection-overview-facts-distinctions .slidefeature {
+  display:none;
+}
 .flexrow {
   display: -webkit-box;
   display: -webkit-flex;
@@ -46,8 +47,9 @@
   margin-bottom:16px;
   margin-top:16px;
 }
-.flexcol img {
-  width:inherit;
+
+.flexcol img, .badge img {
+  width:inherit !important;
 }
 .flexcol {
     -webkit-flex-basis: 0;flex
@@ -113,4 +115,11 @@
 
 .flex-align-center {
   align-items: center;
+}
+.badge {
+  margin:16px 0px;
+  text-align: center;
+}
+.factbox {
+  text-align: center;
 }
