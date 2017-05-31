@@ -113,10 +113,10 @@
 
 .flexcol-8 {
     -webkit-box-flex: 0;
-    -webkit-flex: 0 0 66.666667%;
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
+    -webkit-flex: 0 0 63.666667%;
+    -ms-flex: 0 0 63.666667%;
+    flex: 0 0 63.666667%;
+    max-width: 63.666667%;
   }
 
 .flex-align-center {
@@ -140,6 +140,8 @@
 }
 .factsubject {
   padding-right:3%;
+  border-right:2px solid #044887;
+  margin-right:2%;
 }
 .factsubject h3 {
   font-size:1.1em;
@@ -153,7 +155,7 @@
   margin-bottom:10px;
 }
 .factsubject ul {
-  list-style: disc;
+  list-style: disc3
   margin-left:32px;
   margin-bottom:36px;
 }
