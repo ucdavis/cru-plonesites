@@ -141,3 +141,13 @@
   display:inline-block;
   padding:10px 26px 8px 16px;
 }
+.factsubject ul {
+  list-style: disc;
+  margin-left:32px;
+}
+.factsubject li {
+  display:list-item;
+  font-size:1.1rem;
+  font-family: "futura-pt", "Futura-Medium", Futura Std, Futura, Arial, sans-serif;
+  margin:4px;
+}
