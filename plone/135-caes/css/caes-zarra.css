@@ -37,9 +37,9 @@
 .subsection-overview-facts-distinctions .main .news .box {
   padding:0px !important;
 }
-/*.subsection-overview-facts-distinctions .fact-wrapper {
+.subsection-overview-facts-distinctions .fact-wrapper {
   padding:36px !important;
-}*/
+}
 /*.subsection-overview-facts-distinctions .news.masonry {
   height:inherit !important;
 }*/
@@ -112,8 +112,6 @@
     flex: 0 0 50%;
     max-width: 50%;
   }
-
-
 .flexcol-8 {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 63.666667%;
@@ -121,7 +119,21 @@
     flex: 0 0 63.666667%;
     max-width: 63.666667%;
   }
-
+h3.fact_header {
+  font-size:26px;
+  margin-top:40px;
+  color:#DAAA00;
+  padding-bottom:4px;
+  border-bottom:6px solid #DAAA00;
+  margin-bottom:12px;
+}
+span.font44 {
+  font-size:44px;
+}
+span.font60 {
+  font-size:60px;
+}
+/*
 .flex-align-center {
   align-items: center;
 }
@@ -181,4 +193,4 @@
 .flexcol-4 img {
   padding-left:4%;
   padding-right:2%
-}
+}*/
