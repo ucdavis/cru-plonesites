@@ -135,9 +135,14 @@ h3.fact_header {
 }
 span.font44 {
   font-size:44px;
+  display:block;
+  margin-bottom:4px;
 }
 span.font60 {
   font-size:60px;
+  display:block;
+  margin-bottom:4px;
+  margin-top:16px;
 }
 .awardsection .flexcol img {
   height:50px;
