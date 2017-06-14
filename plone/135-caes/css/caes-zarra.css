@@ -42,6 +42,7 @@
   color:#004987;
   font-weight:600;
   font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif;
+  margin-top:0px;
 }
 
 /*.subsection-overview-facts-distinctions .news.masonry {
@@ -135,8 +136,12 @@ h3.fact_header {
 span.fact44 {
   font-size:44px;
 }
-span.font60 {
+span.font44 {
   font-size:60px;
+}
+.awardsection .flexcol img {
+  height:60px;
+  margin-bottom:8px;
 }
 /*
 .flex-align-center {
