@@ -35,11 +35,9 @@
   display:none;
 }
 .subsection-overview-facts-distinctions .main .news .box {
-  padding:0px !important;
-}
-.subsection-overview-facts-distinctions .fact-wrapper {
   padding:36px !important;
 }
+
 /*.subsection-overview-facts-distinctions .news.masonry {
   height:inherit !important;
 }*/
