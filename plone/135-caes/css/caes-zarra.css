@@ -133,15 +133,19 @@ h3.fact_header {
   margin-bottom:30px;
   margin-top:60px !important;
 }
-span.fact44 {
+span.font44 {
   font-size:44px;
 }
-span.font44 {
+span.font60 {
   font-size:60px;
 }
 .awardsection .flexcol img {
-  height:60px;
-  margin-bottom:8px;
+  height:50px;
+  margin-bottom:16px;
+}
+.facultysection .flexcol img {
+  height:40px;
+  margin-bottom:16px;
 }
 /*
 .flex-align-center {
