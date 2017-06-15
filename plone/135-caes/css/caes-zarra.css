@@ -38,9 +38,9 @@
   padding:48px !important;
 }
 .subsection-overview-facts-distinctions .main .news .box p {
-  font-size:16px;
+  font-size:18px;
   color:#004987;
-  font-weight:600;
+  font-weight:400;
   font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif;
   margin-top:0px;
 }
@@ -131,26 +131,30 @@ h3.fact_header {
   margin-top:40px;
   color:#DAAA00;
   padding-bottom:4px;
-  border-bottom:6px solid #DAAA00;
+  border-bottom:2px solid #DAAA00;
   margin-bottom:30px;
   margin-top:60px !important;
+  font-weight:400;
 }
 span.font44 {
   font-size:44px;
   display:block;
   margin-bottom:14px;
+  font-weight:600;
 }
 span.font60 {
   font-size:60px;
   display:block;
   margin-bottom:20px;
   margin-top:16px;
+  font-weight:600;
 }
 span.font70 {
   font-size:70px;
   padding-bottom:19px;
   margin-top:16px;
   display:block;
+  font-weight:600;
 }
 .awardsection .flexcol img {
   height:50px;
@@ -163,8 +167,9 @@ span.font70 {
   margin-bottom:16px;
 }
 h3.facttop {
-  font-size:30px;
+  font-size:36px;
   margin-bottom:38px;
+  margin-top:0px;
 }
 /*
 .flex-align-center {
