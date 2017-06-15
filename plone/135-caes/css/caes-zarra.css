@@ -165,6 +165,7 @@ span.font70 {
 }
 .circlesection .flexcol img {
   margin-bottom:16px;
+  width: 47% !important;
 }
 h3.facttop {
   font-size:36px;
