@@ -124,6 +124,7 @@
     flex: 0 0 63.666667%;
     max-width: 63.666667%;
     padding-right:15%;
+    margin-bottom:40px;
   }
 h3.fact_header {
   font-size:26px;
@@ -142,12 +143,12 @@ span.font44 {
 span.font60 {
   font-size:60px;
   display:block;
-  margin-bottom:14px;
+  margin-bottom:20px;
   margin-top:16px;
 }
 span.font70 {
   font-size:70px;
-  padding-bottom:24px;
+  padding-bottom:19px;
   margin-top:16px;
   display:block;
 }
@@ -156,7 +157,7 @@ span.font70 {
   margin-bottom:16px;
 }
 .facultysection .flexcol img {
-  margin-bottom:16px;
+  margin-bottom:10px;
 }
 .circlesection .flexcol img {
   margin-bottom:16px;
