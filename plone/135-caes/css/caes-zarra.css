@@ -123,6 +123,7 @@
     -ms-flex: 0 0 63.666667%;
     flex: 0 0 63.666667%;
     max-width: 63.666667%;
+    padding-right:15%;
   }
 h3.fact_header {
   font-size:26px;
@@ -146,8 +147,9 @@ span.font60 {
 }
 span.font70 {
   font-size:70px;
-  padding-bottom:16px;
+  padding-bottom:24px;
   margin-top:16px;
+  display:block;
 }
 .awardsection .flexcol img {
   height:50px;
