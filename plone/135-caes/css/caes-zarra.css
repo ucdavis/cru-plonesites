@@ -91,9 +91,7 @@
 }
 @media (max-width: 650px) {
   .flexcol, .flexcol-8, .flexcol-4 {
-    -webkit-flex-basis: 1;flex
-    -ms-flex-preferred-size: 1;
-    flex-basis: 1;
+flex: 0 0 1%;
     margin-bottom:60px;
   }
 }
