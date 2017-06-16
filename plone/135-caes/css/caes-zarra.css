@@ -90,7 +90,7 @@
     max-width: 16.666667%;
 }
 @media (max-width: 650px) {
-  .flexcol {
+  .flexcol, .flexcol-8, .flexcol-4 {
     -webkit-flex-basis: 1;flex
     -ms-flex-preferred-size: 1;
     flex-basis: 1;
