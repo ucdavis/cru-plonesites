@@ -140,7 +140,7 @@ span.font70 {
   display:block;
   font-weight:600;
 }
-.awardsection .flexcol img {
+#content .awardsection .flexcol img {
   height:50px !important;
   margin-bottom:16px;
 }
