@@ -17,11 +17,19 @@ color: #fff;
 text-align: center;
 text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
-@media screen and (min-width: 768px) {
-	.carousel-indicators {
-	    bottom: 85px;
-	}
+.carousel-indicators {
+    position: inherit;
+    bottom: inherit;
+    left: inherit;
+    z-index: 15;
+    width: 100%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+		margin:0 auto !important;
 }
+
 
 header {
 	padding:16px 0px;
