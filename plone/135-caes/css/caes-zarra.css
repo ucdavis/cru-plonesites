@@ -1,46 +1,17 @@
-/*Don't forget to add subsection-overview-facts-distinctions*/
-/*
-
-
-.subsection-overview-facts-distinctions .facts-z{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin-top: 32px;
-
-}
-.subsection-overview-facts-distinctions .fact-box{
-	width: 30%;
-	text-align: center;
-}
-
-.subsection-overview-facts-distinctions .main .news .badge .img{
-  width: 600px;
-}
-
-.subsection-overview-facts-distinctions .inside-box {
-	width: 80%;
-	margin: 0 auto;
-}
-
-.subsection-overview-facts-distinctions .fact-box .image-inline {
-	width: 70%;
-	text-align: center;
-}
-
-.subsection-overview-facts-distinctions .main .news .box.intro .fact-box p {
-	font-size: 0.60em;
-}*/
 
 .subsection-overview-facts-distinctions .main .news .box {
   padding:48px !important;
 }
-.subsection-overview-facts-distinctions .main .news .box p {
+.subsection-overview-facts-distinctions #content .fact-wrapper p {
   font-size:18px;
   color:#004987;
   font-weight:400;
   font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif;
   margin-top:0px;
+}
+.subsection-overview-facts-distinctions #content img {
+  box-shadow:none;
+  border:none;
 }
 
 /*.subsection-overview-facts-distinctions .news.masonry {
