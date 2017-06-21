@@ -32,6 +32,25 @@
 </head>
 
 <body class="diazo-content diazoed goods">
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : 'your-app-id',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.9'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 <div id="container">
 
   <div class="mp-pusher" id="mp-pusher">
@@ -160,7 +179,7 @@
               <li><a class="icon icon-photo" href="#">Collections</a></li>
               <li><a class="icon icon-wallet" href="#">Credits</a></li>
             </ul>
-              
+
           </div>
         </nav>
         <!-- /mp-menu -->
@@ -273,7 +292,7 @@
 
 <section class="mid">
   <div class="pathbar">
-    <span class="home"><a href="#">Home</a></span> 
+    <span class="home"><a href="#">Home</a></span>
     <span class="crumb"><a href="#">News Center</a></span>
     <span class="crumb last"><a href="#">Article title</a></span>
   </div>
@@ -337,10 +356,10 @@
       <p class="more"><a href="#">Advanced search options</a></p>
     </div>-->
   </section>
-</section>    
+</section>
 
 <a class="scrollup" href="#">Scroll to top</a>
-    
+
 <footer>
   <div class="container">
     <section class="contact">
@@ -372,7 +391,7 @@
 
 
     </section>
-  </div> 
+  </div>
   <span class="clear">&nbsp;</span>
 </footer>
 </div>
@@ -395,7 +414,7 @@
   <script type="text/javascript">
   $(document).ready(function() {
     /* Simple image gallery. Uses default settings */
-     $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif'],a[href$='/image']").attr('rel', 'gallery').fancybox(); 
+     $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif'],a[href$='/image']").attr('rel', 'gallery').fancybox();
     // $("dl.captioned > a").attr('rel', '');
     // $("a[rel$='gallery']").fancybox();
     // $('a > img').parent().attr('rel', 'gallery').fancybox();
@@ -407,7 +426,7 @@
       /* Simple image gallery. Uses default settings */
 
       $('.fancybox').fancybox();
-       
+
       /*Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
       */
       $('.fancybox-media')
@@ -434,7 +453,7 @@
     });
   </script>
   <script type="text/javascript">
-  $(document).ready(function() {  
+  $(document).ready(function() {
     $(".rightcol nav").find("a[href='"+window.location.href+"']").filter(":last").addClass("current");
   });
   </script>
@@ -442,21 +461,21 @@
 
 <!-- code for scroll up -->
 <script type="text/javascript">
-    $(document).ready(function(){ 
- 
+    $(document).ready(function(){
+
         $(window).scroll(function(){
             if ($(this).scrollTop() > 100) {
                 $('.scrollup').fadeIn();
             } else {
                 $('.scrollup').fadeOut();
             }
-        }); 
- 
+        });
+
         $('.scrollup').click(function(){
             $("html, body").animate({ scrollTop: 0 }, 600);
             return false;
         });
- 
+
     });
 </script>
 
