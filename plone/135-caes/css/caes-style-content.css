@@ -4255,12 +4255,13 @@ dl.portlet-collection-faculty .portletFooter {
   display:block;
   border-bottom:0px solid #000;
   background-color: rgba(0,0,0,0.5);
-  padding:20px;
+  padding:20px 26px;
+  font-family: "futura-pt", Futura Std, Futura, Arial, sans-serif;
+  font-size:18px;
   color:#fff;
-  transition: background-color .3s ease-out;
 }
 #content .slide_feature a:hover {
-  background-color:#008eaa;
+  background-color:rgba(0,0,0,0.8);
 }
 #content .slide_feature a:visited {
   color:#fff;
