@@ -4244,3 +4244,18 @@ dl.portlet-collection-faculty .portletFooter {
 .share_wrapper {
   margin-left:24px;
 }
+.slide_feature {
+  position: relative;
+    width: 100%;
+}
+#content .slide_feature a:link {
+  position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    display:block;
+    border-bottom:0px solid #000;
+    background-color: rgba(0,0,0,0.5);
+    padding:20px;
+    color:#fff;
+}
