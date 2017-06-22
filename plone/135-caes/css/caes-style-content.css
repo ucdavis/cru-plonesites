@@ -4250,12 +4250,18 @@ dl.portlet-collection-faculty .portletFooter {
 }
 #content .slide_feature a:link {
   position: absolute;
-    top: 200px;
-    left: 0;
-    width: 100%;
-    display:block;
-    border-bottom:0px solid #000;
-    background-color: rgba(0,0,0,0.5);
-    padding:20px;
-    color:#fff;
+  bottom:20px;
+  left:20px;
+  display:block;
+  border-bottom:0px solid #000;
+  background-color: rgba(0,0,0,0.5);
+  padding:20px;
+  color:#fff;
+  transition: background-color .3s ease-out;
+}
+#content .slide_feature a:hover {
+  background-color:#008eaa;
+}
+#content .slide_feature a:visited {
+  color:#fff;
 }
