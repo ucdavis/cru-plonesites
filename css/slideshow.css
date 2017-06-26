@@ -1,7 +1,8 @@
 body {
+	background-color: rgba(255,255,255,0.01);
 }
 .boundary {
-	width:95%;
+	width:100%;
 	margin:0 auto;
 }
 .carousel-caption {
@@ -14,7 +15,7 @@ padding-top: 20px;
 padding-bottom: 20px;
 color: #002855;
 font-size:16px;
-text-align: center;
+text-align: left;
 text-shadow:none;
 }
 .carousel-indicators li {
