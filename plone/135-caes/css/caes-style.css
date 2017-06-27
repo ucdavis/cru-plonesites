@@ -3484,3 +3484,14 @@ p.homepagebtn--sidebar:hover {
 .award_header {
   display:none;
 }
+.calnivo {
+  position:relative;
+}
+.calnivo .nivo-controlNav {
+  bottom: 1%;
+  left: 85%;
+  position: absolute;
+  text-align: center;
+  z-index: 20;
+  padding: 0;
+}
