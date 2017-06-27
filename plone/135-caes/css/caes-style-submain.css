@@ -4702,3 +4702,17 @@ div.portlet-static-nivo {
   .section-admin .slidefeature {
     display:none;
   }
+  body.section-news .slidefeature {
+    display:none;
+  }
+  .calnivo {
+    position:relative;
+  }
+  .calnivo .nivo-controlNav {
+    bottom: 1%;
+    right: 6%;
+    position: absolute;
+    text-align: center;
+    z-index: 20;
+    padding: 0;
+  }
