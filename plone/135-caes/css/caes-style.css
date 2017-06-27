@@ -3489,7 +3489,7 @@ p.homepagebtn--sidebar:hover {
 }
 .calnivo .nivo-controlNav {
   bottom: 1%;
-  left: 85%;
+  right: 6%;
   position: absolute;
   text-align: center;
   z-index: 20;
