@@ -133,6 +133,8 @@
     <copy css:content="#portlets-above div.box" css:theme=".news.masonry" />
     <prepend css:content="#portlets-above div.grid-sizer" css:theme=".news.masonry" />
 
+    <copy css:content=".portlet-static-calnivo" css:theme=".calnivo" />
+
     <!-- front page -->
     <copy css:content=".section-front-page .portlet-static-media" css:theme=".section-front-page .actions .media-slider" />
     <copy css:content=".section-front-page .portletContent" css:theme=".section-front-page .actions .ads" />
