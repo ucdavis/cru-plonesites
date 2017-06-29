@@ -1,6 +1,15 @@
 <div class="slider-wrapper theme-light">
 <div class="nivoSlider" id="slider"><img class="image-inline" src="resolveuid/c5588fee290d4522911b14bb0a84e35b" title="#nivo-slide1" /> <img class="image-inline" src="resolveuid/ba709e623e6d470a865cc0eac14e7d4b" title="#nivo-slide2" /> <img class="image-inline" src="resolveuid/553c670168b64881ba91227fb69014df" title="#nivo-slide3" /></div>
 </div>
-<div class="nivo-caption caption_information" id="nivo-slide1"><a class="internal-link" href="resolveuid/86716d44204245b5875a2ea4b76d62fb" target="_self" title=""><img alt="" class="image-inline" src="resolveuid/53e1c053fa014414a8924dc861084185" /></a></div>
-<div class="nivo-caption caption_information" id="nivo-slide2"><a class="internal-link" href="resolveuid/86716d44204245b5875a2ea4b76d62fb" target="_self" title=""><img alt="" class="image-inline" src="resolveuid/53e1c053fa014414a8924dc861084185" /></a></div>
-<div class="nivo-caption caption_information" id="nivo-slide3"><a class="internal-link" href="resolveuid/86716d44204245b5875a2ea4b76d62fb" target="_self" title=""><img alt="" class="image-inline" src="resolveuid/53e1c053fa014414a8924dc861084185" /></a></div>
+<div class="nivo-caption" id="nivo-slide1">
+<p class="information_btn"><a class="internal-link" href="resolveuid/bfabfc0de605469dad6cf5fd608a8124" target="_self" title=""><img class="image-inline" src="resolveuid/53e1c053fa014414a8924dc861084185" /></a></p>
+
+</div>
+<div class="nivo-caption" id="nivo-slide2">
+<p class="information_btn"><a class="internal-link" href="resolveuid/bfabfc0de605469dad6cf5fd608a8124" target="_self" title=""><img class="image-inline" src="resolveuid/53e1c053fa014414a8924dc861084185" /></a></p>
+
+</div>
+<div class="nivo-caption" id="nivo-slide3">
+<p class="information_btn"><a class="internal-link" href="resolveuid/bfabfc0de605469dad6cf5fd608a8124" target="_self" title=""><img class="image-inline" src="resolveuid/53e1c053fa014414a8924dc861084185" /></a></p>
+
+</div>

@@ -967,11 +967,11 @@ Supports Thumbs: true
   margin-bottom: 10px;
   overflow: visible; }
 
-.theme-light .nivoSlider img {
+/*.theme-light .nivoSlider img {
   position: absolute;
   top: 0px;
   left: 0px;
-  display: none; }
+  display: none; }*/
 
 .theme-light .nivoSlider a {
   border: 0;
@@ -3218,13 +3218,13 @@ footer {
   position: relative;
   background: url(../img/loading.gif) no-repeat 50% 50%; }
 
-.nivoSlider img {
+/*.nivoSlider img {
   position: absolute;
   top: 0px;
   left: 0px;
   display: none;
   width: 100%;
-  height: auto !important; }
+  height: auto !important; }*/
 
 .nivoSlider a {
   border: 0;
@@ -3280,4 +3280,12 @@ p.homepagebtn--sidebar:hover {
   text-align: center;
   z-index: 20;
   padding: 0;
+}
+.nivo-caption p.information_btn {
+  border-radius:50%;
+  background-color:rgba(0,40,85,.4);
+  border:2px solid #fff;
+}
+.nivo-caption p.information_btn:hover {
+  background-color: rgba(0,40,85,.9);
 }
