@@ -903,6 +903,7 @@ html, body, .container, .scroller {
   bottom: 1%;
   right: 6%;
   z-index: 8;
+
   overflow: hidden;
   display: none;
   /* 	-moz-opacity: 0.8;
@@ -967,11 +968,11 @@ Supports Thumbs: true
   margin-bottom: 10px;
   overflow: visible; }
 
-/*.theme-light .nivoSlider img {
+.theme-light .nivoSlider img {
   position: absolute;
   top: 0px;
   left: 0px;
-  display: none; }*/
+  display: none; }
 
 .theme-light .nivoSlider a {
   border: 0;
@@ -3218,13 +3219,13 @@ footer {
   position: relative;
   background: url(../img/loading.gif) no-repeat 50% 50%; }
 
-/*.nivoSlider img {
+.nivoSlider img {
   position: absolute;
   top: 0px;
   left: 0px;
   display: none;
   width: 100%;
-  height: auto !important; }*/
+  height: auto !important; }
 
 .nivoSlider a {
   border: 0;
