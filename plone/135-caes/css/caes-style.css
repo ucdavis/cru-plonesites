@@ -3286,8 +3286,7 @@ p.homepagebtn--sidebar:hover {
   border-radius:50%;
   background-color:rgba(0,40,85,.4);
   border:2px solid #fff;
-  width:36px;
-  height:36px;
+  padding:4px 18px;
   font-size:22px;
   color:#fff;
 }
