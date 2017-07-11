@@ -209,7 +209,7 @@ div.listingBar span {
 
 /*// Topics //*/
 
-#content ul.topicbox {
+#content .topicbox {
   margin-left:0px;
   list-style-type: none;
   display: -webkit-box;
@@ -218,7 +218,7 @@ div.listingBar span {
   display: flex;
   justify-content: space-between;
 }
-ul.topicbox li {
+#content .topicbox div {
   -webkit-box-flex: 0;
     -webkit-flex: 0 0 33.333333%;
     -ms-flex: 0 0 33.333333%;
