@@ -40,12 +40,12 @@
 /* gap below name content */
 #content .facultyStaffDirectory ul.jobTitle {
     margin-bottom: 0px;
-    
+
 }
 
 #content .facultyStaffDirectory .listing{
     margin-bottom: 20px;
-    
+
 }
 
 
@@ -176,7 +176,7 @@ height: auto;
 }
 */
 
-div.listingBar a { 
+div.listingBar a {
     font-size: 12px;
      border-bottom: 0.1em solid #CCC;
 
@@ -195,7 +195,7 @@ div.listingBar span {
 
 #content a.topic_text, a.topic_text{
     color:#fff !important;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration:none !important;
     background-color:rgba(33, 33, 33, 0.6);
     padding: 2px;
@@ -206,27 +206,21 @@ div.listingBar span {
     padding-left: 2.5%;
 }
 
-#content a.twolines, a.twolines{
-    line-height: 36.5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    bottom: 99px;
+
+/*// Topics //*/
+
+#content ul.topicbox {
+  margin-left:0px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
 }
-
-li.topic_textbox {
-    vertical-align: top;
-    min-height:375px;
+ul.topicbox li {
+  -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.333333%;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
 }
-
-/*---------------- Sarep research initiatives ------------------*/
-/*
-a.textbox_small {
-    font-size:14px;
-}
-*/
-
-
-
-
-
-
