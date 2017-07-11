@@ -3258,6 +3258,9 @@ p.homepagebtn--sidebar:hover {
 .article {
   min-height:370px;
 }
+@media (max-width: 768px) {
+  .article {
+    min-height: 150px; } }
 /*.article:last-child {
   background-image: url("../img/bg-awards.svg") !important;
   background-repeat:no-repeat !important;
