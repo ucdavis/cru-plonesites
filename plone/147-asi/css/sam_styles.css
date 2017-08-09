@@ -221,7 +221,11 @@ div.listingBar span {
 #content .topicbox div {
   display:inline-block;
   width:30%;
-
+}
+@media (max-width: 750px) {
+#content .topicbox div {
+  width:45%;
+}
 }
 #content .topicbox a.topic_text {
   line-height:1.5;
