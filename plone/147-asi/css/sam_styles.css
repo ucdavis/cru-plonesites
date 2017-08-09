@@ -221,4 +221,10 @@ div.listingBar span {
 #content .topicbox div {
   display:inline-block;
   width:30%;
+
+}
+#content .topicbox a.topic_text {
+  line-height:1.5;
+  left:15px;
+  padding:10px 15px;
 }
