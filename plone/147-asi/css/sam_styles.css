@@ -243,14 +243,15 @@ div.listingBar span {
     overflow: hidden;
     position: relative;
 }
-.topicredux p a {
+a.topic_a {
   font-weight: 600;
-  font-size:1.6rem;
-  color:#fff;
-    position: absolute;
-    bottom: 8px;
-    left: 8px;
-    z-index: 10;
-    width: 70%;
-    text-shadow: 0px 0px 10px rgba(33, 33, 33
+    font-size:1.8rem;
+    color:#fff !Important;
+    text-decoration:none !Important;
+      position: absolute;
+      bottom: 28px;
+      left: 8px;
+      z-index: 10;
+      width: 70%;
+      text-shadow: 0px 0px 10px rgba(33, 33, 33, 0.7) !Important;
 }
