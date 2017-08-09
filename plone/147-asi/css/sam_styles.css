@@ -219,8 +219,6 @@ div.listingBar span {
   justify-content: space-between;*/
 }
 #content .topicbox div {
-  /*-webkit-box-flex: 0;
-    -webkit-flex: 0 0 33.333333%;
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;*/
+  display:inline-block;
+  width:30%;
 }
