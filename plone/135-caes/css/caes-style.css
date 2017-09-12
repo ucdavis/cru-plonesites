@@ -3265,6 +3265,9 @@ p.homepagebtn--sidebar:hover {
 @media (min-width: 1200px) {
   .article {
     min-height: 400px; } }
+    @media (min-width: 1600px) {
+      .article {
+        min-height: 430px; } }
 
 .award_header {
   display:none;
