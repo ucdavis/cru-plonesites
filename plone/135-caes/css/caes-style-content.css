@@ -4066,3 +4066,9 @@ dl.portlet-collection-faculty .portletFooter {
 #content .slide_feature a:visited {
   color:#fff;
 }
+.facultyStaffDirectory ol.classificationList li:last-child {
+  display:none;
+}
+.facultyStaffDirectory .standardView .standardView:last-child {
+  display:none;
+}
