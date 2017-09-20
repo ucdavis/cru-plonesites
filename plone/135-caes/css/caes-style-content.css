@@ -4066,3 +4066,20 @@ dl.portlet-collection-faculty .portletFooter {
 #content .slide_feature a:visited {
   color:#fff;
 }
+/*.facultyStaffDirectory ol.classificationList li:last-child {
+  display:none;
+}
+.facultyStaffDirectory .standardView .standardView:last-child {
+  display:none;
+}
+
+.subsection-directory-fsd-newfacult .facultyStaffDirectory ol.classificationList li:last-child {
+  display:block;
+}
+.subsection-directory-fsd-newfacult .facultyStaffDirectory .standardView .standardView:last-child {
+  display:block;
+}
+
+.subsection-advising-advising-events #topBanner {*/
+  display:none;
+}
