@@ -4081,5 +4081,14 @@ dl.portlet-collection-faculty .portletFooter {
 }
 
 .subsection-advising-advising-events #topBanner {*/
-  display:none;
+  /*display:none;
+}*/
+
+.bluecallout {
+  background-color:rgba(0,40,85,.65);
+  float:right;
+  padding:8px;
+}
+.bluecallout p {
+  color:#fff;
 }
