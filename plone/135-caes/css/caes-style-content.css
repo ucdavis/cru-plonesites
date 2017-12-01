@@ -4087,7 +4087,8 @@ dl.portlet-collection-faculty .portletFooter {
 .bluecallout {
   background-color:rgba(0,40,85,.65);
   float:right;
-  padding:8px;
+  width:350px;
+  padding:8px 0px 8px 24px;
 }
 .bluecallout p {
   color:#fff;
