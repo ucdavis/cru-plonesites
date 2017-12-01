@@ -3297,3 +3297,11 @@ p.homepagebtn--sidebar:hover {
 .nivo-caption p.information_btn a:hover {
   color:#fff;
 }
+.bluecallout {
+  background-color:rgba(0,40,85,.65);
+  float:right;
+  padding:8px;
+}
+.bluecallout p {
+  color:#fff;
+}
