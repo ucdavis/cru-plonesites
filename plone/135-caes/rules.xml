@@ -16,6 +16,7 @@
     <theme href="news-feature.html" css:if-content=".section-news.template-newsitem-feature_view" />
     <theme href="jobpost.html" css:if-content=".template-jobpost_view" />
     <theme href="feature.html" css:if-content=".template-feature_view" />
+    <theme href="feature-slide.html" css:if-content=".template-featureslide_view" />
     <theme href="feature-tall.html" css:if-content=".template-featuretall_view" />
 
     <theme href="haystack.html" css:if-content=".template-haystack" />
