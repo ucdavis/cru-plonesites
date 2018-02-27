@@ -3297,3 +3297,6 @@ p.homepagebtn--sidebar:hover {
 .nivo-caption p.information_btn a:hover {
   color:#fff;
 }
+.calslider img {
+  width:100%;
+}
