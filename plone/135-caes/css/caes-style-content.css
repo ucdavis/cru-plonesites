@@ -4088,9 +4088,13 @@ dl.portlet-collection-faculty .portletFooter {
   background-color:rgba(0,40,85,.85);
   padding:16px;
 }
-.bluecallout p {
+.bluecallout h1, .bluecallout h2, .bluecallout h3, .bluecallout p {
   color:#fff;
 }
+.bluecallout li {
+  color:#fff;
+}
+
 .bluecallout dd.image-caption {
   color:#fff;
 }
