@@ -13,64 +13,83 @@ String.prototype.trunc = function (n) {
 
 $(function () {
     var url = "https://spreadsheets.google.com/feeds/list/1y7A89kMdcA8_uGTky0ec5Qksj4g9cIIpm4veVYrNDb4/1/public/values?alt=json-in-script&callback=?";
-    $.getJSON(url, {}, function (data) {
-        $.each(data.feed.entry, function (key, val) {
-            var title = val.gsx$title.$t;
-            var prog = val.gsx$program.$t;
-            var year = val.gsx$year.$t;
-            var type = val.gsx$type.$t;
-
-            var orgtype = val.gsx$typeoforganization.$t;
-
-            var website = "<a target='_blank' href='" + val.gsx$link.$t + "'></a>";
-            var region = val.gsx$region.$t;
-            var categories = val.gsx$categories.$t;
-
-            // var allResearchInfo = val.gsx$gsx:positiontitle.$t + '<br />' + val.gsx$telephone.$t + '<br />' + val.gsx$categories.$t;
-            
-            MyApp.spreadsheetData.push(
-                [
-                    GenerateTitleColumn(val), 
-                    prog, 
-                    year, 
-                    type,
-                    orgtype,
-                    region, categories
-                ]);
-
-            if ($.inArray(orgtype, MyApp.Organizations) === -1 && orgtype.length !== 0) {
-                MyApp.Organizations.push(orgtype);
+    $.get('/js/159421234_5am93l8o_config.json').done(data => {
+        getAccessToken(data).then(response => {
+            accessToken = response.access_token;
+            $.ajax({url: 'https://api.box.com/2.0/folders/64630771665/items', 
+            headers: {
+                'Authorization': "Bearer " + accessToken.toString()
             }
-            if ($.inArray(region, MyApp.Regions) === -1 && region.length !== 0) {
-                MyApp.Regions.push(region);
-            }
-
-            /*
-            if ($.inArray(keyword, MyApp.keywords) === -1 && keyword.length !== 0) {
-                MyApp.keywords.push(keyword);
-            }
-            */
-
-            /* DOH */
-            //Add the keywords, which are semi-colon separated. First trim them and then replace the CRLF, then split.
-            $.each(categories.trim().replace(/^[\r\n]+|\.|[\r\n]+$/g, "").split(';'), function (key, val) {
-                val = val.trim(); //need to trim the semi-colon separated values after split
-                
-                if ($.inArray(val, MyApp.categories) === -1 && val.length !== 0) {
-                    MyApp.categories.push(val);
+            }).then(response => {
+            let entries = response.entries;
+            var promises = [];
+            for(file of entries) {
+                let request = $.ajax({url: `https://api.box.com/2.0/files/${file.id}/metadata`, 
+                headers: {
+                    'Authorization': "Bearer " + accessToken.toString()
                 }
+                }).then(response => {
+                    let val = response.entries[0];
+                    var title = val.title;
+                    var prog = val.program;
+                    var year = val.year;
+                    var type = val.type;
+
+                    var orgtype = val.organization;
+
+                    var website = "<a target='_blank' href='" + val.link + "'></a>";
+                    var region = val.region;
+                    var categories = val.categories;
+
+                    // var allResearchInfo = val.gsx$gsx:positiontitle.$t + '<br />' + val.gsx$telephone.$t + '<br />' + val.gsx$categories.$t;
+                    
+                    MyApp.spreadsheetData.push(
+                        [
+                            GenerateTitleColumn(val), 
+                            prog, 
+                            year, 
+                            type,
+                            orgtype,
+                            region, categories
+                        ]);
+
+                    if ($.inArray(orgtype, MyApp.Organizations) === -1 && orgtype.length !== 0) {
+                        MyApp.Organizations.push(orgtype);
+                    }
+                    if ($.inArray(region, MyApp.Regions) === -1 && region.length !== 0) {
+                        MyApp.Regions.push(region);
+                    }
+
+                    /*
+                    if ($.inArray(keyword, MyApp.keywords) === -1 && keyword.length !== 0) {
+                        MyApp.keywords.push(keyword);
+                    }
+                    */
+
+                    /* DOH */
+                    //Add the keywords, which are semi-colon separated. First trim them and then replace the CRLF, then split.
+                    $.each(categories.trim().replace(/^[\r\n]+|\.|[\r\n]+$/g, "").split(';'), function (key, val) {
+                        val = val.trim(); //need to trim the semi-colon separated values after split
+                        
+                        if ($.inArray(val, MyApp.categories) === -1 && val.length !== 0) {
+                            MyApp.categories.push(val);
+                        }
+                    });
+
+                    MyApp.categories.sort();
+                }, error => console.error(error));
+                promises.push(request);
+            }
+            Promise.all(promises).then(function(){
+                MyApp.Organizations.sort();
+                MyApp.Regions.sort();
+                //MyApp.keywords.sort();
+    
+                createDataTable();
+                addFilters();
             });
-
-            MyApp.categories.sort();
-
-        });
-
-        MyApp.Organizations.sort();
-        MyApp.Regions.sort();
-        //MyApp.keywords.sort();
-
-        createDataTable();
-        addFilters();
+                }, error => console.error(error));
+            }, error => console.error(error));
     });
 })
 
@@ -153,9 +172,9 @@ function addFilters(){
 }
 
 function GenerateTitleColumn(val /* entry value from spreadsheet */){
-    var name = val.gsx$title.$t;
+    var name = val.title;
     // var title = val.gsx$positiontitle.$t;
-    var website = val.gsx$link.$t;
+    var website = val.link;
     //var website = "<a target='_blank' href='" + val.gsx$website.$t + "'>" + val.gsx$website.$t + "</a>";
     //var email = "<a href='mailto:" + val["gsx$e-mail"].$t + "'>" + val["gsx$e-mail"].$t + "</a>";
     // var allResearchInfo = "Research areas: " + val.gsx$categories.$t;
