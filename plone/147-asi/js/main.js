@@ -11,84 +11,108 @@ String.prototype.trunc = function (n) {
     return this.substr(0, n - 1) + (this.length > n ? '&hellip;' : '');
 };
 
-$(function () {
-    var url = "https://spreadsheets.google.com/feeds/list/1y7A89kMdcA8_uGTky0ec5Qksj4g9cIIpm4veVYrNDb4/1/public/values?alt=json-in-script&callback=?";
-    $.get('/js/159421234_5am93l8o_config.json').done(data => {
-        getAccessToken(data).then(response => {
-            accessToken = response.access_token;
-            $.ajax({url: 'https://api.box.com/2.0/folders/64630771665/items', 
+function getFolderItems(folder) {
+    return $.ajax({url: `https://api.box.com/2.0/folders/${folder}/items`, 
+    headers: {
+        'Authorization': "Bearer " + accessToken.toString()
+    }
+    }).then(response => {
+    let entries = response.entries;
+    var promises = [];
+    for(file of entries) {
+        if(file.type=="file") {
+            let shared = $.ajax({url: `https://api.box.com/2.0/files/${file.id}?fields=shared_link`, 
             headers: {
                 'Authorization': "Bearer " + accessToken.toString()
             }
-            }).then(response => {
-            let entries = response.entries;
-            var promises = [];
-            for(file of entries) {
-                let request = $.ajax({url: `https://api.box.com/2.0/files/${file.id}/metadata`, 
-                headers: {
-                    'Authorization': "Bearer " + accessToken.toString()
-                }
-                }).then(response => {
-                    let val = response.entries[0];
-                    var title = val.title;
-                    var prog = val.program;
-                    var year = val.year;
-                    var type = val.type;
-
-                    var orgtype = val.organization;
-
-                    var website = "<a target='_blank' href='" + val.link + "'></a>";
-                    var region = val.region;
-                    var categories = val.categories;
-
-                    // var allResearchInfo = val.gsx$gsx:positiontitle.$t + '<br />' + val.gsx$telephone.$t + '<br />' + val.gsx$categories.$t;
-                    
-                    MyApp.spreadsheetData.push(
-                        [
-                            GenerateTitleColumn(val), 
-                            prog, 
-                            year, 
-                            type,
-                            orgtype,
-                            region, categories
-                        ]);
-
-                    if ($.inArray(orgtype, MyApp.Organizations) === -1 && orgtype.length !== 0) {
-                        MyApp.Organizations.push(orgtype);
-                    }
-                    if ($.inArray(region, MyApp.Regions) === -1 && region.length !== 0) {
-                        MyApp.Regions.push(region);
-                    }
-
-                    /*
-                    if ($.inArray(keyword, MyApp.keywords) === -1 && keyword.length !== 0) {
-                        MyApp.keywords.push(keyword);
-                    }
-                    */
-
-                    /* DOH */
-                    //Add the keywords, which are semi-colon separated. First trim them and then replace the CRLF, then split.
-                    $.each(categories.trim().replace(/^[\r\n]+|\.|[\r\n]+$/g, "").split(';'), function (key, val) {
-                        val = val.trim(); //need to trim the semi-colon separated values after split
-                        
-                        if ($.inArray(val, MyApp.categories) === -1 && val.length !== 0) {
-                            MyApp.categories.push(val);
-                        }
-                    });
-
-                    MyApp.categories.sort();
-                }, error => console.error(error));
-                promises.push(request);
+            });
+            let request = $.ajax({url: `https://api.box.com/2.0/files/${file.id}/metadata`, 
+            headers: {
+                'Authorization': "Bearer " + accessToken.toString()
             }
-            Promise.all(promises).then(function(){
+            });
+            let both = Promise.all([shared, request]).then(function([shared_link, response]){
+                return new Promise((resolve, reject) => {
+                    try {
+                        let val = response.entries[0];
+                        let download = {download_url: `https://ucdavis.app.box.com/embed/s/${shared_link.shared_link.url.split('/')[4]}`}
+                        val.title = val.title || this.name;
+                        var prog = val.program || "";
+                        var year = val.year || "";
+                        var type = val.type || "";
+    
+                        var orgtype = val.organization || "";
+    
+                        var region = val.region || "";
+                        var categories = val.categories || "";
+    
+                        // var allResearchInfo = val.gsx$gsx:positiontitle.$t + '<br />' + val.gsx$telephone.$t + '<br />' + val.gsx$categories.$t;
+                        
+                        MyApp.spreadsheetData.push(
+                            [
+                                GenerateTitleColumn(val, download), 
+                                prog, 
+                                year, 
+                                type,
+                                orgtype,
+                                region, categories
+                            ]);
+    
+                        if ($.inArray(orgtype, MyApp.Organizations) === -1 && orgtype.length !== 0) {
+                            MyApp.Organizations.push(orgtype);
+                        }
+                        if ($.inArray(region, MyApp.Regions) === -1 && region.length !== 0) {
+                            MyApp.Regions.push(region);
+                        }
+    
+                        /*
+                        if ($.inArray(keyword, MyApp.keywords) === -1 && keyword.length !== 0) {
+                            MyApp.keywords.push(keyword);
+                        }
+                        */
+    
+                        /* DOH */
+                        //Add the keywords, which are semi-colon separated. First trim them and then replace the CRLF, then split.
+                        $.each(categories.trim().replace(/^[\r\n]+|\.|[\r\n]+$/g, "").split(';'), function (key, val) {
+                            val = val.trim(); //need to trim the semi-colon separated values after split
+                            
+                            if ($.inArray(val, MyApp.categories) === -1 && val.length !== 0) {
+                                MyApp.categories.push(val);
+                            }
+                        });
+    
+                        MyApp.categories.sort();
+                        resolve()
+                    }
+                    catch(error) {
+                        reject(error)
+                    }
+                })
+            }.bind(file));
+            promises.push(both);
+        }
+        else if(file.type=="folder") {
+            promises.push(getFolderItems(file.id));
+        }
+    }
+    return Promise.all(promises)
+    }, error => console.error(error));
+}
+
+$(function () {
+    var url = "https://spreadsheets.google.com/feeds/list/1y7A89kMdcA8_uGTky0ec5Qksj4g9cIIpm4veVYrNDb4/1/public/values?alt=json-in-script&callback=?";
+    $.get('/js/252054_wwtn361q_config.json').done(data => {
+        getAccessToken(data).then(response => {
+            accessToken = response.access_token;
+            let getItems = getFolderItems(69213161846);
+            getItems.then(function(){
                 MyApp.Organizations.sort();
                 MyApp.Regions.sort();
                 //MyApp.keywords.sort();
-    
+        
                 createDataTable();
                 addFilters();
-            });
-                }, error => console.error(error));
+            })
             }, error => console.error(error));
     });
 })
@@ -171,10 +195,10 @@ function addFilters(){
     });
 }
 
-function GenerateTitleColumn(val /* entry value from spreadsheet */){
-    var name = val.title;
+function GenerateTitleColumn(val /* entry value from spreadsheet */, download){
+    var name = val.title || "";
     // var title = val.gsx$positiontitle.$t;
-    var website = val.link;
+    var website = val.link || "";
     //var website = "<a target='_blank' href='" + val.gsx$website.$t + "'>" + val.gsx$website.$t + "</a>";
     //var email = "<a href='mailto:" + val["gsx$e-mail"].$t + "'>" + val["gsx$e-mail"].$t + "</a>";
     // var allResearchInfo = "Research areas: " + val.gsx$categories.$t;
@@ -182,9 +206,13 @@ function GenerateTitleColumn(val /* entry value from spreadsheet */){
 
     // var content = allResearchInfo; //could expand content later
     var title = 
-    "<a href='"+ website +"' target=_blank >" + 
+    "<a" + (website !== "" ? "href='"+ website +"' target=_blank " : null) + " >" + 
     name
-     + "</a>"
+     + "</a> " +
+     (download ? 
+     "<a href='" + download.download_url + "' target=_blank >" +
+     "<i class='fa fa-download' aria-hidden='true'></i>" +
+     "</a>" : null)
      ;
         
     return title;
