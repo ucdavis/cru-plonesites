@@ -11,8 +11,94 @@ String.prototype.trunc = function (n) {
     return this.substr(0, n - 1) + (this.length > n ? '&hellip;' : '');
 };
 
-function getFolderItems(folder) {
-    return $.ajax({url: `https://api.box.com/2.0/folders/${folder}/items`, 
+function getFile(file, program) {
+    let shared;
+    if(file.shared_link != null) {
+        shared = new Promise(function(resolve, reject){
+            resolve(file);
+        });
+    }
+    else {
+        shared = $.ajax({url: `https://api.box.com/2.0/files/${file.id}`, 
+            headers: {
+                'Authorization': "Bearer " + accessToken.toString()
+            },
+            method: 'PUT',
+            contentType: 'application/json',
+            data: JSON.stringify({
+                shared_link: {
+                    access: 'open'
+                }
+            })
+        });
+    }
+    let request = $.ajax({url: `https://api.box.com/2.0/files/${file.id}/metadata`, 
+    headers: {
+        'Authorization': "Bearer " + accessToken.toString()
+    }
+    });
+    let both = Promise.all([shared, request]).then(function([shared_link, response]){
+        return new Promise((resolve, reject) => {
+            try {
+                let val = response.entries[0];
+                let download = {download_url: `https://ucdavis.app.box.com/embed/s/${shared_link.shared_link.url.split('/')[4]}`}
+                val.title = val.title || this.name;
+                var prog = program || "ASI";
+                var year = val.year || "";
+                var type = val.type || "";
+
+                var orgtype = val.organization || "";
+
+                var region = val.region || "";
+                var categories = val.categories || "";
+
+                // var allResearchInfo = val.gsx$gsx:positiontitle.$t + '<br />' + val.gsx$telephone.$t + '<br />' + val.gsx$categories.$t;
+                
+                MyApp.spreadsheetData.push(
+                    [
+                        GenerateTitleColumn(val, download), 
+                        prog, 
+                        year, 
+                        type,
+                        orgtype,
+                        region, categories
+                    ]);
+
+                if ($.inArray(orgtype, MyApp.Organizations) === -1 && orgtype.length !== 0) {
+                    MyApp.Organizations.push(orgtype);
+                }
+                if ($.inArray(region, MyApp.Regions) === -1 && region.length !== 0) {
+                    MyApp.Regions.push(region);
+                }
+
+                /*
+                if ($.inArray(keyword, MyApp.keywords) === -1 && keyword.length !== 0) {
+                    MyApp.keywords.push(keyword);
+                }
+                */
+
+                /* DOH */
+                //Add the keywords, which are semi-colon separated. First trim them and then replace the CRLF, then split.
+                $.each(categories.trim().replace(/^[\r\n]+|\.|[\r\n]+$/g, "").split(';'), function (key, val) {
+                    val = val.trim(); //need to trim the semi-colon separated values after split
+                    
+                    if ($.inArray(val, MyApp.categories) === -1 && val.length !== 0) {
+                        MyApp.categories.push(val);
+                    }
+                });
+
+                resolve()
+            }
+            catch(error) {
+                reject(error)
+            }
+        })
+    }.bind(file));
+
+    return both;
+}
+function getFolderItems(folder, program) {
+    return $.ajax({url: `https://api.box.com/2.0/folders/${folder}/items?fields=shared_link`, 
     headers: {
         'Authorization': "Bearer " + accessToken.toString()
     }
@@ -21,78 +107,14 @@ function getFolderItems(folder) {
     var promises = [];
     for(file of entries) {
         if(file.type=="file") {
-            let shared = $.ajax({url: `https://api.box.com/2.0/files/${file.id}?fields=shared_link`, 
-            headers: {
-                'Authorization': "Bearer " + accessToken.toString()
-            }
-            });
-            let request = $.ajax({url: `https://api.box.com/2.0/files/${file.id}/metadata`, 
-            headers: {
-                'Authorization': "Bearer " + accessToken.toString()
-            }
-            });
-            let both = Promise.all([shared, request]).then(function([shared_link, response]){
-                return new Promise((resolve, reject) => {
-                    try {
-                        let val = response.entries[0];
-                        let download = {download_url: `https://ucdavis.app.box.com/embed/s/${shared_link.shared_link.url.split('/')[4]}`}
-                        val.title = val.title || this.name;
-                        var prog = val.program || "";
-                        var year = val.year || "";
-                        var type = val.type || "";
-    
-                        var orgtype = val.organization || "";
-    
-                        var region = val.region || "";
-                        var categories = val.categories || "";
-    
-                        // var allResearchInfo = val.gsx$gsx:positiontitle.$t + '<br />' + val.gsx$telephone.$t + '<br />' + val.gsx$categories.$t;
-                        
-                        MyApp.spreadsheetData.push(
-                            [
-                                GenerateTitleColumn(val, download), 
-                                prog, 
-                                year, 
-                                type,
-                                orgtype,
-                                region, categories
-                            ]);
-    
-                        if ($.inArray(orgtype, MyApp.Organizations) === -1 && orgtype.length !== 0) {
-                            MyApp.Organizations.push(orgtype);
-                        }
-                        if ($.inArray(region, MyApp.Regions) === -1 && region.length !== 0) {
-                            MyApp.Regions.push(region);
-                        }
-    
-                        /*
-                        if ($.inArray(keyword, MyApp.keywords) === -1 && keyword.length !== 0) {
-                            MyApp.keywords.push(keyword);
-                        }
-                        */
-    
-                        /* DOH */
-                        //Add the keywords, which are semi-colon separated. First trim them and then replace the CRLF, then split.
-                        $.each(categories.trim().replace(/^[\r\n]+|\.|[\r\n]+$/g, "").split(';'), function (key, val) {
-                            val = val.trim(); //need to trim the semi-colon separated values after split
-                            
-                            if ($.inArray(val, MyApp.categories) === -1 && val.length !== 0) {
-                                MyApp.categories.push(val);
-                            }
-                        });
-    
-                        MyApp.categories.sort();
-                        resolve()
-                    }
-                    catch(error) {
-                        reject(error)
-                    }
-                })
-            }.bind(file));
+            let both = getFile(file, program);
             promises.push(both);
         }
         else if(file.type=="folder") {
-            promises.push(getFolderItems(file.id));
+            if(!program) {
+                program = file.name;
+            }
+            promises.push(getFolderItems(file.id, program));
         }
     }
     return Promise.all(promises)
@@ -108,8 +130,9 @@ $(function () {
             getItems.then(function(){
                 MyApp.Organizations.sort();
                 MyApp.Regions.sort();
+                MyApp.categories.sort();
                 //MyApp.keywords.sort();
-        
+
                 createDataTable();
                 addFilters();
             })
