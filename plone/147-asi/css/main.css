@@ -115,3 +115,7 @@
 .tooltip-trigger {
   text-decoration: underline;
 }
+
+td > span {
+	margin-right: 0.5rem;
+}

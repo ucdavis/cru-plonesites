@@ -11,6 +11,31 @@ String.prototype.trunc = function (n) {
     return this.substr(0, n - 1) + (this.length > n ? '&hellip;' : '');
 };
 
+var buffer = (function() {
+    this.buf = new Array();
+    this.popFirst = false;
+    this.flush = function() {
+        this.write(this.buf);
+        this.buf.length = 0;
+    }
+    this.write = function(rows) {
+        return MyApp.oTable.rows.add(rows).draw(false);
+    }
+    return function(row) {
+        if(row) {
+            this.buf.push(row);
+            if(!this.popFirst) {
+                this.popFirst = true;
+                this.flush();
+            }
+            if(this.buf.length > 25) {
+                this.flush();
+            }
+        }
+        return this;
+    }.bind(this)
+})();
+
 function getFile(file, program) {
     let shared;
     if(file.shared_link != null) {
@@ -43,6 +68,7 @@ function getFile(file, program) {
                 let val = response.entries[0];
                 let download = {download_url: `https://ucdavis.app.box.com/embed/s/${shared_link.shared_link.url.split('/')[4]}`}
                 val.title = val.title || this.name;
+                val.size = this.size;
                 var prog = program || "ASI";
                 var year = val.year || "";
                 var type = val.type || "";
@@ -54,7 +80,7 @@ function getFile(file, program) {
 
                 // var allResearchInfo = val.gsx$gsx:positiontitle.$t + '<br />' + val.gsx$telephone.$t + '<br />' + val.gsx$categories.$t;
                 
-                MyApp.spreadsheetData.push(
+                buffer(
                     [
                         GenerateTitleColumn(val, download), 
                         prog, 
@@ -98,7 +124,7 @@ function getFile(file, program) {
     return both;
 }
 function getFolderItems(folder, program) {
-    return $.ajax({url: `https://api.box.com/2.0/folders/${folder}/items?fields=shared_link`, 
+    return $.ajax({url: `https://api.box.com/2.0/folders/${folder}/items?fields=shared_link,name,size&limit=1000`, 
     headers: {
         'Authorization': "Bearer " + accessToken.toString()
     }
@@ -111,10 +137,11 @@ function getFolderItems(folder, program) {
             promises.push(both);
         }
         else if(file.type=="folder") {
+            let p = program;
             if(!program) {
-                program = file.name;
+                p = file.name;
             }
-            promises.push(getFolderItems(file.id, program));
+            promises.push(getFolderItems(file.id, p));
         }
     }
     return Promise.all(promises)
@@ -122,18 +149,20 @@ function getFolderItems(folder, program) {
 }
 
 $(function () {
+    createDataTable();
+
     var url = "https://spreadsheets.google.com/feeds/list/1y7A89kMdcA8_uGTky0ec5Qksj4g9cIIpm4veVYrNDb4/1/public/values?alt=json-in-script&callback=?";
     $.get('/js/252054_wwtn361q_config.json').done(data => {
         getAccessToken(data).then(response => {
             accessToken = response.access_token;
             let getItems = getFolderItems(69213161846);
-            getItems.then(function(){
+            getItems.then(function(){ 
+                buffer().flush();
                 MyApp.Organizations.sort();
                 MyApp.Regions.sort();
                 MyApp.categories.sort();
                 //MyApp.keywords.sort();
 
-                createDataTable();
                 addFilters();
             })
             }, error => console.error(error));
@@ -221,7 +250,7 @@ function addFilters(){
 function GenerateTitleColumn(val /* entry value from spreadsheet */, download){
     var name = val.title || "";
     // var title = val.gsx$positiontitle.$t;
-    var website = val.link || "";
+    var website = val.size == 0 ? (val.link || "") : "";
     //var website = "<a target='_blank' href='" + val.gsx$website.$t + "'>" + val.gsx$website.$t + "</a>";
     //var email = "<a href='mailto:" + val["gsx$e-mail"].$t + "'>" + val["gsx$e-mail"].$t + "</a>";
     // var allResearchInfo = "Research areas: " + val.gsx$categories.$t;
@@ -229,13 +258,13 @@ function GenerateTitleColumn(val /* entry value from spreadsheet */, download){
 
     // var content = allResearchInfo; //could expand content later
     var title = 
-    "<a" + (website !== "" ? "href='"+ website +"' target=_blank " : null) + " >" + 
+    (website !== "" ? "<a href='"+ website +"' target=_blank>" : "<span>") + 
     name
-     + "</a> " +
-     (download ? 
+     + (website !== "" ? "</a>" : "</span>") +
+     ((!website && download) ? 
      "<a href='" + download.download_url + "' target=_blank >" +
      "<i class='fa fa-download' aria-hidden='true'></i>" +
-     "</a>" : null)
+     "</a>" : "")
      ;
         
     return title;
@@ -288,14 +317,18 @@ function createDataTable() {
         }
     });
 
-    MyApp.oTable = $("#spreadsheet").dataTable({
-        "aoColumnDefs": [
+    MyApp.oTable = $("#spreadsheet").DataTable({
+        "columnDefs": [
             //{ "sType": "link-content", "aTargets": [ 0 ] },
-            { "bVisible": false, "aTargets": [ -2, -3, -1 ] } //hide the keywords column for now (the last column, hence -1)
+            {width: "30px", targets: [2]}, 
+            {width: "10%", targets: [1]},
+            {width: "20%", targets: [3]},
+            { "visible": false, "targets": [ -2, -3, -1 ] } //hide the keywords column for now (the last column, hence -1)
         ],
         "iDisplayLength": 20,
         "bLengthChange": false,
-        "aaData": MyApp.spreadsheetData,
-        "aoColumns": MyApp.headerData
+        "data": MyApp.spreadsheetData,
+        "aoColumns": MyApp.headerData,
+        order: [[1, "asc"]]
     });
 }
