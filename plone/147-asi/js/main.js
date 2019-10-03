@@ -57,11 +57,24 @@ function getFile(file, program) {
             })
         });
     }
-    let request = $.ajax({url: `https://api.box.com/2.0/files/${file.id}/metadata`, 
-    headers: {
-        'Authorization': "Bearer " + accessToken.toString()
+    let request
+    if(file.metadata != null) {
+        request = new Promise(function(resolve, reject){
+            resolve({
+                entries: [
+                    file.metadata.global.properties
+                ]
+            })
+        })
     }
-    });
+    else {
+        request = $.ajax({url: `https://api.box.com/2.0/files/${file.id}/metadata`, 
+            headers: {
+                'Authorization': "Bearer " + accessToken.toString()
+            }
+        });
+    }
+    
     let both = Promise.all([shared, request]).then(function([shared_link, response]){
         return new Promise((resolve, reject) => {
             try {
@@ -119,16 +132,21 @@ function getFile(file, program) {
                 reject(error)
             }
         })
-    }.bind(file));
+    });
 
     return both;
 }
-function getFolderItems(folder, program) {
-    return $.ajax({url: `https://api.box.com/2.0/folders/${folder}/items?fields=shared_link,name,size&limit=1000`, 
+function getFolderItems(folder, program, marker) {
+    let url = `https://api.box.com/2.0/folders/${folder}/items?fields=shared_link,name,size,metadata.global.properties&limit=1000&usemarker=true`
+    if(marker) {
+        url += `&marker=${marker}`
+    }
+    return $.ajax({url: url, 
     headers: {
         'Authorization': "Bearer " + accessToken.toString()
     }
     }).then(response => {
+    console.log(response)
     let entries = response.entries;
     var promises = [];
     for(file of entries) {
@@ -144,6 +162,10 @@ function getFolderItems(folder, program) {
             promises.push(getFolderItems(file.id, p));
         }
     }
+    if(response.next_marker) {
+        promises.push(getFolderItems(folder, program, response.next_marker))
+    }
+
     return Promise.all(promises)
     }, error => console.error(error));
 }
