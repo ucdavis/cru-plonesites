@@ -12,58 +12,63 @@ String.prototype.trunc = function (n) {
 };
 
 $(function () {
-    var url = "https://spreadsheets.google.com/feeds/list/1y7A89kMdcA8_uGTky0ec5Qksj4g9cIIpm4veVYrNDb4/1/public/values?alt=json-in-script&callback=?";
+    var url = "https://sheets.googleapis.com/v4/spreadsheets/1y7A89kMdcA8_uGTky0ec5Qksj4g9cIIpm4veVYrNDb4/values/Sheet1?key=AIzaSyA3dk7j-VOX78HlLFqsOEHNL5rDljrMtIA";
     $.getJSON(url, {}, function (data) {
-        $.each(data.feed.entry, function (key, val) {
-            var title = val.gsx$title.$t;
-            var prog = val.gsx$program.$t;
-            var year = val.gsx$year.$t;
-            var type = val.gsx$type.$t;
+        // Data is formatted like so. Use the index to get the corresponding data
+        // [
+        //     "Title",
+        //     "Type of Organization ",
+        //     "Program",
+        //     "Region",
+        //     "Link",
+        //     "Type",
+        //     "Categories",
+        //     "Year"
+        // ],
+        for (let i = 1; i < data["values"].length; i++) {
+            const currVal = data["values"][i];
+            const name = currVal[0];
+            const orgtype = currVal[1];
+            const prog = currVal[2];
+            const region = currVal[3];
+            const link = currVal[4];
+            const type = currVal[5];
+            const categories = currVal[6];
+            const year = currVal[7];
+            const title = `<a href='${link}' target=_blank > ${name}</a>`;
 
-            var orgtype = val.gsx$typeoforganization.$t;
-
-            var website = "<a target='_blank' href='" + val.gsx$link.$t + "'></a>";
-            var region = val.gsx$region.$t;
-            var categories = val.gsx$categories.$t;
-
-            // var allResearchInfo = val.gsx$gsx:positiontitle.$t + '<br />' + val.gsx$telephone.$t + '<br />' + val.gsx$categories.$t;
-            
             MyApp.spreadsheetData.push(
                 [
-                    GenerateTitleColumn(val), 
+                    title,
                     prog, 
                     year, 
                     type,
                     orgtype,
                     region, categories
                 ]);
-
+    
             if ($.inArray(orgtype, MyApp.Organizations) === -1 && orgtype.length !== 0) {
                 MyApp.Organizations.push(orgtype);
             }
+
             if ($.inArray(region, MyApp.Regions) === -1 && region.length !== 0) {
                 MyApp.Regions.push(region);
             }
 
-            /*
-            if ($.inArray(keyword, MyApp.keywords) === -1 && keyword.length !== 0) {
-                MyApp.keywords.push(keyword);
-            }
-            */
-
-            /* DOH */
             //Add the keywords, which are semi-colon separated. First trim them and then replace the CRLF, then split.
-            $.each(categories.trim().replace(/^[\r\n]+|\.|[\r\n]+$/g, "").split(';'), function (key, val) {
-                val = val.trim(); //need to trim the semi-colon separated values after split
-                
-                if ($.inArray(val, MyApp.categories) === -1 && val.length !== 0) {
-                    MyApp.categories.push(val);
-                }
-            });
+            if (categories) {
+                $.each(categories.trim().replace(/^[\r\n]+|\.|[\r\n]+$/g, "").split(';'), function (key, val) {
+                    val = val.trim(); //need to trim the semi-colon separated values after split
+                    
+                    if ($.inArray(val, MyApp.categories) === -1 && val.length !== 0) {
+                        MyApp.categories.push(val);
+                    }
+                });
+    
+            }
 
             MyApp.categories.sort();
-
-        });
+        }
 
         MyApp.Organizations.sort();
         MyApp.Regions.sort();
@@ -153,9 +158,8 @@ function addFilters(){
 }
 
 function GenerateTitleColumn(val /* entry value from spreadsheet */){
-    var name = val.gsx$title.$t;
-    // var title = val.gsx$positiontitle.$t;
-    var website = val.gsx$link.$t;
+    var name = val[0];
+    var website = val[4];
     //var website = "<a target='_blank' href='" + val.gsx$website.$t + "'>" + val.gsx$website.$t + "</a>";
     //var email = "<a href='mailto:" + val["gsx$e-mail"].$t + "'>" + val["gsx$e-mail"].$t + "</a>";
     // var allResearchInfo = "Research areas: " + val.gsx$categories.$t;
@@ -167,8 +171,10 @@ function GenerateTitleColumn(val /* entry value from spreadsheet */){
     name
      + "</a>"
      ;
+
+    const title2 = `<a href='${website}' target=_blank > ${name} </a>`
         
-    return title;
+    return title2;
 }
 
 
