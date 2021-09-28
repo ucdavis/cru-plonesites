@@ -91,26 +91,10 @@ function hideUnavailableOrganizations(){
                 MyApp.Organizations.push(org);
         }
     });
-
-    // $(":checkbox", "#organizations").each(function () {
-    //     //if a checkbox isn't in the list of available departments, hide it
-    //     if ($.inArray(this.name, MyApp.Organizations) === -1) {
-    //         $(this).parent().css("display", "none");
-    //     } else {
-    //         $(this).parent().css("display", "block");
-    //     }
-    // });
 }
 
 
 function addFilters(){
-    // var $organizations = $("#organizations");
-    
-    // $.each(MyApp.Organizations, function (key, val) {
-    //     $organizations.append('<li><label><input type="checkbox" name="' + val + '"> ' + val + '</label></li>');
-    // });
-
-
     var $region = $("#regions");
     
     $.each(MyApp.Regions, function (key, val) {
@@ -157,39 +141,9 @@ function addFilters(){
     });
 }
 
-function GenerateTitleColumn(val /* entry value from spreadsheet */){
-    var name = val[0];
-    var website = val[4];
-    //var website = "<a target='_blank' href='" + val.gsx$website.$t + "'>" + val.gsx$website.$t + "</a>";
-    //var email = "<a href='mailto:" + val["gsx$e-mail"].$t + "'>" + val["gsx$e-mail"].$t + "</a>";
-    // var allResearchInfo = "Research areas: " + val.gsx$categories.$t;
-    // var allResearchInfo = val.gsx$categories.$t;
-
-    // var content = allResearchInfo; //could expand content later
-    var title = 
-    "<a href='"+ website +"' target=_blank >" + 
-    name
-     + "</a>"
-     ;
-
-    const title2 = `<a href='${website}' target=_blank > ${name} </a>`
-        
-    return title2;
-}
-
-
-
 function displayCurrentFilters() {
     var $filterAlert = $("#filters");
-    //var regionFilter = $("#regions"); // Wrong selector..?
-    
     var filters = "";
-
-    /*
-    if (regionFilter){
-        filters += "<strong>" + this.name + "</strong>";
-    }
-    */
 
     $("input:checked", "#filterAccordian").each(function () {
         if (filters.length !== 0) {
