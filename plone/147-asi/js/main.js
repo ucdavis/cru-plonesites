@@ -26,15 +26,16 @@ $(function () {
         //     "Year"
         // ],
         for (let i = 1; i < data["values"].length; i++) {
+            // If the data retrieved is undefined, set variable to an empty string
             const currVal = data["values"][i];
-            const name = currVal[0];
-            const orgtype = currVal[1];
-            const prog = currVal[2];
-            const region = currVal[3];
-            const link = currVal[4];
-            const type = currVal[5];
-            const categories = currVal[6];
-            const year = currVal[7];
+            const name = currVal[0] ? currVal[0] : "";
+            const orgtype = currVal[1] ? currVal[1] : "";
+            const prog = currVal[2] ? currVal[2] : "";
+            const region = currVal[3] ? currVal[3] : "";
+            const link = currVal[4] ? currVal[4] : "";
+            const type = currVal[5] ? currVal[5] : "";
+            const categories = currVal[6] ? currVal[6] : "";
+            const year = currVal[7] ? currVal[7] : "";
             const title = `<a href='${link}' target=_blank > ${name}</a>`;
 
             MyApp.spreadsheetData.push(
@@ -44,8 +45,10 @@ $(function () {
                     year, 
                     type,
                     orgtype,
-                    region, categories
-                ]);
+                    region, 
+                    categories
+                ]
+            );
     
             if ($.inArray(orgtype, MyApp.Organizations) === -1 && orgtype.length !== 0) {
                 MyApp.Organizations.push(orgtype);
@@ -69,6 +72,8 @@ $(function () {
 
             MyApp.categories.sort();
         }
+
+        console.log(MyApp.spreadsheetData)
 
         MyApp.Organizations.sort();
         MyApp.Regions.sort();
